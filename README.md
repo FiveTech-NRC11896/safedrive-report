@@ -1,4 +1,4 @@
-![Logo UPC](assets/images/logo-upc.png
+![Logo UPC](assets/images/logo-upc.png)
 
 **Nombre de la Universidad:** Universidad Peruana de Ciencias Aplicadas  
 **Facultad:** Ingeniería  
@@ -22,7 +22,7 @@
 * U20241D922 - Quispe Serrano, Julio Frank
 
 
-** Abril, 2026 **
+**Abril, 2026**
 
 ---
 
