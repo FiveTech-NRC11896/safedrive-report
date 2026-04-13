@@ -312,6 +312,14 @@ El segundo segmento está conformado por las personas o entidades que operan el 
 
 ##### 5.2.1.2. Aspect Leaders and Collaborators
 
+| Team Member (Last Name, First Name) | GitHub Username | Landing Page | UI Design | Deployment | Repo Management |
+| - | - | - | - | - | - |
+| Revilla Quispe, Renzo Zamir | renzo-user | C | C | L | C |
+| Quispe Serrano, Julio Frank | FraSe-JQ | C | C | C | L |
+| Costa Morales, Christofer William | | C | L | C | C |
+| De La Cruz De Los Santos, Mathias Marcelo | | L | C | C | C |
+| Ortega Quintana, José Zacarías | | L | C | C | C |
+
 ##### 5.2.1.3. Sprint Backlog 1
 
 ##### 5.2.1.4. Development Evidence for Sprint Review
