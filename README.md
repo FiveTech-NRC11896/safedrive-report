@@ -18,7 +18,7 @@
 * U201717085 - [Apellidos, Nombres]
 * U202315968 - [Apellidos, Nombres]
 * U202424059 - [Apellidos, Nombres]
-* U202316852 - Ortega Qintana, José Zacarias
+* U202316852 - Ortega Quintana, José Zacarias
 * U20241D922 - Quispe Serrano, Julio Frank
 
 
@@ -136,6 +136,7 @@ El equipo ha utilizado un flujo de trabajo en github: [safedrive-report](https:/
 16. ¿En qué aspectos crees que una solución así podría ayudarte en tu día a día?
 17. ¿Qué preocupaciones tendrías al usar una herramienta digital para monitorear este servicio?
 18. Para finalizar, ¿qué consideras indispensable para sentirte tranquilo(a) con el transporte de tu hijo?
+
 #### 2.2.2. Registro de entrevistas
 #### 2.2.3. Análisis de entrevistas
 ### 2.3. Needfinding
