@@ -322,7 +322,35 @@ El segundo segmento está conformado por las personas o entidades que operan el 
 
 ##### 5.2.1.3. Sprint Backlog 1
 
+| Sprint # | Sprint 1 | | | | | | |
+|----------|----------|--|--|--|--|--|--|
+| User Story | | Work-Item / Task | | | | | |
+| **Id** | **Title** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status (To-do / In-Process / To-Review / Done)** |
+| US01 | Mostrar landing page en distintas resoluciones | T01 | Mostrar landing page en distintas resoluciones | Como usuario quiero poder ver la pagina en distintos dispositivos para navegar sin restricciones | 4 | Julio | Done |
+
 ##### 5.2.1.4. Development Evidence for Sprint Review
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+
+|------------|--------|-----------|----------------|---------------------|--------------------|
+
+| FiveTech-NRC11896/safedrive-website | main | ad85e0c | docs: update link | Updated project links and minor documentation adjustments. | 2026-04-10 |
+
+| FiveTech-NRC11896/safedrive-website | main | d533ba7 | docs: add README with project overview | Added README file with general overview of the SafeRoute project. | 2026-04-10 |
+
+| FiveTech-NRC11896/safedrive-website | main | 09b0e4c | assets: add images folder | Added image assets required for the landing page sections. | 2026-04-10 |
+
+| FiveTech-NRC11896/safedrive-website | main | 9d40a89 | style: add responsive design | Implemented responsive styles to improve usability across devices. | 2026-04-10 |
+
+| FiveTech-NRC11896/safedrive-website | main | 0ff89ce | feat: add How it works, CTA and footer section | Implemented informational sections and call-to-action components. | 2026-04-10 |
+
+| FiveTech-NRC11896/safedrive-website | main | fd61ee6 | feat: add roles and plans section components | Developed sections describing user roles and subscription plans. | 2026-04-10 |
+
+| FiveTech-NRC11896/safedrive-website | main | de30384 | style: add new Stats and Features sections | Improved styling and added visual sections for features and stats. | 2026-04-10 |
+
+| FiveTech-NRC11896/safedrive-website | main | 41f50b8 | feat: add Navbar and Hero | Implemented navigation bar and main hero section. | 2026-04-10 |
+
+| FiveTech-NRC11896/safedrive-website | main | 1b2ee66 | style: add new sections Navbar and Hero | Applied styles to navbar and hero sections for visual consistency. | 2026-04-10 |
 
 ##### 5.2.X.5. Execution Evidence for Sprint Review
 
