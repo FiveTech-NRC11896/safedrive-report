@@ -15,12 +15,11 @@
 **Nombre del producto:** SafeDrive
 
 **Relación de integrantes:**
-
 - U20XXXXXXXX - [Apellidos, Nombres]
 - U201717085 - Revilla Quispe, Renzo Zamir
 - U20241D922 - Quispe Serrano, Julio Frank
 - U20XXXXXXXX - [Apellidos, Nombres]
-- U20XXXXXXXX -
+- U202316852 - Ortega Quintana, José Zacarias
 
 **Abril, 2026**
 
@@ -189,10 +188,11 @@ El segundo segmento está conformado por las personas o entidades que operan el 
 
 #### 2.2.1. Diseño de entrevistas
 
-# Guion de Entrevistas - Proyecto SafeRoute
-## Segmento Objetivo 1: Conductor
+##### Guion de Entrevistas - Proyecto SafeRoute
 
-## Fase 1: Contexto del Usuario
+###### **Segmento Objetivo 1: Conductor**
+
+**Fase 1: Contexto del Usuario**
 1. ¿Cuál es tu nombre?
 2. ¿Cuál es tu edad?
 3. ¿Podrías contarme un poco sobre tu entorno familiar? Por ejemplo, si vives con una familia o tienes hijos.
@@ -201,7 +201,7 @@ El segundo segmento está conformado por las personas o entidades que operan el 
 6. ¿Trabajas de manera independiente o en coordinación con otro grupo de personas o empresa?
 7. En tu día a día, ¿qué herramientas o medios utilizas para organizar tu trabajo?
 
-## Fase 2: Exploración del Problema
+**Fase 2: Exploración del Problema**
 8. Cuéntame cómo realizas normalmente el proceso de recoger y dejar a los alumnos.
 9. Durante el recorrido, ¿cómo llevas el control de los alumnos?
 10. ¿Qué suele pasar cuando ocurre algún cambio o imprevisto en la ruta?
@@ -209,7 +209,7 @@ El segundo segmento está conformado por las personas o entidades que operan el 
 12. ¿Qué partes de tu trabajo sientes que requieren más atención o te generan mayor carga?
 13. ¿Qué tan organizado sientes que es tu proceso actual de trabajo?
 
-## Fase 3: Exploración de Oportunidades
+**Fase 3: Exploración de Oportunidades**
 > **Contexto:** Nuestro proyecto es una aplicación web que ayude a organizar y dar mayor visibilidad al servicio de transporte escolar, centralizando la información y comunicación.
 
 14. Si pudieras mejorar algún aspecto de tu trabajo diario, ¿cuál sería y por qué?
@@ -221,9 +221,9 @@ El segundo segmento está conformado por las personas o entidades que operan el 
 
 ---
 
-## Segmento Objetivo 2: Padre de Familia
+###### **Segmento Objetivo 2: Padre de Familia**
 
-## Fase 1: Contexto del Usuario
+**Fase 1: Contexto del Usuario**
 1. Para comenzar, ¿podrías indicarme tu nombre?
 2. ¿Cuál es tu edad?
 3. ¿En qué distrito o zona resides?
@@ -232,7 +232,7 @@ El segundo segmento está conformado por las personas o entidades que operan el 
 6. ¿Qué rol cumple el transporte escolar dentro de tu día a día?
 7. ¿Qué tan cómodo(a) te sientes utilizando tecnología en tu vida diaria?
 
-## Fase 2: Exploración del Problema
+**Fase 2: Exploración del Problema**
 8. Cuéntame cómo haces actualmente para saber que tu hijo llegó bien a su destino.
 9. ¿Qué es lo que más te preocupa cuando tu hijo está en el transporte escolar?
 10. ¿Cómo te comunicas normalmente con el conductor o responsable del transporte?
@@ -240,7 +240,7 @@ El segundo segmento está conformado por las personas o entidades que operan el 
 12. ¿Qué tipo de información sientes que hoy no tienes y te gustaría tener?
 13. ¿Qué aspectos del servicio de transporte actual te generan más desconfianza o incomodidad?
 
-## Fase 3: Exploración de Oportunidades
+**Fase 3: Exploración de Oportunidades**
 > **Contexto:** Nuestro proyecto es una aplicación web que ayude a organizar y dar mayor visibilidad al servicio de transporte escolar, centralizando la información y comunicación.
 
 14. Si pudieras mejorar alguna parte del servicio de transporte escolar, ¿cuál sería y por qué?
