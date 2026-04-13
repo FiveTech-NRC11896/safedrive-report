@@ -291,15 +291,30 @@ El segundo segmento está conformado por las personas o entidades que operan el 
 
 ### 5.2. Landing Page, Services & Applications Implementation
 
-#### 5.2.X. Sprint n
+#### 5.2.1. Sprint 1
 
-##### 5.2.X.1. Sprint Planning n
+##### 5.2.1.1. Sprint Planning 1
 
-##### 5.2.X.2. Aspect Leaders and Collaborators
+| Sprint # | Sprint 1 |
+|----------|---------|
+| **Sprint Planning Background** |
+| Date | 2026-04-24 |
+| Time | 07:00 PM |
+| Location | Microsoft Teams |
+| Prepared By | Renzo Revilla |
+| Attendees (to planning meeting) | Todo el equipo |
+| Sprint n – 1 Review Summary |Al tratarse del primer sprint, se establecieron las bases del proyecto, incluyendo la estructura del repositorio. |
+| Sprint n – 1 Retrospective Summary | El equipo identificó la importancia de una correcta organización y distribución de tareas desde el inicio del proyecto. Se acordó mejorar la comunicación y planificación para optimizar el desarrollo en los siguientes sprints. |
+| **Sprint Goal & User Stories**  |
+| Sprint n Goal | Nuestro enfoque es desarrollar la primera versión del Landing Page de SafeRoute. Creemos que esto permitirá comunicar la propuesta de valor de la plataforma a los usuarios. Esto se validará cuando los usuarios puedan acceder al sitio y comprender sus funcionalidades principales. |
+| Sprint n Velocity | 15 Story Points |
+| Sum of Story Points | 13 Story Points |
 
-##### 5.2.X.3. Sprint Backlog n
+##### 5.2.1.2. Aspect Leaders and Collaborators
 
-##### 5.2.X.4. Development Evidence for Sprint Review
+##### 5.2.1.3. Sprint Backlog 1
+
+##### 5.2.1.4. Development Evidence for Sprint Review
 
 ##### 5.2.X.5. Execution Evidence for Sprint Review
 
