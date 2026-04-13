@@ -202,6 +202,7 @@ El segundo segmento está conformado por las personas o entidades que operan el 
 7. En tu día a día, ¿qué herramientas o medios utilizas para organizar tu trabajo?
 
 **Fase 2: Exploración del Problema**
+
 8. Cuéntame cómo realizas normalmente el proceso de recoger y dejar a los alumnos.
 9. Durante el recorrido, ¿cómo llevas el control de los alumnos?
 10. ¿Qué suele pasar cuando ocurre algún cambio o imprevisto en la ruta?
@@ -233,6 +234,7 @@ El segundo segmento está conformado por las personas o entidades que operan el 
 7. ¿Qué tan cómodo(a) te sientes utilizando tecnología en tu vida diaria?
 
 **Fase 2: Exploración del Problema**
+
 8. Cuéntame cómo haces actualmente para saber que tu hijo llegó bien a su destino.
 9. ¿Qué es lo que más te preocupa cuando tu hijo está en el transporte escolar?
 10. ¿Cómo te comunicas normalmente con el conductor o responsable del transporte?
