@@ -283,6 +283,34 @@ El segundo segmento está conformado por las personas o entidades que operan el 
 
 #### 5.1.1. Software Development Environment Configuration
 
+En esta sección se describen las herramientas y tecnologías utilizadas para el desarrollo del Proyecto
+
+##### UX/UI Design 
+
+###### Figma: 
+Herramienta de diseño colaborativo utilizada para la creación de wireframes, mockups, prototipos y diseño de interfaces. Permite trabajar en equipos en tiempo real, lo cual facilita la validación temprana de la experiencia futura del usuario.
+
+##### Software Development
+
+JetBrains Intelli J IDEA
+
+Entorno de desarrollo integrado (IDEA) utilizado para el desarrollo del BackEnd que utiliza el idioma java.
+
+GitHub
+
+Plataforma de control de versiones utilizada para la gestión del código fuente y colaboración del equipo, implementando la metodología GitFlow para la organización del desarrollo.
+
+HTML
+
+Legnuaje de marcado para el desarrollo de las interfaces web del Frontend
+
+CSS
+
+Lenguaje de estilos utilizados para la estructura
+
+
+###### Figma: 
+
 #### 5.1.2. Source Code Management
 
 #### 5.1.3. Source Code Style Guide & Conventions
