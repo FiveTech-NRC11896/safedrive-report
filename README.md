@@ -541,11 +541,15 @@ A continuación, se presentan capturas de las principales vistas implementadas d
 ![Landing Page - Responsive](./assets/images/responsive.png)
 *Nota. Captura de pantalla del diseño responsivo del Landing Page de SafeRoute en dispositivos móviles, evidenciando la adaptabilidad de la interfaz. Elaboración propia.*
 
-##### 5.2.X.6. Services Documentation Evidence for Sprint Review
+##### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
-##### 5.2.X.7. Software Deployment Evidence for Sprint Review
+En este Sprint no se desarrollaron servicios RESTful, ya que el enfoque estuvo centrado en la implementación del Landing Page de SafeRoute.
 
-##### 5.2.X.8. Team Collaboration Insights during Sprint
+La construcción de APIs será abordada en los siguientes Sprints, donde se integrará la lógica del sistema y la comunicación con la base de datos.
+
+##### 5.2.1.7. Software Deployment Evidence for Sprint Review
+
+##### 5.2.1.8. Team Collaboration Insights during Sprint
 
 ---
 
