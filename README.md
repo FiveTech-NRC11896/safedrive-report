@@ -15,7 +15,6 @@
 **Nombre del producto:** SafeDrive
 
 **Relación de integrantes:**
-
 - U20XXXXXXXX - [Apellidos, Nombres]
 - U201717085 - Revilla Quispe, Renzo Zamir
 - U20241D922 - Quispe Serrano, Julio Frank
@@ -313,6 +312,42 @@ Las siguientes User Stories representan los requisitos detallados del sistema **
 | US24 | API: Obtener Alumnos | Como developer, quiero listar alumnos por ruta, para integraciones externas | **Given** una petición GET a `/api/v1/routes/{id}/students`<br>**When** el token es válido<br>**Then** retorna 200 OK con la lista de alumnos | E5 |
 | US25 | API: Registro GPS | Como developer, quiero enviar coordenadas, para actualizar la posición del bus | **Given** una petición POST a `/api/v1/tracking`<br>**When** el payload incluye latitud/longitud<br>**Then** el sistema actualiza la base de datos y retorna 201 | E5 |
 
+
+Las siguientes User Stories representan los requisitos detallados del sistema **SafeRoute**, cubriendo la operación completa, la Landing Page y la API técnica.
+
+| Epic / Story ID | Título | Descripción | Criterios de Aceptación (Gherkin) | Relacionado con |
+|:---|:---|:---|:---|:---|
+| **E1** | **Gestión Administrativa** | Control de planes, usuarios y flota | N/A | N/A |
+| US1 | Contratar Plan | Como administrador, quiero elegir un plan, para escalar mi operación | **Given** el administrador está en la sección de facturación<br>**When** selecciona un plan (Básico/Intermedio/Completo)<br>**Then** el sistema habilita los límites de rutas correspondientes | E1 |
+| US2 | Registro de Conductores | Como administrador, quiero crear cuentas de conductores, para asignar responsabilidades | **Given** el formulario de nuevo usuario<br>**When** se ingresan datos y licencia<br>**Then** el sistema genera un perfil de conductor activo | E1 |
+| US3 | Registro de Padres | Como administrador, quiero registrar a los padres, para habilitar el monitoreo | **Given** los datos de contacto del tutor<br>**When** se vincula con un alumno registrado<br>**Then** el sistema envía invitación por correo | E1 |
+| US4 | Alta de Alumnos | Como administrador, quiero registrar alumnos, para incluirlos en los recorridos | **Given** el panel de gestión de alumnos<br>**When** se registran sus datos y parada<br>**Then** el alumno queda disponible para asignación | E1 |
+| US5 | Creación de Rutas | Como administrador, quiero trazar rutas y paradas, para optimizar el tiempo | **Given** el mapa de configuración<br>**When** se seleccionan puntos geográficos en orden<br>**Then** el sistema calcula la duración estimada del trayecto | E1 |
+| US6 | Asignación de Roles | Como administrador, quiero asignar conductores a rutas, para organizar la operación | **Given** una ruta sin asignar<br>**When** se selecciona un conductor disponible<br>**Then** el conductor recibe la ruta en su aplicación | E1 |
+| US7 | Analítica de Flota | Como administrador, quiero ver reportes de rendimiento, para evaluar la eficiencia | **Given** un usuario con Plan Completo<br>**When** accede al dashboard de analítica<br>**Then** el sistema muestra métricas de puntualidad y combustible | E1 |
+| **E2** | **Operación del Conductor** | Herramientas para la ejecución del servicio | N/A | N/A |
+| US8 | Inicio de Trayecto | Como conductor, quiero activar la ruta, para que los padres sepan que voy en camino | **Given** una ruta programada<br>**When** el conductor presiona "Iniciar Viaje"<br>**Then** el sistema cambia el estado de la ruta a "En Ruta" | E2 |
+| US9 | Marcación de Abordaje | Como conductor, quiero registrar el abordaje, para confirmar la presencia del alumno | **Given** el vehículo está en la parada correspondiente<br>**When** el conductor marca el check de abordaje<br>**Then** el sistema actualiza el estado del alumno en la nube | E2 |
+| US10 | Reporte de Incidencias | Como conductor, quiero informar problemas, para que el administrador tome medidas | **Given** una eventualidad (tráfico, falla mecánica)<br>**When** se selecciona el tipo de incidencia<br>**Then** el sistema lo registra en la bitácora detallada | E2 |
+| US11 | Botón de Pánico | Como conductor, quiero usar el botón de pánico, para emergencias críticas | **Given** una situación de peligro real<br>**When** se mantiene presionado el botón SOS<br>**Then** se envía una alerta con ubicación GPS al administrador | E2 |
+| US12 | Finalización de Ruta | Como conductor, quiero cerrar la sesión de ruta, para concluir el turno | **Given** todas las paradas han sido procesadas<br>**When** se confirma el fin del trayecto<br>**Then** el sistema deja de transmitir la ubicación GPS | E2 |
+| US13 | Bitácora de Viajes | Como conductor, quiero ver mi historial, para revisar mis recorridos pasados | **Given** el historial de servicios del conductor<br>**When** consulta fechas anteriores<br>**Then** el sistema muestra las paradas y tiempos registrados | E2 |
+| **E3** | **Monitoreo y Seguridad (Padres)** | Visibilidad y tranquilidad para la familia | N/A | N/A |
+| US14 | Rastreo en Tiempo Real | Como padre, quiero ver el bus en el mapa, para calcular la hora de llegada | **Given** el transporte está en ruta activa<br>**When** el padre abre el mapa de la app<br>**Then** se visualiza el icono del vehículo moviéndose en vivo | E3 |
+| US15 | Alerta de Proximidad | Como padre, quiero recibir un aviso previo, para bajar a la parada a tiempo | **Given** el bus está a 500 metros de la parada<br>**When** el sistema detecta la geovalla<br>**Then** se envía una notificación push al dispositivo del padre | E3 |
+| US16 | Confirmación de Llegada | Como padre, quiero saber si mi hijo llegó al colegio, para estar tranquilo | **Given** el bus llega al destino final<br>**When** el conductor cierra la ruta<br>**Then** el padre recibe una notificación de "Llegada a destino" | E3 |
+| US17 | Acceso a Cámara | Como padre, quiero ver el interior del bus, para verificar la seguridad | **Given** un usuario con Plan Intermedio<br>**When** solicita el streaming de video<br>**Then** el sistema muestra la cámara interior del vehículo | E3 |
+| US18 | Historial de Asistencia | Como padre, quiero ver los días que mi hijo abordó, para control mensual | **Given** la sección de asistencia del alumno<br>**When** se selecciona el mes<br>**Then** el sistema muestra el calendario con checks de abordaje | E3 |
+| **E4** | **Landing Page (Visitantes)** | Información y conversión de clientes | N/A | N/A |
+| US19 | Visualización de Hero | Como visitante, quiero ver la propuesta de valor, para entender qué es SafeRoute | **Given** el acceso a la URL principal<br>**When** carga el sitio<br>**Then** el sistema muestra el mensaje "Transporte escolar seguro y digital" | E4 |
+| US20 | Navegación de Funciones | Como visitante, quiero ver las funcionalidades, para conocer el alcance técnico | **Given** la sección de funcionalidades de la landing<br>**When** el usuario hace scroll<br>**Then** visualiza las tarjetas de gestión, monitoreo y alertas | E4 |
+| US21 | Detalle de Roles | Como visitante, quiero conocer las vistas por perfil, para ver qué recibo | **Given** la sección "Una plataforma, tres experiencias"<br>**When** revisa los puntos por rol<br>**Then** comprende las tareas de Admin, Conductor y Padre | E4 |
+| US22 | Consulta de Precios | Como visitante, quiero ver los costos, para evaluar mi presupuesto | **Given** la sección de planes de la landing<br>**When** compara los niveles de escala<br>**Then** identifica el precio y características de cada suscripción | E4 |
+| US23 | Sección "¿Cómo funciona?" | Como visitante, quiero ver los pasos iniciales, para saber cómo empezar | **Given** el flujo de 5 pasos en la landing<br>**When** lee la secuencia de digitalización<br>**Then** comprende el proceso desde el contrato hasta el monitoreo | E4 |
+| **E5** | **SafeRoute RESTful API** | Integraciones para desarrolladores | N/A | N/A |
+| US24 | API: Obtener Alumnos | Como developer, quiero listar alumnos por ruta, para integraciones externas | **Given** una petición GET a `/api/v1/routes/{id}/students`<br>**When** el token es válido<br>**Then** retorna 200 OK con la lista de alumnos | E5 |
+| US25 | API: Registro GPS | Como developer, quiero enviar coordenadas, para actualizar la posición del bus | **Given** una petición POST a `/api/v1/tracking`<br>**When** el payload incluye latitud/longitud<br>**Then** el sistema actualiza la base de datos y retorna 201 | E5 |
+
 ### 3.2. Impact Mapping
 
 ### 3.3. Product Backlog
@@ -383,7 +418,80 @@ Las siguientes User Stories representan los requisitos detallados del sistema **
 
 #### 5.1.1. Software Development Environment Configuration
 
+En esta sección se describen las herramientas y tecnologías utilizadas para el desarrollo del Proyecto
+
+##### UX/UI Design 
+
+###### Figma: 
+Herramienta de diseño colaborativo utilizada para la creación de wireframes, mockups, prototipos y diseño de interfaces. Permite trabajar en equipos en tiempo real, lo cual facilita la validación temprana de la experiencia futura del usuario.
+
+##### Software Development
+
+###### JetBrains Intelli J IDEA
+
+Entorno de desarrollo integrado (IDEA) utilizado para el desarrollo del BackEnd que utiliza el idioma java.
+
+###### GitHub
+
+Plataforma de control de versiones utilizada para la gestión del código fuente y colaboración del equipo, implementando la metodología GitFlow para la organización del desarrollo.
+
+###### HTML
+
+Legnuaje de marcado para el desarrollo de las interfaces web del Frontend.
+
+###### CSS
+
+Lenguaje de estilos utilizados para la presentación visual de la aplicación, en el apartado del .
+
+###### Typescript
+
+Lenguaje utilizado para el frontend para poder hacer interfaces dinámicas e interactivas.
+
+###### Java
+
+Lenguaje de programación que se utilizara en el desarrollo del backend de la aplicación.
+
+##### Software Deployment
+
+###### GitHub Pages
+Servicio utilizado para el despliegue de la landing page del proyecto.
+
+
+
 #### 5.1.2. Source Code Management
+
+Para el manejo del código fuente, utilizamos Github para colaborar entre miembros de equipo en multiples repositorios. A continuación, se listan los enlaces de cada repositorio:
+
+Organización:
+
+Repositorio de Landing Page: 
+
+Repositorio del informe: 
+
+Repositorio del frontend:
+
+Repositorio del backend: 
+
+En el repositorio del informe, se implementa un esquema de trabajo basado en Gitflow. La rama main almacena la versión estable del informe correspondiente a cada entregable del trabajo, mientras que la rama develop concentra la integración de avances validados por cada integrante antes de su consolidación final. A partir de develop, cada integrante creará ramas feature de trabajo para las secciones asignadas. Las ramas feature seguirán una nomenclatura asociada al capítulo o bloque trabajado, por ejemplo: feature/chapter-1-introduction-and-lean-ux, o feature/chapter-5-software-configuration-management. Esta convención permite identificar con claridad qué parte del informe está siendo desarrollada y reduce el riesgo de conflictos entre los miembros del equipo.
+
+En los repositorios del Landing Page, Frontend y Backend también se utilizará GitFlow. En cada uno de ellos, la rama main contendrá las versiones estables del producto y la rama develop servirá como rama de integración del trabajo colaborativo. A partir de develop, se crearán ramas feature/... para el desarrollo de funcionalidades específicas. A diferencia del informe, en estos repositorios las ramas no estarán organizadas por capítulos, sino por funcionalidades o componentes del sistema. Algunos ejemplos de nomenclatura son: feature/home-page, feature/dashboard o feature/route-management. Esta convención nos permite que las ramas reflejen de manera directa el alcance funcional del producto en desarrollo.
+
+No se realizarán cambios directos sobre la rama main, ya que esta representará únicamente versiones estables y listas para consolidarse como parte de un entregable. Del mismo modo, se evitará que los integrantes trabajen de forma continua directamente sobre la rama develop, ya que el flujo previsto consiste en desarrollar primero en ramas feature, integrar luego en develop y finalmente consolidar en main cuando el avance haya sido revisado y validado. Por tanto, el flujo general de trabajo será de la siguiente forma: feature → develop → main. Este esquema se alinea con la exigencia del curso de explicar la implementación de GitFlow mediante ramas principales, ramas de features, y convenciones para releases y hotfixes.
+
+Asimismo, si se requiere corregir errores críticos sobre una versión estable, se podrán crear ramas hotfix/..., y si se decide preparar una versión de cierre antes de una entrega, se utilizarán ramas release/... de acuerdo con el flujo definido por GitFlow.
+
+En relación con los mensajes de cada commit, el equipo aplicará Conventional Commits para mantener un historial más legible, consistente y profesional. Esta convención facilitará la revisión de avances y permitirá identificar rápidamente el propósito de cada uno de los cambios. Algunos prefijos que se utilizarán son:
+
+feat: incorporación de una nueva funcionalidad
+fix: corrección de errores
+docs: cambios en documentación
+style: cambios de formato o estilo sin alterar lógica
+refactor: reorganización interna sin agregar funcionalidad nueva
+test: incorporación o ajuste de pruebas
+chore: tareas de mantenimiento o configuración
+
+Para el repositorio del informe se emplearán mensajes como docs(report): add project cover page o docs: add startup profile and lean ux process for chapter 1. Para los repositorios de software se utilizarán mensajes como feat: add school route registration, feat: implement student assignment to route o fix: correct login validation. Esta práctica contribuye a que la evidencia de commits sea coherente con el trabajo realizado por cada miembro.
+
 
 #### 5.1.3. Source Code Style Guide & Conventions
 
@@ -391,23 +499,108 @@ Las siguientes User Stories representan los requisitos detallados del sistema **
 
 ### 5.2. Landing Page, Services & Applications Implementation
 
-#### 5.2.X. Sprint n
+#### 5.2.1. Sprint 1
 
-##### 5.2.X.1. Sprint Planning n
+##### 5.2.1.1. Sprint Planning 1
 
-##### 5.2.X.2. Aspect Leaders and Collaborators
+| Sprint # | Sprint 1 |
+|----------|---------|
+| **Sprint Planning Background** |
+| Date | 2026-04-24 |
+| Time | 07:00 PM |
+| Location | Microsoft Teams |
+| Prepared By | Renzo Revilla |
+| Attendees (to planning meeting) | Todo el equipo |
+| Sprint n – 1 Review Summary |Al tratarse del primer sprint, se establecieron las bases del proyecto, incluyendo la estructura del repositorio. |
+| Sprint n – 1 Retrospective Summary | El equipo identificó la importancia de una correcta organización y distribución de tareas desde el inicio del proyecto. Se acordó mejorar la comunicación y planificación para optimizar el desarrollo en los siguientes sprints. |
+| **Sprint Goal & User Stories**  |
+| Sprint n Goal | Nuestro enfoque es desarrollar la primera versión del Landing Page de SafeRoute. Creemos que esto permitirá comunicar la propuesta de valor de la plataforma a los usuarios. Esto se validará cuando los usuarios puedan acceder al sitio y comprender sus funcionalidades principales. |
+| Sprint n Velocity | 15 Story Points |
+| Sum of Story Points | 13 Story Points |
 
-##### 5.2.X.3. Sprint Backlog n
+##### 5.2.1.2. Aspect Leaders and Collaborators
 
-##### 5.2.X.4. Development Evidence for Sprint Review
+| Team Member (Last Name, First Name) | GitHub Username Leader (L) / Collaborator (C) | Landing Page Leader (L) / Collaborator (C) | UI Design Leader (L) / Collaborator (C) | Deployment Leader (L) / Collaborator (C) | Repo Management Leader (L) / Collaborator (C) |
+| - | - | - | - | - | - |
+| Revilla Quispe, Renzo Zamir | renzorevq24 | C | C | L | C |
+| Quispe Serrano, Julio Frank | FraSe-JQ | C | C | C | L |
+| Costa Morales, Christofer William | miniChorri | C | L | C | C |
+| De La Cruz De Los Santos, Mathias Marcelo | Dela050406 | L | C | C | C |
+| Ortega Quintana, José Zacarías | AgoxX61 | L | C | C | C |
 
-##### 5.2.X.5. Execution Evidence for Sprint Review
+##### 5.2.1.3. Sprint Backlog 1
 
-##### 5.2.X.6. Services Documentation Evidence for Sprint Review
+| User Story ID | User Story Title | Task ID | Task Title | Description | Estimation (Hours) | Assigned To | Status |
+|---------------|------------------|---------|------------|-------------|--------------------|-------------|--------|
+| US19 | Visualización de Hero | T01 | Implementar Hero Section | Desarrollo de la sección principal con propuesta de valor y mensaje inicial del producto | 3 | Mathias | Done |
+| US20 | Navegación de Funciones | T02 | Implementar Navbar | Creación de barra de navegación con enlaces a secciones del Landing Page | 2 | Renzo | Done |
+| US20 | Navegación de Funciones | T03 | Implementar Features Section | Desarrollo de sección de funcionalidades principales del sistema | 3 | Julio | Done |
+| US21 | Detalle de Roles | T04 | Implementar Roles Section | Desarrollo de sección que describe los tipos de usuarios (Admin, Conductor, Padre) | 3 | José | Done |
+| US22 | Consulta de Precios | T05 | Implementar Plans Section | Creación de sección de planes de suscripción con características comparativas | 3 | Christofer | Done |
+| US23 | ¿Cómo funciona? | T06 | Implementar How it Works Section | Desarrollo del flujo explicativo del funcionamiento del sistema | 2 | Julio | Done |
+| US19 | Visualización de Hero | T07 | Implementar CTA y Footer | Desarrollo de llamadas a la acción y pie de página del sitio | 2 | Renzo | Done |
+| US20 | Navegación de Funciones | T08 | Implementar Responsive Design | Adaptación del Landing Page para diferentes dispositivos (mobile, tablet, desktop) | 3 | Renzo | Done |
 
-##### 5.2.X.7. Software Deployment Evidence for Sprint Review
+##### 5.2.1.4. Development Evidence for Sprint Review
 
-##### 5.2.X.8. Team Collaboration Insights during Sprint
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|------------|--------|-----------|----------------|---------------------|--------------------|
+| FiveTech-NRC11896/safedrive-website | main | ad85e0c | docs: update link | Updated project links and minor documentation adjustments. | 2026-04-10 |
+| FiveTech-NRC11896/safedrive-website | main | d533ba7 | docs: add README with project overview | Added README file with general overview of the SafeRoute project. | 2026-04-10 |
+| FiveTech-NRC11896/safedrive-website | main | 09b0e4c | assets: add images folder | Added image assets required for the landing page sections. | 2026-04-10 |
+| FiveTech-NRC11896/safedrive-website | main | 9d40a89 | style: add responsive design | Implemented responsive styles to improve usability across devices. | 2026-04-10 |
+| FiveTech-NRC11896/safedrive-website | main | 0ff89ce | feat: add How it works, CTA and footer section | Implemented informational sections and call-to-action components. | 2026-04-10 |
+| FiveTech-NRC11896/safedrive-website | main | fd61ee6 | feat: add roles and plans section components | Developed sections describing user roles and subscription plans. | 2026-04-10 |
+| FiveTech-NRC11896/safedrive-website | main | de30384 | style: add new Stats and Features sections | Improved styling and added visual sections for features and stats. | 2026-04-10 |
+| FiveTech-NRC11896/safedrive-website | main | 41f50b8 | feat: add Navbar and Hero | Implemented navigation bar and main hero section. | 2026-04-10 |
+| FiveTech-NRC11896/safedrive-website | main | 1b2ee66 | style: add new sections Navbar and Hero | Applied styles to navbar and hero sections for visual consistency. | 2026-04-10 |
+
+##### 5.2.1.5. Execution Evidence for Sprint Review
+
+El desarrollo abarcó la implementación de las principales secciones del sitio, incluyendo la sección de roles de usuario, la sección de planes de suscripción, la sección ¿Como funciona?, así como componentes complementarios como el footer. Estas secciones permiten al usuario comprender el propósito del sistema, sus beneficios y las principales funcionalidades disponibles.
+
+Asimismo, se implementó diseño responsivo, garantizando que la experiencia de usuario sea consistente y accesible desde distintos dispositivos.
+
+A continuación, se presentan capturas de las principales vistas implementadas durante el Sprint:
+
+![Landing Page - Hero](./assets/images/hero.png)
+*Nota. Captura de pantalla de la sección Hero del Landing Page de SafeRoute, donde se presenta la propuesta de valor principal. Elaboración propia.*
+
+![Landing Page - Features](./assets/images/features.png)
+*Nota. Captura de pantalla de la sección de funcionalidades (Features) del Landing Page de SafeRoute, donde se describen las principales capacidades del sistema. Elaboración propia.*
+
+![Landing Page - Roles](./assets/images/roles.png)
+*Nota. Captura de pantalla de la sección de roles de usuario del Landing Page de SafeRoute, donde se explican los perfiles de Administrador, Conductor y Padre. Elaboración propia.*
+
+![Landing Page - Plans](./assets/images/plans.png)
+*Nota. Captura de pantalla de la sección de planes de suscripción del Landing Page de SafeRoute, donde se presentan las opciones disponibles para los usuarios. Elaboración propia.*
+
+![Landing Page - Responsive](./assets/images/responsive.png)
+*Nota. Captura de pantalla del diseño responsivo del Landing Page de SafeRoute en dispositivos móviles, evidenciando la adaptabilidad de la interfaz. Elaboración propia.*
+
+> TODO: COLOCAR VIDEO EXPLICATIVO
+
+##### 5.2.1.6. Services Documentation Evidence for Sprint Review
+
+En este Sprint no se desarrollaron servicios RESTful, ya que el enfoque estuvo centrado en la implementación del Landing Page de SafeRoute.
+
+La construcción de APIs será abordada en los siguientes Sprints, donde se integrará la lógica del sistema y la comunicación con la base de datos.
+
+##### 5.2.1.7. Software Deployment Evidence for Sprint Review
+
+El proceso de despliegue consistió en la configuración del repositorio en GitHub, habilitando la opción de GitHub Pages y estableciendo la rama principal como fuente de publicación. Esto permitió que cada cambio realizado en el repositorio se refleje automáticamente en el entorno de producción.
+
+Como resultado, el Landing Page se encuentra disponible para su acceso y validación por parte de los usuarios, cumpliendo con el objetivo de presentar la propuesta de valor del producto en un entorno real.
+
+A continuación, se presentan capturas del proceso y resultado del despliegue:
+
+> TODO: COLOCAR EVIDENCIAS
+
+El Landing Page desplegado se encuentra disponible en el siguiente enlace:
+
+https://fivetech-nrc11896.github.io/safedrive-website/
+
+##### 5.2.1.8. Team Collaboration Insights during Sprint
 
 ---
 
@@ -419,6 +612,7 @@ Las siguientes User Stories representan los requisitos detallados del sistema **
 
 ## Bibliografía
 - Autoridad de Transporte Urbano para Lima y Callao. (2024). *Cifra de movilidades escolares autorizadas disminuyó en 25% en un año*. El Comercio. Recuperado el 9 de abril de 2026, de https://elcomercio.pe/lima/cifra-de-movilidades-escolares-autorizadas-disminuyo-en-25-en-un-ano-a-que-se-debe-esta-reduccion-informe-movilidad-escolar-noticia/
+
 
 - Ministerio de Educación. (2023). *Resultados del Censo Educativo 2022*. ESCALE. Recuperado el 9 de abril de 2026, de https://escale.minedu.gob.pe/documents/10156/9345030/PPT_Censo_Educativo_2023_final.pdf
 
