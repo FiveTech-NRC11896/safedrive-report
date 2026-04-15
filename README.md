@@ -333,7 +333,16 @@ En base al análisis competitivo y SWOT realizado, SafeRoute plantea las siguien
 
 #### 2.3.1. User Personas
 
+En esta sección se presentan los arquetipos de usuario diseñados para representar los segmentos objetivo de SafeRoute: el conductor de transporte escolar independiente y el padre de familia. 
+
+La elaboración de estas fichas es el resultado de una síntesis detallada entre el análisis de la competencia y el proceso de Needfinding. Se han identificado características críticas como la alta dependencia de herramientas informales (WhatsApp/Llamadas), la ansiedad generada por la incertidumbre del tráfico en Lima y la necesidad de profesionalizar un sector mayoritariamente no estructurado.
+
+###### **Segmento Objetivo 1: Conductor **
 ![UserPersona1](./assets/images/UserPerson1.png)
+
+---
+###### **Segmento Objetivo 2: Padre de Familia**
+![UserPersona2](./assets/images/UserPersona2.png)
 
 #### 2.3.2. User Task Matrix
 
