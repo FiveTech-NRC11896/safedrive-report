@@ -181,9 +181,81 @@ El segundo segmento está conformado por las personas o entidades que operan el 
 
 ### 2.1. Competidores
 
-#### 2.1.1. Análisis competitivo
+### Identificación de Competidores
 
-#### 2.1.2. Estrategias y tácticas frente a competidores
+En esta sección se describen los principales competidores (directos e indirectos) con modelos de negocio basados en productos digitales similares o servicios complementarios de monitoreo.
+
+#### Life360
+**Descripción:** Es una aplicación de rastreo familiar líder a nivel global que permite compartir la ubicación en tiempo real entre miembros de un grupo, así como recibir alertas de llegada y salida de lugares definidos. Está orientada a mejorar la seguridad y comunicación entre familias mediante funciones de geolocalización avanzada.
+
+* **Enfoque:** Seguridad familiar general.
+* **URL:** [https://www.life360.com/](https://www.life360.com/)
+
+#### Find My Kids
+**Descripción:** Es una aplicación de monitoreo parental diseñada para que los padres conozcan la ubicación en tiempo real de sus hijos mediante GPS. Permite revisar el historial de movimientos, escuchar el entorno en caso de emergencia y recibir alertas. Se destaca por su integración con relojes inteligentes (smartwatches) para niños.
+
+* **Enfoque:** Monitoreo infantil y seguridad parental.
+* **URL:** [https://findmykids.org/](https://findmykids.org/)
+
+#### OnTrack School
+**Descripción:** Es un sistema digital integral enfocado específicamente en la gestión y monitoreo del transporte escolar. Permite el seguimiento de vehículos en tiempo real, envío de notificaciones automáticas a los padres y control administrativo de rutas y conductores. Está orientado principalmente a instituciones educativas y flotas de transporte escolar.
+
+* **Enfoque:** Gestión logística y transporte escolar corporativo.
+* **URL:** [https://ontrack.global/school/](https://ontrack.global/school/)
+
+---
+
+### 2.1.1 Análisis Competitivo - Landscape
+
+**¿Por qué llevar a cabo este análisis?**
+El objetivo es contrastar SafeRoute con soluciones líderes de geolocalización familiar y gestión escolar, identificando oportunidades para posicionarnos como la herramienta preferida de los transportistas independientes en Lima que buscan profesionalizar su servicio.
+
+| Categoría | Detalle | **SafeRoute** | **Life360** | **Find My Kids** | **OnTrack School** |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Perfil** | **Overview** | Gestión y monitoreo especializado en transporte escolar. | App de seguridad familiar y rastreo GPS general. | App de monitoreo infantil enfocada en smartwatches. | Plataforma integral de logística para transporte escolar. |
+| **Perfil** | **Ventaja competitiva** | Roles específicos (Conductor/Padre) y flujo de abordaje manual. | Círculos familiares privados y detección de choques. | Escucha ambiental y compatibilidad con relojes GPS. | Optimización de rutas avanzada para flotas de colegios. |
+| **Marketing** | **Mercado objetivo** | Padres y conductores independientes en Lima. | Familias con adolescentes y adultos mayores. | Padres con niños pequeños (5-12 años). | Colegios privados y empresas de transporte masivo. |
+| **Marketing** | **Estrategias** | Seguridad digital y profesionalización del sector. | Marketing masivo de "Tranquilidad familiar". | Enfoque en seguridad infantil y prevención de extravíos. | Ventas corporativas (B2B) y eventos educativos. |
+| **Producto** | **Productos & Servicios** | App, Dashboard Web, Alertas IoT y API para devs. | App móvil, asistencia en carretera y alertas de velocidad. | App móvil, rastreadores físicos y notificaciones SOS. | Software de logística, portal para padres y conductores. |
+| **Producto** | **Precios & Costos** | Suscripción mensual ($9.99 - $49.99). | Freemium (Suscripciones Gold/Platinum desde $14.99). | Suscripción mensual o pago único de por vida. | Cotización personalizada por número de rutas/colegios. |
+| **Producto** | **Canales de distribución**| Web (Landing Page) y tiendas de apps. | App Store, Play Store y web global. | App Store, Play Store y fabricantes de smartwatches. | Web corporativa y equipo de ventas directas. |
+| **SWOT** | **Fortalezas** | Sistema especializado con control de abordaje y registro de incidencias para estructurar el servicio informal. | Alta precisión en rastreo en tiempo real . | Especialización en el segmento de niños pequeños. | Robustez técnica y algoritmos de optimización. |
+| **SWOT** | **Debilidades** | Marca nueva en un mercado con desconfianza. | No está diseñada para el flujo de transporte escolar. | Funcionalidades limitadas si el niño no tiene reloj. | Costo elevado y difícil implementación para independientes. |
+| **SWOT** | **Oportunidades** | Nicho desatendido de transportistas independientes en Perú que buscan organización y confianza. | Creciente preocupación por la seguridad familiar | Crecimiento del mercado de wearables infantiles. | Digitalización de colegios en mercados emergentes. |
+| **SWOT** | **Amenazas** | Informalidad que prefiere usar solo WhatsApp. | Mejoras en los sistemas nativos de Google/Apple. | Regulaciones estrictas de privacidad infantil (COPPA). | Nuevas startups locales con precios de introducción bajos. |
+
+---
+
+### 2.1.2 Estrategias y tácticas frente a competidores
+
+En base al análisis competitivo y SWOT realizado, SafeRoute plantea las siguientes estrategias y tácticas para diferenciarse aprovechando las debilidades de la competencia y el contexto local:
+
+#### Enfoque en especialización del problema
+- SafeRoute se posicionará como una solución especializada en transporte escolar, integrando funcionalidades específicas como control de abordaje, gestión de rutas y registro de incidencias.
+- Esto permitirá cubrir necesidades logísticas que las soluciones genéricas de GPS ignoran.
+
+#### Estrategia de digitalización del sector no estructurado
+- Enfoque en transportistas independientes que actualmente dependen de WhatsApp y procesos manuales.
+- Oferta de una plataforma simple e intuitiva para una transición digital sin fricciones técnicas.
+
+#### Diferenciación por simplicidad y accesibilidad
+- Priorización de facilidad de uso y costos accesibles frente a soluciones corporativas complejas como OnTrack School.
+- Experiencia de usuario optimizada para minimizar la carga operativa del conductor durante el trayecto.
+
+#### Estrategia de confianza y seguridad para padres
+- Reducción de la incertidumbre mediante notificaciones automáticas de abordaje y alertas en tiempo real.
+- Reemplazo de la comunicación informal por una estructura de datos confiable y profesional.
+
+#### Estrategia de crecimiento progresivo (escalabilidad)
+- Modelo de planes escalables (Básico, Intermedio, Completo) que acompaña el crecimiento de la flota del cliente.
+- Facilita la adopción inicial con un ticket de entrada bajo.
+
+#### Estrategia de posicionamiento local
+- Adaptación a las dinámicas operativas y geográficas de Lima Metropolitana antes de escalar a otras ciudades del Perú.
+
+#### Estrategia de preparación tecnológica futura
+- Arquitectura preparada para la integración de sensores y cámaras IoT en etapas posteriores, garantizando competitividad a largo plazo.
+
 
 ### 2.2. Entrevistas
 
