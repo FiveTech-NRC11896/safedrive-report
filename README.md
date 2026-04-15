@@ -292,26 +292,71 @@ Herramienta de diseño colaborativo utilizada para la creación de wireframes, m
 
 ##### Software Development
 
-JetBrains Intelli J IDEA
+###### JetBrains Intelli J IDEA
 
 Entorno de desarrollo integrado (IDEA) utilizado para el desarrollo del BackEnd que utiliza el idioma java.
 
-GitHub
+###### GitHub
 
 Plataforma de control de versiones utilizada para la gestión del código fuente y colaboración del equipo, implementando la metodología GitFlow para la organización del desarrollo.
 
-HTML
+###### HTML
 
-Legnuaje de marcado para el desarrollo de las interfaces web del Frontend
+Legnuaje de marcado para el desarrollo de las interfaces web del Frontend.
 
-CSS
+###### CSS
 
-Lenguaje de estilos utilizados para la estructura
+Lenguaje de estilos utilizados para la presentación visual de la aplicación, en el apartado del .
+
+###### Typescript
+
+Lenguaje utilizado para el frontend para poder hacer interfaces dinámicas e interactivas.
+
+###### Java
+
+Lenguaje de programación que se utilizara en el desarrollo del backend de la aplicación.
+
+##### Software Deployment
+
+###### GitHub Pages
+Servicio utilizado para el despliegue de la landing page del proyecto.
 
 
-###### Figma: 
 
 #### 5.1.2. Source Code Management
+
+Para el manejo del código fuente, utilizamos Github para colaborar entre miembros de equipo en multiples repositorios. A continuación, se listan los enlaces de cada repositorio:
+
+Organización:
+
+Repositorio de Landing Page: 
+
+Repositorio del informe: 
+
+Repositorio del frontend:
+
+Repositorio del backend: 
+
+En el repositorio del informe, se implementa un esquema de trabajo basado en Gitflow. La rama main almacena la versión estable del informe correspondiente a cada entregable del trabajo, mientras que la rama develop concentra la integración de avances validados por cada integrante antes de su consolidación final. A partir de develop, cada integrante creará ramas feature de trabajo para las secciones asignadas. Las ramas feature seguirán una nomenclatura asociada al capítulo o bloque trabajado, por ejemplo: feature/chapter-1-introduction-and-lean-ux, o feature/chapter-5-software-configuration-management. Esta convención permite identificar con claridad qué parte del informe está siendo desarrollada y reduce el riesgo de conflictos entre los miembros del equipo.
+
+En los repositorios del Landing Page, Frontend y Backend también se utilizará GitFlow. En cada uno de ellos, la rama main contendrá las versiones estables del producto y la rama develop servirá como rama de integración del trabajo colaborativo. A partir de develop, se crearán ramas feature/... para el desarrollo de funcionalidades específicas. A diferencia del informe, en estos repositorios las ramas no estarán organizadas por capítulos, sino por funcionalidades o componentes del sistema. Algunos ejemplos de nomenclatura son: feature/home-page, feature/dashboard o feature/route-management. Esta convención nos permite que las ramas reflejen de manera directa el alcance funcional del producto en desarrollo.
+
+No se realizarán cambios directos sobre la rama main, ya que esta representará únicamente versiones estables y listas para consolidarse como parte de un entregable. Del mismo modo, se evitará que los integrantes trabajen de forma continua directamente sobre la rama develop, ya que el flujo previsto consiste en desarrollar primero en ramas feature, integrar luego en develop y finalmente consolidar en main cuando el avance haya sido revisado y validado. Por tanto, el flujo general de trabajo será de la siguiente forma: feature → develop → main. Este esquema se alinea con la exigencia del curso de explicar la implementación de GitFlow mediante ramas principales, ramas de features, y convenciones para releases y hotfixes.
+
+Asimismo, si se requiere corregir errores críticos sobre una versión estable, se podrán crear ramas hotfix/..., y si se decide preparar una versión de cierre antes de una entrega, se utilizarán ramas release/... de acuerdo con el flujo definido por GitFlow.
+
+En relación con los mensajes de cada commit, el equipo aplicará Conventional Commits para mantener un historial más legible, consistente y profesional. Esta convención facilitará la revisión de avances y permitirá identificar rápidamente el propósito de cada uno de los cambios. Algunos prefijos que se utilizarán son:
+
+feat: incorporación de una nueva funcionalidad
+fix: corrección de errores
+docs: cambios en documentación
+style: cambios de formato o estilo sin alterar lógica
+refactor: reorganización interna sin agregar funcionalidad nueva
+test: incorporación o ajuste de pruebas
+chore: tareas de mantenimiento o configuración
+
+Para el repositorio del informe se emplearán mensajes como docs(report): add project cover page o docs: add startup profile and lean ux process for chapter 1. Para los repositorios de software se utilizarán mensajes como feat: add school route registration, feat: implement student assignment to route o fix: correct login validation. Esta práctica contribuye a que la evidencia de commits sea coherente con el trabajo realizado por cada miembro.
+
 
 #### 5.1.3. Source Code Style Guide & Conventions
 
