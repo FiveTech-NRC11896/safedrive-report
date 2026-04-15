@@ -483,44 +483,39 @@ Para el repositorio del informe se emplearán mensajes como docs(report): add pr
 
 ##### 5.2.1.2. Aspect Leaders and Collaborators
 
-| Team Member (Last Name, First Name) | GitHub Username | Landing Page | UI Design | Deployment | Repo Management |
+| Team Member (Last Name, First Name) | GitHub Username Leader (L) / Collaborator (C) | Landing Page Leader (L) / Collaborator (C) | UI Design Leader (L) / Collaborator (C) | Deployment Leader (L) / Collaborator (C) | Repo Management Leader (L) / Collaborator (C) |
 | - | - | - | - | - | - |
-| Revilla Quispe, Renzo Zamir | renzo-user | C | C | L | C |
+| Revilla Quispe, Renzo Zamir | renzorevq24 | C | C | L | C |
 | Quispe Serrano, Julio Frank | FraSe-JQ | C | C | C | L |
-| Costa Morales, Christofer William | | C | L | C | C |
-| De La Cruz De Los Santos, Mathias Marcelo | | L | C | C | C |
-| Ortega Quintana, José Zacarías | | L | C | C | C |
+| Costa Morales, Christofer William | miniChorri | C | L | C | C |
+| De La Cruz De Los Santos, Mathias Marcelo | Dela050406 | L | C | C | C |
+| Ortega Quintana, José Zacarías | AgoxX61 | L | C | C | C |
 
 ##### 5.2.1.3. Sprint Backlog 1
 
-| Sprint # | Sprint 1 | | | | | | |
-|----------|----------|--|--|--|--|--|--|
-| User Story | | Work-Item / Task | | | | | |
-| **Id** | **Title** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status (To-do / In-Process / To-Review / Done)** |
-| US01 | Mostrar landing page en distintas resoluciones | T01 | Mostrar landing page en distintas resoluciones | Como usuario quiero poder ver la pagina en distintos dispositivos para navegar sin restricciones | 4 | Julio | Done |
+| User Story ID | User Story Title | Task ID | Task Title | Description | Estimation (Hours) | Assigned To | Status |
+|---------------|------------------|---------|------------|-------------|--------------------|-------------|--------|
+| US19 | Visualización de Hero | T01 | Implementar Hero Section | Desarrollo de la sección principal con propuesta de valor y mensaje inicial del producto | 3 | Mathias | Done |
+| US20 | Navegación de Funciones | T02 | Implementar Navbar | Creación de barra de navegación con enlaces a secciones del Landing Page | 2 | Renzo | Done |
+| US20 | Navegación de Funciones | T03 | Implementar Features Section | Desarrollo de sección de funcionalidades principales del sistema | 3 | Julio | Done |
+| US21 | Detalle de Roles | T04 | Implementar Roles Section | Desarrollo de sección que describe los tipos de usuarios (Admin, Conductor, Padre) | 3 | José | Done |
+| US22 | Consulta de Precios | T05 | Implementar Plans Section | Creación de sección de planes de suscripción con características comparativas | 3 | Christofer | Done |
+| US23 | ¿Cómo funciona? | T06 | Implementar How it Works Section | Desarrollo del flujo explicativo del funcionamiento del sistema | 2 | Julio | Done |
+| US19 | Visualización de Hero | T07 | Implementar CTA y Footer | Desarrollo de llamadas a la acción y pie de página del sitio | 2 | Renzo | Done |
+| US20 | Navegación de Funciones | T08 | Implementar Responsive Design | Adaptación del Landing Page para diferentes dispositivos (mobile, tablet, desktop) | 3 | Renzo | Done |
 
 ##### 5.2.1.4. Development Evidence for Sprint Review
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
-
 |------------|--------|-----------|----------------|---------------------|--------------------|
-
 | FiveTech-NRC11896/safedrive-website | main | ad85e0c | docs: update link | Updated project links and minor documentation adjustments. | 2026-04-10 |
-
 | FiveTech-NRC11896/safedrive-website | main | d533ba7 | docs: add README with project overview | Added README file with general overview of the SafeRoute project. | 2026-04-10 |
-
 | FiveTech-NRC11896/safedrive-website | main | 09b0e4c | assets: add images folder | Added image assets required for the landing page sections. | 2026-04-10 |
-
 | FiveTech-NRC11896/safedrive-website | main | 9d40a89 | style: add responsive design | Implemented responsive styles to improve usability across devices. | 2026-04-10 |
-
 | FiveTech-NRC11896/safedrive-website | main | 0ff89ce | feat: add How it works, CTA and footer section | Implemented informational sections and call-to-action components. | 2026-04-10 |
-
 | FiveTech-NRC11896/safedrive-website | main | fd61ee6 | feat: add roles and plans section components | Developed sections describing user roles and subscription plans. | 2026-04-10 |
-
 | FiveTech-NRC11896/safedrive-website | main | de30384 | style: add new Stats and Features sections | Improved styling and added visual sections for features and stats. | 2026-04-10 |
-
 | FiveTech-NRC11896/safedrive-website | main | 41f50b8 | feat: add Navbar and Hero | Implemented navigation bar and main hero section. | 2026-04-10 |
-
 | FiveTech-NRC11896/safedrive-website | main | 1b2ee66 | style: add new sections Navbar and Hero | Applied styles to navbar and hero sections for visual consistency. | 2026-04-10 |
 
 ##### 5.2.X.5. Execution Evidence for Sprint Review
