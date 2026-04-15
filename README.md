@@ -518,7 +518,28 @@ Para el repositorio del informe se emplearán mensajes como docs(report): add pr
 | FiveTech-NRC11896/safedrive-website | main | 41f50b8 | feat: add Navbar and Hero | Implemented navigation bar and main hero section. | 2026-04-10 |
 | FiveTech-NRC11896/safedrive-website | main | 1b2ee66 | style: add new sections Navbar and Hero | Applied styles to navbar and hero sections for visual consistency. | 2026-04-10 |
 
-##### 5.2.X.5. Execution Evidence for Sprint Review
+##### 5.2.1.5. Execution Evidence for Sprint Review
+
+El desarrollo abarcó la implementación de las principales secciones del sitio, incluyendo la sección de roles de usuario, la sección de planes de suscripción, la sección ¿Como funciona?, así como componentes complementarios como el footer. Estas secciones permiten al usuario comprender el propósito del sistema, sus beneficios y las principales funcionalidades disponibles.
+
+Asimismo, se implementó diseño responsivo, garantizando que la experiencia de usuario sea consistente y accesible desde distintos dispositivos.
+
+A continuación, se presentan capturas de las principales vistas implementadas durante el Sprint:
+
+![Landing Page - Hero](./assets/images/hero.png)
+*Nota. Captura de pantalla de la sección Hero del Landing Page de SafeRoute, donde se presenta la propuesta de valor principal. Elaboración propia.*
+
+![Landing Page - Features](./assets/images/features.png)
+*Nota. Captura de pantalla de la sección de funcionalidades (Features) del Landing Page de SafeRoute, donde se describen las principales capacidades del sistema. Elaboración propia.*
+
+![Landing Page - Roles](./assets/images/roles.png)
+*Nota. Captura de pantalla de la sección de roles de usuario del Landing Page de SafeRoute, donde se explican los perfiles de Administrador, Conductor y Padre. Elaboración propia.*
+
+![Landing Page - Plans](./assets/images/plans.png)
+*Nota. Captura de pantalla de la sección de planes de suscripción del Landing Page de SafeRoute, donde se presentan las opciones disponibles para los usuarios. Elaboración propia.*
+
+![Landing Page - Responsive](./assets/images/responsive.png)
+*Nota. Captura de pantalla del diseño responsivo del Landing Page de SafeRoute en dispositivos móviles, evidenciando la adaptabilidad de la interfaz. Elaboración propia.*
 
 ##### 5.2.X.6. Services Documentation Evidence for Sprint Review
 
