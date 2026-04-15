@@ -333,7 +333,7 @@ En base al análisis competitivo y SWOT realizado, SafeRoute plantea las siguien
 
 #### 2.3.1. User Personas
 
-![User Persona Conductor](<User Person 1.png>)
+![UserPersona1](./assets/images/UserPerson1.png)
 
 #### 2.3.2. User Task Matrix
 
