@@ -533,11 +533,11 @@ Para el repositorio del informe se emplearán mensajes como docs(report): add pr
 | Location | Microsoft Teams |
 | Prepared By | Renzo Revilla |
 | Attendees (to planning meeting) | Todo el equipo |
-| Sprint n – 1 Review Summary |Al tratarse del primer sprint, se establecieron las bases del proyecto, incluyendo la estructura del repositorio. |
-| Sprint n – 1 Retrospective Summary | El equipo identificó la importancia de una correcta organización y distribución de tareas desde el inicio del proyecto. Se acordó mejorar la comunicación y planificación para optimizar el desarrollo en los siguientes sprints. |
+| Sprint 1 – 1 Review Summary |Al tratarse del primer sprint, se establecieron las bases del proyecto, incluyendo la estructura del repositorio. |
+| Sprint 1 – 1 Retrospective Summary | El equipo identificó la importancia de una correcta organización y distribución de tareas desde el inicio del proyecto. Se acordó mejorar la comunicación y planificación para optimizar el desarrollo en los siguientes sprints. |
 | **Sprint Goal & User Stories**  |
-| Sprint n Goal | Nuestro enfoque es desarrollar la primera versión del Landing Page de SafeRoute. Creemos que esto permitirá comunicar la propuesta de valor de la plataforma a los usuarios. Esto se validará cuando los usuarios puedan acceder al sitio y comprender sus funcionalidades principales. |
-| Sprint n Velocity | 15 Story Points |
+| Sprint 1 Goal | Nuestro enfoque es desarrollar la primera versión del Landing Page de SafeRoute. Creemos que esto permitirá comunicar la propuesta de valor de la plataforma a los usuarios. Esto se validará cuando los usuarios puedan acceder al sitio y comprender sus funcionalidades principales. |
+| Sprint 1 Velocity | 15 Story Points |
 | Sum of Story Points | 13 Story Points |
 
 ##### 5.2.1.2. Aspect Leaders and Collaborators
@@ -616,7 +616,8 @@ Como resultado, el Landing Page se encuentra disponible para su acceso y validac
 
 A continuación, se presentan capturas del proceso y resultado del despliegue:
 
-> TODO: COLOCAR EVIDENCIAS
+![GitHub Pages Config](./assets/images/github-pages.png)
+*Nota. Captura de la configuración de GitHub Pages en el repositorio del proyecto. Elaboración propia.*
 
 El Landing Page desplegado se encuentra disponible en el siguiente enlace:
 
@@ -624,7 +625,6 @@ https://fivetech-nrc11896.github.io/safedrive-website/
 
 ##### 5.2.1.8. Team Collaboration Insights during Sprint
 
----
 
 ## Conclusiones
 
