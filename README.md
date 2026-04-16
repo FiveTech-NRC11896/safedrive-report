@@ -536,13 +536,13 @@ Para el manejo del código fuente, utilizamos Github para colaborar entre miembr
 
 Organización:
 
-Repositorio de Landing Page: 
+Repositorio de Landing Page: https://github.com/FiveTech-NRC11896/safedrive-website.git
 
-Repositorio del informe: 
+Repositorio del informe: https://github.com/FiveTech-NRC11896/safedrive-report.git
 
-Repositorio del frontend:
+Repositorio del frontend: https://github.com/FiveTech-NRC11896/safedrive-webapp.git
 
-Repositorio del backend: 
+Repositorio del backend: https://github.com/FiveTech-NRC11896/safedrive-platform.git
 
 En el repositorio del informe, se implementa un esquema de trabajo basado en Gitflow. La rama main almacena la versión estable del informe correspondiente a cada entregable del trabajo, mientras que la rama develop concentra la integración de avances validados por cada integrante antes de su consolidación final. A partir de develop, cada integrante creará ramas feature de trabajo para las secciones asignadas. Las ramas feature seguirán una nomenclatura asociada al capítulo o bloque trabajado, por ejemplo: feature/chapter-1-introduction-and-lean-ux, o feature/chapter-5-software-configuration-management. Esta convención permite identificar con claridad qué parte del informe está siendo desarrollada y reduce el riesgo de conflictos entre los miembros del equipo.
 
@@ -567,7 +567,66 @@ Para el repositorio del informe se emplearán mensajes como docs(report): add pr
 
 #### 5.1.3. Source Code Style Guide & Conventions
 
+#### Frontend (Landing Page - HTML, CSS, JavaScript)
+
+##### Convenciones generales:
+
+- **Idioma**: Todo el código, incluyendo nombres de variables, funciones y clases está escrito en inglés.
+- **Formato de archivos**: `.html`, `.css`, `.js`
+- **Estilo de código adoptado**:
+  - [W3Schools HTML Style Guide](https://www.w3schools.com/html/html5_syntax.asp)
+  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html)
+
+##### Nomenclatura:
+
+- **Clases CSS**: `kebab-case` (ej. `main-container`)
+- **IDs HTML**: `camelCase` (ej. `mainContent`)
+- **Variables JS**: `camelCase` (ej. `userName`)
+- **Funciones JS**: `camelCase` (ej. `handleClick()`)
+
+#### Frontend Web App (Angular + TypeScript)
+
+##### Convenciones generales:
+
+- **Idioma**: Código y los comentarios son completamente en ingles.
+- **Estructura de carpetas**: Segregación por módulos y componentes.
+- **Formato de archivos**: `.ts`, `.html`, `.css`
+
+##### Estilo de código adoptado:
+
+- [Angular Style Guide (Oficial)](https://angular.io/guide/styleguide)
+- [Google TypeScript Style Guide](https://google.github.io/styleguide/tsguide.html)
+
+##### Nomenclatura:
+
+- **Componentes**: `PascalCase` (ej. `UserProfileComponent`)
+- **Servicios**: `camelCase` + sufijo `Service` (ej. `authService`)
+- **Interfaces**: `PascalCase`, prefijo `I` opcional (ej. `User`, `IUser`)
+- **Archivos**: `kebab-case` (ej. `user-profile.component.ts`)
+- **Variables y funciones**: `camelCase`
+
+#### Backend (Java + Spring Boot)
+
+##### Convenciones generales:
+
+- **Idioma**: Código y documentación interna es en ingles.
+- **Formato de archivos**: `.java`
+
+##### Estilo de código adoptado:
+
+- [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)
+- [Spring Boot Features &amp; Best Practices](https://docs.spring.io/spring-boot/docs/current/reference/html/features.html)
+
+##### Nomenclatura:
+
+- **Clases**: `PascalCase` (ej. `UserService`)
+- **Variables**: `camelCase` (ej. `userRepository`)
+- **Constantes**: `UPPER_SNAKE_CASE` (ej. `MAX_USERS`)
+- **Endpoints**: `kebab-case` para URLs (ej. `/api/user-profile`)
+- **Paquetes**: Todo en minúsculas y separados por punto (ej. `com.project.backend.controller`)
+
 #### 5.1.4. Software Deployment Configuration
+
 
 ### 5.2. Landing Page, Services & Applications Implementation
 
@@ -583,11 +642,11 @@ Para el repositorio del informe se emplearán mensajes como docs(report): add pr
 | Location | Microsoft Teams |
 | Prepared By | Renzo Revilla |
 | Attendees (to planning meeting) | Todo el equipo |
-| Sprint n – 1 Review Summary |Al tratarse del primer sprint, se establecieron las bases del proyecto, incluyendo la estructura del repositorio. |
-| Sprint n – 1 Retrospective Summary | El equipo identificó la importancia de una correcta organización y distribución de tareas desde el inicio del proyecto. Se acordó mejorar la comunicación y planificación para optimizar el desarrollo en los siguientes sprints. |
+| Sprint 1 – 1 Review Summary |Al tratarse del primer sprint, se establecieron las bases del proyecto, incluyendo la estructura del repositorio. |
+| Sprint 1 – 1 Retrospective Summary | El equipo identificó la importancia de una correcta organización y distribución de tareas desde el inicio del proyecto. Se acordó mejorar la comunicación y planificación para optimizar el desarrollo en los siguientes sprints. |
 | **Sprint Goal & User Stories**  |
-| Sprint n Goal | Nuestro enfoque es desarrollar la primera versión del Landing Page de SafeRoute. Creemos que esto permitirá comunicar la propuesta de valor de la plataforma a los usuarios. Esto se validará cuando los usuarios puedan acceder al sitio y comprender sus funcionalidades principales. |
-| Sprint n Velocity | 15 Story Points |
+| Sprint 1 Goal | Nuestro enfoque es desarrollar la primera versión del Landing Page de SafeRoute. Creemos que esto permitirá comunicar la propuesta de valor de la plataforma a los usuarios. Esto se validará cuando los usuarios puedan acceder al sitio y comprender sus funcionalidades principales. |
+| Sprint 1 Velocity | 15 Story Points |
 | Sum of Story Points | 13 Story Points |
 
 ##### 5.2.1.2. Aspect Leaders and Collaborators
@@ -666,7 +725,8 @@ Como resultado, el Landing Page se encuentra disponible para su acceso y validac
 
 A continuación, se presentan capturas del proceso y resultado del despliegue:
 
-> TODO: COLOCAR EVIDENCIAS
+![GitHub Pages Config](./assets/images/github-pages.png)
+*Nota. Captura de la configuración de GitHub Pages en el repositorio del proyecto. Elaboración propia.*
 
 El Landing Page desplegado se encuentra disponible en el siguiente enlace:
 
@@ -674,7 +734,6 @@ https://fivetech-nrc11896.github.io/safedrive-website/
 
 ##### 5.2.1.8. Team Collaboration Insights during Sprint
 
----
 
 ## Conclusiones
 
