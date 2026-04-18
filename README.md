@@ -332,15 +332,102 @@ En base al análisis competitivo y SWOT realizado, SafeRoute plantea las siguien
 
 #### 2.3.1. User Personas
 
+En esta sección se presentan los arquetipos de usuario diseñados para representar los segmentos objetivo de SafeRoute: el conductor de transporte escolar independiente y el padre de familia. 
+
+La elaboración de estas fichas es el resultado de una síntesis detallada entre el análisis de la competencia y el proceso de Needfinding. Se han identificado características críticas como la alta dependencia de herramientas informales (WhatsApp/Llamadas), la ansiedad generada por la incertidumbre del tráfico en Lima y la necesidad de profesionalizar un sector mayoritariamente no estructurado.
+
+###### **Segmento Objetivo 1: Conductor **
+![UserPersona1](./assets/images/UserPerson1.png)
+
+---
+###### **Segmento Objetivo 2: Padre de Familia**
+![UserPersona2](./assets/images/UserPersona2.png)
+
 #### 2.3.2. User Task Matrix
 
+En esta sección se presenta la matriz de tareas de usuario , la cual consolida las actividades fundamentales que tanto el conductor (Carlos Ramírez) como el padre de familia (Rosita Nery) ejecutan para asegurar un traslado escolar exitoso. 
+
+Es importante destacar que estas tareas representan necesidades y procesos intrínsecos del servicio que existen independientemente de la existencia de una solución de software; el objetivo de SafeRoute es optimizar y digitalizar estas interacciones para reducir la carga operativa y la incertidumbre.
+
+#### Cuadro: User Task Matrix
+
+| Tarea (User Task) | Conductor - Frecuencia | Conductor - Importancia | Padre - Frecuencia | Padre - Importancia |
+|:---|:---:|:---:|:---:|:---:|
+| Verificar lista de asistencia de alumnos | Alta | Alta | N/A | N/A |
+| Identificar alumnos en el punto de recojo | Alta | Alta | N/A | N/A |
+| Confirmar el abordaje seguro del alumno | Alta | Crítica | Alta | Crítica |
+| Gestionar comunicación entre conductores y padres | Alta | Alta | Alta | Alta |
+| Notificar retrasos o imprevistos en la ruta | Media | Alta | Alta | Crítica |
+| Monitorear el progreso del trayecto | Media | Media | Alta | Alta |
+| Confirmar llegada al destino final | Alta | Crítica | Alta | Crítica |
+| Registrar la entrega del alumno al responsable | Alta | Crítica | Alta | Crítica |
+| Coordinar cambios de último momento en el servicio | Baja | Media | Baja | Alta |
+| Reportar incidencias de seguridad o salud | Baja | Crítica | Baja | Crítica |
+| Consultar el estado actual del servicio | Media | Media | Alta | Alta |
+| Revisar historial de trayectos realizados | Baja | Media | Media | Media |
+| Organizar y optimizar rutas y paradas | Alta | Alta | N/A | N/A |
+
+---
+
+#### Análisis y Explicación de la Matriz
+
+Tras el análisis de la matriz, se desprenden las siguientes conclusiones clave sobre el comportamiento y necesidades de los segmentos:
+
+* **Coincidencias en Tareas Críticas:** Existe una convergencia total en las tareas de "Confirmar abordaje", "Confirmar llegada" y "Registrar entrega". Para ambos segmentos, estas acciones representan la columna vertebral de la confianza en el servicio, manteniendo una importancia **Crítica** debido a que involucran la seguridad directa del menor.
+* **Diferencias de Rol:** La carga operativa de planificación y ejecución (verificación de listas y organización de rutas) recae exclusivamente en el conductor. Por el contrario, el padre de familia se enfoca en tareas de supervisión pasiva como "Monitorear el progreso", que tiene una frecuencia alta debido a la ansiedad constante que genera el tráfico de la ciudad.
+* **Gestión de Incidencias:** Se observa que tareas como "Reportar incidencias" tienen una frecuencia baja, pero su importancia es crítica. Esto valida la necesidad de que SafeRoute ofrezca canales de comunicación prioritarios que garanticen que, ante un imprevisto, la información fluya sin errores.
+* **Fricción en la Comunicación:** La tarea de "Notificar retrasos" es de frecuencia media para el conductor pero de importancia crítica para el padre, lo que resalta el mayor punto de fricción actual: la necesidad de información en tiempo real para reducir el estrés parental.
+
 #### 2.3.3. User Journey Mapping
+En esta sección se presentan los User Journey Maps en versión As-Is correspondientes a los dos segmentos objetivo definidos previamente: conductor escolar y padre de familia. El propósito es comprender la experiencia actual del servicio de transporte escolar, identificando emociones, fricciones operativas, puntos críticos de comunicación y oportunidades de mejora antes de la implementación de SafeRoute.
+A continuación, se presentan los diagramas detallados para cada User Persona, vinculando sus objetivos y puntos de dolor con las etapas del proceso actual.
+
+User Journey Map: Carlos Ramírez (Conductor-Segmento Objetivo 1)
+![UserJourneyMap1](./assets/images/UserJourneyMap-Carlos.png)
+----
+User Journey Map: Rosita Nery (Padre de Familia-Segmento Objetivo 2)
+![UserJourneyMap2](./assets/images/UserJourneyMap-Rosita.png)
 
 #### 2.3.4. Empathy Mapping
+En esta sección se presenta el análisis de empatía realizado para nuestros segmentos objetivo buscando responder las preguntas ¿Con quién estamos empatizando? ¿Qué necesita hacer? ¿Qué está
+diciendo? ¿Qué está viendo? ¿Qué está haciendo? ¿Qué está escuchando? ¿Cómo sesiente y qué piensa? E identificando sus Pains y Gains.
+
+Segmento Objetivo 1: Conductor 
+![EmpathyMapping1](./assets/images/EmpathyMapping-Carlos.png)
+
+---
+Segmento Objetivo 2: Padre de familia 
+![EmpathyMapping2](./assets/images/EmpathyMapping-Rosita.png)
 
 ### 2.4. Big Picture Event Storming
+En esta sección, se presenta el desarrollo y los resultados de la sesión de Big Picture Event Storming realizada por el equipo para el proyecto SafeRoute. Este proceso consistió en una sesión colaborativa de modelado dirigida al dominio, donde el equipo se enfocó en comprender el ecosistema del negocio de movilidad escolar de manera integral.
+
+A través de esta dinámica, se logró plasmar los eventos significativos y sus interrelaciones, construyendo una primera aproximación visual de alto nivel que explora el landscape completo del negocio.
+
+![BigPictureEventStorming](./assets/images/BigPictureEventStorming.jpg)
+* **URL:** [[https://miro.com/](https://miro.com/app/board/uXjVGg_8JKU=/?share_link_id=308871936592)]
 
 ### 2.5. Ubiquitous Language
+En esta sección se presenta el glosario de términos de negocio utilizados dentro del dominio de SafeRoute. 
+| Term (English) | Término equivalente | Definición |
+|:---|:---|:---|
+| Student | Estudiante / Alumno | Menor de edad que utiliza el servicio de movilidad escolar para trasladarse entre su hogar y el centro educativo. |
+| Parent | Padre / Apoderado | Persona responsable del estudiante que supervisa su traslado y recibe notificaciones del servicio. |
+| Driver | Conductor | Persona encargada de operar el vehículo escolar y ejecutar la ruta asignada. |
+| Vehicle | Vehículo | Unidad de transporte utilizada para movilizar estudiantes. |
+| School Route | Ruta Escolar | Recorrido planificado con paradas definidas para recoger y entregar alumnos. |
+| Daily Trip | Viaje Diario | Operación completa de traslado realizada en una jornada específica. |
+| Return Trip | Ruta de Retorno | Trayecto de regreso desde el colegio hacia los domicilios. |
+| Incident | Incidencia | Evento no planificado que afecta la operación normal del servicio. |
+| Critical Incident | Incidencia Crítica | Situación grave que compromete seguridad, salud o continuidad del servicio. |
+| Check-in | Confirmación de Entrada | Validación de que el estudiante ingresó correctamente al vehículo o al colegio. |
+| Check-out | Confirmación de Salida | Validación de entrega del estudiante al responsable autorizado. |
+| Notification | Notificación | Mensaje enviado al padre o conductor con información relevante del servicio. |
+| Service Plan | Plan de Servicio | Modalidad comercial contratada por el cliente para acceder a SafeRoute. |
+| Subscription | Suscripción | Vigencia activa del servicio contratado por el transportista o administrador. |
+| Fleet | Flota | Conjunto de vehículos administrados por una misma operación. |
+| Guardian | Tutor / Responsable | Persona autorizada para recibir al estudiante al final del trayecto. |
+| No-show Student | Alumno Ausente | Estudiante programado que no aborda la unidad en el punto establecido. |
 
 ---
 
@@ -349,40 +436,60 @@ En base al análisis competitivo y SWOT realizado, SafeRoute plantea las siguien
 ### 3.1. User Stories
 
 
-Las siguientes User Stories representan los requisitos detallados del sistema **SafeRoute**, cubriendo la operación completa, la Landing Page y la API técnica.
+Las siguientes User Stories representan los requisitos detallados del sistema SafeRoute, cubriendo la operación completa, la Landing Page y la API técnica.
 
-| Epic / Story ID | Título | Descripción | Criterios de Aceptación (Gherkin) | Relacionado con |
+| Epic / ID | Título | Descripción | Escenarios de Aceptación (Gherkin: 2 Positivos / 1 Negativo) | Relacionado con |
 |:---|:---|:---|:---|:---|
-| **E1** | **Gestión Administrativa** | Control de planes, usuarios y flota | N/A | N/A |
-| US1 | Contratar Plan | Como administrador, quiero elegir un plan, para escalar mi operación | **Given** el administrador está en la sección de facturación<br>**When** selecciona un plan (Básico/Intermedio/Completo)<br>**Then** el sistema habilita los límites de rutas correspondientes | E1 |
-| US2 | Registro de Conductores | Como administrador, quiero crear cuentas de conductores, para asignar responsabilidades | **Given** el formulario de nuevo usuario<br>**When** se ingresan datos y licencia<br>**Then** el sistema genera un perfil de conductor activo | E1 |
-| US3 | Registro de Padres | Como administrador, quiero registrar a los padres, para habilitar el monitoreo | **Given** los datos de contacto del tutor<br>**When** se vincula con un alumno registrado<br>**Then** el sistema envía invitación por correo | E1 |
-| US4 | Alta de Alumnos | Como administrador, quiero registrar alumnos, para incluirlos en los recorridos | **Given** el panel de gestión de alumnos<br>**When** se registran sus datos y parada<br>**Then** el alumno queda disponible para asignación | E1 |
-| US5 | Creación de Rutas | Como administrador, quiero trazar rutas y paradas, para optimizar el tiempo | **Given** el mapa de configuración<br>**When** se seleccionan puntos geográficos en orden<br>**Then** el sistema calcula la duración estimada del trayecto | E1 |
-| US6 | Asignación de Roles | Como administrador, quiero asignar conductores a rutas, para organizar la operación | **Given** una ruta sin asignar<br>**When** se selecciona un conductor disponible<br>**Then** el conductor recibe la ruta en su aplicación | E1 |
-| US7 | Analítica de Flota | Como administrador, quiero ver reportes de rendimiento, para evaluar la eficiencia | **Given** un usuario con Plan Completo<br>**When** accede al dashboard de analítica<br>**Then** el sistema muestra métricas de puntualidad y combustible | E1 |
-| **E2** | **Operación del Conductor** | Herramientas para la ejecución del servicio | N/A | N/A |
-| US8 | Inicio de Trayecto | Como conductor, quiero activar la ruta, para que los padres sepan que voy en camino | **Given** una ruta programada<br>**When** el conductor presiona "Iniciar Viaje"<br>**Then** el sistema cambia el estado de la ruta a "En Ruta" | E2 |
-| US9 | Marcación de Abordaje | Como conductor, quiero registrar el abordaje, para confirmar la presencia del alumno | **Given** el vehículo está en la parada correspondiente<br>**When** el conductor marca el check de abordaje<br>**Then** el sistema actualiza el estado del alumno en la nube | E2 |
-| US10 | Reporte de Incidencias | Como conductor, quiero informar problemas, para que el administrador tome medidas | **Given** una eventualidad (tráfico, falla mecánica)<br>**When** se selecciona el tipo de incidencia<br>**Then** el sistema lo registra en la bitácora detallada | E2 |
-| US11 | Botón de Pánico | Como conductor, quiero usar el botón de pánico, para emergencias críticas | **Given** una situación de peligro real<br>**When** se mantiene presionado el botón SOS<br>**Then** se envía una alerta con ubicación GPS al administrador | E2 |
-| US12 | Finalización de Ruta | Como conductor, quiero cerrar la sesión de ruta, para concluir el turno | **Given** todas las paradas han sido procesadas<br>**When** se confirma el fin del trayecto<br>**Then** el sistema deja de transmitir la ubicación GPS | E2 |
-| US13 | Bitácora de Viajes | Como conductor, quiero ver mi historial, para revisar mis recorridos pasados | **Given** el historial de servicios del conductor<br>**When** consulta fechas anteriores<br>**Then** el sistema muestra las paradas y tiempos registrados | E2 |
-| **E3** | **Monitoreo y Seguridad (Padres)** | Visibilidad y tranquilidad para la familia | N/A | N/A |
-| US14 | Rastreo en Tiempo Real | Como padre, quiero ver el bus en el mapa, para calcular la hora de llegada | **Given** el transporte está en ruta activa<br>**When** el padre abre el mapa de la app<br>**Then** se visualiza el icono del vehículo moviéndose en vivo | E3 |
-| US15 | Alerta de Proximidad | Como padre, quiero recibir un aviso previo, para bajar a la parada a tiempo | **Given** el bus está a 500 metros de la parada<br>**When** el sistema detecta la geovalla<br>**Then** se envía una notificación push al dispositivo del padre | E3 |
-| US16 | Confirmación de Llegada | Como padre, quiero saber si mi hijo llegó al colegio, para estar tranquilo | **Given** el bus llega al destino final<br>**When** el conductor cierra la ruta<br>**Then** el padre recibe una notificación de "Llegada a destino" | E3 |
-| US17 | Acceso a Cámara | Como padre, quiero ver el interior del bus, para verificar la seguridad | **Given** un usuario con Plan Intermedio<br>**When** solicita el streaming de video<br>**Then** el sistema muestra la cámara interior del vehículo | E3 |
-| US18 | Historial de Asistencia | Como padre, quiero ver los días que mi hijo abordó, para control mensual | **Given** la sección de asistencia del alumno<br>**When** se selecciona el mes<br>**Then** el sistema muestra el calendario con checks de abordaje | E3 |
-| **E4** | **Landing Page (Visitantes)** | Información y conversión de clientes | N/A | N/A |
-| US19 | Visualización de Hero | Como visitante, quiero ver la propuesta de valor, para entender qué es SafeRoute | **Given** el acceso a la URL principal<br>**When** carga el sitio<br>**Then** el sistema muestra el mensaje "Transporte escolar seguro y digital" | E4 |
-| US20 | Navegación de Funciones | Como visitante, quiero ver las funcionalidades, para conocer el alcance técnico | **Given** la sección de funcionalidades de la landing<br>**When** el usuario hace scroll<br>**Then** visualiza las tarjetas de gestión, monitoreo y alertas | E4 |
-| US21 | Detalle de Roles | Como visitante, quiero conocer las vistas por perfil, para ver qué recibo | **Given** la sección "Una plataforma, tres experiencias"<br>**When** revisa los puntos por rol<br>**Then** comprende las tareas de Admin, Conductor y Padre | E4 |
-| US22 | Consulta de Precios | Como visitante, quiero ver los costos, para evaluar mi presupuesto | **Given** la sección de planes de la landing<br>**When** compara los niveles de escala<br>**Then** identifica el precio y características de cada suscripción | E4 |
-| US23 | Sección "¿Cómo funciona?" | Como visitante, quiero ver los pasos iniciales, para saber cómo empezar | **Given** el flujo de 5 pasos en la landing<br>**When** lee la secuencia de digitalización<br>**Then** comprende el proceso desde el contrato hasta el monitoreo | E4 |
-| **E5** | **SafeRoute RESTful API** | Integraciones para desarrolladores | N/A | N/A |
-| US24 | API: Obtener Alumnos | Como developer, quiero listar alumnos por ruta, para integraciones externas | **Given** una petición GET a `/api/v1/routes/{id}/students`<br>**When** el token es válido<br>**Then** retorna 200 OK con la lista de alumnos | E5 |
-| US25 | API: Registro GPS | Como developer, quiero enviar coordenadas, para actualizar la posición del bus | **Given** una petición POST a `/api/v1/tracking`<br>**When** el payload incluye latitud/longitud<br>**Then** el sistema actualiza la base de datos y retorna 201 | E5 |
+| **E1** | **Gestión Administrativa** | Control de planes, usuarios y flota | | |
+| US1 | Contratar Plan | Como administrador, quiero elegir un plan, para escalar mi operación. | **S1:** Given el admin elige "Plan Pro", When confirma pago, Then los límites de rutas se actualizan. <br> **S2:** Given un plan activo, When elige "Upgrade", Then se prorratea el pago. <br> **S3:** Given tarjeta sin fondos, When intenta contratar, Then se muestra "Error de transacción". | E1 |
+| US2 | Registro de Conductores | Como administrador, quiero crear cuentas de conductores, para asignar responsabilidades. | **S1:** Given datos válidos, When guarda, Then perfil se crea. <br> **S2:** Given licencia subida, When sistema valida, Then estado cambia a "Verificado". <br> **S3:** Given DNI duplicado, When intenta guardar, Then muestra "Usuario ya existe". | E1 |
+| US3 | Registro de Padres | Como administrador, quiero registrar a los padres, para habilitar el monitoreo. | **S1:** Given correo válido, When registra, Then envía invitación. <br> **S2:** Given vínculo con alumno, When confirma, Then habilita vista de mapa. <br> **S3:** Given correo inválido, When intenta enviar, Then muestra "Formato no soportado". | E1 |
+| US4 | Alta de Alumnos | Como administrador, quiero registrar alumnos, para incluirlos en los recorridos. | **S1:** Given datos del menor, When guarda, Then aparece en lista de espera. <br> **S2:** Given foto subida, When guarda, Then se muestra en carné digital. <br> **S3:** Given campos vacíos, When intenta guardar, Then resalta campos obligatorios. | E1 |
+| US5 | Creación de Rutas | Como administrador, quiero trazar rutas y paradas, para optimizar el tiempo. | **S1:** Given puntos A y B, When traza en mapa, Then calcula tiempo estimado. <br> **S2:** Given paradas nuevas, When agrega a ruta, Then recalcula orden óptimo. <br> **S3:** Given puntos inaccesibles, When intenta trazar, Then muestra "Ruta no transitable". | E1 |
+| US6 | Asignación de Roles | Como administrador, quiero asignar conductores a rutas, para organizar la operación. | **S1:** Given conductor libre, When asigna a ruta X, Then conductor recibe alerta. <br> **S2:** Given cambio de unidad, When reasigna, Then se actualiza en tiempo real. <br> **S3:** Given conductor ya ocupado, When intenta asignar, Then muestra "No disponible". | E1 |
+| US7 | Analítica de Flota | Como administrador, quiero ver reportes de rendimiento, para evaluar eficiencia. | **S1:** Given Plan Completo, When abre dashboard, Then muestra consumo de combustible. <br> **S2:** Given periodo mensual, When filtra, Then genera PDF de rendimiento. <br> **S3:** Given Plan Básico, When intenta abrir analítica, Then pide "Upgrade". | E1 |
+| US8 | Gestión de Notificaciones | Como administrador, quiero enviar avisos globales, para informar eventos del colegio. | **S1:** Given evento imprevisto, When escribe mensaje global, Then todos los padres reciben push. <br> **S2:** Given aviso programado, When elige fecha, Then se envía automáticamente. <br> **S3:** Given mensaje vacío, When intenta enviar, Then el botón se bloquea. | E1 |
+| US9 | Auditoría de Logs | Como administrador, quiero ver logs de sistema, para rastrear errores técnicos. | **S1:** Given fallo reportado, When busca en logs, Then identifica hora y usuario. <br> **S2:** Given exportar datos, When elige formato CSV, Then descarga el historial. <br> **S3:** Given usuario sin permisos, When intenta acceder, Then muestra "Acceso Denegado". | E1 |
+| **E2** | **Operación del Conductor** | Herramientas para la ejecución del servicio | | |
+| US10 | Inicio de Trayecto | Como conductor, quiero activar la ruta, para notificar a los padres. | **S1:** Given ruta lista, When pulsa "Iniciar", Then cambia estado a "En camino". <br> **S2:** Given GPS activo, When inicia, Then comienza transmisión de coordenadas. <br> **S3:** Given sin conexión, When intenta iniciar, Then muestra "Modo Offline: reconectando". | E2 |
+| US11 | Marcación de Abordaje | Como conductor, quiero registrar el abordaje, para confirmar asistencia. | **S1:** Given parada alcanzada, When marca check, Then notifica al padre. <br> **S2:** Given código QR, When escanea al alumno, Then registra abordaje automático. <br> **S3:** Given alumno equivocado, When intenta marcar, Then alerta "Alumno no pertenece a esta parada". | E2 |
+| US12 | Reporte de Incidencias | Como conductor, quiero informar problemas, para que el admin tome medidas. | **S1:** Given tráfico denso, When reporta retraso, Then actualiza ETA de todos los padres. <br> **S2:** Given falla mecánica, When selecciona tipo, Then avisa a central de auxilio. <br> **S3:** Given falta de GPS, When intenta reportar, Then pide ingreso manual de ubicación. | E2 |
+| US13 | Botón de Pánico | Como conductor, quiero usar el SOS, para emergencias críticas. | **S1:** Given peligro, When presiona 3 seg, Then envía alerta con ubicación GPS. <br> **S2:** Given alerta activa, When admin responde, Then abre canal de audio. <br> **S3:** Given presión accidental, When cancela en 2 seg, Then no envía la alerta. | E2 |
+| US14 | Finalización de Ruta | Como conductor, quiero cerrar la sesión, para concluir el turno. | **S1:** Given fin de recorrido, When pulsa "Cerrar", Then detiene GPS. <br> **S2:** Given alumnos pendientes, When intenta cerrar, Then advierte "Hay alumnos a bordo". <br> **S3:** Given error de servidor, When cierra, Then guarda datos localmente. | E2 |
+| US15 | Bitácora de Viajes | Como conductor, quiero ver mi historial, para revisar recorridos pasados. | **S1:** Given menú historial, When selecciona día, Then muestra mapa del recorrido. <br> **S2:** Given resumen semanal, When consulta, Then indica horas totales manejadas. <br> **S3:** Given sin historial previo, When abre pestaña, Then muestra "Sin viajes registrados". | E2 |
+| US16 | Navegación Integrada | Como conductor, quiero usar mapas externos, para ver la mejor ruta. | **S1:** Given viaje iniciado, When pulsa "Navegar", Then abre app externa. <br> **S2:** Given cambio de tráfico, When mapas sugiere desvío, Then el sistema actualiza el ETA. <br> **S3:** Given app de mapas no instalada, When intenta abrir, Then sugiere descarga. | E2 |
+| US17 | Check de Seguridad | Como conductor, quiero una lista de chequeo, para revisar el bus antes de salir. | **S1:** Given inicio de día, When marca luces y frenos, Then habilita el inicio de ruta. <br> **S2:** Given falla detectada, When reporta en check, Then bloquea unidad por seguridad. <br> **S3:** Given check incompleto, When intenta iniciar viaje, Then recuerda "Revisión obligatoria". | E2 |
+| **E3** | **Monitoreo y Seguridad (Padres)** | Visibilidad y tranquilidad para la familia | | |
+| US18 | Rastreo en Tiempo Real | Como padre, quiero ver el bus en el mapa, para calcular la hora de llegada. | **S1:** Given viaje activo, When abre mapa, Then ve el icono moverse. <br> **S2:** Given parada propia, When toca icono, Then muestra distancia en KM. <br> **S3:** Given viaje finalizado, When abre mapa, Then muestra "Servicio concluido". | E3 |
+| US19 | Alerta de Proximidad | Como padre, quiero recibir un aviso previo, para bajar a la parada a tiempo. | **S1:** Given bus a 500m, When entra a geovalla, Then recibe notificación push. <br> **S2:** Given bus a 2min, When tiempo se cumple, Then vibra el teléfono. <br> **S3:** Given notificaciones desactivadas, When bus llega, Then solo registra el evento en log. | E3 |
+| US20 | Confirmación de Llegada | Como padre, quiero saber si mi hijo llegó al colegio, para estar tranquilo. | **S1:** Given bus en colegio, When conductor cierra viaje, Then recibe notificación de éxito. <br> **S2:** Given viaje de retorno, When llega a casa, Then recibe "Hijo entregado". <br> **S3:** Given retraso mayor a 20min, When tiempo pasa, Then recibe alerta de demora. | E3 |
+| US21 | Acceso a Cámara | Como padre, quiero ver el interior del bus, para verificar la seguridad. | **S1:** Given Plan Intermedio, When solicita video, Then carga cámara en vivo. <br> **S2:** Given modo nocturno, When poca luz, Then activa visión infrarroja. <br> **S3:** Given fallo de internet, When carga video, Then muestra "Señal débil". | E3 |
+| US22 | Historial de Asistencia | Como padre, quiero ver los días que mi hijo abordó, para control mensual. | **S1:** Given pestaña asistencia, When elige mes, Then muestra calendario con checks. <br> **S2:** Given falta justificada, When marca día, Then el sistema cambia icono a "Justificado". <br> **S3:** Given mes futuro, When intenta ver, Then la opción aparece bloqueada. | E3 |
+| US23 | Perfil del Estudiante | Como padre, quiero gestionar datos médicos, para informar alergias al conductor. | **S1:** Given editar perfil, When escribe "Alergia a maní", Then el conductor ve alerta en su panel. <br> **S2:** Given foto actualizada, When sube imagen, Then se actualiza en el panel del bus. <br> **S3:** Given campo vacío, When intenta guardar, Then mantiene datos anteriores. | E3 |
+| US24 | Chat con Soporte | Como padre, quiero un chat interno, para reportar ausencias. | **S1:** Given ausencia programada, When escribe al chat, Then el admin recibe el aviso. <br> **S2:** Given respuesta de soporte, When llega mensaje, Then se muestra notificación. <br> **S3:** Given mensaje fuera de hora, When envía, Then recibe respuesta automática. | E3 |
+| **E4** | **Landing Page (Visitantes)** | Captación de clientes e Internacionalización (i18n) | | |
+| US25 | Visualización de Hero | Como visitante, quiero ver la propuesta de valor, para entender SafeRoute. | **S1:** Given carga de URL, When ve sección principal, Then lee "Seguridad en cada ruta". <br> **S2:** Given botón CTA, When hace clic, Then lo lleva a Registro. <br> **S3:** Given fallo de carga, When URL es errónea, Then muestra página 404 personalizada. | E4 |
+| US26 | Navegación de Funciones | Como visitante, quiero ver las funcionalidades, para conocer el alcance técnico. | **S1:** Given sección funciones, When hace scroll, Then ve iconos de monitoreo. <br> **S2:** Given tarjetas de info, When pasa el mouse, Then se expande la descripción. <br> **S3:** Given pantalla pequeña, When usa móvil, Then las funciones se apilan verticalmente. | E4 |
+| US27 | Detalle de Roles | Como visitante, quiero conocer las vistas por perfil, para ver los beneficios. | **S1:** Given sección roles, When elige "Padre", Then muestra capturas de la App de padres. <br> **S2:** Given rol "Conductor", When elige, Then muestra gestión de rutas. <br> **S3:** Given opción no seleccionada, When ve la sección, Then muestra el rol "Admin" por defecto. | E4 |
+| US28 | Consulta de Precios | Como visitante, quiero ver los costos, para evaluar mi presupuesto. | **S1:** Given tabla de precios, When elige "Anual", Then aplica 20% de descuento. <br> **S2:** Given moneda local, When cambia región, Then muestra precios en Soles (PEN). <br> **S3:** Given plan no disponible, When intenta ver, Then aparece etiqueta "Próximamente". | E4 |
+| US29 | Sección "¿Cómo funciona?" | Como visitante, quiero ver los pasos iniciales, para saber cómo empezar. | **S1:** Given infografía, When sigue los pasos 1-5, Then entiende el flujo de contrato. <br> **S2:** Given video demo, When pulsa play, Then visualiza el funcionamiento real. <br> **S3:** Given navegador antiguo, When carga video, Then muestra imagen estática. | E4 |
+| US30 | Implementación i18n | Como visitante, quiero cambiar el idioma (ES/EN), para navegar cómodamente. | **S1:** Given selector de idioma, When marca "English", Then todo el texto cambia a inglés. <br> **S2:** Given navegador en inglés, When carga sitio, Then se muestra en inglés por defecto. <br> **S3:** Given idioma no soportado, When detecta región, Then carga español por defecto. | E4 |
+| US31 | Testimonios Reales | Como visitante, quiero leer reseñas, para confiar en la marca. | **S1:** Given sección testimonios, When desliza, Then ve fotos y opiniones de colegios. <br> **S2:** Given estrellas de calificación, When ve promedio, Then nota 4.8/5 de satisfacción. <br> **S3:** Given sin internet, When carga sección, Then muestra testimonios cacheados. | E4 |
+| US32 | Formulario de Contacto | Como visitante, quiero enviar dudas, para recibir una cotización. | **S1:** Given formulario completo, When envía, Then recibe mensaje "Enviado con éxito". <br> **S2:** Given campos obligatorios, When intenta enviar vacío, Then marca errores en rojo. <br> **S3:** Given bot detectado, When envía spam, Then el Captcha bloquea el envío. | E4 |
+| US33 | Suscripción al Newsletter | Como visitante, quiero dejar mi correo, para recibir tips de seguridad. | **S1:** Given campo de email, When ingresa dato, Then recibe correo de bienvenida. <br> **S2:** Given checkbox de privacidad, When marca "Acepto", Then habilita botón Suscribir. <br> **S3:** Given correo duplicado, When intenta registrar, Then dice "Ya estás suscrito". | E4 |
+| US34 | Visualización de Partners | Como visitante, quiero ver marcas aliadas, para validar la seriedad del servicio. | **S1:** Given sección aliados, When carga logos, Then se ven marcas de seguros y seguridad. <br> **S2:** Given enlace en logo, When hace clic, Then abre web del partner. <br> **S3:** Given logo roto, When no carga imagen, Then muestra el nombre en texto. | E4 |
+| US35 | Preguntas Frecuentes (FAQ) | Como visitante, quiero ver dudas comunes, para evitar llamadas de soporte. | **S1:** Given lista de FAQs, When toca una pregunta, Then se despliega la respuesta. <br> **S2:** Given buscador de FAQs, When escribe "precio", Then filtra preguntas relacionadas. <br> **S3:** Given duda no resuelta, When baja al final, Then ve botón de contacto directo. | E4 |
+| US36 | Responsive Design i18n | Como visitante, quiero que el texto se ajuste en móvil, para evitar cortes por traducción. | **S1:** Given idioma Alemán (texto largo), When ve en móvil, Then el contenedor se expande. <br> **S2:** Given modo horizontal, When gira teléfono, Then el menú se ajusta al idioma. <br> **S3:** Given fuente muy grande, When el texto desborda, Then aplica elipsis automáticamente. | E4 |
+| US37 | Blog de Seguridad | Como visitante, quiero leer artículos, para aprender sobre movilidad escolar. | **S1:** Given lista de posts, When elige uno, Then abre lectura completa. <br> **S2:** Given botones sociales, When comparte post, Then abre ventana de RRSS. <br> **S3:** Given post sin imagen, When carga, Then usa una imagen corporativa por defecto. | E4 |
+| US38 | Demo Interactiva | Como visitante, quiero probar un simulador de mapa, para ver la experiencia real. | **S1:** Given mapa demo, When pulsa "Play", Then ve un bus moviéndose ficticiamente. <br> **S2:** Given alertas demo, When bus llega a punto, Then suena un aviso de prueba. <br> **S3:** Given navegador sin JS, When intenta ver demo, Then pide activar JavaScript. | E4 |
+| US39 | SEO & Meta Tags i18n | Como visitante, quiero encontrar la web en buscadores, según mi idioma local. | **S1:** Given búsqueda en Google (ES), When escribe "Transporte Seguro", Then aparece SafeRoute. <br> **S2:** Given búsqueda en Google (EN), When escribe "Safe School Bus", Then aparece SafeRoute. <br> **S3:** Given link compartido, When pega URL, Then muestra preview con título traducido. | E4 |
+| US40 | Verificación de SSL | Como visitante, quiero ver el candado de seguridad, para confiar mis datos. | **S1:** Given acceso a la web, When ve la barra de direcciones, Then aparece el prefijo HTTPS. <br> **S2:** Given envío de datos, When procesa formulario, Then viajan cifrados. <br> **S3:** Given certificado vencido, When entra, Then el navegador muestra aviso de "Sitio no seguro". | E4 |
+| US41 | Chatbot de Ventas | Como visitante, quiero interactuar con un bot, para resolver dudas rápidas. | **S1:** Given duda sobre planes, When pregunta al bot, Then recibe respuesta del catálogo. <br> **S2:** Given intención de compra, When solicita asesor, Then el bot deriva a un humano. <br> **S3:** Given texto incoherente, When escribe, Then el bot ofrece opciones de menú fijas. | E4 |
+| US42 | Política de Cookies i18n | Como visitante, quiero aceptar cookies, para cumplir con normativas legales. | **S1:** Given primera visita, When aparece el banner, Then puede elegir "Aceptar todas". <br> **S2:** Given idioma inglés, When ve el banner, Then los términos están en inglés. <br> **S3:** Given rechazo de cookies, When navega, Then solo carga las técnicas esenciales. | E4 |
+| US43 | Soporte Multimoneda | Como visitante, quiero ver precios en mi moneda, para facilitar la comparación. | **S1:** Given geolocalización Perú, When ve precios, Then muestra en Soles (PEN). <br> **S2:** Given cambio manual a USA, When selecciona, Then muestra precios en Dólares (USD). <br> **S3:** Given moneda desconocida, When carga sitio, Then muestra precios en USD por defecto. | E4 |
+| **E5** | **SafeRoute RESTful API** | Integraciones para desarrolladores | | |
+| US44 | API: Obtener Alumnos | Como developer, quiero listar alumnos por ruta, para integraciones externas. | **S1:** Given GET `/students`, When token Admin, Then retorna JSON lista. <br> **S2:** Given filtro por ID, When consulta, Then retorna datos de 1 alumno. <br> **S3:** Given token expirado, When consulta, Then retorna 401 Unauthorized. | E5 |
+| US45 | API: Registro GPS | Como developer, quiero enviar coordenadas, para actualizar la posición del bus. | **S1:** Given alta frecuencia, When envía 10 req/seg, Then el sistema procesa sin delay. <br> **S2:** Given coordenadas inválidas, When envía null, Then retorna 400 Bad Request. | E5 |
 
 
 Las siguientes User Stories representan los requisitos detallados del sistema **SafeRoute**, cubriendo la operación completa, la Landing Page y la API técnica.
