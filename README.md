@@ -201,13 +201,30 @@ Respecto a los esquemas de categorización, no se utilizan organizaciones alfab�
 
 ### 4.2.2. Labeling Systems
 
-En el sistema SafeRoute, se emplea la organización jerárquica (visual hierarchy) para destacar información crítica, como el mapa de monitoreo en tiempo real, las alertas de emergencia y las notificaciones de abordaje de los alumnos en los dashboards principales. Esta jerarquía visual permite que tanto padres como conductores identifiquen de forma inmediata los datos más relevantes según el contexto operativo, relegando datos secundarios del perfil a niveles inferiores.
+El sistema de etiquetado de SafeRoute ha sido desarrollado bajo un criterio de funcionalidad operativa, buscando que cada término actúe como una señal clara que reduzca el esfuerzo cognitivo de los usuarios. Se han seleccionado etiquetas descriptivas que permiten una navegación intuitiva tanto en el proceso de descubrimiento (Landing Page) como en el uso crítico de la aplicación (Web Application).
 
-Asimismo, se aplica una organización secuencial (step-by-step) en procesos que requieren una guía estructurada. En la landing page, este sistema se evidencia en la sección "¿Cómo funciona?", donde se orienta al visitante a través de 5 pasos para la adopción del servicio. En la Web Application, este esquema se utilizará para el flujo de registro de paradas y asistencia que el conductor debe seguir durante su ruta, asegurando una progresión lógica que minimice errores de registro.
+**Landing Page**
 
-Respecto a los esquemas de categorización, no se utilizan organizaciones alfabéticas o matriciales complejas. En su lugar, se emplea una organización cronológica para la visualización de datos históricos, permitiendo que los padres de familia revisen los registros pasados de asistencias y llegadas de sus hijos de manera ordenada por fecha y hora. Además, el contenido se clasifica según audiencia, segmentando las interfaces y funcionalidades de acuerdo con los dos User Personas identificados: Conductores, enfocados en la gestión de ruta y paradas, y Padres de Familia, orientados al monitoreo y recepción de avisos de seguridad.
+  - **Funciones**: Agrupa las capacidades técnicas y herramientas de gestión de la plataforma.
+  - **Roles**: Define los accesos y beneficios específicos para los dos perfiles del sistema.
+  - **Planes**: Estructura la oferta comercial basándose en la escala de la flota de transporte.
+  - **¿Cómo funciona?**: Etiqueta de apoyo que resuelve dudas sobre la implementación del servicio.
+  - **Comenzar**: Botón de acción principal diseñado para motivar la conversión inmediata.
 
-#### 4.2.2. Labeling Systems
+**Aplicación Web – Conductores**
+
+  - **Mis Rutas**: Vista principal donde se gestionan los trayectos diarios asignados.
+  - **Lista de Alumnos**: Relación detallada de estudiantes por paradas, optimizando el tiempo de recogida.
+  - **Estado de Abordaje**: Sistema de etiquetas rápidas ("Abordado", "Ausente", "En espera") que permite al conductor registrar la asistencia con un solo toque.
+  - **Iniciar Ruta**: Etiqueta de alta visibilidad que dispara el envío de alertas GPS a los padres.
+  - **Botón de Incidencia**: Acceso directo para reportar eventos imprevistos (tráfico, accidentes) de forma estandarizada.
+
+**Aplicación Web – Padres de Familia**
+
+  - **Monitoreo**: Sección central que integra el mapa en tiempo real y la ubicación de la unidad.
+  - **Historial de Viajes**: Registro cronológico de las horas de recogida y entrega de sus hijos.
+  - **Alertas**: Centro de notificaciones sobre la proximidad del bus o confirmaciones de llegada.
+  - **Datos del Bus**: Información transparente sobre el vehículo y el conductor asignado para generar confianza.
 
 ### 4.2.3. SEO Tags and Meta Tags
 
