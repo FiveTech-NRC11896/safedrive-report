@@ -183,6 +183,10 @@ El diseño web de SafeRoute está optimizado para proporcionar una experiencia d
 
 En cuanto a la interactividad, la plataforma utiliza una lógica de componentes claramente identificables. Los botones de acción (CTAs) emplean colores contrastantes y estados visuales (como hover y active) que ofrecen una retroalimentación inmediata, reforzando la confianza del usuario al interactuar con el sistema. La navegación se apoya en transiciones suaves y menús persistentes que aseguran que las herramientas principales, como el sistema de internacionalización (i18n), estén siempre al alcance del usuario, facilitando un flujo de trabajo intuitivo y eficiente dentro de la landing page.
 
+![Mockup Landing Page](assets/images/mockup_landingpage.png)
+![Mockup Planes](assets/images/mockup_planes.png)
+![Mockup CTA](assets/images/mockup_cta.png)
+
 ## 4.2. Information Architecture
 
 #### 4.2.1. Organization Systems
