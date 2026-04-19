@@ -15,7 +15,6 @@
 **Nombre del producto:** SafeDrive
 
 **Relación de integrantes:**
-
 - U20XXXXXXXX - [Apellidos, Nombres]
 - U201717085 - Revilla Quispe, Renzo Zamir
 - U20241D922 - Quispe Serrano, Julio Frank
@@ -506,33 +505,250 @@ En esta sección se presenta el glosario de términos de negocio utilizados dent
 
 #### 5.1.1. Software Development Environment Configuration
 
+En esta sección se describen las herramientas y tecnologías utilizadas para el desarrollo del Proyecto
+
+##### UX/UI Design 
+
+###### Figma: 
+Herramienta de diseño colaborativo utilizada para la creación de wireframes, mockups, prototipos y diseño de interfaces. Permite trabajar en equipos en tiempo real, lo cual facilita la validación temprana de la experiencia futura del usuario.
+
+##### Software Development
+
+###### JetBrains Intelli J IDEA
+
+Entorno de desarrollo integrado (IDEA) utilizado para el desarrollo del BackEnd que utiliza el idioma java.
+
+###### GitHub
+
+Plataforma de control de versiones utilizada para la gestión del código fuente y colaboración del equipo, implementando la metodología GitFlow para la organización del desarrollo.
+
+###### HTML
+
+Legnuaje de marcado para el desarrollo de las interfaces web del Frontend.
+
+###### CSS
+
+Lenguaje de estilos utilizados para la presentación visual de la aplicación, en el apartado del .
+
+###### Typescript
+
+Lenguaje utilizado para el frontend para poder hacer interfaces dinámicas e interactivas.
+
+###### Java
+
+Lenguaje de programación que se utilizara en el desarrollo del backend de la aplicación.
+
+##### Software Deployment
+
+###### GitHub Pages
+Servicio utilizado para el despliegue de la landing page del proyecto.
+
+
+
 #### 5.1.2. Source Code Management
+
+Para el manejo del código fuente, utilizamos Github para colaborar entre miembros de equipo en multiples repositorios. A continuación, se listan los enlaces de cada repositorio:
+
+Organización:
+
+Repositorio de Landing Page: https://github.com/FiveTech-NRC11896/safedrive-website.git
+
+Repositorio del informe: https://github.com/FiveTech-NRC11896/safedrive-report.git
+
+Repositorio del frontend: https://github.com/FiveTech-NRC11896/safedrive-webapp.git
+
+Repositorio del backend: https://github.com/FiveTech-NRC11896/safedrive-platform.git
+
+En el repositorio del informe, se implementa un esquema de trabajo basado en Gitflow. La rama main almacena la versión estable del informe correspondiente a cada entregable del trabajo, mientras que la rama develop concentra la integración de avances validados por cada integrante antes de su consolidación final. A partir de develop, cada integrante creará ramas feature de trabajo para las secciones asignadas. Las ramas feature seguirán una nomenclatura asociada al capítulo o bloque trabajado, por ejemplo: feature/chapter-1-introduction-and-lean-ux, o feature/chapter-5-software-configuration-management. Esta convención permite identificar con claridad qué parte del informe está siendo desarrollada y reduce el riesgo de conflictos entre los miembros del equipo.
+
+En los repositorios del Landing Page, Frontend y Backend también se utilizará GitFlow. En cada uno de ellos, la rama main contendrá las versiones estables del producto y la rama develop servirá como rama de integración del trabajo colaborativo. A partir de develop, se crearán ramas feature/... para el desarrollo de funcionalidades específicas. A diferencia del informe, en estos repositorios las ramas no estarán organizadas por capítulos, sino por funcionalidades o componentes del sistema. Algunos ejemplos de nomenclatura son: feature/home-page, feature/dashboard o feature/route-management. Esta convención nos permite que las ramas reflejen de manera directa el alcance funcional del producto en desarrollo.
+
+No se realizarán cambios directos sobre la rama main, ya que esta representará únicamente versiones estables y listas para consolidarse como parte de un entregable. Del mismo modo, se evitará que los integrantes trabajen de forma continua directamente sobre la rama develop, ya que el flujo previsto consiste en desarrollar primero en ramas feature, integrar luego en develop y finalmente consolidar en main cuando el avance haya sido revisado y validado. Por tanto, el flujo general de trabajo será de la siguiente forma: feature → develop → main. Este esquema se alinea con la exigencia del curso de explicar la implementación de GitFlow mediante ramas principales, ramas de features, y convenciones para releases y hotfixes.
+
+Asimismo, si se requiere corregir errores críticos sobre una versión estable, se podrán crear ramas hotfix/..., y si se decide preparar una versión de cierre antes de una entrega, se utilizarán ramas release/... de acuerdo con el flujo definido por GitFlow.
+
+En relación con los mensajes de cada commit, el equipo aplicará Conventional Commits para mantener un historial más legible, consistente y profesional. Esta convención facilitará la revisión de avances y permitirá identificar rápidamente el propósito de cada uno de los cambios. Algunos prefijos que se utilizarán son:
+
+feat: incorporación de una nueva funcionalidad
+fix: corrección de errores
+docs: cambios en documentación
+style: cambios de formato o estilo sin alterar lógica
+refactor: reorganización interna sin agregar funcionalidad nueva
+test: incorporación o ajuste de pruebas
+chore: tareas de mantenimiento o configuración
+
+Para el repositorio del informe se emplearán mensajes como docs(report): add project cover page o docs: add startup profile and lean ux process for chapter 1. Para los repositorios de software se utilizarán mensajes como feat: add school route registration, feat: implement student assignment to route o fix: correct login validation. Esta práctica contribuye a que la evidencia de commits sea coherente con el trabajo realizado por cada miembro.
+
 
 #### 5.1.3. Source Code Style Guide & Conventions
 
+#### Frontend (Landing Page - HTML, CSS, JavaScript)
+
+##### Convenciones generales:
+
+- **Idioma**: Todo el código, incluyendo nombres de variables, funciones y clases está escrito en inglés.
+- **Formato de archivos**: `.html`, `.css`, `.js`
+- **Estilo de código adoptado**:
+  - [W3Schools HTML Style Guide](https://www.w3schools.com/html/html5_syntax.asp)
+  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html)
+
+##### Nomenclatura:
+
+- **Clases CSS**: `kebab-case` (ej. `main-container`)
+- **IDs HTML**: `camelCase` (ej. `mainContent`)
+- **Variables JS**: `camelCase` (ej. `userName`)
+- **Funciones JS**: `camelCase` (ej. `handleClick()`)
+
+#### Frontend Web App (Angular + TypeScript)
+
+##### Convenciones generales:
+
+- **Idioma**: Código y los comentarios son completamente en ingles.
+- **Estructura de carpetas**: Segregación por módulos y componentes.
+- **Formato de archivos**: `.ts`, `.html`, `.css`
+
+##### Estilo de código adoptado:
+
+- [Angular Style Guide (Oficial)](https://angular.io/guide/styleguide)
+- [Google TypeScript Style Guide](https://google.github.io/styleguide/tsguide.html)
+
+##### Nomenclatura:
+
+- **Componentes**: `PascalCase` (ej. `UserProfileComponent`)
+- **Servicios**: `camelCase` + sufijo `Service` (ej. `authService`)
+- **Interfaces**: `PascalCase`, prefijo `I` opcional (ej. `User`, `IUser`)
+- **Archivos**: `kebab-case` (ej. `user-profile.component.ts`)
+- **Variables y funciones**: `camelCase`
+
+#### Backend (Java + Spring Boot)
+
+##### Convenciones generales:
+
+- **Idioma**: Código y documentación interna es en ingles.
+- **Formato de archivos**: `.java`
+
+##### Estilo de código adoptado:
+
+- [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)
+- [Spring Boot Features &amp; Best Practices](https://docs.spring.io/spring-boot/docs/current/reference/html/features.html)
+
+##### Nomenclatura:
+
+- **Clases**: `PascalCase` (ej. `UserService`)
+- **Variables**: `camelCase` (ej. `userRepository`)
+- **Constantes**: `UPPER_SNAKE_CASE` (ej. `MAX_USERS`)
+- **Endpoints**: `kebab-case` para URLs (ej. `/api/user-profile`)
+- **Paquetes**: Todo en minúsculas y separados por punto (ej. `com.project.backend.controller`)
+
 #### 5.1.4. Software Deployment Configuration
+
 
 ### 5.2. Landing Page, Services & Applications Implementation
 
-#### 5.2.X. Sprint n
+#### 5.2.1. Sprint 1
 
-##### 5.2.X.1. Sprint Planning n
+##### 5.2.1.1. Sprint Planning 1
 
-##### 5.2.X.2. Aspect Leaders and Collaborators
+| Sprint # | Sprint 1 |
+|----------|---------|
+| **Sprint Planning Background** |
+| Date | 2026-04-24 |
+| Time | 07:00 PM |
+| Location | Microsoft Teams |
+| Prepared By | Renzo Revilla |
+| Attendees (to planning meeting) | Todo el equipo |
+| Sprint 1 – 1 Review Summary |Al tratarse del primer sprint, se establecieron las bases del proyecto, incluyendo la estructura del repositorio. |
+| Sprint 1 – 1 Retrospective Summary | El equipo identificó la importancia de una correcta organización y distribución de tareas desde el inicio del proyecto. Se acordó mejorar la comunicación y planificación para optimizar el desarrollo en los siguientes sprints. |
+| **Sprint Goal & User Stories**  |
+| Sprint 1 Goal | Nuestro enfoque es desarrollar la primera versión del Landing Page de SafeRoute. Creemos que esto permitirá comunicar la propuesta de valor de la plataforma a los usuarios. Esto se validará cuando los usuarios puedan acceder al sitio y comprender sus funcionalidades principales. |
+| Sprint 1 Velocity | 15 Story Points |
+| Sum of Story Points | 13 Story Points |
 
-##### 5.2.X.3. Sprint Backlog n
+##### 5.2.1.2. Aspect Leaders and Collaborators
 
-##### 5.2.X.4. Development Evidence for Sprint Review
+| Team Member (Last Name, First Name) | GitHub Username Leader (L) / Collaborator (C) | Landing Page Leader (L) / Collaborator (C) | UI Design Leader (L) / Collaborator (C) | Deployment Leader (L) / Collaborator (C) | Repo Management Leader (L) / Collaborator (C) |
+| - | - | - | - | - | - |
+| Revilla Quispe, Renzo Zamir | renzorevq24 | C | C | L | C |
+| Quispe Serrano, Julio Frank | FraSe-JQ | C | C | C | L |
+| Costa Morales, Christofer William | miniChorri | C | L | C | C |
+| De La Cruz De Los Santos, Mathias Marcelo | Dela050406 | L | C | C | C |
+| Ortega Quintana, José Zacarías | AgoxX61 | L | C | C | C |
 
-##### 5.2.X.5. Execution Evidence for Sprint Review
+##### 5.2.1.3. Sprint Backlog 1
 
-##### 5.2.X.6. Services Documentation Evidence for Sprint Review
+| User Story ID | User Story Title | Task ID | Task Title | Description | Estimation (Hours) | Assigned To | Status |
+|---------------|------------------|---------|------------|-------------|--------------------|-------------|--------|
+| US19 | Visualización de Hero | T01 | Implementar Hero Section | Desarrollo de la sección principal con propuesta de valor y mensaje inicial del producto | 3 | Mathias | Done |
+| US20 | Navegación de Funciones | T02 | Implementar Navbar | Creación de barra de navegación con enlaces a secciones del Landing Page | 2 | Renzo | Done |
+| US20 | Navegación de Funciones | T03 | Implementar Features Section | Desarrollo de sección de funcionalidades principales del sistema | 3 | Julio | Done |
+| US21 | Detalle de Roles | T04 | Implementar Roles Section | Desarrollo de sección que describe los tipos de usuarios (Admin, Conductor, Padre) | 3 | José | Done |
+| US22 | Consulta de Precios | T05 | Implementar Plans Section | Creación de sección de planes de suscripción con características comparativas | 3 | Christofer | Done |
+| US23 | ¿Cómo funciona? | T06 | Implementar How it Works Section | Desarrollo del flujo explicativo del funcionamiento del sistema | 2 | Julio | Done |
+| US19 | Visualización de Hero | T07 | Implementar CTA y Footer | Desarrollo de llamadas a la acción y pie de página del sitio | 2 | Renzo | Done |
+| US20 | Navegación de Funciones | T08 | Implementar Responsive Design | Adaptación del Landing Page para diferentes dispositivos (mobile, tablet, desktop) | 3 | Renzo | Done |
 
-##### 5.2.X.7. Software Deployment Evidence for Sprint Review
+##### 5.2.1.4. Development Evidence for Sprint Review
 
-##### 5.2.X.8. Team Collaboration Insights during Sprint
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|------------|--------|-----------|----------------|---------------------|--------------------|
+| FiveTech-NRC11896/safedrive-website | main | ad85e0c | docs: update link | Updated project links and minor documentation adjustments. | 2026-04-10 |
+| FiveTech-NRC11896/safedrive-website | main | d533ba7 | docs: add README with project overview | Added README file with general overview of the SafeRoute project. | 2026-04-10 |
+| FiveTech-NRC11896/safedrive-website | main | 09b0e4c | assets: add images folder | Added image assets required for the landing page sections. | 2026-04-10 |
+| FiveTech-NRC11896/safedrive-website | main | 9d40a89 | style: add responsive design | Implemented responsive styles to improve usability across devices. | 2026-04-10 |
+| FiveTech-NRC11896/safedrive-website | main | 0ff89ce | feat: add How it works, CTA and footer section | Implemented informational sections and call-to-action components. | 2026-04-10 |
+| FiveTech-NRC11896/safedrive-website | main | fd61ee6 | feat: add roles and plans section components | Developed sections describing user roles and subscription plans. | 2026-04-10 |
+| FiveTech-NRC11896/safedrive-website | main | de30384 | style: add new Stats and Features sections | Improved styling and added visual sections for features and stats. | 2026-04-10 |
+| FiveTech-NRC11896/safedrive-website | main | 41f50b8 | feat: add Navbar and Hero | Implemented navigation bar and main hero section. | 2026-04-10 |
+| FiveTech-NRC11896/safedrive-website | main | 1b2ee66 | style: add new sections Navbar and Hero | Applied styles to navbar and hero sections for visual consistency. | 2026-04-10 |
 
----
+##### 5.2.1.5. Execution Evidence for Sprint Review
+
+El desarrollo abarcó la implementación de las principales secciones del sitio, incluyendo la sección de roles de usuario, la sección de planes de suscripción, la sección ¿Como funciona?, así como componentes complementarios como el footer. Estas secciones permiten al usuario comprender el propósito del sistema, sus beneficios y las principales funcionalidades disponibles.
+
+Asimismo, se implementó diseño responsivo, garantizando que la experiencia de usuario sea consistente y accesible desde distintos dispositivos.
+
+A continuación, se presentan capturas de las principales vistas implementadas durante el Sprint:
+
+![Landing Page - Hero](./assets/images/hero.png)
+*Nota. Captura de pantalla de la sección Hero del Landing Page de SafeRoute, donde se presenta la propuesta de valor principal. Elaboración propia.*
+
+![Landing Page - Features](./assets/images/features.png)
+*Nota. Captura de pantalla de la sección de funcionalidades (Features) del Landing Page de SafeRoute, donde se describen las principales capacidades del sistema. Elaboración propia.*
+
+![Landing Page - Roles](./assets/images/roles.png)
+*Nota. Captura de pantalla de la sección de roles de usuario del Landing Page de SafeRoute, donde se explican los perfiles de Administrador, Conductor y Padre. Elaboración propia.*
+
+![Landing Page - Plans](./assets/images/plans.png)
+*Nota. Captura de pantalla de la sección de planes de suscripción del Landing Page de SafeRoute, donde se presentan las opciones disponibles para los usuarios. Elaboración propia.*
+
+![Landing Page - Responsive](./assets/images/responsive.png)
+*Nota. Captura de pantalla del diseño responsivo del Landing Page de SafeRoute en dispositivos móviles, evidenciando la adaptabilidad de la interfaz. Elaboración propia.*
+
+> TODO: COLOCAR VIDEO EXPLICATIVO
+
+##### 5.2.1.6. Services Documentation Evidence for Sprint Review
+
+En este Sprint no se desarrollaron servicios RESTful, ya que el enfoque estuvo centrado en la implementación del Landing Page de SafeRoute.
+
+La construcción de APIs será abordada en los siguientes Sprints, donde se integrará la lógica del sistema y la comunicación con la base de datos.
+
+##### 5.2.1.7. Software Deployment Evidence for Sprint Review
+
+El proceso de despliegue consistió en la configuración del repositorio en GitHub, habilitando la opción de GitHub Pages y estableciendo la rama principal como fuente de publicación. Esto permitió que cada cambio realizado en el repositorio se refleje automáticamente en el entorno de producción.
+
+Como resultado, el Landing Page se encuentra disponible para su acceso y validación por parte de los usuarios, cumpliendo con el objetivo de presentar la propuesta de valor del producto en un entorno real.
+
+A continuación, se presentan capturas del proceso y resultado del despliegue:
+
+![GitHub Pages Config](./assets/images/github-pages.png)
+*Nota. Captura de la configuración de GitHub Pages en el repositorio del proyecto. Elaboración propia.*
+
+El Landing Page desplegado se encuentra disponible en el siguiente enlace:
+
+https://fivetech-nrc11896.github.io/safedrive-website/
+
+##### 5.2.1.8. Team Collaboration Insights during Sprint
+
 
 ## Conclusiones
 
@@ -542,6 +758,7 @@ En esta sección se presenta el glosario de términos de negocio utilizados dent
 
 ## Bibliografía
 - Autoridad de Transporte Urbano para Lima y Callao. (2024). *Cifra de movilidades escolares autorizadas disminuyó en 25% en un año*. El Comercio. Recuperado el 9 de abril de 2026, de https://elcomercio.pe/lima/cifra-de-movilidades-escolares-autorizadas-disminuyo-en-25-en-un-ano-a-que-se-debe-esta-reduccion-informe-movilidad-escolar-noticia/
+
 
 - Ministerio de Educación. (2023). *Resultados del Censo Educativo 2022*. ESCALE. Recuperado el 9 de abril de 2026, de https://escale.minedu.gob.pe/documents/10156/9345030/PPT_Censo_Educativo_2023_final.pdf
 
