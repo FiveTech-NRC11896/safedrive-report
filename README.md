@@ -15,7 +15,6 @@
 **Nombre del producto:** SafeDrive
 
 **Relación de integrantes:**
-
 - U20XXXXXXXX - [Apellidos, Nombres]
 - U201717085 - Revilla Quispe, Renzo Zamir
 - U20241D922 - Quispe Serrano, Julio Frank
@@ -181,13 +180,149 @@ El segundo segmento está conformado por las personas o entidades que operan el 
 
 ### 2.1. Competidores
 
-#### 2.1.1. Análisis competitivo
+### Identificación de Competidores
 
-#### 2.1.2. Estrategias y tácticas frente a competidores
+En esta sección se describen los principales competidores (directos e indirectos) con modelos de negocio basados en productos digitales similares o servicios complementarios de monitoreo.
+
+#### Life360
+**Descripción:** Es una aplicación de rastreo familiar líder a nivel global que permite compartir la ubicación en tiempo real entre miembros de un grupo, así como recibir alertas de llegada y salida de lugares definidos. Está orientada a mejorar la seguridad y comunicación entre familias mediante funciones de geolocalización avanzada.
+
+* **Enfoque:** Seguridad familiar general.
+* **URL:** [https://www.life360.com/](https://www.life360.com/)
+
+#### Find My Kids
+**Descripción:** Es una aplicación de monitoreo parental diseñada para que los padres conozcan la ubicación en tiempo real de sus hijos mediante GPS. Permite revisar el historial de movimientos, escuchar el entorno en caso de emergencia y recibir alertas. Se destaca por su integración con relojes inteligentes (smartwatches) para niños.
+
+* **Enfoque:** Monitoreo infantil y seguridad parental.
+* **URL:** [https://findmykids.org/](https://findmykids.org/)
+
+#### OnTrack School
+**Descripción:** Es un sistema digital integral enfocado específicamente en la gestión y monitoreo del transporte escolar. Permite el seguimiento de vehículos en tiempo real, envío de notificaciones automáticas a los padres y control administrativo de rutas y conductores. Está orientado principalmente a instituciones educativas y flotas de transporte escolar.
+
+* **Enfoque:** Gestión logística y transporte escolar corporativo.
+* **URL:** [https://ontrack.global/school/](https://ontrack.global/school/)
+
+---
+
+### 2.1.1 Análisis Competitivo - Landscape
+
+**¿Por qué llevar a cabo este análisis?**
+El objetivo es contrastar SafeRoute con soluciones líderes de geolocalización familiar y gestión escolar, identificando oportunidades para posicionarnos como la herramienta preferida de los transportistas independientes en Lima que buscan profesionalizar su servicio.
+
+| Categoría | Detalle | **SafeRoute** | **Life360** | **Find My Kids** | **OnTrack School** |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Perfil** | **Overview** | Gestión y monitoreo especializado en transporte escolar. | App de seguridad familiar y rastreo GPS general. | App de monitoreo infantil enfocada en smartwatches. | Plataforma integral de logística para transporte escolar. |
+| **Perfil** | **Ventaja competitiva** | Roles específicos (Conductor/Padre) y flujo de abordaje manual. | Círculos familiares privados y detección de choques. | Escucha ambiental y compatibilidad con relojes GPS. | Optimización de rutas avanzada para flotas de colegios. |
+| **Marketing** | **Mercado objetivo** | Padres y conductores independientes en Lima. | Familias con adolescentes y adultos mayores. | Padres con niños pequeños (5-12 años). | Colegios privados y empresas de transporte masivo. |
+| **Marketing** | **Estrategias** | Seguridad digital y profesionalización del sector. | Marketing masivo de "Tranquilidad familiar". | Enfoque en seguridad infantil y prevención de extravíos. | Ventas corporativas (B2B) y eventos educativos. |
+| **Producto** | **Productos & Servicios** | App, Dashboard Web, Alertas IoT y API para devs. | App móvil, asistencia en carretera y alertas de velocidad. | App móvil, rastreadores físicos y notificaciones SOS. | Software de logística, portal para padres y conductores. |
+| **Producto** | **Precios & Costos** | Suscripción mensual ($9.99 - $49.99). | Freemium (Suscripciones Gold/Platinum desde $14.99). | Suscripción mensual o pago único de por vida. | Cotización personalizada por número de rutas/colegios. |
+| **Producto** | **Canales de distribución**| Web (Landing Page) y tiendas de apps. | App Store, Play Store y web global. | App Store, Play Store y fabricantes de smartwatches. | Web corporativa y equipo de ventas directas. |
+| **SWOT** | **Fortalezas** | Sistema especializado con control de abordaje y registro de incidencias para estructurar el servicio informal. | Alta precisión en rastreo en tiempo real . | Especialización en el segmento de niños pequeños. | Robustez técnica y algoritmos de optimización. |
+| **SWOT** | **Debilidades** | Marca nueva en un mercado con desconfianza. | No está diseñada para el flujo de transporte escolar. | Funcionalidades limitadas si el niño no tiene reloj. | Costo elevado y difícil implementación para independientes. |
+| **SWOT** | **Oportunidades** | Nicho desatendido de transportistas independientes en Perú que buscan organización y confianza. | Creciente preocupación por la seguridad familiar | Crecimiento del mercado de wearables infantiles. | Digitalización de colegios en mercados emergentes. |
+| **SWOT** | **Amenazas** | Informalidad que prefiere usar solo WhatsApp. | Mejoras en los sistemas nativos de Google/Apple. | Regulaciones estrictas de privacidad infantil (COPPA). | Nuevas startups locales con precios de introducción bajos. |
+
+---
+
+### 2.1.2 Estrategias y tácticas frente a competidores
+
+En base al análisis competitivo y SWOT realizado, SafeRoute plantea las siguientes estrategias y tácticas para diferenciarse aprovechando las debilidades de la competencia y el contexto local:
+
+#### Enfoque en especialización del problema
+- SafeRoute se posicionará como una solución especializada en transporte escolar, integrando funcionalidades específicas como control de abordaje, gestión de rutas y registro de incidencias.
+- Esto permitirá cubrir necesidades logísticas que las soluciones genéricas de GPS ignoran.
+
+#### Estrategia de digitalización del sector no estructurado
+- Enfoque en transportistas independientes que actualmente dependen de WhatsApp y procesos manuales.
+- Oferta de una plataforma simple e intuitiva para una transición digital sin fricciones técnicas.
+
+#### Diferenciación por simplicidad y accesibilidad
+- Priorización de facilidad de uso y costos accesibles frente a soluciones corporativas complejas como OnTrack School.
+- Experiencia de usuario optimizada para minimizar la carga operativa del conductor durante el trayecto.
+
+#### Estrategia de confianza y seguridad para padres
+- Reducción de la incertidumbre mediante notificaciones automáticas de abordaje y alertas en tiempo real.
+- Reemplazo de la comunicación informal por una estructura de datos confiable y profesional.
+
+#### Estrategia de crecimiento progresivo (escalabilidad)
+- Modelo de planes escalables (Básico, Intermedio, Completo) que acompaña el crecimiento de la flota del cliente.
+- Facilita la adopción inicial con un ticket de entrada bajo.
+
+#### Estrategia de posicionamiento local
+- Adaptación a las dinámicas operativas y geográficas de Lima Metropolitana antes de escalar a otras ciudades del Perú.
+
+#### Estrategia de preparación tecnológica futura
+- Arquitectura preparada para la integración de sensores y cámaras IoT en etapas posteriores, garantizando competitividad a largo plazo.
+
 
 ### 2.2. Entrevistas
 
 #### 2.2.1. Diseño de entrevistas
+
+##### Guion de Entrevistas - Proyecto SafeRoute
+
+###### **Segmento Objetivo 1: Conductor**
+
+**Fase 1: Contexto del Usuario**
+1. ¿Cuál es tu nombre?
+2. ¿Cuál es tu edad?
+3. ¿Podrías contarme un poco sobre tu entorno familiar? Por ejemplo, si vives con una familia o tienes hijos.
+4. ¿En qué distrito o zona sueles trabajar?
+5. ¿Podrías contarme un poco sobre tu trabajo como conductor de transporte escolar?
+6. ¿Trabajas de manera independiente o en coordinación con otro grupo de personas o empresa?
+7. En tu día a día, ¿qué herramientas o medios utilizas para organizar tu trabajo?
+
+**Fase 2: Exploración del Problema**
+
+8. Cuéntame cómo realizas normalmente el proceso de recoger y dejar a los alumnos.
+9. Durante el recorrido, ¿cómo llevas el control de los alumnos?
+10. ¿Qué suele pasar cuando ocurre algún cambio o imprevisto en la ruta?
+11. ¿Cómo te comunicas con los padres durante el servicio?
+12. ¿Qué partes de tu trabajo sientes que requieren más atención o te generan mayor carga?
+13. ¿Qué tan organizado sientes que es tu proceso actual de trabajo?
+
+**Fase 3: Exploración de Oportunidades**
+> **Contexto:** Nuestro proyecto es una aplicación web que ayude a organizar y dar mayor visibilidad al servicio de transporte escolar, centralizando la información y comunicación.
+
+14. Si pudieras mejorar algún aspecto de tu trabajo diario, ¿cuál sería y por qué?
+15. ¿Qué tipo de información te ayudaría a sentir mayor control durante el recorrido?
+16. ¿Qué preocupaciones tendrías al usar algún tipo de sistema durante el trayecto?
+17. ¿Cómo te gustaría que fuera la comunicación con los padres para que no interfiera con tu conducción?
+18. ¿Qué tendría que tener una herramienta así para que realmente la uses?
+19. ¿Qué tan dispuesto estarías a usar una herramienta que te ayude a organizar y monitorear tu trabajo? ¿Por qué?
+
+---
+
+###### **Segmento Objetivo 2: Padre de Familia**
+
+**Fase 1: Contexto del Usuario**
+1. Para comenzar, ¿podrías indicarme tu nombre?
+2. ¿Cuál es tu edad?
+3. ¿En qué distrito o zona resides?
+4. ¿Podrías contarme un poco sobre tu entorno familiar?
+5. ¿Qué edades tienen tus hijos que utilizan transporte escolar?
+6. ¿Qué rol cumple el transporte escolar dentro de tu día a día?
+7. ¿Qué tan cómodo(a) te sientes utilizando tecnología en tu vida diaria?
+
+**Fase 2: Exploración del Problema**
+
+8. Cuéntame cómo haces actualmente para saber que tu hijo llegó bien a su destino.
+9. ¿Qué es lo que más te preocupa cuando tu hijo está en el transporte escolar?
+10. ¿Cómo te comunicas normalmente con el conductor o responsable del transporte?
+11. ¿Recuerdas alguna situación en la que hayas sentido preocupación o falta de información? ¿Qué ocurrió?
+12. ¿Qué tipo de información sientes que hoy no tienes y te gustaría tener?
+13. ¿Qué aspectos del servicio de transporte actual te generan más desconfianza o incomodidad?
+
+**Fase 3: Exploración de Oportunidades**
+> **Contexto:** Nuestro proyecto es una aplicación web que ayude a organizar y dar mayor visibilidad al servicio de transporte escolar, centralizando la información y comunicación.
+
+14. Si pudieras mejorar alguna parte del servicio de transporte escolar, ¿cuál sería y por qué?
+15. ¿Qué opinas de una herramienta que te permita tener mayor visibilidad del transporte escolar de tu hijo?
+16. ¿En qué aspectos crees que una solución así podría ayudarte en tu día a día?
+17. ¿Qué preocupaciones tendrías al usar una herramienta digital para monitorear este servicio?
+18. Para finalizar, ¿qué consideras indispensable para sentirte tranquilo(a) con el transporte de tu hijo?
+
 
 #### 2.2.2. Registro de entrevistas
 
@@ -197,15 +332,102 @@ El segundo segmento está conformado por las personas o entidades que operan el 
 
 #### 2.3.1. User Personas
 
+En esta sección se presentan los arquetipos de usuario diseñados para representar los segmentos objetivo de SafeRoute: el conductor de transporte escolar independiente y el padre de familia. 
+
+La elaboración de estas fichas es el resultado de una síntesis detallada entre el análisis de la competencia y el proceso de Needfinding. Se han identificado características críticas como la alta dependencia de herramientas informales (WhatsApp/Llamadas), la ansiedad generada por la incertidumbre del tráfico en Lima y la necesidad de profesionalizar un sector mayoritariamente no estructurado.
+
+###### **Segmento Objetivo 1: Conductor **
+![UserPersona1](./assets/images/UserPerson1.png)
+
+---
+###### **Segmento Objetivo 2: Padre de Familia**
+![UserPersona2](./assets/images/UserPersona2.png)
+
 #### 2.3.2. User Task Matrix
 
+En esta sección se presenta la matriz de tareas de usuario , la cual consolida las actividades fundamentales que tanto el conductor (Carlos Ramírez) como el padre de familia (Rosita Nery) ejecutan para asegurar un traslado escolar exitoso. 
+
+Es importante destacar que estas tareas representan necesidades y procesos intrínsecos del servicio que existen independientemente de la existencia de una solución de software; el objetivo de SafeRoute es optimizar y digitalizar estas interacciones para reducir la carga operativa y la incertidumbre.
+
+#### Cuadro: User Task Matrix
+
+| Tarea (User Task) | Conductor - Frecuencia | Conductor - Importancia | Padre - Frecuencia | Padre - Importancia |
+|:---|:---:|:---:|:---:|:---:|
+| Verificar lista de asistencia de alumnos | Alta | Alta | N/A | N/A |
+| Identificar alumnos en el punto de recojo | Alta | Alta | N/A | N/A |
+| Confirmar el abordaje seguro del alumno | Alta | Crítica | Alta | Crítica |
+| Gestionar comunicación entre conductores y padres | Alta | Alta | Alta | Alta |
+| Notificar retrasos o imprevistos en la ruta | Media | Alta | Alta | Crítica |
+| Monitorear el progreso del trayecto | Media | Media | Alta | Alta |
+| Confirmar llegada al destino final | Alta | Crítica | Alta | Crítica |
+| Registrar la entrega del alumno al responsable | Alta | Crítica | Alta | Crítica |
+| Coordinar cambios de último momento en el servicio | Baja | Media | Baja | Alta |
+| Reportar incidencias de seguridad o salud | Baja | Crítica | Baja | Crítica |
+| Consultar el estado actual del servicio | Media | Media | Alta | Alta |
+| Revisar historial de trayectos realizados | Baja | Media | Media | Media |
+| Organizar y optimizar rutas y paradas | Alta | Alta | N/A | N/A |
+
+---
+
+#### Análisis y Explicación de la Matriz
+
+Tras el análisis de la matriz, se desprenden las siguientes conclusiones clave sobre el comportamiento y necesidades de los segmentos:
+
+* **Coincidencias en Tareas Críticas:** Existe una convergencia total en las tareas de "Confirmar abordaje", "Confirmar llegada" y "Registrar entrega". Para ambos segmentos, estas acciones representan la columna vertebral de la confianza en el servicio, manteniendo una importancia **Crítica** debido a que involucran la seguridad directa del menor.
+* **Diferencias de Rol:** La carga operativa de planificación y ejecución (verificación de listas y organización de rutas) recae exclusivamente en el conductor. Por el contrario, el padre de familia se enfoca en tareas de supervisión pasiva como "Monitorear el progreso", que tiene una frecuencia alta debido a la ansiedad constante que genera el tráfico de la ciudad.
+* **Gestión de Incidencias:** Se observa que tareas como "Reportar incidencias" tienen una frecuencia baja, pero su importancia es crítica. Esto valida la necesidad de que SafeRoute ofrezca canales de comunicación prioritarios que garanticen que, ante un imprevisto, la información fluya sin errores.
+* **Fricción en la Comunicación:** La tarea de "Notificar retrasos" es de frecuencia media para el conductor pero de importancia crítica para el padre, lo que resalta el mayor punto de fricción actual: la necesidad de información en tiempo real para reducir el estrés parental.
+
 #### 2.3.3. User Journey Mapping
+En esta sección se presentan los User Journey Maps en versión As-Is correspondientes a los dos segmentos objetivo definidos previamente: conductor escolar y padre de familia. El propósito es comprender la experiencia actual del servicio de transporte escolar, identificando emociones, fricciones operativas, puntos críticos de comunicación y oportunidades de mejora antes de la implementación de SafeRoute.
+A continuación, se presentan los diagramas detallados para cada User Persona, vinculando sus objetivos y puntos de dolor con las etapas del proceso actual.
+
+User Journey Map: Carlos Ramírez (Conductor-Segmento Objetivo 1)
+![UserJourneyMap1](./assets/images/UserJourneyMap-Carlos.png)
+----
+User Journey Map: Rosita Nery (Padre de Familia-Segmento Objetivo 2)
+![UserJourneyMap2](./assets/images/UserJourneyMap-Rosita.png)
 
 #### 2.3.4. Empathy Mapping
+En esta sección se presenta el análisis de empatía realizado para nuestros segmentos objetivo buscando responder las preguntas ¿Con quién estamos empatizando? ¿Qué necesita hacer? ¿Qué está
+diciendo? ¿Qué está viendo? ¿Qué está haciendo? ¿Qué está escuchando? ¿Cómo sesiente y qué piensa? E identificando sus Pains y Gains.
+
+Segmento Objetivo 1: Conductor 
+![EmpathyMapping1](./assets/images/EmpathyMapping-Carlos.png)
+
+---
+Segmento Objetivo 2: Padre de familia 
+![EmpathyMapping2](./assets/images/EmpathyMapping-Rosita.png)
 
 ### 2.4. Big Picture Event Storming
+En esta sección, se presenta el desarrollo y los resultados de la sesión de Big Picture Event Storming realizada por el equipo para el proyecto SafeRoute. Este proceso consistió en una sesión colaborativa de modelado dirigida al dominio, donde el equipo se enfocó en comprender el ecosistema del negocio de movilidad escolar de manera integral.
+
+A través de esta dinámica, se logró plasmar los eventos significativos y sus interrelaciones, construyendo una primera aproximación visual de alto nivel que explora el landscape completo del negocio.
+
+![BigPictureEventStorming](./assets/images/BigPictureEventStorming.jpg)
+* **URL:** [[https://miro.com/](https://miro.com/app/board/uXjVGg_8JKU=/?share_link_id=308871936592)]
 
 ### 2.5. Ubiquitous Language
+En esta sección se presenta el glosario de términos de negocio utilizados dentro del dominio de SafeRoute. 
+| Term (English) | Término equivalente | Definición |
+|:---|:---|:---|
+| Student | Estudiante / Alumno | Menor de edad que utiliza el servicio de movilidad escolar para trasladarse entre su hogar y el centro educativo. |
+| Parent | Padre / Apoderado | Persona responsable del estudiante que supervisa su traslado y recibe notificaciones del servicio. |
+| Driver | Conductor | Persona encargada de operar el vehículo escolar y ejecutar la ruta asignada. |
+| Vehicle | Vehículo | Unidad de transporte utilizada para movilizar estudiantes. |
+| School Route | Ruta Escolar | Recorrido planificado con paradas definidas para recoger y entregar alumnos. |
+| Daily Trip | Viaje Diario | Operación completa de traslado realizada en una jornada específica. |
+| Return Trip | Ruta de Retorno | Trayecto de regreso desde el colegio hacia los domicilios. |
+| Incident | Incidencia | Evento no planificado que afecta la operación normal del servicio. |
+| Critical Incident | Incidencia Crítica | Situación grave que compromete seguridad, salud o continuidad del servicio. |
+| Check-in | Confirmación de Entrada | Validación de que el estudiante ingresó correctamente al vehículo o al colegio. |
+| Check-out | Confirmación de Salida | Validación de entrega del estudiante al responsable autorizado. |
+| Notification | Notificación | Mensaje enviado al padre o conductor con información relevante del servicio. |
+| Service Plan | Plan de Servicio | Modalidad comercial contratada por el cliente para acceder a SafeRoute. |
+| Subscription | Suscripción | Vigencia activa del servicio contratado por el transportista o administrador. |
+| Fleet | Flota | Conjunto de vehículos administrados por una misma operación. |
+| Guardian | Tutor / Responsable | Persona autorizada para recibir al estudiante al final del trayecto. |
+| No-show Student | Alumno Ausente | Estudiante programado que no aborda la unidad en el punto establecido. |
 
 ---
 
@@ -374,33 +596,250 @@ Segmento Objetivo 2: Rosita Nery, padre de familia
 
 #### 5.1.1. Software Development Environment Configuration
 
+En esta sección se describen las herramientas y tecnologías utilizadas para el desarrollo del Proyecto
+
+##### UX/UI Design 
+
+###### Figma: 
+Herramienta de diseño colaborativo utilizada para la creación de wireframes, mockups, prototipos y diseño de interfaces. Permite trabajar en equipos en tiempo real, lo cual facilita la validación temprana de la experiencia futura del usuario.
+
+##### Software Development
+
+###### JetBrains Intelli J IDEA
+
+Entorno de desarrollo integrado (IDEA) utilizado para el desarrollo del BackEnd que utiliza el idioma java.
+
+###### GitHub
+
+Plataforma de control de versiones utilizada para la gestión del código fuente y colaboración del equipo, implementando la metodología GitFlow para la organización del desarrollo.
+
+###### HTML
+
+Legnuaje de marcado para el desarrollo de las interfaces web del Frontend.
+
+###### CSS
+
+Lenguaje de estilos utilizados para la presentación visual de la aplicación, en el apartado del .
+
+###### Typescript
+
+Lenguaje utilizado para el frontend para poder hacer interfaces dinámicas e interactivas.
+
+###### Java
+
+Lenguaje de programación que se utilizara en el desarrollo del backend de la aplicación.
+
+##### Software Deployment
+
+###### GitHub Pages
+Servicio utilizado para el despliegue de la landing page del proyecto.
+
+
+
 #### 5.1.2. Source Code Management
+
+Para el manejo del código fuente, utilizamos Github para colaborar entre miembros de equipo en multiples repositorios. A continuación, se listan los enlaces de cada repositorio:
+
+Organización:
+
+Repositorio de Landing Page: https://github.com/FiveTech-NRC11896/safedrive-website.git
+
+Repositorio del informe: https://github.com/FiveTech-NRC11896/safedrive-report.git
+
+Repositorio del frontend: https://github.com/FiveTech-NRC11896/safedrive-webapp.git
+
+Repositorio del backend: https://github.com/FiveTech-NRC11896/safedrive-platform.git
+
+En el repositorio del informe, se implementa un esquema de trabajo basado en Gitflow. La rama main almacena la versión estable del informe correspondiente a cada entregable del trabajo, mientras que la rama develop concentra la integración de avances validados por cada integrante antes de su consolidación final. A partir de develop, cada integrante creará ramas feature de trabajo para las secciones asignadas. Las ramas feature seguirán una nomenclatura asociada al capítulo o bloque trabajado, por ejemplo: feature/chapter-1-introduction-and-lean-ux, o feature/chapter-5-software-configuration-management. Esta convención permite identificar con claridad qué parte del informe está siendo desarrollada y reduce el riesgo de conflictos entre los miembros del equipo.
+
+En los repositorios del Landing Page, Frontend y Backend también se utilizará GitFlow. En cada uno de ellos, la rama main contendrá las versiones estables del producto y la rama develop servirá como rama de integración del trabajo colaborativo. A partir de develop, se crearán ramas feature/... para el desarrollo de funcionalidades específicas. A diferencia del informe, en estos repositorios las ramas no estarán organizadas por capítulos, sino por funcionalidades o componentes del sistema. Algunos ejemplos de nomenclatura son: feature/home-page, feature/dashboard o feature/route-management. Esta convención nos permite que las ramas reflejen de manera directa el alcance funcional del producto en desarrollo.
+
+No se realizarán cambios directos sobre la rama main, ya que esta representará únicamente versiones estables y listas para consolidarse como parte de un entregable. Del mismo modo, se evitará que los integrantes trabajen de forma continua directamente sobre la rama develop, ya que el flujo previsto consiste en desarrollar primero en ramas feature, integrar luego en develop y finalmente consolidar en main cuando el avance haya sido revisado y validado. Por tanto, el flujo general de trabajo será de la siguiente forma: feature → develop → main. Este esquema se alinea con la exigencia del curso de explicar la implementación de GitFlow mediante ramas principales, ramas de features, y convenciones para releases y hotfixes.
+
+Asimismo, si se requiere corregir errores críticos sobre una versión estable, se podrán crear ramas hotfix/..., y si se decide preparar una versión de cierre antes de una entrega, se utilizarán ramas release/... de acuerdo con el flujo definido por GitFlow.
+
+En relación con los mensajes de cada commit, el equipo aplicará Conventional Commits para mantener un historial más legible, consistente y profesional. Esta convención facilitará la revisión de avances y permitirá identificar rápidamente el propósito de cada uno de los cambios. Algunos prefijos que se utilizarán son:
+
+feat: incorporación de una nueva funcionalidad
+fix: corrección de errores
+docs: cambios en documentación
+style: cambios de formato o estilo sin alterar lógica
+refactor: reorganización interna sin agregar funcionalidad nueva
+test: incorporación o ajuste de pruebas
+chore: tareas de mantenimiento o configuración
+
+Para el repositorio del informe se emplearán mensajes como docs(report): add project cover page o docs: add startup profile and lean ux process for chapter 1. Para los repositorios de software se utilizarán mensajes como feat: add school route registration, feat: implement student assignment to route o fix: correct login validation. Esta práctica contribuye a que la evidencia de commits sea coherente con el trabajo realizado por cada miembro.
+
 
 #### 5.1.3. Source Code Style Guide & Conventions
 
+#### Frontend (Landing Page - HTML, CSS, JavaScript)
+
+##### Convenciones generales:
+
+- **Idioma**: Todo el código, incluyendo nombres de variables, funciones y clases está escrito en inglés.
+- **Formato de archivos**: `.html`, `.css`, `.js`
+- **Estilo de código adoptado**:
+  - [W3Schools HTML Style Guide](https://www.w3schools.com/html/html5_syntax.asp)
+  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html)
+
+##### Nomenclatura:
+
+- **Clases CSS**: `kebab-case` (ej. `main-container`)
+- **IDs HTML**: `camelCase` (ej. `mainContent`)
+- **Variables JS**: `camelCase` (ej. `userName`)
+- **Funciones JS**: `camelCase` (ej. `handleClick()`)
+
+#### Frontend Web App (Angular + TypeScript)
+
+##### Convenciones generales:
+
+- **Idioma**: Código y los comentarios son completamente en ingles.
+- **Estructura de carpetas**: Segregación por módulos y componentes.
+- **Formato de archivos**: `.ts`, `.html`, `.css`
+
+##### Estilo de código adoptado:
+
+- [Angular Style Guide (Oficial)](https://angular.io/guide/styleguide)
+- [Google TypeScript Style Guide](https://google.github.io/styleguide/tsguide.html)
+
+##### Nomenclatura:
+
+- **Componentes**: `PascalCase` (ej. `UserProfileComponent`)
+- **Servicios**: `camelCase` + sufijo `Service` (ej. `authService`)
+- **Interfaces**: `PascalCase`, prefijo `I` opcional (ej. `User`, `IUser`)
+- **Archivos**: `kebab-case` (ej. `user-profile.component.ts`)
+- **Variables y funciones**: `camelCase`
+
+#### Backend (Java + Spring Boot)
+
+##### Convenciones generales:
+
+- **Idioma**: Código y documentación interna es en ingles.
+- **Formato de archivos**: `.java`
+
+##### Estilo de código adoptado:
+
+- [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)
+- [Spring Boot Features &amp; Best Practices](https://docs.spring.io/spring-boot/docs/current/reference/html/features.html)
+
+##### Nomenclatura:
+
+- **Clases**: `PascalCase` (ej. `UserService`)
+- **Variables**: `camelCase` (ej. `userRepository`)
+- **Constantes**: `UPPER_SNAKE_CASE` (ej. `MAX_USERS`)
+- **Endpoints**: `kebab-case` para URLs (ej. `/api/user-profile`)
+- **Paquetes**: Todo en minúsculas y separados por punto (ej. `com.project.backend.controller`)
+
 #### 5.1.4. Software Deployment Configuration
+
 
 ### 5.2. Landing Page, Services & Applications Implementation
 
-#### 5.2.X. Sprint n
+#### 5.2.1. Sprint 1
 
-##### 5.2.X.1. Sprint Planning n
+##### 5.2.1.1. Sprint Planning 1
 
-##### 5.2.X.2. Aspect Leaders and Collaborators
+| Sprint # | Sprint 1 |
+|----------|---------|
+| **Sprint Planning Background** |
+| Date | 2026-04-24 |
+| Time | 07:00 PM |
+| Location | Microsoft Teams |
+| Prepared By | Renzo Revilla |
+| Attendees (to planning meeting) | Todo el equipo |
+| Sprint 1 – 1 Review Summary |Al tratarse del primer sprint, se establecieron las bases del proyecto, incluyendo la estructura del repositorio. |
+| Sprint 1 – 1 Retrospective Summary | El equipo identificó la importancia de una correcta organización y distribución de tareas desde el inicio del proyecto. Se acordó mejorar la comunicación y planificación para optimizar el desarrollo en los siguientes sprints. |
+| **Sprint Goal & User Stories**  |
+| Sprint 1 Goal | Nuestro enfoque es desarrollar la primera versión del Landing Page de SafeRoute. Creemos que esto permitirá comunicar la propuesta de valor de la plataforma a los usuarios. Esto se validará cuando los usuarios puedan acceder al sitio y comprender sus funcionalidades principales. |
+| Sprint 1 Velocity | 15 Story Points |
+| Sum of Story Points | 13 Story Points |
 
-##### 5.2.X.3. Sprint Backlog n
+##### 5.2.1.2. Aspect Leaders and Collaborators
 
-##### 5.2.X.4. Development Evidence for Sprint Review
+| Team Member (Last Name, First Name) | GitHub Username Leader (L) / Collaborator (C) | Landing Page Leader (L) / Collaborator (C) | UI Design Leader (L) / Collaborator (C) | Deployment Leader (L) / Collaborator (C) | Repo Management Leader (L) / Collaborator (C) |
+| - | - | - | - | - | - |
+| Revilla Quispe, Renzo Zamir | renzorevq24 | C | C | L | C |
+| Quispe Serrano, Julio Frank | FraSe-JQ | C | C | C | L |
+| Costa Morales, Christofer William | miniChorri | C | L | C | C |
+| De La Cruz De Los Santos, Mathias Marcelo | Dela050406 | L | C | C | C |
+| Ortega Quintana, José Zacarías | AgoxX61 | L | C | C | C |
 
-##### 5.2.X.5. Execution Evidence for Sprint Review
+##### 5.2.1.3. Sprint Backlog 1
 
-##### 5.2.X.6. Services Documentation Evidence for Sprint Review
+| User Story ID | User Story Title | Task ID | Task Title | Description | Estimation (Hours) | Assigned To | Status |
+|---------------|------------------|---------|------------|-------------|--------------------|-------------|--------|
+| US19 | Visualización de Hero | T01 | Implementar Hero Section | Desarrollo de la sección principal con propuesta de valor y mensaje inicial del producto | 3 | Mathias | Done |
+| US20 | Navegación de Funciones | T02 | Implementar Navbar | Creación de barra de navegación con enlaces a secciones del Landing Page | 2 | Renzo | Done |
+| US20 | Navegación de Funciones | T03 | Implementar Features Section | Desarrollo de sección de funcionalidades principales del sistema | 3 | Julio | Done |
+| US21 | Detalle de Roles | T04 | Implementar Roles Section | Desarrollo de sección que describe los tipos de usuarios (Admin, Conductor, Padre) | 3 | José | Done |
+| US22 | Consulta de Precios | T05 | Implementar Plans Section | Creación de sección de planes de suscripción con características comparativas | 3 | Christofer | Done |
+| US23 | ¿Cómo funciona? | T06 | Implementar How it Works Section | Desarrollo del flujo explicativo del funcionamiento del sistema | 2 | Julio | Done |
+| US19 | Visualización de Hero | T07 | Implementar CTA y Footer | Desarrollo de llamadas a la acción y pie de página del sitio | 2 | Renzo | Done |
+| US20 | Navegación de Funciones | T08 | Implementar Responsive Design | Adaptación del Landing Page para diferentes dispositivos (mobile, tablet, desktop) | 3 | Renzo | Done |
 
-##### 5.2.X.7. Software Deployment Evidence for Sprint Review
+##### 5.2.1.4. Development Evidence for Sprint Review
 
-##### 5.2.X.8. Team Collaboration Insights during Sprint
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|------------|--------|-----------|----------------|---------------------|--------------------|
+| FiveTech-NRC11896/safedrive-website | main | ad85e0c | docs: update link | Updated project links and minor documentation adjustments. | 2026-04-10 |
+| FiveTech-NRC11896/safedrive-website | main | d533ba7 | docs: add README with project overview | Added README file with general overview of the SafeRoute project. | 2026-04-10 |
+| FiveTech-NRC11896/safedrive-website | main | 09b0e4c | assets: add images folder | Added image assets required for the landing page sections. | 2026-04-10 |
+| FiveTech-NRC11896/safedrive-website | main | 9d40a89 | style: add responsive design | Implemented responsive styles to improve usability across devices. | 2026-04-10 |
+| FiveTech-NRC11896/safedrive-website | main | 0ff89ce | feat: add How it works, CTA and footer section | Implemented informational sections and call-to-action components. | 2026-04-10 |
+| FiveTech-NRC11896/safedrive-website | main | fd61ee6 | feat: add roles and plans section components | Developed sections describing user roles and subscription plans. | 2026-04-10 |
+| FiveTech-NRC11896/safedrive-website | main | de30384 | style: add new Stats and Features sections | Improved styling and added visual sections for features and stats. | 2026-04-10 |
+| FiveTech-NRC11896/safedrive-website | main | 41f50b8 | feat: add Navbar and Hero | Implemented navigation bar and main hero section. | 2026-04-10 |
+| FiveTech-NRC11896/safedrive-website | main | 1b2ee66 | style: add new sections Navbar and Hero | Applied styles to navbar and hero sections for visual consistency. | 2026-04-10 |
 
----
+##### 5.2.1.5. Execution Evidence for Sprint Review
+
+El desarrollo abarcó la implementación de las principales secciones del sitio, incluyendo la sección de roles de usuario, la sección de planes de suscripción, la sección ¿Como funciona?, así como componentes complementarios como el footer. Estas secciones permiten al usuario comprender el propósito del sistema, sus beneficios y las principales funcionalidades disponibles.
+
+Asimismo, se implementó diseño responsivo, garantizando que la experiencia de usuario sea consistente y accesible desde distintos dispositivos.
+
+A continuación, se presentan capturas de las principales vistas implementadas durante el Sprint:
+
+![Landing Page - Hero](./assets/images/hero.png)
+*Nota. Captura de pantalla de la sección Hero del Landing Page de SafeRoute, donde se presenta la propuesta de valor principal. Elaboración propia.*
+
+![Landing Page - Features](./assets/images/features.png)
+*Nota. Captura de pantalla de la sección de funcionalidades (Features) del Landing Page de SafeRoute, donde se describen las principales capacidades del sistema. Elaboración propia.*
+
+![Landing Page - Roles](./assets/images/roles.png)
+*Nota. Captura de pantalla de la sección de roles de usuario del Landing Page de SafeRoute, donde se explican los perfiles de Administrador, Conductor y Padre. Elaboración propia.*
+
+![Landing Page - Plans](./assets/images/plans.png)
+*Nota. Captura de pantalla de la sección de planes de suscripción del Landing Page de SafeRoute, donde se presentan las opciones disponibles para los usuarios. Elaboración propia.*
+
+![Landing Page - Responsive](./assets/images/responsive.png)
+*Nota. Captura de pantalla del diseño responsivo del Landing Page de SafeRoute en dispositivos móviles, evidenciando la adaptabilidad de la interfaz. Elaboración propia.*
+
+> TODO: COLOCAR VIDEO EXPLICATIVO
+
+##### 5.2.1.6. Services Documentation Evidence for Sprint Review
+
+En este Sprint no se desarrollaron servicios RESTful, ya que el enfoque estuvo centrado en la implementación del Landing Page de SafeRoute.
+
+La construcción de APIs será abordada en los siguientes Sprints, donde se integrará la lógica del sistema y la comunicación con la base de datos.
+
+##### 5.2.1.7. Software Deployment Evidence for Sprint Review
+
+El proceso de despliegue consistió en la configuración del repositorio en GitHub, habilitando la opción de GitHub Pages y estableciendo la rama principal como fuente de publicación. Esto permitió que cada cambio realizado en el repositorio se refleje automáticamente en el entorno de producción.
+
+Como resultado, el Landing Page se encuentra disponible para su acceso y validación por parte de los usuarios, cumpliendo con el objetivo de presentar la propuesta de valor del producto en un entorno real.
+
+A continuación, se presentan capturas del proceso y resultado del despliegue:
+
+![GitHub Pages Config](./assets/images/github-pages.png)
+*Nota. Captura de la configuración de GitHub Pages en el repositorio del proyecto. Elaboración propia.*
+
+El Landing Page desplegado se encuentra disponible en el siguiente enlace:
+
+https://fivetech-nrc11896.github.io/safedrive-website/
+
+##### 5.2.1.8. Team Collaboration Insights during Sprint
+
 
 ## Conclusiones
 
@@ -410,6 +849,7 @@ Segmento Objetivo 2: Rosita Nery, padre de familia
 
 ## Bibliografía
 - Autoridad de Transporte Urbano para Lima y Callao. (2024). *Cifra de movilidades escolares autorizadas disminuyó en 25% en un año*. El Comercio. Recuperado el 9 de abril de 2026, de https://elcomercio.pe/lima/cifra-de-movilidades-escolares-autorizadas-disminuyo-en-25-en-un-ano-a-que-se-debe-esta-reduccion-informe-movilidad-escolar-noticia/
+
 
 - Ministerio de Educación. (2023). *Resultados del Censo Educativo 2022*. ESCALE. Recuperado el 9 de abril de 2026, de https://escale.minedu.gob.pe/documents/10156/9345030/PPT_Censo_Educativo_2023_final.pdf
 
