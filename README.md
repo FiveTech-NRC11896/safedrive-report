@@ -391,11 +391,42 @@ A continuación, se detalla el flujo de uso del sistema en la sección "¿Cómo 
 
 <img src="assets/images/wireframe-LP6.png" alt="Tutorial SafeRoute" width="900px">
 
-Finalmente, se presenta la sección de Contacto y Footer, la cual incluye el cierre de la página con los datos de comunicación directa y los créditos correspondientes al equipo de desarrollo de PowerTech.
+Finalmente, se presenta la sección de Contacto y Footer, la cual incluye el cierre de la página con los datos de comunicación directa y los créditos correspondientes al equipo de desarrollo de FiveTech.
 
 <img src="assets/images/wireframe-LP7.png" alt="Footer SafeRoute" width="900px">
 
 ### 4.3.2. Landing Page Mock-up
+
+A continuación, se presentan los mock-ups de las principales secciones de la landing page. Cada imagen ilustra el diseño propuesto para las diferentes funcionalidades, flujos de navegación y elementos de interacción de la plataforma.
+
+En esta primera sección se presenta la pantalla Home de la landing page, donde se observa el encabezado principal con la propuesta de valor y el acceso al sistema de internacionalización (i18n). Se aprecia un botón call-to-action principal diseñado para captar el interés de los padres de familia y conductores independientes.
+
+<img src="assets/images/mockup-LP1.png" alt="Home SafeRoute" width="900px">
+
+A continuación, se muestra la Sección de Características, donde se detallan los pilares de seguridad y eficiencia que sustentan la plataforma SafeRoute, utilizando iconos y textos breves para una lectura rápida.
+
+<img src="assets/images/mockup-LP2.png" alt="Características SafeRoute" width="900px">
+
+Se presenta la sección de Funcionalidades, la cual profundiza en las capacidades tecnológicas del sistema, como el monitoreo en tiempo real y las notificaciones automáticas.
+
+<img src="assets/images/mockup-LP3.png" alt="Funcionalidades" width="900px">
+
+Los siguientes frames corresponden a los Roles del Sistema, donde se segmentan los beneficios específicos para cada usuario objetivo: los padres de familia, enfocados en la tranquilidad y el seguimiento, y los conductores, enfocados en la gestión operativa de la ruta.
+
+<img src="assets/images/mockup-LP4.png" alt="Roles SafeRoute" width="900px">
+
+Se presenta la sección de Planes, donde se muestra la estructura de precios y niveles de servicio, diseñada de forma escaneable para facilitar la toma de decisiones comerciales.
+
+<img src="assets/images/mockup-LP5.png" alt="Planes SafeRoute" width="900px">
+
+A continuación, se detalla el flujo de uso del sistema en la sección "¿Cómo funciona?". Este tutorial visual guía al nuevo usuario a través de los pasos necesarios para implementar la plataforma con éxito.
+
+<img src="assets/images/mockup-LP6.png" alt="Tutorial SafeRoute" width="900px">
+
+Finalmente, se presenta la sección de Contacto y Footer, la cual incluye el cierre de la página con los datos de comunicación directa y los créditos correspondientes al equipo de desarrollo de PowerTech.
+
+<img src="assets/images/mockup-LP7.png" alt="Footer SafeRoute" width="900px">
+
 
 ## 4.4. Web Applications UX/UI Design
 
