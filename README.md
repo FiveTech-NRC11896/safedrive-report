@@ -15,11 +15,11 @@
 **Nombre del producto:** SafeDrive  
 
 **Relación de integrantes:**
-* U201717085 - [Apellidos, Nombres]
-* U202315968 - [Apellidos, Nombres]
-* U202424059 - [Apellidos, Nombres]
-* U202316852 -
+* U20XXXXXXXX - [Apellidos, Nombres]
+* U201717085 - Revilla Quispe, Renzo Zamir
 * U20241D922 - Quispe Serrano, Julio Frank
+* U202424059 - De la Cruz De los Santos, Mathias Marcelo
+* U202316852 - Ortega Quintana, José Zacarias
 
 
 **Abril, 2026**
