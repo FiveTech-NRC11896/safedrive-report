@@ -213,45 +213,40 @@ El segundo segmento está conformado por las personas o entidades que operan el 
 
 ### 3.1. User Stories
 
-
-Las siguientes User Stories representan los requisitos detallados del sistema **SafeRoute**, cubriendo la operación completa, la Landing Page y la API técnica.
-
-| Epic / Story ID | Título | Descripción | Criterios de Aceptación (Gherkin) | Relacionado con |
-|:---|:---|:---|:---|:---|
-| **E1** | **Gestión Administrativa** | Control de planes, usuarios y flota | N/A | N/A |
-| US1 | Contratar Plan | Como administrador, quiero elegir un plan, para escalar mi operación | **Given** el administrador está en la sección de facturación<br>**When** selecciona un plan (Básico/Intermedio/Completo)<br>**Then** el sistema habilita los límites de rutas correspondientes | E1 |
-| US2 | Registro de Conductores | Como administrador, quiero crear cuentas de conductores, para asignar responsabilidades | **Given** el formulario de nuevo usuario<br>**When** se ingresan datos y licencia<br>**Then** el sistema genera un perfil de conductor activo | E1 |
-| US3 | Registro de Padres | Como administrador, quiero registrar a los padres, para habilitar el monitoreo | **Given** los datos de contacto del tutor<br>**When** se vincula con un alumno registrado<br>**Then** el sistema envía invitación por correo | E1 |
-| US4 | Alta de Alumnos | Como administrador, quiero registrar alumnos, para incluirlos en los recorridos | **Given** el panel de gestión de alumnos<br>**When** se registran sus datos y parada<br>**Then** el alumno queda disponible para asignación | E1 |
-| US5 | Creación de Rutas | Como administrador, quiero trazar rutas y paradas, para optimizar el tiempo | **Given** el mapa de configuración<br>**When** se seleccionan puntos geográficos en orden<br>**Then** el sistema calcula la duración estimada del trayecto | E1 |
-| US6 | Asignación de Roles | Como administrador, quiero asignar conductores a rutas, para organizar la operación | **Given** una ruta sin asignar<br>**When** se selecciona un conductor disponible<br>**Then** el conductor recibe la ruta en su aplicación | E1 |
-| US7 | Analítica de Flota | Como administrador, quiero ver reportes de rendimiento, para evaluar la eficiencia | **Given** un usuario con Plan Completo<br>**When** accede al dashboard de analítica<br>**Then** el sistema muestra métricas de puntualidad y combustible | E1 |
-| **E2** | **Operación del Conductor** | Herramientas para la ejecución del servicio | N/A | N/A |
-| US8 | Inicio de Trayecto | Como conductor, quiero activar la ruta, para que los padres sepan que voy en camino | **Given** una ruta programada<br>**When** el conductor presiona "Iniciar Viaje"<br>**Then** el sistema cambia el estado de la ruta a "En Ruta" | E2 |
-| US9 | Marcación de Abordaje | Como conductor, quiero registrar el abordaje, para confirmar la presencia del alumno | **Given** el vehículo está en la parada correspondiente<br>**When** el conductor marca el check de abordaje<br>**Then** el sistema actualiza el estado del alumno en la nube | E2 |
-| US10 | Reporte de Incidencias | Como conductor, quiero informar problemas, para que el administrador tome medidas | **Given** una eventualidad (tráfico, falla mecánica)<br>**When** se selecciona el tipo de incidencia<br>**Then** el sistema lo registra en la bitácora detallada | E2 |
-| US11 | Botón de Pánico | Como conductor, quiero usar el botón de pánico, para emergencias críticas | **Given** una situación de peligro real<br>**When** se mantiene presionado el botón SOS<br>**Then** se envía una alerta con ubicación GPS al administrador | E2 |
-| US12 | Finalización de Ruta | Como conductor, quiero cerrar la sesión de ruta, para concluir el turno | **Given** todas las paradas han sido procesadas<br>**When** se confirma el fin del trayecto<br>**Then** el sistema deja de transmitir la ubicación GPS | E2 |
-| US13 | Bitácora de Viajes | Como conductor, quiero ver mi historial, para revisar mis recorridos pasados | **Given** el historial de servicios del conductor<br>**When** consulta fechas anteriores<br>**Then** el sistema muestra las paradas y tiempos registrados | E2 |
-| **E3** | **Monitoreo y Seguridad (Padres)** | Visibilidad y tranquilidad para la familia | N/A | N/A |
-| US14 | Rastreo en Tiempo Real | Como padre, quiero ver el bus en el mapa, para calcular la hora de llegada | **Given** el transporte está en ruta activa<br>**When** el padre abre el mapa de la app<br>**Then** se visualiza el icono del vehículo moviéndose en vivo | E3 |
-| US15 | Alerta de Proximidad | Como padre, quiero recibir un aviso previo, para bajar a la parada a tiempo | **Given** el bus está a 500 metros de la parada<br>**When** el sistema detecta la geovalla<br>**Then** se envía una notificación push al dispositivo del padre | E3 |
-| US16 | Confirmación de Llegada | Como padre, quiero saber si mi hijo llegó al colegio, para estar tranquilo | **Given** el bus llega al destino final<br>**When** el conductor cierra la ruta<br>**Then** el padre recibe una notificación de "Llegada a destino" | E3 |
-| US17 | Acceso a Cámara | Como padre, quiero ver el interior del bus, para verificar la seguridad | **Given** un usuario con Plan Intermedio<br>**When** solicita el streaming de video<br>**Then** el sistema muestra la cámara interior del vehículo | E3 |
-| US18 | Historial de Asistencia | Como padre, quiero ver los días que mi hijo abordó, para control mensual | **Given** la sección de asistencia del alumno<br>**When** se selecciona el mes<br>**Then** el sistema muestra el calendario con checks de abordaje | E3 |
-| **E4** | **Landing Page (Visitantes)** | Información y conversión de clientes | N/A | N/A |
-| US19 | Visualización de Hero | Como visitante, quiero ver la propuesta de valor, para entender qué es SafeRoute | **Given** el acceso a la URL principal<br>**When** carga el sitio<br>**Then** el sistema muestra el mensaje "Transporte escolar seguro y digital" | E4 |
-| US20 | Navegación de Funciones | Como visitante, quiero ver las funcionalidades, para conocer el alcance técnico | **Given** la sección de funcionalidades de la landing<br>**When** el usuario hace scroll<br>**Then** visualiza las tarjetas de gestión, monitoreo y alertas | E4 |
-| US21 | Detalle de Roles | Como visitante, quiero conocer las vistas por perfil, para ver qué recibo | **Given** la sección "Una plataforma, tres experiencias"<br>**When** revisa los puntos por rol<br>**Then** comprende las tareas de Admin, Conductor y Padre | E4 |
-| US22 | Consulta de Precios | Como visitante, quiero ver los costos, para evaluar mi presupuesto | **Given** la sección de planes de la landing<br>**When** compara los niveles de escala<br>**Then** identifica el precio y características de cada suscripción | E4 |
-| US23 | Sección "¿Cómo funciona?" | Como visitante, quiero ver los pasos iniciales, para saber cómo empezar | **Given** el flujo de 5 pasos en la landing<br>**When** lee la secuencia de digitalización<br>**Then** comprende el proceso desde el contrato hasta el monitoreo | E4 |
-| **E5** | **SafeRoute RESTful API** | Integraciones para desarrolladores | N/A | N/A |
-| US24 | API: Obtener Alumnos | Como developer, quiero listar alumnos por ruta, para integraciones externas | **Given** una petición GET a `/api/v1/routes/{id}/students`<br>**When** el token es válido<br>**Then** retorna 200 OK con la lista de alumnos | E5 |
-| US25 | API: Registro GPS | Como developer, quiero enviar coordenadas, para actualizar la posición del bus | **Given** una petición POST a `/api/v1/tracking`<br>**When** el payload incluye latitud/longitud<br>**Then** el sistema actualiza la base de datos y retorna 201 | E5 |
-
 ### 3.2. Impact Mapping
 
 ### 3.3. Product Backlog
+# Product Backlog - SafeRoute
+
+| Orden | User Story ID | Título | Descripción | Story Points |
+|------:|---------------|--------|-------------|-------------|
+| 1 | US25 | Visualización de Hero | Como visitante, deseo ver la propuesta de valor de SafeRoute para entender rápidamente el servicio. | 2 |
+| 2 | US28 | Consulta de Precios | Como visitante, deseo ver los planes y precios para evaluar mi presupuesto. | 3 |
+| 3 | US32 | Formulario de Contacto | Como visitante, deseo enviar mis datos para solicitar información o una demo comercial. | 3 |
+| 4 | US29 | Sección ¿Cómo funciona? | Como visitante, deseo entender el proceso del servicio antes de contratar. | 2 |
+| 5 | US31 | Testimonios Reales | Como visitante, deseo leer reseñas para confiar en la marca. | 2 |
+| 6 | US30 | Implementación i18n | Como visitante, deseo cambiar idioma ES/EN para navegar cómodamente. | 5 |
+| 7 | US1 | Contratar Plan | Como administrador, deseo elegir un plan para digitalizar y escalar mi operación. | 5 |
+| 8 | US2 | Registro de Conductores | Como administrador, deseo crear cuentas de conductores para asignar responsabilidades. | 3 |
+| 9 | US4 | Alta de Alumnos | Como administrador, deseo registrar alumnos para incluirlos en rutas. | 5 |
+| 10 | US3 | Registro de Padres | Como administrador, deseo registrar padres para habilitar monitoreo. | 3 |
+| 11 | US5 | Creación de Rutas | Como administrador, deseo crear rutas y paradas para optimizar tiempos. | 8 |
+| 12 | US6 | Asignación de Roles | Como administrador, deseo asignar conductores a rutas para organizar operaciones. | 3 |
+| 13 | US10 | Inicio de Trayecto | Como conductor, deseo iniciar la ruta para notificar que estoy en camino. | 3 |
+| 14 | US11 | Marcación de Abordaje | Como conductor, deseo registrar el abordaje para confirmar asistencia. | 5 |
+| 15 | US18| Rastreo en Tiempo Real | Como padre, deseo ver la movilidad en el mapa para calcular hora de llegada. | 8 |
+| 16 | US19 | Alerta de Proximidad | Como padre, deseo recibir aviso cuando el vehículo esté cerca. | 5 |
+| 17 | US20 | Confirmación de Llegada | Como padre, deseo saber si mi hijo llegó al colegio para estar tranquilo. | 3 |
+| 18 | US14 | Finalización de Ruta | Como conductor, deseo cerrar la ruta para concluir el servicio. | 2 |
+| 19 | US12 | Reporte de Incidencias | Como conductor, deseo informar retrasos o problemas durante la ruta. | 5 |
+| 20 | US16 | Navegación Integrada | Como conductor, deseo abrir mapas externos para usar la mejor ruta disponible. | 3 |
+| 21 | US7 | Analítica de Flota | Como administrador, deseo revisar métricas de rendimiento operativo. | 8 |
+| 22 | US22 | Historial de Asistencia | Como padre, deseo revisar asistencia mensual de mi hijo. | 5 |
+| 23 | US15 | Bitácora de Viajes | Como conductor, deseo consultar historial de viajes realizados. | 3 |
+| 24 | US23 | Perfil del Estudiante | Como padre, deseo registrar alergias o datos médicos relevantes. | 5 |
+| 25 | US24 | Chat con Soporte | Como padre, deseo reportar ausencias o dudas desde la app. | 5 |
+| 26 | US13 | Botón de Pánico | Como conductor, deseo activar SOS en emergencias críticas. | 8 |
+
 
 ---
 
