@@ -269,7 +269,12 @@ Las siguientes User Stories representan los requisitos detallados del sistema Sa
 
 
 ### 3.2. Impact Mapping
+Segmento Objetivo 1: Carlos Ramirez, conductor
+![ImpactMapping1](./assets/images/ImpactMap1.png)
 
+---
+Segmento Objetivo 2: Rosita Nery, padre de familia
+![ImpactMapping2](./assets/images/ImpactMap2.png)
 ### 3.3. Product Backlog
 # Product Backlog - SafeRoute
 
