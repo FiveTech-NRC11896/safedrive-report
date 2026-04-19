@@ -285,6 +285,60 @@ Declara el idioma principal de la estructura del sitio. Su función es informar 
 
 ### 4.2.4. Searching Systems
 
+En esta sección se describen los mecanismos de asistencia y recuperación de información diseñados para SafeRoute. El objetivo primordial es evitar la desorientación del usuario ante el flujo constante de datos logísticos, garantizando que la información sobre rutas y alumnos sea accesible de manera inmediata.
+
+**Vista del Conductor / Dueño de Unidad**
+
+**1. Medios de ayuda para la búsqueda de datos**
+
+  - Barra de búsqueda operativa: Ubicada en los módulos de "Rutas" y "Lista de Alumnos" para acceso rápido.
+  - Autocompletado inteligente: Sugiere nombres de alumnos o puntos de parada conforme el conductor escribe, facilitando la operación en dispositivos móviles.
+  - Mensajes contextuales: En caso de no hallar un registro, el sistema ofrece opciones como "¿Desea registrar un nuevo alumno en esta parada?".
+  - Búsqueda por proximidad: Sugerencia automática de la siguiente parada basada en la ubicación GPS actual.
+
+**2. Filtros y opciones**
+
+  - Por Nombre del Alumno: Localización directa de la ficha de contacto y datos de emergencia.
+  - Por Estado de Asistencia: Filtrado rápido de alumnos "Abordados", "Pendientes" o "Ausentes".
+  - Por Punto de Parada: Visualización de todos los estudiantes vinculados a un hito específico de la ruta.
+  - Por Turno: Filtrado entre rutas de "Recojo" (mañana) y "Retorno" (tarde).
+
+**3. Visualización de resultados**
+
+  - Tarjetas de Alumno (Cards): Incluyen foto, nombre, grado y una etiqueta de estado de alta visibilidad.
+  - Indicadores de Color:
+      - Azul: Alumno en espera.
+      - Verde: Alumno ya abordó la unidad.
+      - Rojo: Alumno reportado como ausente.
+  - Acciones rápidas: Botones directos para "Marcar Asistencia", "Llamar a Apoderado" o "Reportar Incidencia".
+
+**Vista del Padre de Familia**
+
+**1. Medios de ayuda para la búsqueda de datos**
+
+  - Buscador de historial: Permite localizar eventos específicos dentro de la bitácora de viajes del alumno.
+  - Sugerencias por fecha: Calendario interactivo para seleccionar días específicos de consulta.
+  - Acceso directo a Unidad: Buscador para identificar los datos del bus asignado mediante la placa o nombre del conductor.
+
+**2. Filtros y opciones**
+
+  - Por Fecha: Consulta de registros de asistencia de días o meses anteriores.
+  - Por Tipo de Evento: Filtrado entre "Notificaciones de Proximidad", "Confirmación de Abordaje" y "Llegada al Destino".
+  - Por Estado del Viaje: Filtrado entre rutas "Completadas", "En curso" o "Canceladas".
+
+**3. Visualización de resultados**
+
+  - Timeline de Eventos: Lista cronológica detallada con la hora exacta de cada suceso.
+  - Mapa de Resultados: Al buscar un historial, se muestra el trazado que siguió la unidad en esa fecha específica.
+  - Colores de Estado:
+
+      - Check Verde: Evento completado con éxito.
+
+      - Reloj Naranja: Retraso reportado en el punto de entrega.
+
+      - Círculo Gris: Registro de inasistencia justificada.
+
+
 ### 4.2.5. Navigation Systems
 
 ## 4.3. Landing Page UI Design
