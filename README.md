@@ -228,9 +228,64 @@ El sistema de etiquetado de SafeRoute ha sido desarrollado bajo un criterio de f
 
 ### 4.2.3. SEO Tags and Meta Tags
 
-#### 4.2.4. Searching Systems
+1. **Landing Page**
 
-#### 4.2.5. Navigation Systems
+**Charset**
+
+  `<meta charset="UTF-8" />`
+
+Esta línea establece la codificación universal de caracteres. Su función es garantizar que el navegador interprete correctamente los textos del sistema i18n, asegurando que tildes, la letra "ñ" y símbolos especiales se visualicen sin errores en español e inglés, evitando una mala experiencia de lectura.
+
+**Viewport (Responsive)**
+
+  `<meta name="viewport" content="width=device-width, initial-scale=1.0"/>`
+
+Controla el escalado de la página en diferentes dispositivos. Su función es hacer que la landing sea responsiva, ajustando el ancho del contenido al tamaño de la pantalla. Esto es vital para que los padres de familia visualicen la información de manera legible desde sus smartphones.
+
+**Title (SEO)**
+  
+  `<title>SafeRoute — Transporte Escolar Seguro</title>`
+
+Define el título que aparece en la pestaña del navegador y en los resultados de búsqueda. Su función es proporcionar una identificación inmediata de la marca y su propósito principal, siendo un factor crítico para el posicionamiento orgánico.
+
+**Meta Description (SEO)**
+
+  `<meta name="description" content="Plataforma integral para el monitoreo en tiempo real, control de asistencia y comunicación segura entre conductores y padres de familia.">`
+
+Provee un resumen conciso del contenido del sitio. Su función es aparecer como el fragmento de texto (snippet) en Google, atrayendo a los usuarios al explicar claramente cómo SafeRoute resuelve la inseguridad en el transporte escolar.
+
+**Meta Keywords (SEO)**
+
+  `<meta name="keywords" content="transporte escolar, monitoreo GPS, seguridad, SafeRoute, logística escolar, app bilingüe">`
+
+Especifica palabras clave relevantes para la temática de la página. Su función es ayudar a los algoritmos de indexación a clasificar el sitio dentro del nicho de tecnología de transporte y seguridad educativa.
+
+**Meta Author**
+
+  `<meta name="author" content="PowerTech Team">`
+Identifica formalmente a los creadores de la plataforma. Su función es atribuir la autoría del proyecto al equipo de PowerTech, vinculando el desarrollo técnico con el startup responsable.
+
+**Meta Copyright**
+
+  `<meta name="copyright" content="PowerTech 2026">`
+
+Esta línea establece legalmente la propiedad intelectual de la página. Su función es indicar la titularidad de los derechos de autor y el año de vigencia, protegiendo el contenido y diseño del sitio.
+
+**Meta Robots**
+
+  `<meta name="robots" content="index, follow">`
+
+Instruye a los motores de búsqueda sobre cómo tratar el sitio. Su función es permitir que los "robots" incluyan la página en sus índices y sigan los enlaces internos, lo cual es fundamental para el crecimiento del tráfico hacia la plataforma.
+
+**Meta Language**
+
+  `<html lang="en">`
+
+Declara el idioma principal de la estructura del sitio. Su función es informar a los navegadores y buscadores que el texto base está en ingles, mejorando la segmentación del público objetivo internacionalmente.
+
+### 4.2.4. Searching Systems
+
+### 4.2.5. Navigation Systems
 
 ## 4.3. Landing Page UI Design
 
