@@ -262,12 +262,12 @@ Especifica palabras clave relevantes para la temática de la página. Su funció
 
 **Meta Author**
 
-  `<meta name="author" content="PowerTech Team">`
-Identifica formalmente a los creadores de la plataforma. Su función es atribuir la autoría del proyecto al equipo de PowerTech, vinculando el desarrollo técnico con el startup responsable.
+  `<meta name="author" content="FiveTech Team">`
+Identifica formalmente a los creadores de la plataforma. Su función es atribuir la autoría del proyecto al equipo de FiveTech, vinculando el desarrollo técnico con el startup responsable.
 
 **Meta Copyright**
 
-  `<meta name="copyright" content="PowerTech 2026">`
+  `<meta name="copyright" content="FiveTech 2026">`
 
 Esta línea establece legalmente la propiedad intelectual de la página. Su función es indicar la titularidad de los derechos de autor y el año de vigencia, protegiendo el contenido y diseño del sitio.
 
@@ -423,7 +423,7 @@ A continuación, se detalla el flujo de uso del sistema en la sección "¿Cómo 
 
 <img src="assets/images/mockup-LP6.png" alt="Tutorial SafeRoute" width="900px">
 
-Finalmente, se presenta la sección de Contacto y Footer, la cual incluye el cierre de la página con los datos de comunicación directa y los créditos correspondientes al equipo de desarrollo de PowerTech.
+Finalmente, se presenta la sección de Contacto y Footer, la cual incluye el cierre de la página con los datos de comunicación directa y los créditos correspondientes al equipo de desarrollo de FiveTech.
 
 <img src="assets/images/mockup-LP7.png" alt="Footer SafeRoute" width="900px">
 
