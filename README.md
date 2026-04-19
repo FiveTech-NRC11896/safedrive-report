@@ -96,7 +96,7 @@ El equipo ha utilizado un flujo de trabajo en github: [safedrive-report](https:/
 
 ## Capítulo IV: Product Design
 
-### 4.1. Style Guidelines
+## 4.1. Style Guidelines
 
 #### 4.1.1. General Style Guidelines
 
@@ -179,29 +179,56 @@ Estos elementos y principios no se aplican de forma aislada, sino como parte int
 
 #### 4.1.2. Web Style Guidelines
 
-### 4.2. Information Architecture
+El diseño web de SafeRoute está optimizado para proporcionar una experiencia de usuario fluida y profesional, centrada en la legibilidad y la facilidad de navegación. Se emplean estructuras de contenedores flexibles que permiten que el contenido se organice de manera clara, utilizando amplios espacios en blanco para evitar la saturación visual y garantizar la accesibilidad de la información crítica sobre seguridad. Los elementos visuales, como tarjetas de planes y secciones de roles, mantienen proporciones equilibradas para guiar la vista del usuario de forma jerárquica.
+
+En cuanto a la interactividad, la plataforma utiliza una lógica de componentes claramente identificables. Los botones de acción (CTAs) emplean colores contrastantes y estados visuales (como hover y active) que ofrecen una retroalimentación inmediata, reforzando la confianza del usuario al interactuar con el sistema. La navegación se apoya en transiciones suaves y menús persistentes que aseguran que las herramientas principales, como el sistema de internacionalización (i18n), estén siempre al alcance del usuario, facilitando un flujo de trabajo intuitivo y eficiente dentro de la landing page.
+
+## 4.2. Information Architecture
+
 #### 4.2.1. Organization Systems
+
 #### 4.2.2. Labeling Systems
+
 #### 4.2.3. SEO Tags and Meta Tags
+
 #### 4.2.4. Searching Systems
+
 #### 4.2.5. Navigation Systems
-### 4.3. Landing Page UI Design
+
+## 4.3. Landing Page UI Design
+
 #### 4.3.1. Landing Page Wireframe
+
 #### 4.3.2. Landing Page Mock-up
-### 4.4. Web Applications UX/UI Design
+
+## 4.4. Web Applications UX/UI Design
+
 #### 4.4.1. Web Applications Wireframes
+
 #### 4.4.2. Web Applications Wireflow Diagrams
+
 #### 4.4.2. Web Applications Mock-ups
+
 #### 4.4.3. Web Applications User Flow Diagrams
-### 4.5. Web Applications Prototyping
-### 4.6. Domain-Driven Software Architecture
+
+## 4.5. Web Applications Prototyping
+
+## 4.6. Domain-Driven Software Architecture
+
 #### 4.6.1. Design-Level Event Storming
+
 #### 4.6.2. Software Architecture Context Diagram
+
 #### 4.6.3. Software Architecture Container Diagrams
+
 #### 4.6.4. Software Architecture Components Diagrams
-### 4.7. Software Object-Oriented Design
+
+## 4.7. Software Object-Oriented Design
+
 #### 4.7.1. Class Diagrams
-### 4.8. Database Design
+
+## 4.8. Database Design
+
 #### 4.8.1. Database Diagrams
 
 ---
