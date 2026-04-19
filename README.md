@@ -341,41 +341,47 @@ En esta sección se describen los mecanismos de asistencia y recuperación de in
 
 ### 4.2.5. Navigation Systems
 
+La navegación en SafeRoute ha sido diseñada para ser intuitiva y guiada mediante componentes de interfaz que permiten a los usuarios gestionar la seguridad del transporte de forma fluida y sin fricciones. En la landing page, se utiliza un sistema de desplazamiento vertical (smooth scroll) que permite explorar de forma narrativa los beneficios, los roles de usuario y los planes de suscripción, guiando al visitante estratégicamente hacia los llamados a la acción (CTAs) para el contacto. Esta navegación se apoya en una barra superior persistente (Sticky Nav) que incluye un selector de idioma (i18n), permitiendo cambiar el contexto lingüístico en cualquier punto del recorrido.
+
+Dentro de la aplicación web, la navegación principal se organiza mediante una barra lateral fija (Sidebar) que otorga acceso inmediato a las secciones críticas: Monitoreo en Tiempo Real, Lista de Alumnos, Historial de Rutas, Alertas de Seguridad y Configuración de Perfil. Este diseño permite que, por ejemplo, un conductor pueda alternar entre su hoja de ruta y el reporte de incidencias con un solo toque, manteniendo siempre la visibilidad del estado del viaje.
+
+La experiencia de navegación también se adapta dinámicamente según el tipo de usuario. Los Padres de Familia acceden a una vista simplificada centrada en el mapa y las notificaciones de sus hijos, mientras que los Conductores disponen de controles operativos más robustos. El uso de pestañas (tabs) y botones de acción rápida dentro de cada módulo asegura que el usuario pueda ejecutar tareas específicas, como marcar la asistencia o llamar a un apoderado, sin perder el contexto de la ruta activa, garantizando un flujo de trabajo coherente con la naturaleza crítica del servicio.
+
 ## 4.3. Landing Page UI Design
 
-#### 4.3.1. Landing Page Wireframe
+### 4.3.1. Landing Page Wireframe
 
-#### 4.3.2. Landing Page Mock-up
+### 4.3.2. Landing Page Mock-up
 
 ## 4.4. Web Applications UX/UI Design
 
-#### 4.4.1. Web Applications Wireframes
+### 4.4.1. Web Applications Wireframes
 
-#### 4.4.2. Web Applications Wireflow Diagrams
+### 4.4.2. Web Applications Wireflow Diagrams
 
-#### 4.4.2. Web Applications Mock-ups
+### 4.4.2. Web Applications Mock-ups
 
-#### 4.4.3. Web Applications User Flow Diagrams
+### 4.4.3. Web Applications User Flow Diagrams
 
 ## 4.5. Web Applications Prototyping
 
 ## 4.6. Domain-Driven Software Architecture
 
-#### 4.6.1. Design-Level Event Storming
+### 4.6.1. Design-Level Event Storming
 
-#### 4.6.2. Software Architecture Context Diagram
+### 4.6.2. Software Architecture Context Diagram
 
-#### 4.6.3. Software Architecture Container Diagrams
+### 4.6.3. Software Architecture Container Diagrams
 
-#### 4.6.4. Software Architecture Components Diagrams
+### 4.6.4. Software Architecture Components Diagrams
 
 ## 4.7. Software Object-Oriented Design
 
-#### 4.7.1. Class Diagrams
+### 4.7.1. Class Diagrams
 
 ## 4.8. Database Design
 
-#### 4.8.1. Database Diagrams
+### 4.8.1. Database Diagrams
 
 ---
 
