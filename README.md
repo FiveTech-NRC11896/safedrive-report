@@ -185,7 +185,7 @@ En cuanto a la interactividad, la plataforma utiliza una lógica de componentes 
 
 ![Mockup Landing Page](assets/images/mockup_landingPage.png)
 ![Mockup Planes](assets/images/mockup_planes.png)
-![Mockup CTA](assets/images/mockup_cta.png)
+![Mockup footer](assets/images/mockup_footer.png)
 
 _Nota_: Elaboración propia.
 
