@@ -371,7 +371,7 @@ En esta primera sección se presenta la pantalla Home de la landing page, donde 
 
 <img src="assets/images/wireframe-LP1.png" alt="Home SafeRoute" width="900px">
 
-A continuación, se muestra la Sección de Características, donde se detallan los pilares de seguridad y eficiencia que sustentan la plataforma SafeRoute, utilizando iconos y textos breves para una lectura rápida.
+A continuación, se muestra la Sección de Características, donde se detallan los pilares y eficiencia que sustentan la plataforma SafeRoute, utilizando iconos y textos breves para una lectura rápida.
 
 <img src="assets/images/wireframe-LP2.png" alt="Características SafeRoute" width="900px">
 
@@ -379,11 +379,11 @@ Se presenta la sección de Funcionalidades, la cual profundiza en las capacidade
 
 <img src="assets/images/wireframe-LP3.png" alt="Funcionalidades" width="900px">
 
-Los siguientes frames corresponden a los Roles del Sistema, donde se segmentan los beneficios específicos para cada usuario objetivo: los padres de familia, enfocados en la tranquilidad y el seguimiento, y los conductores, enfocados en la gestión operativa de la ruta.
+El siguiente frame corresponde a los Roles del Sistema, donde se segmentan los beneficios específicos para cada usuario objetivo: los padres de familia, enfocados en la tranquilidad y el seguimiento, y los conductores, enfocados en la gestión operativa de la ruta.
 
 <img src="assets/images/wireframe-LP4.png" alt="Roles SafeRoute" width="900px">
 
-Se presenta la sección de Planes, donde se muestra la estructura de precios y niveles de servicio, diseñada de forma escaneable para facilitar la toma de decisiones comerciales.
+Se presenta la sección de Planes, donde se muestra la estructura de precios y niveles de servicio, diseñada de forma escaneable para facilitar la toma de decisiones.
 
 <img src="assets/images/wireframe-LP5.png" alt="Planes SafeRoute" width="900px">
 
@@ -391,9 +391,33 @@ A continuación, se detalla el flujo de uso del sistema en la sección "¿Cómo 
 
 <img src="assets/images/wireframe-LP6.png" alt="Tutorial SafeRoute" width="900px">
 
-Finalmente, se presenta la sección de Contacto y Footer, la cual incluye el cierre de la página con los datos de comunicación directa y los créditos correspondientes al equipo de desarrollo de FiveTech.
+Finalmente, se presenta la sección de Footer, la cual incluye el cierre de la página con los créditos correspondientes al equipo de desarrollo de FiveTech.
 
 <img src="assets/images/wireframe-LP7.png" alt="Footer SafeRoute" width="900px">
+
+#### Versión Mobile Web Browser
+
+A continuación, se presenta la adaptación responsiva de SafeRoute para dispositivos móviles. En estas vistas se observa la reorganización de los elementos en una estructura vertical y el uso de componentes optimizados para la interacción táctil.
+
+Pantalla Home y Menú Lateral (Sidebar):
+Se muestra la adaptación del Hero Section y el funcionamiento del menú hamburguesa, el cual despliega una barra lateral para facilitar la navegación en pantallas pequeñas sin obstruir el contenido.
+
+<img src="assets/images/wireframe-mobile-1.png" alt="Home Mobile" width="700px">
+
+Secciones de Características y Funcionalidades en Móvil:
+Los pilares de seguridad y las capacidades tecnológicas del sistema se reorganizan en una sola columna. Esto permite que los iconos y textos descriptivos mantengan un tamaño adecuado para la lectura táctil, evitando que el usuario deba realizar zoom para comprender las funciones de monitoreo y alertas.
+
+<img src="assets/images/wireframe-mobile-2.png" alt="Características y Funcionalidades Mobile" width="800px">
+
+Sección de Roles del Sistema en Móvil:
+Se adapta la segmentación de beneficios para padres y conductores mediante un flujo vertical. Cada rol se presenta de forma independiente para asegurar que el impacto visual de los beneficios específicos no se pierda en pantallas de dimensiones reducidas.
+ 
+<img src="assets/images/wireframe-mobile-3.png" alt="Roles Mobile" width="700px">
+
+Planes, Tutorial y Footer Móvil:
+La tabla de precios se transforma en tarjetas individuales desplazables de arriba hacia abajo, seguida del flujo paso a paso del tutorial. El cierre de página se optimiza para mostrar los créditos de FiveTech de manera compacta al final del recorrido del usuario.
+
+<img src="assets/images/wireframe-mobile-4.png" alt="Planes y Footer Mobile" width="1000px">
 
 ### 4.3.2. Landing Page Mock-up
 
@@ -403,7 +427,7 @@ En esta primera sección se presenta la pantalla Home de la landing page, donde 
 
 <img src="assets/images/mockup-LP1.png" alt="Home SafeRoute" width="900px">
 
-A continuación, se muestra la Sección de Características, donde se detallan los pilares de seguridad y eficiencia que sustentan la plataforma SafeRoute, utilizando iconos y textos breves para una lectura rápida.
+A continuación, se muestra la Sección de Características, donde se detallan los pilares y eficiencia que sustentan la plataforma SafeRoute, utilizando iconos y textos breves para una lectura rápida.
 
 <img src="assets/images/mockup-LP2.png" alt="Características SafeRoute" width="900px">
 
@@ -411,7 +435,7 @@ Se presenta la sección de Funcionalidades, la cual profundiza en las capacidade
 
 <img src="assets/images/mockup-LP3.png" alt="Funcionalidades" width="900px">
 
-Los siguientes frames corresponden a los Roles del Sistema, donde se segmentan los beneficios específicos para cada usuario objetivo: los padres de familia, enfocados en la tranquilidad y el seguimiento, y los conductores, enfocados en la gestión operativa de la ruta.
+El siguiente frame corresponde a los Roles del Sistema, donde se segmentan los beneficios específicos para cada usuario objetivo: los padres de familia, enfocados en la tranquilidad y el seguimiento, y los conductores, enfocados en la gestión operativa de la ruta.
 
 <img src="assets/images/mockup-LP4.png" alt="Roles SafeRoute" width="900px">
 
@@ -423,11 +447,33 @@ A continuación, se detalla el flujo de uso del sistema en la sección "¿Cómo 
 
 <img src="assets/images/mockup-LP6.png" alt="Tutorial SafeRoute" width="900px">
 
-Finalmente, se presenta la sección de Contacto y Footer, la cual incluye el cierre de la página con los datos de comunicación directa y los créditos correspondientes al equipo de desarrollo de FiveTech.
+Finalmente, se presenta la sección de Footer, la cual incluye el cierre de la página con los créditos correspondientes al equipo de desarrollo de FiveTech.
 
 <img src="assets/images/mockup-LP7.png" alt="Footer SafeRoute" width="900px">
 
+#### Versión Mobile Web Browser
 
+A continuación, se presentan los mock-ups de la versión móvil de la aplicación. Cada imagen muestra la adaptación responsiva de las principales funcionalidades y secciones diseñadas para ofrecer una experiencia de usuario optimizada en dispositivos móviles.
+
+Pantalla Home y Menú Lateral (Sidebar):
+Se muestra la adaptación del Hero Section y el funcionamiento del menú hamburguesa, el cual despliega una barra lateral para facilitar la navegación en pantallas pequeñas sin obstruir el contenido.
+
+<img src="assets/images/mockup-mobile-1.png" alt="Home Mobile" width="700px">
+
+Secciones de Características y Funcionalidades en Móvil:
+Los pilares de seguridad y las capacidades tecnológicas del sistema se reorganizan en una sola columna. Esto permite que los iconos y textos descriptivos mantengan un tamaño adecuado para la lectura táctil, evitando que el usuario deba realizar zoom para comprender las funciones de monitoreo y alertas.
+
+<img src="assets/images/mockup-mobile-2.png" alt="Características y Funcionalidades Mobile" width="800px">
+
+Sección de Roles del Sistema en Móvil:
+Se adapta la segmentación de beneficios para padres y conductores mediante un flujo vertical. Cada rol se presenta de forma independiente para asegurar que el impacto visual de los beneficios específicos no se pierda en pantallas de dimensiones reducidas.
+ 
+<img src="assets/images/mockup-mobile-3.png" alt="Roles Mobile" width="700px">
+
+Planes, Tutorial y Footer Móvil:
+La tabla de precios se transforma en tarjetas individuales desplazables de arriba hacia abajo, seguida del flujo paso a paso del tutorial. El cierre de página se optimiza para mostrar los botones de contacto y los créditos de FiveTech de manera compacta y accesible al final del recorrido del usuario.
+
+<img src="assets/images/mockup-mobile-4.png" alt="Planes y Footer Mobile" width="1000px">
 ## 4.4. Web Applications UX/UI Design
 
 ### 4.4.1. Web Applications Wireframes
