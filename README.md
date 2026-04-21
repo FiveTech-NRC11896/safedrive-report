@@ -70,13 +70,13 @@ Nuestra propuesta de valor se materializa en SafeRoute, una plataforma web de mo
 
 #### 1.1.2. Perfiles de integrantes del equipo
 
-|                Foto                | Apellidos y Nombres         |    Código     | Carrera                | Resumen                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| :--------------------------------: | :-------------------------- | :-----------: | :--------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|              ![foto]               | [Apellido 1], [Nombre 1]    | [U20XXXXXXXX] | Ingeniería de Software | [Descripción de conocimientos técnicos y habilidades que aporta al equipo]                                                                                                                                                                                                                                                                                                                                                                             |
-|              ![foto]               | [Apellido 2], [Nombre 2]    | [U20XXXXXXXX] | Ingeniería de Software | [Descripción de conocimientos técnicos y habilidades que aporta al equipo]                                                                                                                                                                                                                                                                                                                                                                             |
+|                  Foto                   | Apellidos y Nombres         |    Código     | Carrera                | Resumen                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| :-------------------------------------: | :-------------------------- | :-----------: | :--------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|                 ![foto]                 | [Apellido 1], [Nombre 1]    | [U20XXXXXXXX] | Ingeniería de Software | [Descripción de conocimientos técnicos y habilidades que aporta al equipo]                                                                                                                                                                                                                                                                                                                                                                             |
+|                 ![foto]                 | [Apellido 2], [Nombre 2]    | [U20XXXXXXXX] | Ingeniería de Software | [Descripción de conocimientos técnicos y habilidades que aporta al equipo]                                                                                                                                                                                                                                                                                                                                                                             |
 | ![foto](assets/images/Team/frankFT.png) | Quispe Serrano, Julio Frank | [U20241D922]  | Ingeniería de Software | Mi nombre es Julio Frank Quispe Serrano, tengo 20 años,actualmente estoy cursando el 5to ciclo de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Soy un apasionado por la programación, el gym y explorador de música en distintos géneros. Mi aporte en este grupo será el de brindar soluciones prácticas y eficientes ante situaciones de adversidad que estanquen la fluidez de la elaboración del trabajo. |
-|              ![foto]               | [Apellido 4], [Nombre 4]    | [U20XXXXXXXX] | Ingeniería de Software | [Descripción de conocimientos técnicos y habilidades que aporta al equipo]                                                                                                                                                                                                                                                                                                                                                                             |
-|              ![foto]               | [Apellido 5], [Nombre 5]    | [U20XXXXXXXX] | Ingeniería de Software | [Descripción de conocimientos técnicos y habilidades que aporta al equipo]                                                                                                                                                                                                                                                                                                                                                                             |
+|                 ![foto]                 | [Apellido 4], [Nombre 4]    | [U20XXXXXXXX] | Ingeniería de Software | [Descripción de conocimientos técnicos y habilidades que aporta al equipo]                                                                                                                                                                                                                                                                                                                                                                             |
+|                 ![foto]                 | [Apellido 5], [Nombre 5]    | [U20XXXXXXXX] | Ingeniería de Software | [Descripción de conocimientos técnicos y habilidades que aporta al equipo]                                                                                                                                                                                                                                                                                                                                                                             |
 
 ### 1.2. Solution Profile
 
@@ -108,8 +108,7 @@ Respecto a la seguridad, la Superintendencia de Transporte Terrestre de Personas
 
 **Figura 1** Distribución de estudiantes de Educación Inicial y Primaria en instituciones privadas y zonas urbanas en el Perú
 ![CensoEstudiantil](/assets/images/CensoEstudiantil.png)
-*Nota.* Adaptado de Resultados del Censo Educativo 2022 (p. 12), por Ministerio de Educación, 2023.
-
+_Nota._ Adaptado de Resultados del Censo Educativo 2022 (p. 12), por Ministerio de Educación, 2023.
 
 #### 1.2.2 Lean UX Process
 
@@ -120,7 +119,9 @@ Hemos observado un factor crítico que afecta a este ecosistema, los padres de f
 ¿Cómo podemos desarrollar una plataforma que permita a los transportistas escolares gestionar su operación de forma digital, mientras ofrece simultáneamente a los padres de familia la visibilidad y tranquilidad que necesitan sobre el traslado de sus hijos?
 
 ##### 1.2.2.2. Lean UX Assumptions
+
 **Business Assumptions**
+
 - Creemos que existe demanda suficiente para digitalizar el transporte escolar privado en Lima Metropolitana, dado que opera mayoritariamente de forma tradicional y sin soporte tecnológico.
 - Creemos que los padres de familia adoptarán la plataforma si el proceso de incorporación es simple y la información que reciben sobre el trayecto de sus hijos es clara y confiable.
 - Creemos que los transportistas adoptarán la plataforma si la interfaz operativa durante el trayecto es simple, rápida y no distrae la conducción.
@@ -129,51 +130,54 @@ Hemos observado un factor crítico que afecta a este ecosistema, los padres de f
 - Sabremos que estamos equivocados si los administradores abandonan la plataforma en los primeros 60 días por considerar que la curva de aprendizaje es demasiado alta o que el valor percibido no justifica el costo.
 
 **User Assumptions**
-- ¿Quién es el usuario? 
-Los padres de familia con hijos en nivel inicial, kínder y primaria que utilizan un servicio de transporte escolar ya contratado, y los transportistas escolares  como por ejemplo los conductores independientes o responsables de pequeñas empresas que operan ese servicio. Dentro de la plataforma, cualquiera de estos segmentos puede asumir además el rol de Administrador.
-- ¿Dónde encaja nuestro producto en su vida? 
-Para el transportista, en su jornada laboral operativa diaria. Para el padre, en los momentos de entrada y salida escolar de sus hijos.
-- ¿Qué problemas resuelve? 
-Elimina la gestión manual y la comunicación no estructurada del transporte escolar, proporcionando al transportista herramientas operativas digitales y al padre visibilidad del trayecto de sus hijos.
-- ¿Cuándo y cómo es usado? 
-El transportista lo usa durante cada trayecto para gestionar abordajes, paradas e incidencias. El padre lo consulta en los horarios de traslado escolar para monitorear el estado del viaje de sus hijos.
-- ¿Qué características son importantes? 
-Registro de abordaje por alumno, visualización de ruta y paradas, reporte de incidencias, historial de trayectos y gestión centralizada de usuarios y rutas.
-- ¿Cómo debe verse y comportarse? 
-Interfaz limpia, responsiva, rápida y accesible (a11y), disponible en español e inglés (i18n), e intuitiva para usuarios con distintos niveles de familiaridad tecnológica.
+
+- ¿Quién es el usuario?
+  Los padres de familia con hijos en nivel inicial, kínder y primaria que utilizan un servicio de transporte escolar ya contratado, y los transportistas escolares como por ejemplo los conductores independientes o responsables de pequeñas empresas que operan ese servicio. Dentro de la plataforma, cualquiera de estos segmentos puede asumir además el rol de Administrador.
+- ¿Dónde encaja nuestro producto en su vida?
+  Para el transportista, en su jornada laboral operativa diaria. Para el padre, en los momentos de entrada y salida escolar de sus hijos.
+- ¿Qué problemas resuelve?
+  Elimina la gestión manual y la comunicación no estructurada del transporte escolar, proporcionando al transportista herramientas operativas digitales y al padre visibilidad del trayecto de sus hijos.
+- ¿Cuándo y cómo es usado?
+  El transportista lo usa durante cada trayecto para gestionar abordajes, paradas e incidencias. El padre lo consulta en los horarios de traslado escolar para monitorear el estado del viaje de sus hijos.
+- ¿Qué características son importantes?
+  Registro de abordaje por alumno, visualización de ruta y paradas, reporte de incidencias, historial de trayectos y gestión centralizada de usuarios y rutas.
+- ¿Cómo debe verse y comportarse?
+  Interfaz limpia, responsiva, rápida y accesible (a11y), disponible en español e inglés (i18n), e intuitiva para usuarios con distintos niveles de familiaridad tecnológica.
 
 ##### 1.2.2.3. Lean UX Hypothesis Statements
+
 - Hipótesis 1: "Creemos que lograremos que los padres de familia reduzcan su incertidumbre durante el traslado escolar si ofrecemos a los padres registrados en SafeRoute una vista del estado del trayecto con marcación de abordaje por alumno y visualización de paradas.
-Sabremos que esto es verdad cuando veamos que al menos el 70% de los padres activos consulten el estado del trayecto al menos una vez por día durante las primeras 4 semanas de uso."
+  Sabremos que esto es verdad cuando veamos que al menos el 70% de los padres activos consulten el estado del trayecto al menos una vez por día durante las primeras 4 semanas de uso."
 
 - Hipótesis 2: "Creemos que lograremos que los transportistas gestionen el trayecto con menos errores y menor carga operativa si ofrecemos a los conductores registrados en SafeRoute una interfaz operativa simple para marcar abordajes, seguir paradas y reportar incidencias durante el viaje.
-Sabremos que esto es verdad cuando veamos que el 80% de los trayectos registrados incluyan el check-list de abordaje completado durante las primeras 4 semanas de operación."
+  Sabremos que esto es verdad cuando veamos que el 80% de los trayectos registrados incluyan el check-list de abordaje completado durante las primeras 4 semanas de operación."
 
 - Hipótesis 3: "Creemos que lograremos que los administradores centralicen la gestión de su servicio en SafeRoute si ofrecemos a los administradores del plan Básico un panel único para registrar usuarios, conductores, hijos, asignaciones y rutas. Sabremos que esto es verdad cuando veamos que al menos el 75% de los administradores registren la totalidad de sus usuarios y rutas dentro de los primeros 15 días tras el onboarding."
 
 - Hipótesis 4: "Creemos que lograremos que los administradores escalen su plan de suscripción si demostramos a los administradores de los planes inferiores que las funcionalidades de los plan superiores reducen significativamente el tiempo de coordinación del servicio. Sabremos que esto es verdad cuando veamos que al menos el 20% de los administradores de los planes Básico o Intermedio actualicen al algun plan superior dentro de los primeros 3 meses de uso."
 
 ##### 1.2.2.4. Lean UX Canvas
-| Sección | Contenido |
-| :----- | :--------- |
-| 1. Business Problem | El transporte escolar privado en el Perú opera de forma tradicional y sin soporte tecnológico. Los padres no tienen visibilidad sobre el trayecto de sus hijos y los transportistas gestionan su operación con llamadas, WhatsApp y hojas privadas, lo que genera errores, ineficiencia y una experiencia de servicio poco confiable.|
-| 2. Business Outcomes| Lograr que el 75% de administradores completen el registro de su operación en los primeros 15 días. Retener al 80% de suscriptores activos durante los primeros 3 meses. Alcanzar una tasa de upgrade del plan Básico al Intermedio del 20% en los primeros 3 meses de uso.|
-| 3. Users | Los segmentos que interactúan con SafeRoute son los padres de familia con hijos en nivel inicial, kínder y primaria que utilizan un servicio de transporte escolar ya contratado, y los transportistas escolares conductores independientes o responsables de pequeñas empresas que operan ese servicio. Cualquiera de estos puede asumir además el rol de Administrador dentro de la plataforma.|
-| 4. User Outcomes & Benefits | Los padres buscan reducir su incertidumbre sobre el trayecto de sus hijos, pudiendo monitorear el estado del viaje sin necesidad de interrumpir al conductor. Los transportistas buscan gestionar rutas, alumnos e incidencias de forma digital, reduciendo errores operativos y proyectando mayor profesionalismo frente a las familias. Quienes asumen el rol de administrador buscan centralizar toda la operación del servicio en un solo panel, eliminando la coordinación manual y el uso de herramientas desconectadas.|
-| 5. Solution Ideas | Ofrecemos un panel de administración de usuarios, conductores, hijos y rutas. Tambien, Check-list de abordaje digital por conductor. Vista de paradas y estado del trayecto para padres. Registro de incidencias por ruta. Historial de trayectos por comunidad de ruta. Seguimiento GPS en tiempo real (plan Completo). Apertura a integración IoT futura.|
-| 6. Hypotheses | - Si ofrecemos a los padres una vista de estado del trayecto, al menos el 70% la consultará diariamente en las primeras 4 semanas.<br> - Si ofrecemos al conductor una interfaz operativa simple, el 80% de los trayectos tendrán el check-list completado en las primeras 4 semanas.<br> - Si ofrecemos al administrador un panel único de gestión, el 75% completará su registro en los primeros 15 días.<br> - Si demostramos el valor del plan Intermedio, el 20% de administradores del plan Básico harán upgrade en los primeros 3 meses.|
-| 7. What's the most important thing we need to learn first? | ¿El administrador del servicio percibe suficiente valor en SafeRoute como para abandonar los métodos informales actuales y pagar una suscripción mensual?|
-| 8. What's the least amount of work we need to do to learn the next most important thing? | Realizar entrevistas con 3 a 5 administradores de servicios de transporte escolar (padres representantes o transportistas independientes) para validar su disposición al cambio y las funcionalidades que consideran imprescindibles antes de desarrollar el MVP.|
+
+| Sección                                                                                  | Contenido                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| :--------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1. Business Problem                                                                      | El transporte escolar privado en el Perú opera de forma tradicional y sin soporte tecnológico. Los padres no tienen visibilidad sobre el trayecto de sus hijos y los transportistas gestionan su operación con llamadas, WhatsApp y hojas privadas, lo que genera errores, ineficiencia y una experiencia de servicio poco confiable.                                                                                                                                                                                                           |
+| 2. Business Outcomes                                                                     | Lograr que el 75% de administradores completen el registro de su operación en los primeros 15 días. Retener al 80% de suscriptores activos durante los primeros 3 meses. Alcanzar una tasa de upgrade del plan Básico al Intermedio del 20% en los primeros 3 meses de uso.                                                                                                                                                                                                                                                                     |
+| 3. Users                                                                                 | Los segmentos que interactúan con SafeRoute son los padres de familia con hijos en nivel inicial, kínder y primaria que utilizan un servicio de transporte escolar ya contratado, y los transportistas escolares conductores independientes o responsables de pequeñas empresas que operan ese servicio. Cualquiera de estos puede asumir además el rol de Administrador dentro de la plataforma.                                                                                                                                               |
+| 4. User Outcomes & Benefits                                                              | Los padres buscan reducir su incertidumbre sobre el trayecto de sus hijos, pudiendo monitorear el estado del viaje sin necesidad de interrumpir al conductor. Los transportistas buscan gestionar rutas, alumnos e incidencias de forma digital, reduciendo errores operativos y proyectando mayor profesionalismo frente a las familias. Quienes asumen el rol de administrador buscan centralizar toda la operación del servicio en un solo panel, eliminando la coordinación manual y el uso de herramientas desconectadas.                  |
+| 5. Solution Ideas                                                                        | Ofrecemos un panel de administración de usuarios, conductores, hijos y rutas. Tambien, Check-list de abordaje digital por conductor. Vista de paradas y estado del trayecto para padres. Registro de incidencias por ruta. Historial de trayectos por comunidad de ruta. Seguimiento GPS en tiempo real (plan Completo). Apertura a integración IoT futura.                                                                                                                                                                                     |
+| 6. Hypotheses                                                                            | - Si ofrecemos a los padres una vista de estado del trayecto, al menos el 70% la consultará diariamente en las primeras 4 semanas.<br> - Si ofrecemos al conductor una interfaz operativa simple, el 80% de los trayectos tendrán el check-list completado en las primeras 4 semanas.<br> - Si ofrecemos al administrador un panel único de gestión, el 75% completará su registro en los primeros 15 días.<br> - Si demostramos el valor del plan Intermedio, el 20% de administradores del plan Básico harán upgrade en los primeros 3 meses. |
+| 7. What's the most important thing we need to learn first?                               | ¿El administrador del servicio percibe suficiente valor en SafeRoute como para abandonar los métodos informales actuales y pagar una suscripción mensual?                                                                                                                                                                                                                                                                                                                                                                                       |
+| 8. What's the least amount of work we need to do to learn the next most important thing? | Realizar entrevistas con 3 a 5 administradores de servicios de transporte escolar (padres representantes o transportistas independientes) para validar su disposición al cambio y las funcionalidades que consideran imprescindibles antes de desarrollar el MVP.                                                                                                                                                                                                                                                                               |
 
 ### 1.3. Segmentos objetivo
 
 SafeRoute está dirigido a dos segmentos que forman parte del ecosistema del transporte escolar privado en Lima Metropolitana.
 
 - **Segmento 1: Padres de Familia**
-El primer segmento está conformado por padres de familia o apoderados con hijos en nivel inicial, kínder y primaria que utilizan un servicio de transporte escolar privado ya contratado. Se trata de personas que han delegado el traslado de sus hijos a un tercero y que, durante el trayecto, no cuentan con información estructurada sobre el estado del viaje. Este segmento no está delimitado por un nivel socioeconómico específico, sino por la condición de tener hijos en edad escolar que usan transporte privado y de contar con acceso a internet desde un dispositivo con navegador web. Su principal motivación al usar SafeRoute es, precisamente, reducir la incertidumbre que genera no saber si sus hijos abordaron con seguridad, en qué parte del recorrido se encuentran o si ocurrió alguna novedad durante el viaje. Para dimensionar este segmento, según el Censo Educativo 2022-2023, en Lima Metropolitana existen aproximadamente 1.9 millones de estudiantes distribuidos en cerca de 7,602 instituciones educativas, de las cuales el 74% son de gestión privada (Ministerio de Educación, 2023). Esta alta proporción de colegios privados implica que una parte significativa de las familias limeñas depende de servicios externos de transporte escolar, dado que pocas instituciones cuentan con flotas propias.
+  El primer segmento está conformado por padres de familia o apoderados con hijos en nivel inicial, kínder y primaria que utilizan un servicio de transporte escolar privado ya contratado. Se trata de personas que han delegado el traslado de sus hijos a un tercero y que, durante el trayecto, no cuentan con información estructurada sobre el estado del viaje. Este segmento no está delimitado por un nivel socioeconómico específico, sino por la condición de tener hijos en edad escolar que usan transporte privado y de contar con acceso a internet desde un dispositivo con navegador web. Su principal motivación al usar SafeRoute es, precisamente, reducir la incertidumbre que genera no saber si sus hijos abordaron con seguridad, en qué parte del recorrido se encuentran o si ocurrió alguna novedad durante el viaje. Para dimensionar este segmento, según el Censo Educativo 2022-2023, en Lima Metropolitana existen aproximadamente 1.9 millones de estudiantes distribuidos en cerca de 7,602 instituciones educativas, de las cuales el 74% son de gestión privada (Ministerio de Educación, 2023). Esta alta proporción de colegios privados implica que una parte significativa de las familias limeñas depende de servicios externos de transporte escolar, dado que pocas instituciones cuentan con flotas propias.
 
 - **Segmento 1: Transportistas Escolares**
-El segundo segmento está conformado por las personas o entidades que operan el servicio de transporte escolar privado. Dentro de este segmento conviven tres perfiles distintos. El primero corresponde a personas independientes que ofrecen el servicio de forma autónoma. El segundo agrupa a conductores que han sido asignados para operar una movilidad organizada por un conjunto de familias. El tercero engloba a los responsables de pequeñas empresas de transporte escolar que cuentan con una flota de vehículos y conductores a su cargo. A pesar de sus diferencias, todos comparten un factor común, pues operan sin herramientas digitales especializadas, apoyándose en métodos manuales e informales para gestionar una actividad que involucra directamente la seguridad de menores. La relevancia de este segmento se ve reflejada en que la cantidad de movilidades escolares autorizadas en Lima disminuyó en un 25% en solo un año, lo que evidencia un incremento en la informalidad del sector y, con ello, una mayor ausencia de mecanismos de control y monitoreo sobre el servicio que reciben los menores (Autoridad de Transporte Urbano para Lima y Callao, 2024). Adicionalmente, la Superintendencia de Transporte Terrestre de Personas, Carga y Mercancías ejecutó en 2024 campañas de sensibilización que alcanzaron a más de 47,000 escolares, lo que confirma que la seguridad en este sector continúa siendo una preocupación activa para las autoridades (SUTRAN, 2024). Por ello, la principal motivación de este segmento al usar SafeRoute es digitalizar y profesionalizar su operación, reducir los errores en la gestión de rutas y alumnos, y ofrecer a las familias que atienden una experiencia de servicio más confiable y transparente.
+  El segundo segmento está conformado por las personas o entidades que operan el servicio de transporte escolar privado. Dentro de este segmento conviven tres perfiles distintos. El primero corresponde a personas independientes que ofrecen el servicio de forma autónoma. El segundo agrupa a conductores que han sido asignados para operar una movilidad organizada por un conjunto de familias. El tercero engloba a los responsables de pequeñas empresas de transporte escolar que cuentan con una flota de vehículos y conductores a su cargo. A pesar de sus diferencias, todos comparten un factor común, pues operan sin herramientas digitales especializadas, apoyándose en métodos manuales e informales para gestionar una actividad que involucra directamente la seguridad de menores. La relevancia de este segmento se ve reflejada en que la cantidad de movilidades escolares autorizadas en Lima disminuyó en un 25% en solo un año, lo que evidencia un incremento en la informalidad del sector y, con ello, una mayor ausencia de mecanismos de control y monitoreo sobre el servicio que reciben los menores (Autoridad de Transporte Urbano para Lima y Callao, 2024). Adicionalmente, la Superintendencia de Transporte Terrestre de Personas, Carga y Mercancías ejecutó en 2024 campañas de sensibilización que alcanzaron a más de 47,000 escolares, lo que confirma que la seguridad en este sector continúa siendo una preocupación activa para las autoridades (SUTRAN, 2024). Por ello, la principal motivación de este segmento al usar SafeRoute es digitalizar y profesionalizar su operación, reducir los errores en la gestión de rutas y alumnos, y ofrecer a las familias que atienden una experiencia de servicio más confiable y transparente.
 
 ---
 
@@ -258,7 +262,6 @@ El segundo segmento está conformado por las personas o entidades que operan el 
 ### 4.5. Web Applications Prototyping
 
 ### 4.6. Domain-Driven Software Architecture
-
 
 Plantilla de colores:
 ![Plantilla](assets/images/ChapterIV/EventStorming/ColorPosit.png)
@@ -437,267 +440,296 @@ Los contextos delimitados organizan los agregados en dominios de negocio indepen
 
 - Notifications & Communication: Actúa como el eje de interacción inmediata entre el transporte y el hogar. Orquesta el envío de notificaciones push (como el estado de abordaje del estudiante), alertas de pánico y mensajes de difusión general para mantener informados a los padres y administradores.
 
-
 #### 4.6.2. Software Architecture Context Diagram
+
 El diagrama de contexto presenta a SafeRoute como el sistema central, rodeado por sus tres tipos de usuarios y los sistemas externos con los que interactúa. El Administrador gestiona la plataforma, configurando rutas, registrando actores y administrando suscripciones. El Conductor accede para ejecutar viajes, registrar el abordaje de estudiantes y emitir alertas de pánico. El Padre/Tutor monitorea en tiempo real el estado de la ruta de su hijo y recibe notificaciones.
 SafeRoute se integra con tres sistemas externos: PayPal, que procesa los pagos y actualizaciones de suscripción; Leaflet + OpenRouteService, que renderiza mapas geográficos y calcula las rutas escolares; y Resend, proveedor de correo transaccional responsable del despacho de notificaciones y alertas hacia los padres.
 
 ![ContextDiagram](/assets/images/ChapterIV/C4/SystemContext-dark.png)
 
 #### 4.6.3. Software Architecture Container Diagrams
+
 Aquí se detallan las unidades de despliegue principales del sistema. El diagrama muestra cómo SafeRoute se divide en una Landing Page estática (HTML5, CSS3, JavaScript), una aplicación web interactiva en el cliente desarrollada en Angular con Angular Material, una API backend modularizada construida con Spring Boot y Java y un repositorio persistente central (Base de Datos MySQL).
 
 ![ContainerDiagram](/assets/images/ChapterIV/C4/Containers-dark.png)
 
 #### 4.6.4. Software Architecture Components Diagrams
-Este diagrama ofrece la visión macro del backend. Demuestra cómo el monolito de Spring Boot está organizado lógicamente en seis Bounded Contexts independientes y un Shared Kernel (núcleo compartido de Value Objects), asegurando una separación clara de responsabilidades a nivel de dominio.
+
+Aquí se detallan las unidades de despliegue principales del sistema. El diagrama muestra cómo SafeRoute se divide en una Landing Page, una aplicación interactiva en el cliente (SPA desarrollada en Vue 3), una API backend modularizada (Web Service en ASP.NET Core) y un repositorio persistente central (Base de Datos MySQL).
+
+![ContainerDiagram](/assets/images/ChapterIV/C4/Containers-dark.png)
+
+#### 4.6.4. Software Architecture Components Diagrams
+
+Este diagrama ofrece la visión macro del backend. Demuestra cómo el monolito de ASP.NET Core está organizado lógicamente en siete Bounded Contexts independientes y un Shared Kernel (núcleo compartido de Value Objects), asegurando una separación clara de responsabilidades a nivel de dominio.
 
 ![WebServices](/assets/images/ChapterIV/C4/WebServiceComponents-dark.png)
 
 - Identity & Access Management:
-Desglosa el módulo de identidad en su arquitectura interna de 4 capas (API, Application, Domain, Infrastructure). Ilustra cómo se maneja la autenticación de usuarios, la provisión de cuentas y la emisión de tokens de seguridad de forma aislada.
-![WebServices](/assets/images/ChapterIV/C4/ComponentDiagram_IAM-dark.png)
+  Desglosa el módulo de identidad en su arquitectura interna de 4 capas (API, Application, Domain, Infrastructure). Ilustra cómo se maneja la autenticación de usuarios, la provisión de cuentas y la emisión de tokens de seguridad de forma aislada.
+  ![WebServices](/assets/images/ChapterIV/C4/ComponentDiagram_IAM-dark.png)
 
 - Subscription & Plan Management:
-Muestra la estructura interna de 4 capas del contexto encargado de la monetización. Detalla el flujo desde el controlador REST hasta la infraestructura que se integra con PayPal para gestionar el ciclo de vida de los planes y pagos de suscripción.
-![WebServices](/assets/images/ChapterIV/C4/ComponentDiagram_Subscription-dark.png)
+  Muestra la estructura interna de 4 capas del contexto encargado de la monetización. Detalla el flujo desde el controlador REST hasta la infraestructura que se integra con PayPal para gestionar el ciclo de vida de los planes y pagos.
+  ![WebServices](/assets/images/ChapterIV/C4/ComponentDiagram_Subscription-dark.png)
 
 - Stakeholder & Asset Management:
-Representa las capas internas del dominio que administra la información core del negocio: la creación y vinculación de perfiles para conductores, padres de familia, estudiantes y la gestión de la flota de vehículos disponibles por organización.
-![WebServices](/assets/images/ChapterIV/C4/ComponentDiagram_Stakeholder-dark.png
+  Representa las capas internas del dominio que administra la información core del negocio: la creación y vinculación de perfiles para conductores, padres de familia y estudiantes.
+  ![WebServices](/assets/images/ChapterIV/C4/ComponentDiagram_Stakeholder-dark.png)
 
 - Route Planning & Execution:
-Detalla la arquitectura modular (Controller, Service, Domain, Repository) encargada de la logística previa al viaje. Maneja la definición de paraderos con coordenadas GPS de alta precisión, la asignación de vehículos y conductores, y la configuración de horarios y días de servicio por ruta.
-![WebServices](/assets/images/ChapterIV/C4/ComponentDiagram_Route-dark.png)
+  Detalla la arquitectura modular (Controlador, Servicio, Dominio, Repositorio) encargada de la logística. Maneja toda la configuración previa al viaje, como la definición de paradas, asignación de vehículos y diseño de rutas mediante coordenadas GPS.
+  ![WebServices](/assets/images/ChapterIV/C4/ComponentDiagram_Route-dark.png)
 
 - Notifications & Communication:
-Describe el módulo dedicado a la comunicación asíncrona en sus 4 capas. Orquesta la recepción de eventos internos emitidos por el contexto de Trip y utiliza su capa de infraestructura para despachar alertas de pánico, notificaciones de abordaje y comunicados de difusión general mediante el proveedor externo Resend.
-![WebServices](/assets/images/ChapterIV/C4/ComponentDiagram_Notification-dark.png)
+  Describe el módulo dedicado a la comunicación asíncrona en sus 4 capas. Orquesta la recepción de eventos internos (como un estudiante abordando) y utiliza su capa de infraestructura para emitir alertas y correos mediante el proveedor externo Resend.
+  ![WebServices](/assets/images/ChapterIV/C4/ComponentDiagram_Notification-dark.png)
 
 - Trip Execution & Monitoring:
-Ilustra el núcleo operativo del sistema en sus 4 capas. Muestra cómo se procesa la lógica en tiempo real durante la ejecución del viaje, gestionando el registro de abordajes por estudiante, el log de incidentes y la emisión de eventos de dominio internos que activan el contexto de Notificaciones.
-![WebServices](/assets/images/ChapterIV/C4/ComponentDiagram_Trip-dark.png)
+  Ilustra el núcleo operativo del sistema en sus 4 capas. Muestra cómo se procesa la lógica en tiempo real durante la ejecución del viaje, gestionando el registro de abordajes y el estado de la ruta del transporte escolar.
+  ![WebServices](/assets/images/ChapterIV/C4/ComponentDiagram_Trip-dark.png)
 
 - Shared Kernel:
-Este diagrama expone los bloques transversales que fundamentan la arquitectura limpia del monolito. Detalla cómo se proveen los Value Objects globales (OrganizationId, TripId, RouteId, ChildId) en la capa Domain, y las interfaces y clases base compartidas en la capa Application, evitando la duplicidad de código en el resto de los Bounded Contexts.
-![WebServices](/assets/images/ChapterIV/C4/ComponentDiagram_SharedKernel-dark.png)
+  Este diagrama expone las 4 capas transversales (Building Blocks) que fundamentan la arquitectura limpia del monolito. Detalla cómo se proveen clases base y utilidades compartidas: Middlewares en la capa API, interfaces y DTOs base en Application, Value Objects globales (TripId, StudentId) en Domain, y repositorios genéricos en Infrastructure, evitando la duplicidad de código en el resto de los Bounded Contexts.
+  ![WebServices](/assets/images/ChapterIV/C4/ComponentDiagram_SharedKernel-dark.png)
 
 ### 4.7. Software Object-Oriented Design
 
 #### 4.7.1. Class Diagrams
 
 **BackEnd**
+
 - Identity and Access Management:
 
-![saferoute-iam](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/PowerTech-NRC12053/saferoute-platform/main/saferoute-asp-net-developer/Safer-Route-Platform/docs/saferoute-iam.puml)
+![saferoute-iam](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/FiveTech-NRC11896/saferoute-platform/refs/heads/main/safe-route-boot-developer/docs/java-saferoute-iam-ddd.puml)
 
-Gestiona organizaciones, usuarios y roles. Contiene dos Aggregate Roots y una Entity:
-Organization (AggregateRoot) — Tiene -id: OrganizationId, -name: OrganizationName, -status: OrganizationStatus y -createdAt: DateTime. Expone métodos públicos para su ciclo de vida: Create(), Activate(), Suspend() e IsActive(). Se relaciona 1:1 con OrganizationId (identified by), OrganizationName (has) y OrganizationStatus (has).
-User (AggregateRoot) — Tiene -id: UserId, -organizationId: OrganizationId, -fullName: FullName, -email: Email, -passwordHash: PasswordHash y -role: Role. Expone Register(), Authenticate(password), ChangeRole(role). Se asocia 1:1 con todos sus value objects y con la entidad Role (has). Pertenece a una organización vía OrganizationId compartido.
-Role (Entity) — Referenciada desde User, tiene -id: int y -roleTier: RoleTier, con métodos IsAdmin(), IsDriver(), IsParent(). Se asocia 1:1 con RoleTier (categorized by).
-Los Value Objects propios (OrganizationName, OrganizationStatus, Email, PasswordHash, RoleTier) encapsulan strings privados con validaciones y métodos de consulta públicos. PasswordHash es especial: expone Hash() y Verify().
+Gestiona organizaciones, usuarios y roles en el entorno de la aplicación.
+Organization (AggregateRoot): Maneja el ciclo de vida de la institución (métodos create(), suspend(), activate()). Se relaciona mediante Value Objects para su identificador, nombre y estado.
+User (AggregateRoot): Gestiona la autenticación y la asignación de roles de los usuarios (métodos register(), authenticate(), changeRole()). Pertenece a una organización a través del OrganizationId compartido y utiliza Value Objects de seguridad como PasswordHash.
+Role (Entity): Define los niveles de acceso dentro del sistema usando el Value Object
 
-- Subscription & Plan Management: 
+- Subscription & Plan Management:
 
-![saferoute-subscription](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/PowerTech-NRC12053/saferoute-platform/main/saferoute-asp-net-developer/Safer-Route-Platform/docs/saferoute-subscription.puml)
+![saferoute-subscription](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/FiveTech-NRC11896/saferoute-platform/refs/heads/main/safe-route-boot-developer/docs/java-saferoute-subscription-ddd.puml)
 
-Gestiona los planes y suscripciones de cada organización.
-Subscription (AggregateRoot) — Atributos: id, organizationId, planId, -state: SubscriptionState, startDate, endDate. Métodos: Activate(), Upgrade(planId), Cancel(), IsActive(), GetRemainingDays(). Se asocia 1:1 con User del bounded context IAM (owned by), indicando dependencia entre contextos.
-Plan (AggregateRoot) — Atributos: id, -planTier: PlanTier, -routeQuota: RouteQuota, -driverQuota: DriverQuota, price: decimal. Métodos: GetPlanName(), GetRouteLimit(), GetDriverLimit(), IsWithinRouteQuota(), IsWithinDriverQuota(). Asociado 1:1 con PlanTier, RouteQuota y DriverQuota.
-Value Objects propios: SubscriptionState (active/expired/cancelled), PlanTier (basic/intermediate/complete), RouteQuota y DriverQuota (encapsulan límites enteros con validación de cuota).
+Controla el modelo de negocio, definiendo los planes y suscripciones de cada organización.
+Subscription (AggregateRoot): Controla el estado y la vigencia de una suscripción (métodos activate(), upgrade(), cancel()). Se vincula directamente a una organización y a un plan específico mediante sus identificadores.
+Plan (AggregateRoot): Establece los límites operativos y económicos mediante los Value Objects RouteQuota y DriverQuota, los cuales validan que no se exceda la capacidad contratada de rutas y conductores.
 
-- Stakeholder & Asset Management: 
+- Stakeholder & Asset Management:
 
-![saferoute-stakeholder](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/PowerTech-NRC12053/saferoute-platform/main/saferoute-asp-net-developer/Safer-Route-Platform/docs/saferoute-stakeholder.puml)
+![saferoute-stakeholder](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/FiveTech-NRC11896/saferoute-platform/refs/heads/main/safe-route-boot-developer/docs/java-saferoute-stakeholder-ddd.puml)
 
-Modela a los actores humanos del sistema: padres, conductores, hijos y grupos de estudiantes.
-Parent (AggregateRoot) — Atributos privados: id, organizationId, userId, fullName, email, phoneNumber y -children: List<Child>. Métodos públicos: AddChild(), RemoveChild(), GetChildren(). Composición 1:1..* con Child (has): un Parent debe tener al menos un hijo.
-Driver (Entity) — Similar a Parent pero agrega -licenseNumber: LicenseNumber. Métodos: IsAvailable(), GetLicenseNumber(), UpdatePhoneNumber(). Sin composición propia, referenciado desde otros contextos vía DriverId compartido.
-Child (Entity, compuesta dentro de Parent) — Atributos: id, fullName, age: int y -enrollmentState: ChildEnrollmentState. Métodos: Enroll(), Unenroll(), IsEnrolled().
-StudentGroup (Entity) — Agrupa referencias a hijos (-children: List<ChildId>) sin poseerlos directamente. Métodos: AddChild(), RemoveChild(), Finalize(), IsFinalized(). Relación 1:1..* con ChildId compartido (groups).
+Modela a los actores humanos y sus agrupaciones dentro del sistema.
+Parent (AggregateRoot): Representa a los apoderados e incluye una lista de entidades Child, gestionando la adición o remoción de hijos.
+Driver (Entity): Define a los conductores, agregando atributos específicos de su labor como el Value Object LicenseNumber.
+Child (Entity): Representa a los estudiantes, gestionando su estado de inscripción mediante el Value Object ChildEnrollmentState.
+StudentGroup (Entity): Permite agrupar referencias a múltiples niños (ChildId) para facilitar su asignación.
 
-- Fleet & Route Planning: 
+- Fleet & Route Planning:
 
-![saferoute-fleet](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/PowerTech-NRC12053/saferoute-platform/main/saferoute-asp-net-developer/Safer-Route-Platform/docs/saferoute-fleet.puml)
+![saferoute-fleet](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/FiveTech-NRC11896/saferoute-platform/refs/heads/main/safe-route-boot-developer/docs/java-saferoute-fleet-ddd.puml)
 
-Gestiona rutas, vehículos, paradas y asignaciones.
-Route (AggregateRoot) — Atributos: id, organizationId, name, routeState, departureTime, serviceDays, vehicle, assignment y -stops: List<Stop>. Métodos: DefineRoute(), AddStop(), RemoveStop(), Activate(), Deactivate(), GetStopSequence(). Tiene composición 1:1..* con Stop (has): una ruta requiere al menos una parada. Se relaciona 1:1 con Vehicle y Assignment.
-Stop (Entity) — Atributos: id, name, coordinates: Coordinates, -stopOrder: StopOrder. Métodos: GetNextStop(), IsFirst(), IsLast(), UpdateCoordinates(). Asociada a Coordinates del shared kernel.
-Vehicle (Entity) — Atributos: id, organizationId, plate, model, capacity: int, brand. Métodos: IsAvailable(), GetPlate(), GetCapacity(), UpdateDetails().
-Assignment (Entity) — Atributos: id, -driverId: DriverId, -children: List<ChildId>. Métodos: AssignDriver(), AssignChild(), RemoveChild(). Referencia 1:1..* a ChildId compartido (includes).
-Value Objects propios: RouteState (draft/active/inactive), StopOrder (posición entera), DepartureTime (TimeSpan), ServiceDays (lista de días).
+Encargado de la planificación logística y operativa del transporte.
+Route (AggregateRoot): Define el recorrido y su programación utilizando Value Objects como DepartureTime y ServiceDays. Compone una secuencia de paradas (Stop) y se asocia a un vehículo y a una asignación específica.
+Stop, Vehicle y Assignment (Entities): Stop maneja las coordenadas exactas y el orden de recojo. Vehicle controla la capacidad y disponibilidad de la unidad. Assignment vincula operativamente a un conductor con un grupo específico de niños para esa ruta.
 
-- Trip Execution & Monitoring: 
+- Trip Execution & Monitoring:
 
-![saferoute-trip](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/PowerTech-NRC12053/saferoute-platform/main/saferoute-asp-net-developer/Safer-Route-Platform/docs/saferoute-trip.puml)
+![saferoute-trip](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/FiveTech-NRC11896/saferoute-platform/refs/heads/main/safe-route-boot-developer/docs/java-saferoute-trip-ddd.puml)
 
-Gestiona la ejecución de viajes, asistencia e incidentes.
-Trip (AggregateRoot) — Atributos: id, organizationId, routeId, driverId, tripState, startTime, endTime, -attendances: List<Attendance> e -incidents: List<Incident>. Métodos: Start(), Complete(), RecordBoarding(childId, state), ReportIncident(description), GetAttendanceSummary(), GetIncidentLog(). Composición 1:0..* con ambas entidades hijas.
-Attendance (Entity) — Atributos: id, childId, -boardingState: BoardingState, boardedAt. Métodos: UpdateBoardingState(), IsBoarded(), GetBoardingTime(). Referencia al ChildId compartido (tracks) con multiplicidad 1:1.
-Incident (Entity) — Atributos: id, -description: IncidentDescription, reportedAt. Métodos: Report(), GetDescription(), GetReportedAt(). Asociada 1:1 con IncidentDescription (described by).
-Value Objects propios: TripState (pending/inProgress/completed), BoardingState (boarded/missing/omitted), IncidentDescription (con validación).
+Trip (AggregateRoot): Controla el ciclo de vida del recorrido (métodos start(), complete()) vinculando una ruta, un conductor y una organización.
+Attendance (Entity): Registra individualmente si un niño abordó o no, utilizando el Value Object BoardingState (boarded, missing, omitted).
+Incident (Entity): Permite reportar cualquier problema durante el viaje, encapsulando los detalles en el Value Object IncidentDescription.
 
 - Notifications & Communication:
 
-![saferoute-notifications](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/PowerTech-NRC12053/saferoute-platform/main/saferoute-asp-net-developer/Safer-Route-Platform/docs/saferoute-notifications.puml)
+![saferoute-notifications](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/FiveTech-NRC11896/saferoute-platform/refs/heads/main/safe-route-boot-developer/docs/java-saferoute-notifications-ddd.puml)
 
-Gestiona el envío de notificaciones hacia padres de familia.
-Notification (AggregateRoot) — Atributos: id, organizationId, parentId, tripId, -category: NotificationCategory, -deliveryState: NotificationDeliveryState, -message: NotificationMessage, sentAt, -alerts: List<Alert> y -announcements: List<Announcement>. Métodos: Queue(), Dispatch(), MarkDelivered(), IsDelivered(), GetCategory(), GetMessage(). Composición 1:0..* con Alert y 1:0..* con Announcement.
-Alert (Entity) — Atributos: id, triggeredAt. Métodos: Trigger(), GetTriggeredAt(), IsPanic(). Representa un evento de alerta puntual dentro de una notificación.
-Announcement (Entity) — Atributos: id, routeId, -message: NotificationMessage, publishedAt. Métodos: Publish(), GetMessage(), GetPublishedAt(). Referencia RouteId del shared kernel (belongs to) con multiplicidad 1:1.
-Value Objects propios: NotificationCategory (boarding/arrival/incident/panic), NotificationDeliveryState (queued/dispatched/delivered), NotificationMessage (encapsula contenido con validación).
+Centraliza el envío de información y alertas hacia los padres de familia.
+Notification (AggregateRoot): Organiza el envío de mensajes, gestionando la categoría y el estado de entrega (NotificationDeliveryState) hacia un apoderado en el contexto de un viaje específico.
+Alert y Announcement (Entities): Alert se enfoca en notificaciones inmediatas o de pánico basadas en el tiempo de disparo (triggeredAt). Announcement maneja comunicados generales asociados a una ruta específica.
 
 - Shared:
 
-![saferoute-shared](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/PowerTech-NRC12053/saferoute-platform/main/saferoute-asp-net-developer/Safer-Route-Platform/docs/saferoute-shared.puml)
+![saferoute-shared](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/FiveTech-NRC11896/saferoute-platform/refs/heads/main/safe-route-boot-developer/docs/java-saferoute-shared-ddd.puml)
 
-Este módulo no pertenece a un bounded context específico sino que actúa como kernel compartido. Contiene exclusivamente Value Objects reutilizables a lo largo de toda la aplicación: OrganizationId, UserId, ParentId, DriverId, ChildId, RouteId, TripId, SubscriptionId, PlanId, FullName y Coordinates. Todos son inmutables, encapsulan un valor primitivo (Guid, string o double) con scope privado, y exponen métodos públicos como New(), Equals() y ToString(). FullName es el único con dos atributos (firstName, lastName) y agrega GetFullName() e IsValid(). Coordinates encapsula latitude y longitude como double con validación geoespacial.
+Actúa como el Shared Kernel transversal de toda la solución en Spring Boot.
+
+Contiene exclusivamente Value Objects inmutables que sirven como identificadores globales (ej. OrganizationId, RouteId, ChildId) y conceptos comunes como FullName y Coordinates. Esto asegura la consistencia de los tipos de datos en la comunicación entre los distintos Bounded Contexts.
 
 **FrontEnd**
-En todos los diagramas el componente raíz App actúa como contenedor principal: tiene composición (contains) con todos los componentes de cada bounded context, y recibe sus eventos mediante emisiones (emits).
+En todos los diagramas, el componente raíz App actúa como contenedor principal: tiene composición (composes) con los componentes de cada bounded context. El manejo del estado se realiza mediante clases *Store (usando Signal<T>) , las cuales se comunican con clases *Api para las peticiones HTTP. Las clases *Assembler transforman los recursos (*Resource) de la API en modelos de dominio puro.
 
 - Identity and Access Management:
 
-![saferoute-iam](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/PowerTech-NRC12053/saferoute-webapp/main/saferoute/docs/saferoute-frontend-iam.puml)
+![saferoute-iam](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/FiveTech-NRC11896/saferoute-webapp/refs/heads/main/SafeRoute/docs/angular-saferoute-iam-domain.puml)
+![saferoute-iam](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/FiveTech-NRC11896/saferoute-webapp/refs/heads/main/SafeRoute/docs/angular-saferoute-iam-infrastructure.puml)
 
-App compone cinco componentes: AdminLoginForm, AdminRegisterForm y UserLoginForm gestionan autenticación con atributos de formulario privados (email, password, errorMessage) y emiten eventos como admin-logged-in o login-failed hacia App. OrganizationForm y OrganizationProfile manejan la creación y visualización de la organización, emitiendo organization-created y edit-requested respectivamente. Los modelos User y Organization son usados directamente por los componentes correspondientes, con User asociado a Organization (belongs to).
+Gestiona la autenticación de usuarios y la configuración de la organización.
 
-- Subscription & Plan Management: 
+Presentation & Domain: App compone formularios de inicio de sesión (AdminLoginForm, UserLoginForm), registro (AdminRegisterForm) y gestión de organización (OrganizationForm, OrganizationProfile). Estos componentes interactúan con IamStore y consumen directamente los modelos de dominio puros (User, Organization) para reflejar y gestionar los datos de la sesión actual en la interfaz.
 
-![saferoute-subscription](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/PowerTech-NRC12053/saferoute-webapp/main/saferoute/docs/saferoute-frontend-subscription.puml)
+Application & Infrastructure: IamStore centraliza el estado con currentUserSignal y organizationSignal. Utiliza IamApi para operaciones como signIn() o createOrganization(), y UserAssembler/OrganizationAssembler para mapear las respuestas de la API (UserResource, OrganizationResource) a los modelos del dominio.
 
-App compone PlanSelector y SubscriptionStatus. PlanSelector permite elegir un plan de la lista disponible, emitiendo plan-selected. SubscriptionStatus muestra el estado actual de la suscripción con métodos getRemainingDays() e isActive(), emitiendo upgrade-requested y cancel-requested. SubModel se asocia a PlanModel (has) con multiplicidad 1:1.
+- Subscription & Plan Management:
 
-- Stakeholder & Asset Management: 
+![saferoute-subscription](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/FiveTech-NRC11896/saferoute-webapp/refs/heads/main/SafeRoute/docs/angular-saferoute-subscription-domain.puml)
+![saferoute-subscription](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/FiveTech-NRC11896/saferoute-webapp/refs/heads/main/SafeRoute/docs/angular-saferoute-subscription-infrastructure.puml)
 
-![saferoute-stakeholder](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/PowerTech-NRC12053/saferoute-webapp/main/saferoute/docs/saferoute-frontend-stakeholder.puml)
+Maneja la visualización y selección de planes para la organización.
 
-App compone cuatro listas: ParentList, DriverList, ChildList y StudentGroupList. Cada una tiene atributos -searchQuery y métodos de filtrado, selección y eliminación, emitiendo eventos *-selected y *-deleted hacia App. Los modelos Parent, Driver, Child y StudentGroup son DTOs planos. ParentModel tiene composición con ChildModel (has), reflejando que un padre agrupa sus hijos.
+Presentation & Domain: App compone PlanSelector (para elegir un plan) y SubscriptionStatus. Estos componentes utilizan directamente los modelos de dominio (Subscription y Plan) como inputs para renderizar la información de negocio (como los días restantes o límites de cuota) en la UI sin depender de estructuras externas.
 
-- Fleet & Route Planning: 
+Application & Infrastructure: SubscriptionStore maneja subscriptionSignal y plansSignal. Se comunica con SubscriptionApi para cargar planes (getAllPlans()) o modificar la suscripción (upgradeSubscription(), cancelSubscription()), usando sus respectivos Assemblers.
 
-![saferoute-fleet](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/PowerTech-NRC12053/saferoute-webapp/main/saferoute/docs/saferoute-frontend-fleet.puml)
+- Stakeholder & Asset Management:
 
-App compone RouteForm, StopList, VehicleList y AssignmentForm. RouteForm gestiona creación/edición de rutas incluyendo paradas dinámicas (addStop, removeStop), emitiendo route-created. StopList permite reordenar paradas con reorderStops() emitiendo stops-reordered. VehicleList soporta búsqueda y selección. AssignmentForm gestiona la asignación de conductor e hijos a una ruta. RouteModel tiene composición con StopModel (has).
+![saferoute-stakeholder](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/FiveTech-NRC11896/saferoute-webapp/refs/heads/main/SafeRoute/docs/angular-saferoute-stakeholder-domain.puml)
+![saferoute-stakeholder](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/FiveTech-NRC11896/saferoute-webapp/refs/heads/main/SafeRoute/docs/angular-saferoute-stakeholder-infrastructure.puml)
 
-- Trip Execution & Monitoring: 
+Controla las vistas de listado y gestión de los actores del sistema.
 
-![saferoute-trip](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/PowerTech-NRC12053/saferoute-webapp/main/saferoute/docs/saferoute-frontend-trip.puml)
+Presentation & Domain: App compone componentes de lista (ParentList, DriverList, ChildList, StudentGroupList) que permiten filtrar (searchQuery), seleccionar y eliminar registros utilizando los modelos del dominio (Parent, Driver, Child, StudentGroup) como la fuente de verdad para la visualización unificada de los actores.
 
-App compone TripDashboard, AttendanceChecklist e IncidentForm. TripDashboard controla el ciclo de vida del viaje (startTrip, completeTrip) emitiendo trip-started y trip-completed. AttendanceChecklist maneja el estado de embarque por niño (updateBoardingState, isAllBoarded), emitiendo boarding-updated. IncidentForm registra incidentes con validación, emitiendo incident-reported. TripModel tiene composición con AttendanceModel (tracks) e IncidentModel (records).
+Application & Infrastructure: StakeholderStore maneja el estado de estas listas mediante Signals. StakeholderApi ejecuta operaciones CRUD hacia el backend, y las respuestas (ej. ParentResource) son transformadas a modelos de dominio mediante clases como ParentAssembler.
+
+- Fleet & Route Planning:
+
+![saferoute-fleet](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/FiveTech-NRC11896/saferoute-webapp/refs/heads/main/SafeRoute/docs/angular-saferoute-fleet-domain.puml)
+![saferoute-fleet](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/FiveTech-NRC11896/saferoute-webapp/refs/heads/main/SafeRoute/docs/angular-saferoute-fleet-infrastructure.puml)
+Interfaz para armar la logística de rutas, vehículos y asignaciones.
+
+Presentation & Domain: App compone RouteForm (creación de rutas), StopList (gestión de paradas), VehicleList (visualización de vehículos) y AssignmentForm (asignación de conductores y niños). La interfaz gráfica se alimenta estrictamente de las entidades del dominio (Route, Stop, Vehicle, Assignment) para garantizar que la vista esté alineada con las reglas del negocio logístico.
+
+Application & Infrastructure: FleetStore orquesta el estado de rutas, paradas, vehículos y asignaciones. FleetApi maneja las peticiones HTTP y usa Assemblers para convertir, por ejemplo, RouteResource en la entidad del dominio Route.
+
+- Trip Execution & Monitoring:
+
+![saferoute-trip](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/FiveTech-NRC11896/saferoute-webapp/refs/heads/main/SafeRoute/docs/angular-saferoute-trip-domain.puml)
+![saferoute-trip](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/FiveTech-NRC11896/saferoute-webapp/refs/heads/main/SafeRoute/docs/angular-saferoute-trip-infrastructure.puml)
+
+Pantallas operativas para el control en tiempo real de los viajes.
+
+Presentation & Domain: App compone TripDashboard (controla inicio y fin del viaje), AttendanceChecklist (gestiona el estado de abordaje de cada niño) e IncidentForm (permite reportar incidentes). Estos componentes consumen los modelos centrales del dominio (Trip, Attendance, Incident) para reflejar de forma fidedigna el estado real de la operación.
+
+Application & Infrastructure: TripStore centraliza el viaje actual, las asistencias y los incidentes. Delega las acciones a TripApi (ej. startTrip(), updateBoardingStatus()), apoyándose en TripAssembler, AttendanceAssembler e IncidentAssembler.
 
 - Notifications & Communication:
 
-![saferoute-notifications](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/PowerTech-NRC12053/saferoute-webapp/main/saferoute/docs/saferoute-frontend-notifications.puml)
+![saferoute-notifications](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/FiveTech-NRC11896/saferoute-webapp/refs/heads/main/SafeRoute/docs/angular-saferoute-notifications-domain.puml)
+![saferoute-notifications](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/FiveTech-NRC11896/saferoute-webapp/refs/heads/main/SafeRoute/docs/angular-saferoute-notifications-infrastructure.puml)
 
-App compone NotificationList, AlertPanel y AnnouncementForm. NotificationList filtra y marca notificaciones como leídas, emitiendo notification-read. AlertPanel gestiona alertas activas con soporte de pánico (triggerPanic, dismissAlert), emitiendo panic-triggered. AnnouncementForm publica comunicados asociados a una ruta, emitiendo announcement-published. NotificationModel tiene composición con AlertModel (triggers) y AnnouncementModel (includes).
+Centraliza la visualización y envío de notificaciones y alertas.
 
+Presentation & Domain: App compone NotificationList (para filtrar y marcar notificaciones como leídas), AlertPanel (gestiona alertas activas y pánico) y AnnouncementForm (creación de comunicados). Las vistas dependen exclusivamente de los modelos de dominio (Notification, Alert, Announcement) para renderizar los mensajes y alertas operativas a los usuarios finales.
+
+Application & Infrastructure: NotificationsStore maneja el estado de notificaciones, alertas y anuncios. NotificationsApi realiza las peticiones (ej. dispatchNotification(), triggerAlert()) y los Assemblers transforman los recursos recibidos en modelos limpios del dominio.
 
 #### 4.7.1. Class Diagrams
 
 **BackEnd**
+
 - Identity and Access Management:
-![saferoute-iam](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/PowerTech-NRC12053/saferoute-platform/main/saferoute-asp-net-developer/Safer-Route-Platform/docs/saferoute-iam.puml)
+  ![saferoute-iam](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/PowerTech-NRC12053/saferoute-platform/main/saferoute-asp-net-developer/Safer-Route-Platform/docs/saferoute-iam.puml)
 
-- Subscription & Plan Management: 
-![saferoute-subscription](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/PowerTech-NRC12053/saferoute-platform/main/saferoute-asp-net-developer/Safer-Route-Platform/docs/saferoute-subscription.puml)
+- Subscription & Plan Management:
+  ![saferoute-subscription](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/PowerTech-NRC12053/saferoute-platform/main/saferoute-asp-net-developer/Safer-Route-Platform/docs/saferoute-subscription.puml)
 
-- Stakeholder & Asset Management: 
-![saferoute-stakeholder](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/PowerTech-NRC12053/saferoute-platform/main/saferoute-asp-net-developer/Safer-Route-Platform/docs/saferoute-stakeholder.puml)
+- Stakeholder & Asset Management:
+  ![saferoute-stakeholder](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/PowerTech-NRC12053/saferoute-platform/main/saferoute-asp-net-developer/Safer-Route-Platform/docs/saferoute-stakeholder.puml)
 
-- Fleet & Route Planning: 
-![saferoute-fleet](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/PowerTech-NRC12053/saferoute-platform/main/saferoute-asp-net-developer/Safer-Route-Platform/docs/saferoute-fleet.puml)
+- Fleet & Route Planning:
+  ![saferoute-fleet](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/PowerTech-NRC12053/saferoute-platform/main/saferoute-asp-net-developer/Safer-Route-Platform/docs/saferoute-fleet.puml)
 
-- Trip Execution & Monitoring: 
-![saferoute-trip](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/PowerTech-NRC12053/saferoute-platform/main/saferoute-asp-net-developer/Safer-Route-Platform/docs/saferoute-trip.puml)
+- Trip Execution & Monitoring:
+  ![saferoute-trip](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/PowerTech-NRC12053/saferoute-platform/main/saferoute-asp-net-developer/Safer-Route-Platform/docs/saferoute-trip.puml)
 
 - Notifications & Communication:
-![saferoute-notifications](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/PowerTech-NRC12053/saferoute-platform/main/saferoute-asp-net-developer/Safer-Route-Platform/docs/saferoute-notifications.puml)
+  ![saferoute-notifications](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/PowerTech-NRC12053/saferoute-platform/main/saferoute-asp-net-developer/Safer-Route-Platform/docs/saferoute-notifications.puml)
 
 - Shared:
-![saferoute-shared](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/PowerTech-NRC12053/saferoute-platform/main/saferoute-asp-net-developer/Safer-Route-Platform/docs/saferoute-shared.puml)
-
+  ![saferoute-shared](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/PowerTech-NRC12053/saferoute-platform/main/saferoute-asp-net-developer/Safer-Route-Platform/docs/saferoute-shared.puml)
 
 **FrontEnd**
+
 - Identity and Access Management:
-![saferoute-iam](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/PowerTech-NRC12053/saferoute-webapp/main/saferoute/docs/saferoute-frontend-iam.puml)
+  ![saferoute-iam](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/PowerTech-NRC12053/saferoute-webapp/main/saferoute/docs/saferoute-frontend-iam.puml)
 
-- Subscription & Plan Management: 
-![saferoute-subscription](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/PowerTech-NRC12053/saferoute-webapp/main/saferoute/docs/saferoute-frontend-subscription.puml)
+- Subscription & Plan Management:
+  ![saferoute-subscription](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/PowerTech-NRC12053/saferoute-webapp/main/saferoute/docs/saferoute-frontend-subscription.puml)
 
-- Stakeholder & Asset Management: 
-![saferoute-stakeholder](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/PowerTech-NRC12053/saferoute-webapp/main/saferoute/docs/saferoute-frontend-stakeholder.puml)
+- Stakeholder & Asset Management:
+  ![saferoute-stakeholder](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/PowerTech-NRC12053/saferoute-webapp/main/saferoute/docs/saferoute-frontend-stakeholder.puml)
 
-- Fleet & Route Planning: 
-![saferoute-fleet](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/PowerTech-NRC12053/saferoute-webapp/main/saferoute/docs/saferoute-frontend-fleet.puml)
+- Fleet & Route Planning:
+  ![saferoute-fleet](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/PowerTech-NRC12053/saferoute-webapp/main/saferoute/docs/saferoute-frontend-fleet.puml)
 
-- Trip Execution & Monitoring: 
-![saferoute-trip](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/PowerTech-NRC12053/saferoute-webapp/main/saferoute/docs/saferoute-frontend-trip.puml)
+- Trip Execution & Monitoring:
+  ![saferoute-trip](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/PowerTech-NRC12053/saferoute-webapp/main/saferoute/docs/saferoute-frontend-trip.puml)
 
 - Notifications & Communication:
-![saferoute-notifications](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/PowerTech-NRC12053/saferoute-webapp/main/saferoute/docs/saferoute-frontend-notifications.puml)
-
-
+  ![saferoute-notifications](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/PowerTech-NRC12053/saferoute-webapp/main/saferoute/docs/saferoute-frontend-notifications.puml)
 
 ### 4.8. Database Design
+
 **- Identity & Access Management**
 
 Este bounded context gestiona la seguridad perimetral del sistema. La tabla `organizations` actúa como raíz estructural, siendo referenciada por prácticamente todos los demás contextos. `users` centraliza las credenciales de autenticación (`email` UNIQUE, `password_hash`) y se vincula a `organizations` y `roles` mediante FK. `roles` es una tabla de catálogo con clave `INT` que define los niveles de acceso disponibles: administrador, conductor y padre de familia.
 
 **Tabla: organizations**
-| Atributo   | Tipo         |
+| Atributo | Tipo |
 |------------|--------------|
-| id         | CHAR(36) (PK)|
-| name       | VARCHAR(100) |
-| status     | VARCHAR(20)  |
-| created_at | DATETIME     |
+| id | CHAR(36) (PK)|
+| name | VARCHAR(100) |
+| status | VARCHAR(20) |
+| created_at | DATETIME |
 
 **Métodos**
-| Método        | Descripción                          |
+| Método | Descripción |
 |---------------|--------------------------------------|
-| Create()      | Crea una nueva organización.         |
-| Activate()    | Activa la organización.              |
-| Suspend()     | Suspende la organización.            |
-| IsActive()    | Verifica si la organización está activa. |
+| Create() | Crea una nueva organización. |
+| Activate() | Activa la organización. |
+| Suspend() | Suspende la organización. |
+| IsActive() | Verifica si la organización está activa. |
 
 ---
 
 **Tabla: roles**
-| Atributo | Tipo        |
+| Atributo | Tipo |
 |----------|-------------|
-| id       | INT (PK)    |
-| name     | VARCHAR(20) |
+| id | INT (PK) |
+| name | VARCHAR(20) |
 
 **Métodos**
-| Método         | Descripción                        |
+| Método | Descripción |
 |----------------|------------------------------------|
-| GetRoleName()  | Retorna el nombre del rol.         |
-| IsAdmin()      | Verifica si el rol es administrador.|
-| IsDriver()     | Verifica si el rol es conductor.   |
-| IsParent()     | Verifica si el rol es padre.       |
+| GetRoleName() | Retorna el nombre del rol. |
+| IsAdmin() | Verifica si el rol es administrador.|
+| IsDriver() | Verifica si el rol es conductor. |
+| IsParent() | Verifica si el rol es padre. |
 
 ---
 
 **Tabla: users**
-| Atributo        | Tipo         |
+| Atributo | Tipo |
 |-----------------|--------------|
-| id              | CHAR(36) (PK)|
+| id | CHAR(36) (PK)|
 | organization_id | CHAR(36) (FK)|
-| role_id         | INT (FK)     |
-| first_name      | VARCHAR(100) |
-| last_name       | VARCHAR(100) |
-| email           | VARCHAR(255) |
-| password_hash   | VARCHAR(255) |
-| created_at      | DATETIME     |
+| role_id | INT (FK) |
+| first_name | VARCHAR(100) |
+| last_name | VARCHAR(100) |
+| email | VARCHAR(255) |
+| password_hash | VARCHAR(255) |
+| created_at | DATETIME |
 
 **Métodos**
-| Método                      | Descripción                              |
+| Método | Descripción |
 |-----------------------------|------------------------------------------|
-| Register()                  | Registra un nuevo usuario.               |
-| Authenticate(password)      | Autentica al usuario con su contraseña.  |
-| ChangeRole(role)            | Cambia el rol asignado al usuario.       |
-| GetEmail()                  | Retorna el email del usuario.            |
-
+| Register() | Registra un nuevo usuario. |
+| Authenticate(password) | Autentica al usuario con su contraseña. |
+| ChangeRole(role) | Cambia el rol asignado al usuario. |
+| GetEmail() | Retorna el email del usuario. |
 
 ---
 
@@ -706,42 +738,41 @@ Este bounded context gestiona la seguridad perimetral del sistema. La tabla `org
 Este bounded context administra el ciclo de vida comercial del servicio. La tabla `plans` es un catálogo que define los tiers disponibles y sus cuotas operativas. La tabla `subscriptions` vincula una organización a un plan y registra su estado, fecha de inicio y fecha de fin nullable, ya que una suscripción activa no tiene fecha de término definida.
 
 **Tabla: plans**
-| Atributo    | Tipo          |
+| Atributo | Tipo |
 |-------------|---------------|
-| id          | INT (PK)      |
-| plan_tier   | VARCHAR(20)   |
-| max_routes  | INT           |
-| max_drivers | INT           |
-| price       | DECIMAL(10,2) |
+| id | INT (PK) |
+| plan_tier | VARCHAR(20) |
+| max_routes | INT |
+| max_drivers | INT |
+| price | DECIMAL(10,2) |
 
 **Métodos**
-| Método                    | Descripción                                  |
+| Método | Descripción |
 |---------------------------|----------------------------------------------|
-| GetPlanName()             | Retorna el nombre del tier del plan.         |
-| GetRouteLimit()           | Retorna el límite de rutas del plan.         |
-| IsWithinRouteQuota(n)     | Verifica si el valor está dentro de la cuota de rutas. |
-| IsWithinDriverQuota(n)    | Verifica si el valor está dentro de la cuota de conductores. |
+| GetPlanName() | Retorna el nombre del tier del plan. |
+| GetRouteLimit() | Retorna el límite de rutas del plan. |
+| IsWithinRouteQuota(n) | Verifica si el valor está dentro de la cuota de rutas. |
+| IsWithinDriverQuota(n) | Verifica si el valor está dentro de la cuota de conductores. |
 
 ---
 
 **Tabla: subscriptions**
-| Atributo        | Tipo        |
+| Atributo | Tipo |
 |-----------------|-------------|
-| id              | CHAR(36) (PK)|
+| id | CHAR(36) (PK)|
 | organization_id | CHAR(36) (FK)|
-| plan_id         | INT (FK)    |
-| state           | VARCHAR(20) |
-| start_date      | DATETIME    |
-| end_date        | DATETIME    |
+| plan_id | INT (FK) |
+| state | VARCHAR(20) |
+| start_date | DATETIME |
+| end_date | DATETIME |
 
 **Métodos**
-| Método            | Descripción                                  |
+| Método | Descripción |
 |-------------------|----------------------------------------------|
-| Activate()        | Activa la suscripción.                       |
-| Upgrade(planId)   | Cambia el plan de la suscripción.            |
-| Cancel()          | Cancela la suscripción.                      |
+| Activate() | Activa la suscripción. |
+| Upgrade(planId) | Cambia el plan de la suscripción. |
+| Cancel() | Cancela la suscripción. |
 | GetRemainingDays()| Retorna los días restantes de la suscripción.|
-
 
 ---
 
@@ -750,118 +781,117 @@ Este bounded context administra el ciclo de vida comercial del servicio. La tabl
 Este bounded context maneja los perfiles de los actores críticos y los recursos físicos de la institución. Las tablas `parents` y `drivers` referencian tanto `organization_id` como `user_id` (FK hacia IAM), separando los datos de perfil de las credenciales de acceso. `children` pertenece exclusivamente a un padre mediante `parent_id` FK. `student_groups` agrupa referencias lógicas a hijos mediante la tabla de unión `student_group_children`. `vehicles` registra la flota de transporte disponible por organización.
 
 **Tabla: parents**
-| Atributo        | Tipo         |
+| Atributo | Tipo |
 |-----------------|--------------|
-| id              | CHAR(36) (PK)|
+| id | CHAR(36) (PK)|
 | organization_id | CHAR(36) (FK)|
-| user_id         | CHAR(36) (FK)|
-| first_name      | VARCHAR(100) |
-| last_name       | VARCHAR(100) |
-| email           | VARCHAR(255) |
-| phone_number    | VARCHAR(20)  |
+| user_id | CHAR(36) (FK)|
+| first_name | VARCHAR(100) |
+| last_name | VARCHAR(100) |
+| email | VARCHAR(255) |
+| phone_number | VARCHAR(20) |
 
 **Métodos**
-| Método                  | Descripción                              |
+| Método | Descripción |
 |-------------------------|------------------------------------------|
-| AddChild(child)         | Agrega un hijo al padre.                 |
-| RemoveChild(childId)    | Elimina un hijo del padre.               |
-| GetChildren()           | Retorna la lista de hijos del padre.     |
-| GetEmail()              | Retorna el email del padre.              |
+| AddChild(child) | Agrega un hijo al padre. |
+| RemoveChild(childId) | Elimina un hijo del padre. |
+| GetChildren() | Retorna la lista de hijos del padre. |
+| GetEmail() | Retorna el email del padre. |
 
 ---
 
 **Tabla: drivers**
-| Atributo        | Tipo         |
+| Atributo | Tipo |
 |-----------------|--------------|
-| id              | CHAR(36) (PK)|
+| id | CHAR(36) (PK)|
 | organization_id | CHAR(36) (FK)|
-| user_id         | CHAR(36) (FK)|
-| first_name      | VARCHAR(100) |
-| last_name       | VARCHAR(100) |
-| email           | VARCHAR(255) |
-| phone_number    | VARCHAR(20)  |
-| license_number  | VARCHAR(50)  |
+| user_id | CHAR(36) (FK)|
+| first_name | VARCHAR(100) |
+| last_name | VARCHAR(100) |
+| email | VARCHAR(255) |
+| phone_number | VARCHAR(20) |
+| license_number | VARCHAR(50) |
 
 **Métodos**
-| Método                       | Descripción                                 |
+| Método | Descripción |
 |------------------------------|---------------------------------------------|
-| IsAvailable()                | Verifica si el conductor está disponible.   |
-| GetLicenseNumber()           | Retorna el número de licencia.              |
-| UpdatePhoneNumber(phone)     | Actualiza el número de teléfono.            |
-| GetFullName()                | Retorna el nombre completo del conductor.   |
+| IsAvailable() | Verifica si el conductor está disponible. |
+| GetLicenseNumber() | Retorna el número de licencia. |
+| UpdatePhoneNumber(phone) | Actualiza el número de teléfono. |
+| GetFullName() | Retorna el nombre completo del conductor. |
 
 ---
 
 **Tabla: children**
-| Atributo         | Tipo         |
+| Atributo | Tipo |
 |------------------|--------------|
-| id               | CHAR(36) (PK)|
-| parent_id        | CHAR(36) (FK)|
-| first_name       | VARCHAR(100) |
-| last_name        | VARCHAR(100) |
-| age              | INT          |
-| enrollment_state | VARCHAR(20)  |
+| id | CHAR(36) (PK)|
+| parent_id | CHAR(36) (FK)|
+| first_name | VARCHAR(100) |
+| last_name | VARCHAR(100) |
+| age | INT |
+| enrollment_state | VARCHAR(20) |
 
 **Métodos**
-| Método         | Descripción                                    |
+| Método | Descripción |
 |----------------|------------------------------------------------|
-| Enroll()       | Matricula al estudiante en el servicio.        |
-| Unenroll()     | Retira la matrícula del estudiante.            |
-| IsEnrolled()   | Verifica si el estudiante está matriculado.    |
-| GetFullName()  | Retorna el nombre completo del estudiante.     |
+| Enroll() | Matricula al estudiante en el servicio. |
+| Unenroll() | Retira la matrícula del estudiante. |
+| IsEnrolled() | Verifica si el estudiante está matriculado. |
+| GetFullName() | Retorna el nombre completo del estudiante. |
 
 ---
 
 **Tabla: student_groups**
-| Atributo        | Tipo         |
+| Atributo | Tipo |
 |-----------------|--------------|
-| id              | CHAR(36) (PK)|
+| id | CHAR(36) (PK)|
 | organization_id | CHAR(36) (FK)|
-| name            | VARCHAR(100) |
-| is_finalized    | BOOLEAN      |
+| name | VARCHAR(100) |
+| is_finalized | BOOLEAN |
 
 **Métodos**
-| Método              | Descripción                                   |
+| Método | Descripción |
 |---------------------|-----------------------------------------------|
-| AddChild(childId)   | Agrega un estudiante al grupo.                |
-| RemoveChild(childId)| Elimina un estudiante del grupo.              |
-| Finalize()          | Marca el grupo como finalizado.               |
-| GetChildCount()     | Retorna la cantidad de estudiantes del grupo. |
+| AddChild(childId) | Agrega un estudiante al grupo. |
+| RemoveChild(childId)| Elimina un estudiante del grupo. |
+| Finalize() | Marca el grupo como finalizado. |
+| GetChildCount() | Retorna la cantidad de estudiantes del grupo. |
 
 ---
 
 **Tabla: student_group_children**
-| Atributo         | Tipo         |
+| Atributo | Tipo |
 |------------------|--------------|
 | student_group_id | CHAR(36) (FK)|
-| child_id         | CHAR(36) (FK)|
+| child_id | CHAR(36) (FK)|
 
 **Métodos**
-| Método           | Descripción                                        |
+| Método | Descripción |
 |------------------|----------------------------------------------------|
-| AssignChild()    | Asocia un estudiante a un grupo.                   |
-| RemoveChild()    | Desvincula un estudiante de un grupo.              |
+| AssignChild() | Asocia un estudiante a un grupo. |
+| RemoveChild() | Desvincula un estudiante de un grupo. |
 
 ---
 
 **Tabla: vehicles**
-| Atributo        | Tipo         |
+| Atributo | Tipo |
 |-----------------|--------------|
-| id              | CHAR(36) (PK)|
+| id | CHAR(36) (PK)|
 | organization_id | CHAR(36) (FK)|
-| plate           | VARCHAR(20)  |
-| model           | VARCHAR(100) |
-| brand           | VARCHAR(100) |
-| capacity        | INT          |
+| plate | VARCHAR(20) |
+| model | VARCHAR(100) |
+| brand | VARCHAR(100) |
+| capacity | INT |
 
 **Métodos**
-| Método                        | Descripción                              |
+| Método | Descripción |
 |-------------------------------|------------------------------------------|
-| IsAvailable()                 | Verifica si el vehículo está disponible. |
-| GetPlate()                    | Retorna la placa del vehículo.           |
-| GetCapacity()                 | Retorna la capacidad del vehículo.       |
-| UpdateDetails(model, brand)   | Actualiza los datos del vehículo.        |
-
+| IsAvailable() | Verifica si el vehículo está disponible. |
+| GetPlate() | Retorna la placa del vehículo. |
+| GetCapacity() | Retorna la capacidad del vehículo. |
+| UpdateDetails(model, brand) | Actualiza los datos del vehículo. |
 
 ---
 
@@ -870,75 +900,74 @@ Este bounded context maneja los perfiles de los actores críticos y los recursos
 Este bounded context coordina la planificación técnica de las rutas de transporte escolar. La tabla `routes` define cada ruta con su vehículo asignado, horario de salida y días de servicio. `stops` almacena los paraderos georreferenciados con coordenadas de alta precisión y orden de parada. `assignments` vincula una ruta con un conductor en cardinalidad 1:1, y `assignment_children` resuelve la relación muchos a muchos entre asignaciones y estudiantes.
 
 **Tabla: routes**
-| Atributo        | Tipo         |
+| Atributo | Tipo |
 |-----------------|--------------|
-| id              | CHAR(36) (PK)|
+| id | CHAR(36) (PK)|
 | organization_id | CHAR(36) (FK)|
-| vehicle_id      | CHAR(36) (FK)|
-| name            | VARCHAR(100) |
-| route_state     | VARCHAR(20)  |
-| departure_time  | TIME         |
-| service_days    | VARCHAR(100) |
+| vehicle_id | CHAR(36) (FK)|
+| name | VARCHAR(100) |
+| route_state | VARCHAR(20) |
+| departure_time | TIME |
+| service_days | VARCHAR(100) |
 
 **Métodos**
-| Método              | Descripción                                  |
+| Método | Descripción |
 |---------------------|----------------------------------------------|
-| Activate()          | Activa la ruta para operación.               |
-| Deactivate()        | Desactiva la ruta.                           |
-| AddStop(stop)       | Agrega un paradero a la ruta.                |
-| GetStopSequence()   | Retorna la secuencia ordenada de paraderos.  |
+| Activate() | Activa la ruta para operación. |
+| Deactivate() | Desactiva la ruta. |
+| AddStop(stop) | Agrega un paradero a la ruta. |
+| GetStopSequence() | Retorna la secuencia ordenada de paraderos. |
 
 ---
 
 **Tabla: stops**
-| Atributo   | Tipo          |
+| Atributo | Tipo |
 |------------|---------------|
-| id         | CHAR(36) (PK) |
-| route_id   | CHAR(36) (FK) |
-| name       | VARCHAR(100)  |
-| latitude   | DECIMAL(10,8) |
-| longitude  | DECIMAL(11,8) |
-| stop_order | INT           |
+| id | CHAR(36) (PK) |
+| route_id | CHAR(36) (FK) |
+| name | VARCHAR(100) |
+| latitude | DECIMAL(10,8) |
+| longitude | DECIMAL(11,8) |
+| stop_order | INT |
 
 **Métodos**
-| Método                       | Descripción                                  |
+| Método | Descripción |
 |------------------------------|----------------------------------------------|
-| IsFirst()                    | Verifica si es el primer paradero.           |
-| IsLast()                     | Verifica si es el último paradero.           |
-| UpdateCoordinates(coords)    | Actualiza las coordenadas del paradero.      |
-| GetPosition()                | Retorna la posición del paradero en la ruta. |
+| IsFirst() | Verifica si es el primer paradero. |
+| IsLast() | Verifica si es el último paradero. |
+| UpdateCoordinates(coords) | Actualiza las coordenadas del paradero. |
+| GetPosition() | Retorna la posición del paradero en la ruta. |
 
 ---
 
 **Tabla: assignments**
-| Atributo  | Tipo         |
+| Atributo | Tipo |
 |-----------|--------------|
-| id        | CHAR(36) (PK)|
-| route_id  | CHAR(36) (FK)|
+| id | CHAR(36) (PK)|
+| route_id | CHAR(36) (FK)|
 | driver_id | CHAR(36) (FK)|
 
 **Métodos**
-| Método                  | Descripción                                   |
+| Método | Descripción |
 |-------------------------|-----------------------------------------------|
-| AssignDriver(driverId)  | Asigna un conductor a la ruta.                |
-| AssignChild(childId)    | Agrega un estudiante a la asignación.         |
-| RemoveChild(childId)    | Elimina un estudiante de la asignación.       |
-| GetChildCount()         | Retorna la cantidad de estudiantes asignados. |
+| AssignDriver(driverId) | Asigna un conductor a la ruta. |
+| AssignChild(childId) | Agrega un estudiante a la asignación. |
+| RemoveChild(childId) | Elimina un estudiante de la asignación. |
+| GetChildCount() | Retorna la cantidad de estudiantes asignados. |
 
 ---
 
 **Tabla: assignment_children**
-| Atributo      | Tipo         |
+| Atributo | Tipo |
 |---------------|--------------|
 | assignment_id | CHAR(36) (FK)|
-| child_id      | CHAR(36) (FK)|
+| child_id | CHAR(36) (FK)|
 
 **Métodos**
-| Método         | Descripción                                          |
+| Método | Descripción |
 |----------------|------------------------------------------------------|
-| AssignChild()  | Asocia un estudiante a una asignación de ruta.       |
-| RemoveChild()  | Desvincula un estudiante de una asignación de ruta.  |
-
+| AssignChild() | Asocia un estudiante a una asignación de ruta. |
+| RemoveChild() | Desvincula un estudiante de una asignación de ruta. |
 
 ---
 
@@ -947,120 +976,120 @@ Este bounded context coordina la planificación técnica de las rutas de transpo
 Este bounded context es el núcleo operativo del servicio. La tabla `trips` registra cada ejecución real de una ruta, con `start_time` y `end_time` nullable dado que el viaje puede estar en curso. `attendances` captura el estado de abordaje de cada estudiante por viaje, con `boarded_at` nullable para casos de ausencia. `incidents` referencia tanto `trip_id` como `route_id`, permitiendo trazabilidad del evento al viaje específico y a la ruta afectada.
 
 **Tabla: trips**
-| Atributo        | Tipo         |
+| Atributo | Tipo |
 |-----------------|--------------|
-| id              | CHAR(36) (PK)|
+| id | CHAR(36) (PK)|
 | organization_id | CHAR(36) (FK)|
-| route_id        | CHAR(36) (FK)|
-| driver_id       | CHAR(36) (FK)|
-| trip_state      | VARCHAR(20)  |
-| start_time      | DATETIME     |
-| end_time        | DATETIME     |
+| route_id | CHAR(36) (FK)|
+| driver_id | CHAR(36) (FK)|
+| trip_state | VARCHAR(20) |
+| start_time | DATETIME |
+| end_time | DATETIME |
 
 **Métodos**
-| Método                          | Descripción                                       |
+| Método | Descripción |
 |---------------------------------|---------------------------------------------------|
-| Start()                         | Inicia el viaje.                                  |
-| Complete()                      | Completa el viaje.                                |
-| RecordBoarding(childId, state)  | Registra el estado de abordaje de un estudiante.  |
-| IsInProgress()                  | Verifica si el viaje está en curso.               |
+| Start() | Inicia el viaje. |
+| Complete() | Completa el viaje. |
+| RecordBoarding(childId, state) | Registra el estado de abordaje de un estudiante. |
+| IsInProgress() | Verifica si el viaje está en curso. |
 
 ---
 
 **Tabla: attendances**
-| Atributo       | Tipo         |
+| Atributo | Tipo |
 |----------------|--------------|
-| id             | CHAR(36) (PK)|
-| trip_id        | CHAR(36) (FK)|
-| child_id       | CHAR(36) (FK)|
-| boarding_state | VARCHAR(20)  |
-| boarded_at     | DATETIME     |
+| id | CHAR(36) (PK)|
+| trip_id | CHAR(36) (FK)|
+| child_id | CHAR(36) (FK)|
+| boarding_state | VARCHAR(20) |
+| boarded_at | DATETIME |
 
 **Métodos**
-| Método                       | Descripción                                     |
+| Método | Descripción |
 |------------------------------|-------------------------------------------------|
-| UpdateBoardingState(state)   | Actualiza el estado de abordaje del estudiante. |
-| IsBoarded()                  | Verifica si el estudiante abordó.               |
-| GetBoardingTime()            | Retorna la hora de abordaje.                    |
+| UpdateBoardingState(state) | Actualiza el estado de abordaje del estudiante. |
+| IsBoarded() | Verifica si el estudiante abordó. |
+| GetBoardingTime() | Retorna la hora de abordaje. |
 
 ---
 
 **Tabla: incidents**
-| Atributo    | Tipo         |
+| Atributo | Tipo |
 |-------------|--------------|
-| id          | CHAR(36) (PK)|
-| trip_id     | CHAR(36) (FK)|
-| route_id    | CHAR(36) (FK)|
-| description | TEXT         |
-| reported_at | DATETIME     |
+| id | CHAR(36) (PK)|
+| trip_id | CHAR(36) (FK)|
+| route_id | CHAR(36) (FK)|
+| description | TEXT |
+| reported_at | DATETIME |
 
 **Métodos**
-| Método             | Descripción                             |
+| Método | Descripción |
 |--------------------|-----------------------------------------|
-| Report()           | Registra el incidente.                  |
-| GetDescription()   | Retorna la descripción del incidente.   |
-| GetReportedAt()    | Retorna la fecha de reporte.            |
-
+| Report() | Registra el incidente. |
+| GetDescription() | Retorna la descripción del incidente. |
+| GetReportedAt() | Retorna la fecha de reporte. |
 
 ---
 
 **- Notifications & Communication**
 
 **Tabla: notifications**
-| Atributo        | Tipo         |
+| Atributo | Tipo |
 |-----------------|--------------|
-| id              | CHAR(36) (PK)|
+| id | CHAR(36) (PK)|
 | organization_id | CHAR(36) (FK)|
-| parent_id       | CHAR(36) (FK)|
-| trip_id         | CHAR(36) (FK)|
-| category        | VARCHAR(20)  |
-| delivery_state  | VARCHAR(20)  |
-| message         | TEXT         |
-| sent_at         | DATETIME     |
+| parent_id | CHAR(36) (FK)|
+| trip_id | CHAR(36) (FK)|
+| category | VARCHAR(20) |
+| delivery_state | VARCHAR(20) |
+| message | TEXT |
+| sent_at | DATETIME |
 
 **Métodos**
-| Método           | Descripción                                        |
+| Método | Descripción |
 |------------------|----------------------------------------------------|
-| Queue()          | Encola la notificación para su envío.              |
-| Dispatch()       | Despacha la notificación al destinatario.          |
-| MarkDelivered()  | Marca la notificación como entregada.              |
-| GetCategory()    | Retorna la categoría de la notificación.           |
+| Queue() | Encola la notificación para su envío. |
+| Dispatch() | Despacha la notificación al destinatario. |
+| MarkDelivered() | Marca la notificación como entregada. |
+| GetCategory() | Retorna la categoría de la notificación. |
 
 ---
 
 **Tabla: alerts**
-| Atributo        | Tipo         |
+| Atributo | Tipo |
 |-----------------|--------------|
-| id              | CHAR(36) (PK)|
+| id | CHAR(36) (PK)|
 | notification_id | CHAR(36) (FK)|
-| triggered_at    | DATETIME     |
+| triggered_at | DATETIME |
 
 **Métodos**
-| Método            | Descripción                            |
+| Método | Descripción |
 |-------------------|----------------------------------------|
-| Trigger()         | Activa la alerta.                      |
-| IsPanic()         | Verifica si la alerta es de pánico.    |
-| GetTriggeredAt()  | Retorna la hora en que se activó.      |
+| Trigger() | Activa la alerta. |
+| IsPanic() | Verifica si la alerta es de pánico. |
+| GetTriggeredAt() | Retorna la hora en que se activó. |
 
 ---
 
 **Tabla: announcements**
-| Atributo        | Tipo         |
+| Atributo | Tipo |
 |-----------------|--------------|
-| id              | CHAR(36) (PK)|
+| id | CHAR(36) (PK)|
 | notification_id | CHAR(36) (FK)|
-| route_id        | CHAR(36) (FK)|
-| message         | TEXT         |
-| published_at    | DATETIME     |
+| route_id | CHAR(36) (FK)|
+| message | TEXT |
+| published_at | DATETIME |
 
 **Métodos**
-| Método            | Descripción                                   |
+| Método | Descripción |
 |-------------------|-----------------------------------------------|
-| Publish()         | Publica el comunicado.                        |
-| GetMessage()      | Retorna el contenido del comunicado.          |
-| GetPublishedAt()  | Retorna la fecha de publicación.              |
+| Publish() | Publica el comunicado. |
+| GetMessage() | Retorna el contenido del comunicado. |
+| GetPublishedAt() | Retorna la fecha de publicación. |
 
 #### 4.8.1. Database Diagrams
+
 Esta sección presenta y explica los Database Diagrams para cada bounded context de SafeRoute. Los diagramas modelan la persistencia relacional del sistema, especificando tablas, columnas, tipos de dato, constraints (PK, FK, NOT NULL, UNIQUE) y las relaciones entre tablas con su cardinalidad. Todos los identificadores primarios utilizan `CHAR(36)` para soportar UUIDs, a excepción de catálogos fijos como `roles` y `plans` que usan `INT`. Las relaciones entre bounded contexts se materializan mediante columnas FK que referencian los IDs del contexto origen.
 ![DataBase](/assets/images/ChapterIV/DataBase/SafeRoute-DataBase.png)
 
@@ -1110,7 +1139,6 @@ Este contexto gestiona la comunicación hacia los padres. `notifications` refere
 
 ![DataBase](/assets/images/ChapterIV/DataBase/DbNotifications.png)
 
-
 ---
 
 ## Capítulo V: Product Implementation, Validation & Deployment
@@ -1154,10 +1182,11 @@ Este contexto gestiona la comunicación hacia los padres. `notifications` refere
 ### Video About-the-Team
 
 ## Bibliografía
-- Autoridad de Transporte Urbano para Lima y Callao. (2024). *Cifra de movilidades escolares autorizadas disminuyó en 25% en un año*. El Comercio. Recuperado el 9 de abril de 2026, de https://elcomercio.pe/lima/cifra-de-movilidades-escolares-autorizadas-disminuyo-en-25-en-un-ano-a-que-se-debe-esta-reduccion-informe-movilidad-escolar-noticia/
 
-- Ministerio de Educación. (2023). *Resultados del Censo Educativo 2022*. ESCALE. Recuperado el 9 de abril de 2026, de https://escale.minedu.gob.pe/documents/10156/9345030/PPT_Censo_Educativo_2023_final.pdf
+- Autoridad de Transporte Urbano para Lima y Callao. (2024). _Cifra de movilidades escolares autorizadas disminuyó en 25% en un año_. El Comercio. Recuperado el 9 de abril de 2026, de https://elcomercio.pe/lima/cifra-de-movilidades-escolares-autorizadas-disminuyo-en-25-en-un-ano-a-que-se-debe-esta-reduccion-informe-movilidad-escolar-noticia/
 
-- Superintendencia de Transporte Terrestre de Personas, Carga y Mercancías. (2024). *Sutran (MTC) sensibilizó a más de 47 000 escolares sobre seguridad vial*. Gob.pe. Recuperado el 9 de abril de 2026, de https://www.gob.pe/institucion/sutran/noticias/1255228-sutran-mtc-sensibilizo-a-mas-de-47-000-escolares-sobre-seguridad-vial-en-lo-que-va-del-2025
+- Ministerio de Educación. (2023). _Resultados del Censo Educativo 2022_. ESCALE. Recuperado el 9 de abril de 2026, de https://escale.minedu.gob.pe/documents/10156/9345030/PPT_Censo_Educativo_2023_final.pdf
+
+- Superintendencia de Transporte Terrestre de Personas, Carga y Mercancías. (2024). _Sutran (MTC) sensibilizó a más de 47 000 escolares sobre seguridad vial_. Gob.pe. Recuperado el 9 de abril de 2026, de https://www.gob.pe/institucion/sutran/noticias/1255228-sutran-mtc-sensibilizo-a-mas-de-47-000-escolares-sobre-seguridad-vial-en-lo-que-va-del-2025
 
 ## Anexos
