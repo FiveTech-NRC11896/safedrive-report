@@ -456,12 +456,6 @@ Aquí se detallan las unidades de despliegue principales del sistema. El diagram
 
 Este diagrama ofrece la visión macro del backend. Demuestra cómo el monolito de Spring Boot está organizado lógicamente en seis Bounded Contexts independientes y un Shared Kernel (núcleo compartido de Value Objects), asegurando una separación clara de responsabilidades a nivel de dominio.
 
-![ContainerDiagram](/assets/images/ChapterIV/C4/Containers-dark.png)
-
-#### 4.6.4. Software Architecture Components Diagrams
-
-Este diagrama ofrece la visión macro del backend. Demuestra cómo el monolito de Spring Boot está organizado lógicamente en seis Bounded Contexts independientes y un Shared Kernel (núcleo compartido de Value Objects), asegurando una separación clara de responsabilidades a nivel de dominio.
-
 ![WebServices](/assets/images/ChapterIV/C4/WebServiceComponents-dark.png)
 
 - Identity & Access Management:
@@ -492,8 +486,6 @@ Este diagrama ofrece la visión macro del backend. Demuestra cómo el monolito d
   Este diagrama expone las 4 capas transversales (Building Blocks) que fundamentan la arquitectura limpia del monolito. Detalla cómo se proveen clases base y utilidades compartidas: Middlewares en la capa API, interfaces y DTOs base en Application, Value Objects globales (TripId, StudentId) en Domain, y repositorios genéricos en Infrastructure, evitando la duplicidad de código en el resto de los Bounded Contexts.
   ![WebServices](/assets/images/ChapterIV/C4/ComponentDiagram_SharedKernel-dark.png)
 
-### 4.7. Software Object-Oriented Design
-
 #### 4.7.1. Class Diagrams
 
 **BackEnd**
@@ -558,137 +550,7 @@ Actúa como el Shared Kernel transversal de toda la solución en Spring Boot.
 Contiene exclusivamente Value Objects inmutables que sirven como identificadores globales (ej. OrganizationId, RouteId, ChildId) y conceptos comunes como FullName y Coordinates. Esto asegura la consistencia de los tipos de datos en la comunicación entre los distintos Bounded Contexts.
 
 **FrontEnd**
-En todos los diagramas, el componente raíz App actúa como contenedor principal: tiene composición (composes) con los componentes de cada bounded context. El manejo del estado se realiza mediante clases *Store (usando Signal<T>) , las cuales se comunican con clases *Api para las peticiones HTTP. Las clases *Assembler transforman los recursos (*Resource) de la API en modelos de dominio puro.
 
-- Identity and Access Management:
-
-![saferoute-iam](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/FiveTech-NRC11896/saferoute-webapp/refs/heads/main/SafeRoute/docs/angular-saferoute-iam-domain.puml)
-![saferoute-iam](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/FiveTech-NRC11896/saferoute-webapp/refs/heads/main/SafeRoute/docs/angular-saferoute-iam-infrastructure.puml)
-
-Gestiona la autenticación de usuarios y la configuración de la organización.
-
-Presentation & Domain: App compone formularios de inicio de sesión (AdminLoginForm, UserLoginForm), registro (AdminRegisterForm) y gestión de organización (OrganizationForm, OrganizationProfile). Estos componentes interactúan con IamStore y consumen directamente los modelos de dominio puros (User, Organization) para reflejar y gestionar los datos de la sesión actual en la interfaz.
-
-Application & Infrastructure: IamStore centraliza el estado con currentUserSignal y organizationSignal. Utiliza IamApi para operaciones como signIn() o createOrganization(), y UserAssembler/OrganizationAssembler para mapear las respuestas de la API (UserResource, OrganizationResource) a los modelos del dominio.
-
-- Subscription & Plan Management:
-
-![saferoute-subscription](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/FiveTech-NRC11896/saferoute-webapp/refs/heads/main/SafeRoute/docs/angular-saferoute-subscription-domain.puml)
-![saferoute-subscription](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/FiveTech-NRC11896/saferoute-webapp/refs/heads/main/SafeRoute/docs/angular-saferoute-subscription-infrastructure.puml)
-
-Maneja la visualización y selección de planes para la organización.
-
-Presentation & Domain: App compone PlanSelector (para elegir un plan) y SubscriptionStatus. Estos componentes utilizan directamente los modelos de dominio (Subscription y Plan) como inputs para renderizar la información de negocio (como los días restantes o límites de cuota) en la UI sin depender de estructuras externas.
-
-Application & Infrastructure: SubscriptionStore maneja subscriptionSignal y plansSignal. Se comunica con SubscriptionApi para cargar planes (getAllPlans()) o modificar la suscripción (upgradeSubscription(), cancelSubscription()), usando sus respectivos Assemblers.
-
-- Stakeholder & Asset Management:
-
-![saferoute-stakeholder](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/FiveTech-NRC11896/saferoute-webapp/refs/heads/main/SafeRoute/docs/angular-saferoute-stakeholder-domain.puml)
-![saferoute-stakeholder](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/FiveTech-NRC11896/saferoute-webapp/refs/heads/main/SafeRoute/docs/angular-saferoute-stakeholder-infrastructure.puml)
-
-Controla las vistas de listado y gestión de los actores del sistema.
-
-Presentation & Domain: App compone componentes de lista (ParentList, DriverList, ChildList, StudentGroupList) que permiten filtrar (searchQuery), seleccionar y eliminar registros utilizando los modelos del dominio (Parent, Driver, Child, StudentGroup) como la fuente de verdad para la visualización unificada de los actores.
-
-Application & Infrastructure: StakeholderStore maneja el estado de estas listas mediante Signals. StakeholderApi ejecuta operaciones CRUD hacia el backend, y las respuestas (ej. ParentResource) son transformadas a modelos de dominio mediante clases como ParentAssembler.
-
-- Fleet & Route Planning:
-
-![saferoute-fleet](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/FiveTech-NRC11896/saferoute-webapp/refs/heads/main/SafeRoute/docs/angular-saferoute-fleet-domain.puml)
-![saferoute-fleet](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/FiveTech-NRC11896/saferoute-webapp/refs/heads/main/SafeRoute/docs/angular-saferoute-fleet-infrastructure.puml)
-Interfaz para armar la logística de rutas, vehículos y asignaciones.
-
-Presentation & Domain: App compone RouteForm (creación de rutas), StopList (gestión de paradas), VehicleList (visualización de vehículos) y AssignmentForm (asignación de conductores y niños). La interfaz gráfica se alimenta estrictamente de las entidades del dominio (Route, Stop, Vehicle, Assignment) para garantizar que la vista esté alineada con las reglas del negocio logístico.
-
-Application & Infrastructure: FleetStore orquesta el estado de rutas, paradas, vehículos y asignaciones. FleetApi maneja las peticiones HTTP y usa Assemblers para convertir, por ejemplo, RouteResource en la entidad del dominio Route.
-
-- Trip Execution & Monitoring:
-
-![saferoute-trip](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/FiveTech-NRC11896/saferoute-webapp/refs/heads/main/SafeRoute/docs/angular-saferoute-trip-domain.puml)
-![saferoute-trip](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/FiveTech-NRC11896/saferoute-webapp/refs/heads/main/SafeRoute/docs/angular-saferoute-trip-infrastructure.puml)
-
-Pantallas operativas para el control en tiempo real de los viajes.
-
-Presentation & Domain: App compone TripDashboard (controla inicio y fin del viaje), AttendanceChecklist (gestiona el estado de abordaje de cada niño) e IncidentForm (permite reportar incidentes). Estos componentes consumen los modelos centrales del dominio (Trip, Attendance, Incident) para reflejar de forma fidedigna el estado real de la operación.
-
-Application & Infrastructure: TripStore centraliza el viaje actual, las asistencias y los incidentes. Delega las acciones a TripApi (ej. startTrip(), updateBoardingStatus()), apoyándose en TripAssembler, AttendanceAssembler e IncidentAssembler.
-
-- Notifications & Communication:
-
-![saferoute-notifications](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/FiveTech-NRC11896/saferoute-webapp/refs/heads/main/SafeRoute/docs/angular-saferoute-notifications-domain.puml)
-![saferoute-notifications](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/FiveTech-NRC11896/saferoute-webapp/refs/heads/main/SafeRoute/docs/angular-saferoute-notifications-infrastructure.puml)
-
-Centraliza la visualización y envío de notificaciones y alertas.
-
-Presentation & Domain: App compone NotificationList (para filtrar y marcar notificaciones como leídas), AlertPanel (gestiona alertas activas y pánico) y AnnouncementForm (creación de comunicados). Las vistas dependen exclusivamente de los modelos de dominio (Notification, Alert, Announcement) para renderizar los mensajes y alertas operativas a los usuarios finales.
-
-Application & Infrastructure: NotificationsStore maneja el estado de notificaciones, alertas y anuncios. NotificationsApi realiza las peticiones (ej. dispatchNotification(), triggerAlert()) y los Assemblers transforman los recursos recibidos en modelos limpios del dominio.
-
-#### 4.7.1. Class Diagrams
-
-**BackEnd**
-
-- Identity and Access Management:
-
-![saferoute-iam](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/FiveTech-NRC11896/saferoute-platform/refs/heads/main/safe-route-boot-developer/docs/java-saferoute-iam-ddd.puml)
-
-Gestiona organizaciones, usuarios y roles en el entorno de la aplicación.
-Organization (AggregateRoot): Maneja el ciclo de vida de la institución (métodos create(), suspend(), activate()). Se relaciona mediante Value Objects para su identificador, nombre y estado.
-User (AggregateRoot): Gestiona la autenticación y la asignación de roles de los usuarios (métodos register(), authenticate(), changeRole()). Pertenece a una organización a través del OrganizationId compartido y utiliza Value Objects de seguridad como PasswordHash.
-Role (Entity): Define los niveles de acceso dentro del sistema usando el Value Object
-
-- Subscription & Plan Management:
-
-![saferoute-subscription](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/FiveTech-NRC11896/saferoute-platform/refs/heads/main/safe-route-boot-developer/docs/java-saferoute-subscription-ddd.puml)
-
-Controla el modelo de negocio, definiendo los planes y suscripciones de cada organización.
-Subscription (AggregateRoot): Controla el estado y la vigencia de una suscripción (métodos activate(), upgrade(), cancel()). Se vincula directamente a una organización y a un plan específico mediante sus identificadores.
-Plan (AggregateRoot): Establece los límites operativos y económicos mediante los Value Objects RouteQuota y DriverQuota, los cuales validan que no se exceda la capacidad contratada de rutas y conductores.
-
-- Stakeholder & Asset Management:
-
-![saferoute-stakeholder](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/FiveTech-NRC11896/saferoute-platform/refs/heads/main/safe-route-boot-developer/docs/java-saferoute-stakeholder-ddd.puml)
-
-Modela a los actores humanos y sus agrupaciones dentro del sistema.
-Parent (AggregateRoot): Representa a los apoderados e incluye una lista de entidades Child, gestionando la adición o remoción de hijos.
-Driver (Entity): Define a los conductores, agregando atributos específicos de su labor como el Value Object LicenseNumber.
-Child (Entity): Representa a los estudiantes, gestionando su estado de inscripción mediante el Value Object ChildEnrollmentState.
-StudentGroup (Entity): Permite agrupar referencias a múltiples niños (ChildId) para facilitar su asignación.
-
-- Fleet & Route Planning:
-
-![saferoute-fleet](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/FiveTech-NRC11896/saferoute-platform/refs/heads/main/safe-route-boot-developer/docs/java-saferoute-fleet-ddd.puml)
-
-Encargado de la planificación logística y operativa del transporte.
-Route (AggregateRoot): Define el recorrido y su programación utilizando Value Objects como DepartureTime y ServiceDays. Compone una secuencia de paradas (Stop) y se asocia a un vehículo y a una asignación específica.
-Stop, Vehicle y Assignment (Entities): Stop maneja las coordenadas exactas y el orden de recojo. Vehicle controla la capacidad y disponibilidad de la unidad. Assignment vincula operativamente a un conductor con un grupo específico de niños para esa ruta.
-
-- Trip Execution & Monitoring:
-
-![saferoute-trip](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/FiveTech-NRC11896/saferoute-platform/refs/heads/main/safe-route-boot-developer/docs/java-saferoute-trip-ddd.puml)
-
-Trip (AggregateRoot): Controla el ciclo de vida del recorrido (métodos start(), complete()) vinculando una ruta, un conductor y una organización.
-Attendance (Entity): Registra individualmente si un niño abordó o no, utilizando el Value Object BoardingState (boarded, missing, omitted).
-Incident (Entity): Permite reportar cualquier problema durante el viaje, encapsulando los detalles en el Value Object IncidentDescription.
-
-- Notifications & Communication:
-
-![saferoute-notifications](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/FiveTech-NRC11896/saferoute-platform/refs/heads/main/safe-route-boot-developer/docs/java-saferoute-notifications-ddd.puml)
-
-Centraliza el envío de información y alertas hacia los padres de familia.
-Notification (AggregateRoot): Organiza el envío de mensajes, gestionando la categoría y el estado de entrega (NotificationDeliveryState) hacia un apoderado en el contexto de un viaje específico.
-Alert y Announcement (Entities): Alert se enfoca en notificaciones inmediatas o de pánico basadas en el tiempo de disparo (triggeredAt). Announcement maneja comunicados generales asociados a una ruta específica.
-
-- Shared:
-
-![saferoute-shared](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/FiveTech-NRC11896/saferoute-platform/refs/heads/main/safe-route-boot-developer/docs/java-saferoute-shared-ddd.puml)
-
-Actúa como el Shared Kernel transversal de toda la solución en Spring Boot.
-
-Contiene exclusivamente Value Objects inmutables que sirven como identificadores globales (ej. OrganizationId, RouteId, ChildId) y conceptos comunes como FullName y Coordinates. Esto asegura la consistencia de los tipos de datos en la comunicación entre los distintos Bounded Contexts.
-
-**FrontEnd**
 En todos los diagramas, el componente raíz App actúa como contenedor principal: tiene composición (composes) con los componentes de cada bounded context. El manejo del estado se realiza mediante clases *Store (usando Signal<T>) , las cuales se comunican con clases *Api para las peticiones HTTP. Las clases *Assembler transforman los recursos (*Resource) de la API en modelos de dominio puro.
 
 - Identity and Access Management:
