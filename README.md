@@ -15,7 +15,7 @@
 **Nombre del producto:** SafeDrive
 
 **Relación de integrantes:**
-- U20XXXXXXXX - [Apellidos, Nombres]
+- U202315968 - Costa Morales, Christofer William
 - U201717085 - Revilla Quispe, Renzo Zamir
 - U20241D922 - Quispe Serrano, Julio Frank
 - U20XXXXXXXX - [Apellidos, Nombres]
