@@ -1,4 +1,4 @@
-![Logo UPC](assets/images/logo-upc.png)
+![Logo UPC](assets/images/Upc/logo-upc.png)
 
 **Nombre de la Universidad:** Universidad Peruana de Ciencias Aplicadas  
 **Facultad:** Ingeniería  
@@ -105,7 +105,7 @@ El diseño de SafeRoute se fundamenta en decisiones visuales estratégicas desti
 #### Colores
 La selección cromática de SafeRoute no es meramente estética; responde a una psicología del color aplicada a la seguridad y el entorno escolar, garantizando accesibilidad y jerarquía visual. Cada tono desempeña una función específica en la interfaz:
 
-![Foto de paleta de colores](assets/images/paleta-colores.png)
+![Foto de paleta de colores](assets/images/ChapterIV/paleta-colores.png)
 
 - Azul Noche Profundo - #1A1A2E: Este color transmite autoridad, seriedad máxima y seguridad corporativa. En SafeRoute, se utiliza estratégicamente en el texto principal del logotipo y como fondo en secciones críticas de cierre, como el CTA final y el footer, para anclar la percepción de una plataforma robusta y confiable.
 
@@ -123,11 +123,11 @@ La selección cromática de SafeRoute no es meramente estética; responde a una 
 
 Se seleccionó la tipografía “Plus Jakarta Sans” como fuente principal para los títulos de la plataforma de SafeRoute por su estilo geométrico moderno y su capacidad para captar la atención del usuario con un toque tecnológico pero amigable. Se utiliza en pesos altos para asegurar que los encabezados sean visualmente impactantes, sólidos y de fácil lectura.
 
-![Foto de ejemplo Jakarta Sans](assets/images/ejemplo-jakarta.png)
+![Foto de ejemplo Jakarta Sans](assets/images/ChapterIV/ejemplo-jakarta.png)
 
 Asimismo, optamos por la tipografía “DM Sans” como fuente secundaria para los textos de cuerpo y navegación por su diseño extremadamente legible, limpio y neutro. Su apariencia estética y claridad garantizan una experiencia de uso accesible y agradable, reduciendo la fatiga visual del usuario al leer información detallada sobre funciones o planes.
 
-![Foto de ejemplo DM Sans](assets/images/ejemplo-dm.png)
+![Foto de ejemplo DM Sans](assets/images/ChapterIV/ejemplo-dm.png)
 
 En cuanto al tamaño, se utiliza jerárquicamente en toda la página para resaltar títulos principales, botones de acción y texto de soporte. Los tamaños más grandes en los encabezados guían al usuario rápidamente por los puntos clave del mensaje, mientras que los más pequeños en los párrafos aseguran la comprensión y la eficiencia en la lectura de detalles secundarios.
 
@@ -135,7 +135,7 @@ En cuanto al tamaño, se utiliza jerárquicamente en toda la página para resalt
 
 El branding de SafeRoute está diseñado para reflejar simplicidad, confianza y profesionalismo. El logo y los íconos adoptan un enfoque minimalista, con líneas claras y formas simples que comunican el propósito de seguridad de la plataforma. El diseño incluye un símbolo que combina un escudo y un marcador de posición, representado de tal manera que simboliza protección y monitoreo con una apariencia limpia que es fácilmente reconocible, tanto en entornos web como móviles.
 
-<img src="assets/images/logo.jpeg" alt="Foto de logo" width="400px" />
+<img src="assets/images/ChapterIV/logo.jpeg" alt="Foto de logo" width="400px" />
 
 #### Espaciado
 
@@ -183,9 +183,9 @@ El diseño web de SafeRoute está optimizado para proporcionar una experiencia d
 
 En cuanto a la interactividad, la plataforma utiliza una lógica de componentes claramente identificables. Los botones de acción (CTAs) emplean colores contrastantes y estados visuales (como hover y active) que ofrecen una retroalimentación inmediata, reforzando la confianza del usuario al interactuar con el sistema. La navegación se apoya en transiciones suaves y menús persistentes que aseguran que las herramientas principales, como el sistema de internacionalización (i18n), estén siempre al alcance del usuario, facilitando un flujo de trabajo intuitivo y eficiente dentro de la landing page.
 
-![Mockup Landing Page](assets/images/mockup_landingPage.png)
-![Mockup Planes](assets/images/mockup_planes.png)
-![Mockup footer](assets/images/mockup_footer.png)
+![Mockup Landing Page](assets/images/ChapterIV/Landing/Mock-ups/mockup_landingPage.png)
+![Mockup Planes](assets/images/ChapterIV/Landing/Mock-ups//mockup_planes.png)
+![Mockup footer](assets/images/ChapterIV/Landing/Mock-ups//mockup_footer.png)
 
 _Nota_: Elaboración propia.
 
@@ -307,7 +307,7 @@ En esta sección se describen los mecanismos de asistencia y recuperación de in
 
   - Tarjetas de Alumno (Cards): Incluyen foto, nombre, grado y una etiqueta de estado de alta visibilidad.
   - Indicadores de Color:
-      - Azul: Alumno en espera.
+      - Amarillo: Alumno en espera.
       - Verde: Alumno ya abordó la unidad.
       - Rojo: Alumno reportado como ausente.
   - Acciones rápidas: Botones directos para "Marcar Asistencia", "Llamar a Apoderado" o "Reportar Incidencia".
@@ -336,7 +336,7 @@ En esta sección se describen los mecanismos de asistencia y recuperación de in
 
       - Reloj Naranja: Retraso reportado en el punto de entrega.
 
-      - Círculo Gris: Registro de inasistencia justificada.
+      - Círculo Rojo: Registro de inasistencia justificada.
 
 
 ### 4.2.5. Navigation Systems
@@ -369,31 +369,31 @@ A continuación, se presentan los wireframes de las principales secciones de la 
 
 En esta primera sección se presenta la pantalla Home de la landing page, donde se observa el encabezado principal con la propuesta de valor y el acceso al sistema de internacionalización (i18n). Se aprecia un botón call-to-action principal diseñado para captar el interés de los padres de familia y conductores independientes.
 
-<img src="assets/images/wireframe-LP1.png" alt="Home SafeRoute" width="900px">
+<img src="assets/images/ChapterIV/Landing/Wireframes/wireframe-LP1.png" alt="Home SafeRoute" width="900px">
 
 A continuación, se muestra la Sección de Características, donde se detallan los pilares y eficiencia que sustentan la plataforma SafeRoute, utilizando iconos y textos breves para una lectura rápida.
 
-<img src="assets/images/wireframe-LP2.png" alt="Características SafeRoute" width="900px">
+<img src="assets/images/ChapterIV/Landing/Wireframes/wireframe-LP2.png" alt="Características SafeRoute" width="900px">
 
 Se presenta la sección de Funcionalidades, la cual profundiza en las capacidades tecnológicas del sistema, como el monitoreo en tiempo real y las notificaciones automáticas.
 
-<img src="assets/images/wireframe-LP3.png" alt="Funcionalidades" width="900px">
+<img src="assets/images/ChapterIV/Landing/Wireframes/wireframe-LP3.png" alt="Funcionalidades" width="900px">
 
 El siguiente frame corresponde a los Roles del Sistema, donde se segmentan los beneficios específicos para cada usuario objetivo: los padres de familia, enfocados en la tranquilidad y el seguimiento, y los conductores, enfocados en la gestión operativa de la ruta.
 
-<img src="assets/images/wireframe-LP4.png" alt="Roles SafeRoute" width="900px">
+<img src="assets/images/ChapterIV/Landing/Wireframes/wireframe-LP4.png" alt="Roles SafeRoute" width="900px">
 
 Se presenta la sección de Planes, donde se muestra la estructura de precios y niveles de servicio, diseñada de forma escaneable para facilitar la toma de decisiones.
 
-<img src="assets/images/wireframe-LP5.png" alt="Planes SafeRoute" width="900px">
+<img src="assets/images/ChapterIV/Landing/Wireframes/wireframe-LP5.png" alt="Planes SafeRoute" width="900px">
 
 A continuación, se detalla el flujo de uso del sistema en la sección "¿Cómo funciona?". Este tutorial visual guía al nuevo usuario a través de los pasos necesarios para implementar la plataforma con éxito.
 
-<img src="assets/images/wireframe-LP6.png" alt="Tutorial SafeRoute" width="900px">
+<img src="assets/images/ChapterIV/Landing/Wireframes/wireframe-LP6.png" alt="Tutorial SafeRoute" width="900px">
 
 Finalmente, se presenta la sección de Footer, la cual incluye el cierre de la página con los créditos correspondientes al equipo de desarrollo de FiveTech.
 
-<img src="assets/images/wireframe-LP7.png" alt="Footer SafeRoute" width="900px">
+<img src="assets/images/ChapterIV/Landing/Wireframes/wireframe-LP7.png" alt="Footer SafeRoute" width="900px">
 
 #### Versión Mobile Web Browser
 
@@ -402,22 +402,22 @@ A continuación, se presenta la adaptación responsiva de SafeRoute para disposi
 Pantalla Home y Menú Lateral (Sidebar):
 Se muestra la adaptación del Hero Section y el funcionamiento del menú hamburguesa, el cual despliega una barra lateral para facilitar la navegación en pantallas pequeñas sin obstruir el contenido.
 
-<img src="assets/images/wireframe-mobile-1.png" alt="Home Mobile" width="700px">
+<img src="assets/images/ChapterIV/Landing/Wireframes/wireframe-mobile-1.png" alt="Home Mobile" width="700px">
 
 Secciones de Características y Funcionalidades en Móvil:
 Los pilares de seguridad y las capacidades tecnológicas del sistema se reorganizan en una sola columna. Esto permite que los iconos y textos descriptivos mantengan un tamaño adecuado para la lectura táctil, evitando que el usuario deba realizar zoom para comprender las funciones de monitoreo y alertas.
 
-<img src="assets/images/wireframe-mobile-2.png" alt="Características y Funcionalidades Mobile" width="800px">
+<img src="assets/images/ChapterIV/Landing/Wireframes/wireframe-mobile-2.png" alt="Características y Funcionalidades Mobile" width="800px">
 
 Sección de Roles del Sistema en Móvil:
 Se adapta la segmentación de beneficios para padres y conductores mediante un flujo vertical. Cada rol se presenta de forma independiente para asegurar que el impacto visual de los beneficios específicos no se pierda en pantallas de dimensiones reducidas.
  
-<img src="assets/images/wireframe-mobile-3.png" alt="Roles Mobile" width="700px">
+<img src="assets/images/ChapterIV/Landing/Wireframes/wireframe-mobile-3.png" alt="Roles Mobile" width="700px">
 
 Planes, Tutorial y Footer Móvil:
 La tabla de precios se transforma en tarjetas individuales desplazables de arriba hacia abajo, seguida del flujo paso a paso del tutorial. El cierre de página se optimiza para mostrar los créditos de FiveTech de manera compacta al final del recorrido del usuario.
 
-<img src="assets/images/wireframe-mobile-4.png" alt="Planes y Footer Mobile" width="1000px">
+<img src="assets/images/ChapterIV/Landing/Wireframes/wireframe-mobile-4.png" alt="Planes y Footer Mobile" width="1000px">
 
 ### 4.3.2. Landing Page Mock-up
 
@@ -425,31 +425,31 @@ A continuación, se presentan los mock-ups de las principales secciones de la la
 
 En esta primera sección se presenta la pantalla Home de la landing page, donde se observa el encabezado principal con la propuesta de valor y el acceso al sistema de internacionalización (i18n). Se aprecia un botón call-to-action principal diseñado para captar el interés de los padres de familia y conductores independientes.
 
-<img src="assets/images/mockup-LP1.png" alt="Home SafeRoute" width="900px">
+<img src="assets/images/ChapterIV/Landing/Mock-ups/mockup-LP1.png" alt="Home SafeRoute" width="900px">
 
 A continuación, se muestra la Sección de Características, donde se detallan los pilares y eficiencia que sustentan la plataforma SafeRoute, utilizando iconos y textos breves para una lectura rápida.
 
-<img src="assets/images/mockup-LP2.png" alt="Características SafeRoute" width="900px">
+<img src="assets/images/ChapterIV/Landing/Mock-ups/mockup-LP2.png" alt="Características SafeRoute" width="900px">
 
 Se presenta la sección de Funcionalidades, la cual profundiza en las capacidades tecnológicas del sistema, como el monitoreo en tiempo real y las notificaciones automáticas.
 
-<img src="assets/images/mockup-LP3.png" alt="Funcionalidades" width="900px">
+<img src="assets/images/ChapterIV/Landing/Mock-ups/mockup-LP3.png" alt="Funcionalidades" width="900px">
 
 El siguiente frame corresponde a los Roles del Sistema, donde se segmentan los beneficios específicos para cada usuario objetivo: los padres de familia, enfocados en la tranquilidad y el seguimiento, y los conductores, enfocados en la gestión operativa de la ruta.
 
-<img src="assets/images/mockup-LP4.png" alt="Roles SafeRoute" width="900px">
+<img src="assets/images/ChapterIV/Landing/Mock-ups/mockup-LP4.png" alt="Roles SafeRoute" width="900px">
 
 Se presenta la sección de Planes, donde se muestra la estructura de precios y niveles de servicio, diseñada de forma escaneable para facilitar la toma de decisiones comerciales.
 
-<img src="assets/images/mockup-LP5.png" alt="Planes SafeRoute" width="900px">
+<img src="assets/images/ChapterIV/Landing/Mock-ups/mockup-LP5.png" alt="Planes SafeRoute" width="900px">
 
 A continuación, se detalla el flujo de uso del sistema en la sección "¿Cómo funciona?". Este tutorial visual guía al nuevo usuario a través de los pasos necesarios para implementar la plataforma con éxito.
 
-<img src="assets/images/mockup-LP6.png" alt="Tutorial SafeRoute" width="900px">
+<img src="assets/images/ChapterIV/Landing/Mock-ups/mockup-LP6.png" alt="Tutorial SafeRoute" width="900px">
 
 Finalmente, se presenta la sección de Footer, la cual incluye el cierre de la página con los créditos correspondientes al equipo de desarrollo de FiveTech.
 
-<img src="assets/images/mockup-LP7.png" alt="Footer SafeRoute" width="900px">
+<img src="assets/images/ChapterIV/Landing/Mock-ups/mockup-LP7.png" alt="Footer SafeRoute" width="900px">
 
 #### Versión Mobile Web Browser
 
@@ -458,22 +458,22 @@ A continuación, se presentan los mock-ups de la versión móvil de la aplicaci�
 Pantalla Home y Menú Lateral (Sidebar):
 Se muestra la adaptación del Hero Section y el funcionamiento del menú hamburguesa, el cual despliega una barra lateral para facilitar la navegación en pantallas pequeñas sin obstruir el contenido.
 
-<img src="assets/images/mockup-mobile-1.png" alt="Home Mobile" width="700px">
+<img src="assets/images/ChapterIV/Landing/Mock-ups/mockup-mobile-1.png" alt="Home Mobile" width="700px">
 
 Secciones de Características y Funcionalidades en Móvil:
 Los pilares de seguridad y las capacidades tecnológicas del sistema se reorganizan en una sola columna. Esto permite que los iconos y textos descriptivos mantengan un tamaño adecuado para la lectura táctil, evitando que el usuario deba realizar zoom para comprender las funciones de monitoreo y alertas.
 
-<img src="assets/images/mockup-mobile-2.png" alt="Características y Funcionalidades Mobile" width="800px">
+<img src="assets/images/ChapterIV/Landing/Mock-ups/mockup-mobile-2.png" alt="Características y Funcionalidades Mobile" width="800px">
 
 Sección de Roles del Sistema en Móvil:
 Se adapta la segmentación de beneficios para padres y conductores mediante un flujo vertical. Cada rol se presenta de forma independiente para asegurar que el impacto visual de los beneficios específicos no se pierda en pantallas de dimensiones reducidas.
  
-<img src="assets/images/mockup-mobile-3.png" alt="Roles Mobile" width="700px">
+<img src="assets/images/ChapterIV/Landing/Mock-ups/mockup-mobile-3.png" alt="Roles Mobile" width="700px">
 
 Planes, Tutorial y Footer Móvil:
 La tabla de precios se transforma en tarjetas individuales desplazables de arriba hacia abajo, seguida del flujo paso a paso del tutorial. El cierre de página se optimiza para mostrar los botones de contacto y los créditos de FiveTech de manera compacta y accesible al final del recorrido del usuario.
 
-<img src="assets/images/mockup-mobile-4.png" alt="Planes y Footer Mobile" width="1000px">
+<img src="assets/images/ChapterIV/Landing/Mock-ups/mockup-mobile-4.png" alt="Planes y Footer Mobile" width="1000px">
 ## 4.4. Web Applications UX/UI Design
 
 ### 4.4.1. Web Applications Wireframes
