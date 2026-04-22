@@ -419,6 +419,11 @@ Lenguaje de programación que se utilizara en el desarrollo del backend de la ap
 ###### GitHub Pages
 Servicio utilizado para el despliegue de la landing page del proyecto.
 
+###### Vercel
+Plataforma utilizada para el despliegue del frontend desarrollado en Vue.js, permitiendo una integración continua y despliegue automatizado.
+
+###### Railway
+Plataforma utilizada para el despliegue de servicios backend y APIs, facilitando la conexión entre frontend y backend en un entorno accesible en la nube.
 
 
 #### 5.1.2. Source Code Management
@@ -518,6 +523,41 @@ Para el repositorio del informe se emplearán mensajes como docs(report): add pr
 
 #### 5.1.4. Software Deployment Configuration
 
+En esta sección se describe la configuración necesaria para el despliegue de los principales componentes del proyecto: Landing Page, Frontend Web Application y Backend.
+#### Despliegue de Landing Page
+
+La Landing Page fue desarrollada utilizando HTML, CSS y JavaScript, y será desplegada mediante GitHub Pages, un servicio de hosting para sitios estáticos.
+
+##### Pasos de despliegue
+
+Crear un repositorio en GitHub destinado a la landing page.
+Subir el código fuente (HTML, CSS, JS y recursos estáticos) al repositorio.
+Asegurar que el archivo principal se denomine index.html y se encuentre en la raíz del proyecto.
+Acceder a la sección Settings > Pages del repositorio.
+Seleccionar la rama main (o master) y la carpeta raíz (/) como fuente.
+GitHub generará automáticamente una URL pública para acceder a la landing page.
+URL desplegada: Pendiente
+
+##### Despliegue de Frontend Web Application
+El frontend de la aplicación, desarrollado con Vue.js, será desplegado utilizando la plataforma Vercel, la cual permite integración continua y despliegue automatizado.
+
+Pasos de despliegue
+Crear o seleccionar el repositorio del frontend en GitHub.
+Vincular el repositorio con la plataforma Vercel.
+Configurar el entorno de despliegue (framework Vue.js).
+Ejecutar el despliegue automático desde Vercel.
+Obtener la URL pública generada para el acceso a la aplicación.
+URL desplegada: Pendiente
+
+##### Despliegue de Backend Services
+El backend del sistema, desarrollado en C#, será desplegado utilizando Railway, una plataforma que permite exponer servicios y APIs en la nube.
+Pasos de despliegue:
+Crear el repositorio del backend en GitHub.
+Vincular el repositorio con Railway.
+Configurar las variables de entorno necesarias para la ejecución del backend.
+Configurar el servicio para exponer endpoints API.
+Desplegar el servicio y obtener la URL pública del backend.
+URL desplegada: Pendiente
 
 ### 5.2. Landing Page, Services & Applications Implementation
 
