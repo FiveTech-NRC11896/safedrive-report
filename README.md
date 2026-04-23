@@ -206,9 +206,10 @@ En esta sección se describen los principales competidores (directos e indirecto
 
 ### 2.1.1 Análisis Competitivo - Landscape
 
+![Análisis Competitivo](./assets/images/Landscape-competidores.png)
+
 **¿Por qué llevar a cabo este análisis?**
 El objetivo es contrastar SafeRoute con soluciones líderes de geolocalización familiar y gestión escolar, identificando oportunidades para posicionarnos como la herramienta preferida de los transportistas independientes en Lima que buscan profesionalizar su servicio.
-
 | Categoría | Detalle | **SafeRoute** | **Life360** | **Find My Kids** | **OnTrack School** |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Perfil** | **Overview** | Gestión y monitoreo especializado en transporte escolar. | App de seguridad familiar y rastreo GPS general. | App de monitoreo infantil enfocada en smartwatches. | Plataforma integral de logística para transporte escolar. |
