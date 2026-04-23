@@ -1953,10 +1953,10 @@ URL desplegada: Pendiente
 | Location | Microsoft Teams |
 | Prepared By | Renzo Revilla |
 | Attendees (to planning meeting) | Todo el equipo |
-| Sprint 1 – 1 Review Summary |Al tratarse del primer sprint, se establecieron las bases del proyecto, incluyendo la estructura del repositorio. |
-| Sprint 1 – 1 Retrospective Summary | El equipo identificó la importancia de una correcta organización y distribución de tareas desde el inicio del proyecto. Se acordó mejorar la comunicación y planificación para optimizar el desarrollo en los siguientes sprints. |
-| **Sprint Goal & User Stories**  |
-| Sprint 1 Goal | Nuestro enfoque es desarrollar la primera versión del Landing Page de SafeRoute. Creemos que esto permitirá comunicar la propuesta de valor de la plataforma a los usuarios. Esto se validará cuando los usuarios puedan acceder al sitio y comprender sus funcionalidades principales. |
+| Sprint 0 Review Summary | Al tratarse del inicio del proyecto, no se cuenta con un sprint previo. Sin embargo, se definieron las bases del proyecto, incluyendo la configuración inicial del entorno y la estructura del repositorio. |
+| Sprint 0 Retrospective Summary | El equipo identificó la importancia de una correcta organización y distribución de tareas desde el inicio del proyecto. Se acordó mejorar la comunicación y planificación para optimizar el desarrollo en los siguientes sprints. |
+| **Sprint Goal & User Stories** | |
+| Sprint 1 Goal | Nuestro enfoque es permitir que los nuevos usuarios comprendan la propuesta de valor de SafeRoute mediante una primera versión del landing page. Creemos que esto aporta claridad y genera confianza inicial en los potenciales usuarios de la plataforma. Esto se validará cuando los usuarios puedan acceder al landing page e identificar claramente sus funcionalidades principales y su propósito. |
 | Sprint 1 Velocity | 15 Story Points |
 | Sum of Story Points | 13 Story Points |
 
