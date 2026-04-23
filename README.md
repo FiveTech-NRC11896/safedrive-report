@@ -190,19 +190,19 @@ SafeRoute está dirigido a dos segmentos que forman parte del ecosistema del tra
 En esta sección se describen los principales competidores (directos e indirectos) con modelos de negocio basados en productos digitales similares o servicios complementarios de monitoreo.
 
 #### Life360
-**Descripción:** Es una aplicación de rastreo familiar líder a nivel global que permite compartir la ubicación en tiempo real entre miembros de un grupo, así como recibir alertas de llegada y salida de lugares definidos. Está orientada a mejorar la seguridad y comunicación entre familias mediante funciones de geolocalización avanzada.
+**Descripción:** Aplicación de rastreo familiar líder a nivel global que permite compartir la ubicación en tiempo real entre miembros de un grupo, así como recibir alertas de llegada y salida de lugares definidos. Está orientada a mejorar la seguridad y comunicación entre familias mediante funciones de geolocalización avanzada.
 
 * **Enfoque:** Seguridad familiar general.
 * **URL:** [https://www.life360.com/](https://www.life360.com/)
 
 #### Find My Kids
-**Descripción:** Es una aplicación de monitoreo parental diseñada para que los padres conozcan la ubicación en tiempo real de sus hijos mediante GPS. Permite revisar el historial de movimientos, escuchar el entorno en caso de emergencia y recibir alertas. Se destaca por su integración con relojes inteligentes (smartwatches) para niños.
+**Descripción:** Aplicación de monitoreo parental diseñada para que los padres conozcan la ubicación en tiempo real de sus hijos mediante GPS. Permite revisar el historial de movimientos, escuchar el entorno en caso de emergencia y recibir alertas. Se destaca por su integración con relojes inteligentes (smartwatches) para niños.
 
 * **Enfoque:** Monitoreo infantil y seguridad parental.
 * **URL:** [https://findmykids.org/](https://findmykids.org/)
 
 #### OnTrack School
-**Descripción:** Es un sistema digital integral enfocado específicamente en la gestión y monitoreo del transporte escolar. Permite el seguimiento de vehículos en tiempo real, envío de notificaciones automáticas a los padres y control administrativo de rutas y conductores. Está orientado principalmente a instituciones educativas y flotas de transporte escolar.
+**Descripción:** Sistema digital integral enfocado específicamente en la gestión y monitoreo del transporte escolar. Permite el seguimiento de vehículos en tiempo real, envío de notificaciones automáticas a los padres y control administrativo de rutas y conductores. Está orientado principalmente a instituciones educativas y flotas de transporte escolar.
 
 * **Enfoque:** Gestión logística y transporte escolar corporativo.
 * **URL:** [https://ontrack.global/school/](https://ontrack.global/school/)
@@ -211,9 +211,10 @@ En esta sección se describen los principales competidores (directos e indirecto
 
 ### 2.1.1 Análisis Competitivo - Landscape
 
+![Análisis Competitivo](./assets/images/Landscape-competidores.png)
+
 **¿Por qué llevar a cabo este análisis?**
 El objetivo es contrastar SafeRoute con soluciones líderes de geolocalización familiar y gestión escolar, identificando oportunidades para posicionarnos como la herramienta preferida de los transportistas independientes en Lima que buscan profesionalizar su servicio.
-
 | Categoría | Detalle | **SafeRoute** | **Life360** | **Find My Kids** | **OnTrack School** |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Perfil** | **Overview** | Gestión y monitoreo especializado en transporte escolar. | App de seguridad familiar y rastreo GPS general. | App de monitoreo infantil enfocada en smartwatches. | Plataforma integral de logística para transporte escolar. |
@@ -409,30 +410,60 @@ En esta sección, se presenta el desarrollo y los resultados de la sesión de Bi
 
 A través de esta dinámica, se logró plasmar los eventos significativos y sus interrelaciones, construyendo una primera aproximación visual de alto nivel que explora el landscape completo del negocio.
 
-![BigPictureEventStorming](./assets/images/BigPictureEventStorming.jpg)
-* **URL:** [[https://miro.com/](https://miro.com/app/board/uXjVGg_8JKU=/?share_link_id=308871936592)]
+![BigPictureEventStorming](./assets/images/EventStorming.jpg)
+* **URL:** [[https://miro.com/](https://miro.com/app/board/uXjVGhc-MhA=/)]
 
 ### 2.5. Ubiquitous Language
 En esta sección se presenta el glosario de términos de negocio utilizados dentro del dominio de SafeRoute. 
-| Term (English) | Término equivalente | Definición |
-|:---|:---|:---|
-| Student | Estudiante / Alumno | Menor de edad que utiliza el servicio de movilidad escolar para trasladarse entre su hogar y el centro educativo. |
-| Parent | Padre / Apoderado | Persona responsable del estudiante que supervisa su traslado y recibe notificaciones del servicio. |
-| Driver | Conductor | Persona encargada de operar el vehículo escolar y ejecutar la ruta asignada. |
-| Vehicle | Vehículo | Unidad de transporte utilizada para movilizar estudiantes. |
-| School Route | Ruta Escolar | Recorrido planificado con paradas definidas para recoger y entregar alumnos. |
-| Daily Trip | Viaje Diario | Operación completa de traslado realizada en una jornada específica. |
-| Return Trip | Ruta de Retorno | Trayecto de regreso desde el colegio hacia los domicilios. |
-| Incident | Incidencia | Evento no planificado que afecta la operación normal del servicio. |
-| Critical Incident | Incidencia Crítica | Situación grave que compromete seguridad, salud o continuidad del servicio. |
-| Check-in | Confirmación de Entrada | Validación de que el estudiante ingresó correctamente al vehículo o al colegio. |
-| Check-out | Confirmación de Salida | Validación de entrega del estudiante al responsable autorizado. |
-| Notification | Notificación | Mensaje enviado al padre o conductor con información relevante del servicio. |
-| Service Plan | Plan de Servicio | Modalidad comercial contratada por el cliente para acceder a SafeRoute. |
-| Subscription | Suscripción | Vigencia activa del servicio contratado por el transportista o administrador. |
-| Fleet | Flota | Conjunto de vehículos administrados por una misma operación. |
-| Guardian | Tutor / Responsable | Persona autorizada para recibir al estudiante al final del trayecto. |
-| No-show Student | Alumno Ausente | Estudiante programado que no aborda la unidad en el punto establecido. |
+| Term (English) | Equivalente en Español | Definición |
+|---|---|---|
+| Administrator | Administrador | Persona o entidad responsable de la gestión operativa del servicio de movilidad escolar. Administra usuarios, rutas, vehículos, estudiantes y suscripciones. |
+| Driver | Conductor | Responsable de operar la unidad de transporte escolar y ejecutar el viaje diario. Registra eventos como inicio de trayecto, abordaje, incidencias y cierre de ruta. |
+| Parent | Padre de familia / Tutor | Usuario final que monitorea el recorrido del estudiante, recibe notificaciones y valida la seguridad del servicio. |
+| Student | Estudiante / Alumno | Beneficiario del servicio de transporte escolar. Su estado de abordaje, traslado y entrega representa el núcleo operativo del sistema. |
+| Visitor | Visitante | Usuario no registrado que accede a la Landing Page para conocer el servicio, consultar precios o solicitar una demostración. |
+| Subscription | Suscripción | Acuerdo comercial que habilita el acceso a la plataforma SafeRoute según un plan contratado y vigente. |
+| Plan | Plan | Oferta comercial (Basic, Intermediate, Premium) que determina funcionalidades, límites operativos y capacidad de uso del sistema. |
+| Billing Cycle | Ciclo de facturación | Periodo de tiempo en el que se cobra y renueva la suscripción del cliente (mensual o anual). |
+| Payment | Pago | Transacción económica realizada por el Administrador para activar o renovar una suscripción. |
+| Invoice | Factura / Comprobante | Documento emitido luego de un pago exitoso como constancia de la transacción realizada. |
+| Route | Ruta | Definición logística que incluye origen, destino, paradas y secuencia del recorrido escolar. |
+| Stop | Parada | Punto físico autorizado donde el vehículo recoge o entrega estudiantes. |
+| Checkpoint | Punto de control | Referencia geográfica dentro de la ruta utilizada para validar avance y calcular tiempos estimados. |
+| Trip | Viaje / Trayecto | Ejecución en tiempo real de una ruta programada en una fecha y horario determinados. |
+| Scheduled Trip | Viaje programado | Viaje previamente configurado para una fecha, conductor, vehículo y ruta específica. |
+| Boarding | Abordaje | Acción física y registro digital del momento en que el estudiante sube al vehículo. |
+| Boarding Status | Estado de abordaje | Estado operativo del estudiante durante el viaje (Boarded, Absent, Delivered, Pending). |
+| Absence | Ausencia | Evento registrado cuando el estudiante no aborda la unidad en la parada correspondiente. |
+| Delivery | Entrega | Confirmación de que el estudiante fue dejado de forma segura en destino autorizado. |
+| Vehicle | Vehículo / Unidad | Medio de transporte asignado a rutas específicas dentro de la operación escolar. |
+| Fleet | Flota | Conjunto de vehículos administrados por una misma organización o administrador. |
+| Driver Assignment | Asignación de conductor | Acción mediante la cual un conductor queda vinculado a una ruta o viaje programado. |
+| Vehicle Assignment | Asignación de vehículo | Acción mediante la cual una unidad queda vinculada a una ruta o viaje programado. |
+| Manifest | Manifiesto | Lista oficial de estudiantes asignados a una ruta o grupo para control operativo y asistencia. |
+| Group | Grupo | Conjunto de estudiantes relacionados a una ruta, zona o servicio común. |
+| Live Tracking | Monitoreo en tiempo real | Visualización dinámica de la ubicación actual del vehículo durante el viaje. |
+| ETA (Estimated Time of Arrival) | Tiempo estimado de llegada | Predicción del tiempo restante para llegar a una parada o destino. |
+| Incident | Incidente | Evento no planificado reportado durante el trayecto, como retrasos, tráfico, avería o emergencia. |
+| Delay | Retraso | Desviación del horario esperado del viaje respecto a la planificación original. |
+| Emergency Alert | Alerta de emergencia | Notificación prioritaria generada ante una situación crítica que requiere atención inmediata. |
+| Notification | Notificación | Comunicación automática enviada al usuario sobre eventos relevantes del servicio. |
+| Push Notification | Notificación push | Mensaje inmediato enviado al dispositivo móvil del usuario. |
+| Announcement | Comunicado | Mensaje masivo emitido por la administración hacia padres o usuarios registrados. |
+| Dashboard | Panel de control | Vista de gestión donde el Administrador monitorea operaciones, métricas y configuraciones. |
+| Attendance | Asistencia | Registro histórico de abordajes y ausencias del estudiante. |
+| Attendance Report | Reporte de asistencia | Resumen periódico del historial de presencia de estudiantes en el servicio. |
+| Trip History | Historial de viajes | Registro consolidado de trayectos ejecutados anteriormente. |
+| Security Validation | Validación de seguridad | Confirmación de identidad o permisos para acceder a funciones sensibles del servicio. |
+| Account Provisioning | Habilitación de cuenta | Proceso de creación y activación de acceso para un usuario del sistema. |
+| Role | Rol | Perfil funcional del usuario dentro del negocio (Administrator, Driver, Parent). |
+| Capacity Limit | Límite de capacidad | Restricción operativa determinada por el plan contratado, como número de rutas o conductores permitidos. |
+| Renewal | Renovación | Extensión de una suscripción al completar un nuevo pago. |
+| Suspension | Suspensión | Estado en el que se restringe el acceso al sistema por falta de pago o incumplimiento. |
+| Landing Page | Página informativa principal | Sitio web orientado a captación comercial donde se presenta la propuesta de valor del servicio. |
+| Demo Request | Solicitud de demostración | Petición comercial realizada por un visitante interesado en conocer el producto. |
+| Pricing | Precios / Tarifario | Información pública de costos y beneficios asociados a cada plan disponible. |
+| Trust Signal | Señal de confianza | Elemento comercial que incrementa credibilidad, como testimonios, alianzas o certificaciones. |
 
 ---
 
