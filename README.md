@@ -450,13 +450,16 @@ El diagrama de contexto presenta a SafeRoute como el sistema central, rodeado po
 
 Aquí se detallan las unidades de despliegue principales del sistema. El diagrama muestra cómo SafeRoute se divide en una Landing Page estática (HTML5, CSS3, JavaScript), una aplicación web interactiva en el cliente desarrollada en Angular con Angular Material, una API backend modularizada construida con Spring Boot y Java, un Shared Kernel como librería Java de tipos compartidos entre contextos, y un repositorio persistente central en MySQL.
 
-![ContainerDiagram](/assets/images/ChapterIV/C4/Containers-dark.png)
+![ContainerDiagram](/assets/images/ChapterIV/C4/ContainerDiagram-dark.png)
 
 #### 4.6.4. Software Architecture Components Diagrams
 
+**BackEnd**
+
+- Web Services:
+![WebServices](/assets/images/ChapterIV/C4/WebServiceComponents-dark.png)
 Este diagrama ofrece la visión macro del backend. Demuestra cómo el monolito de Spring Boot está organizado lógicamente en seis Bounded Contexts independientes y un Shared Kernel (núcleo compartido de Value Objects), asegurando una separación clara de responsabilidades a nivel de dominio.
 
-![WebServices](/assets/images/ChapterIV/C4/WebServiceComponents-dark.png)
 
 - Identity & Access Management:
   Desglosa el módulo de identidad en su arquitectura interna de 4 capas (API, Application, Domain, Infrastructure). Ilustra cómo se maneja la autenticación de usuarios, la provisión de cuentas y la asignación de roles de forma aislada, con Spring Security gestionando la emisión de tokens JWT en la capa de infraestructura.
@@ -485,6 +488,14 @@ Este diagrama ofrece la visión macro del backend. Demuestra cómo el monolito d
 - Shared Kernel:
   Este diagrama expone las 4 capas transversales (Building Blocks) que fundamentan la arquitectura limpia del monolito. Detalla cómo se proveen clases base y utilidades compartidas: Middlewares en la capa API, interfaces y DTOs base en Application, Value Objects globales (TripId, StudentId) en Domain, y repositorios genéricos en Infrastructure, evitando la duplicidad de código en el resto de los Bounded Contexts.
   ![WebServices](/assets/images/ChapterIV/C4/ComponentDiagram_SharedKernel-dark.png)
+
+**FrontEnd**
+
+- Single Page 
+
+![WebServices](/assets/images/ChapterIV/C4/ComponentDiagram_SPA-dark.png)
+La SPA está desarrollada con Angular, Angular Material y TypeScript, organizada en módulos por bounded context. Cada módulo sigue una estructura interna de cuatro capas: Model (DTOs del dominio), Assembler (transforma respuestas del API), API Service (consume el backend vía HttpClient), y Store (estado reactivo con Angular Signals). La navegación entre módulos es gestionada por la Navigation Bar del módulo Shared, mientras que el HTTP Service centraliza todas las llamadas REST y el Map Service gestiona la integración con Leaflet.
+
 
 #### 4.7.1. Class Diagrams
 
