@@ -955,7 +955,7 @@ Panel de Inicio y Navegación (US20)
 
 Dashboard central que organiza todos los módulos del sistema a través de un sidebar lateral, facilitando el salto entre la gestión de rutas, alumnos y reportes.
 
-<img src="assets/images/ChapterIV/WebApp/Wireframes/Desktop/home-dashboard.png" width="600px" alt="home-dashboard">
+<img src="assets/images/ChapterIV/WebApp/Wireframes/Desktop/home-dashboard.png" width="900px" alt="home-dashboard">
 
 Asignación de Roles (US6)
 
@@ -1088,17 +1088,15 @@ Calendario detallado donde el padre puede revisar los días asistidos, las horas
 Registro de Cuenta
 Pantalla unificada de registro donde el usuario selecciona su rol (Padre, Conductor o Administrador) y completa sus datos básicos. Es el punto de partida para que cualquier actor del sistema pueda interactuar con la plataforma.
 
-<img src="assets/images/ChapterIV/WebApp/Wireframes/Mobile/universalregister.png" width="900px" alt="register">
+<img src="assets/images/ChapterIV/WebApp/Wireframes/Mobile/universalregister.png" width="400px" alt="register">
 
 Inicio de Sesión (Login) Interfaz de acceso donde los usuarios ingresan sus credenciales. El sistema valida el rol del usuario y lo redirige automáticamente a su panel de control correspondiente.
 
-<img src="assets/images/ChapterIV/WebApp/Wireframes/Mobile/universallogin.png" width="900px" alt="login">
+<img src="assets/images/ChapterIV/WebApp/Wireframes/Mobile/universallogin.png" width="400px" alt="login">
 
 Cambio de Contraseña Formulario de seguridad que permite restablecer el acceso mediante la verificación de identidad tras un código, garantizando que solo el propietario de la cuenta pueda modificar sus credenciales.
 
-<img src="assets/images/ChapterIV/WebApp/Wireframes/Mobile/password-change1.png" width="900px" alt="password-change">
-<img src="assets/images/ChapterIV/WebApp/Wireframes/Mobile/password-change2.png" width="900px" alt="password-change">
-<img src="assets/images/ChapterIV/WebApp/Wireframes/Mobile/password-change3.png" width="900px" alt="password-change">
+<img src="assets/images/ChapterIV/WebApp/Wireframes/Mobile/password-change.png" width="900px" alt="password-change">
 
 #### Versión Mobile Wireframes - Administradores 
 
@@ -1235,7 +1233,6 @@ Calendario detallado donde el padre puede revisar los días asistidos, las horas
 
 
 
-
 ### 4.4.2. Web Applications Mock-ups
 
 #### Versión Desktop Mockups - Acceso y Configuración (Universal)
@@ -1265,7 +1262,7 @@ Panel de Inicio y Navegación (US20)
 
 Dashboard central que organiza todos los módulos del sistema a través de un sidebar lateral, facilitando el salto entre la gestión de rutas, alumnos y reportes.
 
-<img src="assets/images/ChapterIV/WebApp/Mockups/Desktop/home-dashboard.png" width="600px" alt="home-dashboard">
+<img src="assets/images/ChapterIV/WebApp/Mockups/Desktop/home-dashboard.png" width="900px" alt="home-dashboard">
 
 Asignación de Roles (US6)
 
@@ -1401,17 +1398,15 @@ Calendario detallado donde el padre puede revisar los días asistidos, las horas
 Registro de Cuenta
 Pantalla unificada de registro donde el usuario selecciona su rol (Padre, Conductor o Administrador) y completa sus datos básicos. Es el punto de partida para que cualquier actor del sistema pueda interactuar con la plataforma.
 
-<img src="assets/images/ChapterIV/WebApp/Mockups/Mobile/universalregister.png" width="900px" alt="register">
+<img src="assets/images/ChapterIV/WebApp/Mockups/Mobile/universalregister.png" width="400px" alt="register">
 
 Inicio de Sesión (Login) Interfaz de acceso donde los usuarios ingresan sus credenciales. El sistema valida el rol del usuario y lo redirige automáticamente a su panel de control correspondiente.
 
-<img src="assets/images/ChapterIV/WebApp/Mockups/Mobile/universallogin.png" width="900px" alt="login">
+<img src="assets/images/ChapterIV/WebApp/Mockups/Mobile/universallogin.png" width="400px" alt="login">
 
 Cambio de Contraseña Formulario de seguridad que permite restablecer el acceso mediante la verificación de identidad tras un código, garantizando que solo el propietario de la cuenta pueda modificar sus credenciales.
 
-<img src="assets/images/ChapterIV/WebApp/Mockups/Mobile/password-change1.png" width="900px" alt="password-change">
-<img src="assets/images/ChapterIV/WebApp/Mockups/Mobile/password-change2.png" width="900px" alt="password-change">
-<img src="assets/images/ChapterIV/WebApp/Mockups/Mobile/password-change3.png" width="900px" alt="password-change">
+<img src="assets/images/ChapterIV/WebApp/Mockups/Mobile/password-change.png" width="900px" alt="password-change">
 
 #### Versión Mobile Mockups - Administradores 
 
@@ -1421,7 +1416,7 @@ Panel de Inicio y Navegación (US20)
 
 Dashboard central que organiza todos los módulos del sistema a través de un sidebar lateral, facilitando el salto entre la gestión de rutas, alumnos y reportes.
 
-<img src="assets/images/ChapterIV/WebApp/Mockups/Mobile/home-dashboard.png" width="600px" alt="home-dashboard"> 
+<img src="assets/images/ChapterIV/WebApp/Mockups/Mobile/home-dashboard.png" width="900px" alt="home-dashboard"> 
 
 Asignación de Roles (US6)
 
