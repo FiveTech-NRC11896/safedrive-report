@@ -405,8 +405,8 @@ En esta sección, se presenta el desarrollo y los resultados de la sesión de Bi
 
 A través de esta dinámica, se logró plasmar los eventos significativos y sus interrelaciones, construyendo una primera aproximación visual de alto nivel que explora el landscape completo del negocio.
 
-![BigPictureEventStorming](./assets/images/BigPictureEventStorming.jpg)
-* **URL:** [[https://miro.com/](https://miro.com/app/board/uXjVGg_8JKU=/?share_link_id=308871936592)]
+![BigPictureEventStorming](./assets/images/EventStorming.jpg)
+* **URL:** [[https://miro.com/](https://miro.com/app/board/uXjVGhc-MhA=/)]
 
 ### 2.5. Ubiquitous Language
 En esta sección se presenta el glosario de términos de negocio utilizados dentro del dominio de SafeRoute. 
