@@ -1964,38 +1964,51 @@ URL desplegada: Pendiente
 
 | Team Member (Last Name, First Name) | GitHub Username Leader (L) / Collaborator (C) | Landing Page Leader (L) / Collaborator (C) | UI Design Leader (L) / Collaborator (C) | Deployment Leader (L) / Collaborator (C) | Repo Management Leader (L) / Collaborator (C) |
 | - | - | - | - | - | - |
-| Revilla Quispe, Renzo Zamir | renzorevq24 | C | C | L | C |
+| Revilla Quispe, Renzo Zamir | renzorevq24 | L | C | C | C |
 | Quispe Serrano, Julio Frank | FraSe-JQ | C | C | C | L |
-| Costa Morales, Christofer William | miniChorri | C | L | C | C |
+| Costa Morales, Christofer William | miniChorri | C | C | L | C |
 | De La Cruz De Los Santos, Mathias Marcelo | Dela050406 | L | C | C | C |
-| Ortega Quintana, José Zacarías | AgoxX61 | L | C | C | C |
+| Ortega Quintana, José Zacarías | AgoxX61 | C | L | C | C |
 
 ##### 5.2.1.3. Sprint Backlog 1
 
 | User Story ID | User Story Title | Task ID | Task Title | Description | Estimation (Hours) | Assigned To | Status |
 |---------------|------------------|---------|------------|-------------|--------------------|-------------|--------|
-| US19 | Visualización de Hero | T01 | Implementar Hero Section | Desarrollo de la sección principal con propuesta de valor y mensaje inicial del producto | 3 | Mathias | Done |
-| US20 | Navegación de Funciones | T02 | Implementar Navbar | Creación de barra de navegación con enlaces a secciones del Landing Page | 2 | Renzo | Done |
-| US20 | Navegación de Funciones | T03 | Implementar Features Section | Desarrollo de sección de funcionalidades principales del sistema | 3 | Julio | Done |
-| US21 | Detalle de Roles | T04 | Implementar Roles Section | Desarrollo de sección que describe los tipos de usuarios (Admin, Conductor, Padre) | 3 | José | Done |
-| US22 | Consulta de Precios | T05 | Implementar Plans Section | Creación de sección de planes de suscripción con características comparativas | 3 | Christofer | Done |
-| US23 | ¿Cómo funciona? | T06 | Implementar How it Works Section | Desarrollo del flujo explicativo del funcionamiento del sistema | 2 | Julio | Done |
-| US19 | Visualización de Hero | T07 | Implementar CTA y Footer | Desarrollo de llamadas a la acción y pie de página del sitio | 2 | Renzo | Done |
-| US20 | Navegación de Funciones | T08 | Implementar Responsive Design | Adaptación del Landing Page para diferentes dispositivos (mobile, tablet, desktop) | 3 | Renzo | Done |
+| US19 | Visualización de Hero | T01 | Implementar Hero Section | Desarrollo de la sección principal con propuesta de valor y mensaje inicial del producto | 3 | Julio | Done |
+| US22 | Consulta de Precios | T05 | Implementar Plans Section | Creación de sección de planes de suscripción con características comparativas | 3 | Julio | Done |
+| US20 | Navegación de Funciones | T02 | Implementar Navbar | Creación de barra de navegación con enlaces a secciones del Landing Page | 2 | José | Done |
+| US19 | Visualización de Hero | T07 | Implementar CTA y Footer | Desarrollo de llamadas a la acción y pie de página del sitio | 2 | José | Done |
+| US20 | Navegación de Funciones | T03 | Implementar Features Section | Desarrollo de sección de funcionalidades principales del sistema | 3 | Mathias | Done |
+| US21 | Detalle de Roles | T04 | Implementar Roles Section | Desarrollo de sección que describe los tipos de usuarios (Admin, Conductor, Padre) | 3 | Mathias | Done |
+| US23 | ¿Cómo funciona? | T06 | Implementar How it Works Section | Desarrollo del flujo explicativo del funcionamiento del sistema | 2 | Christofer | Done |
+| US23 | ¿Cómo funciona? | T06 | Implementar How it Works Section (Styles) | Aplicación de estilos visuales a la sección "How it Works" | 2 | Christofer | Done |
+| US20 | Navegación de Funciones | T08 | Implementar Responsive Design | Adaptación del Landing Page para diferentes dispositivos | 3 | Christofer | Done |
+| US20 | Navegación de Funciones | T08 | Implementar Responsive Design (i18n) | Implementación de archivos de traducción para múltiples idiomas | 2 | Christofer | Done |
+| US20 | Navegación de Funciones | T08 | Implementar Responsive Design (Script) | Desarrollo de script para comportamiento responsive y cambio de idioma | 2 | Christofer | Done |
 
 ##### 5.2.1.4. Development Evidence for Sprint Review
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
-|------------|--------|-----------|----------------|---------------------|--------------------|
-| FiveTech-NRC11896/safedrive-website | main | ad85e0c | docs: update link | Updated project links and minor documentation adjustments. | 2026-04-10 |
-| FiveTech-NRC11896/safedrive-website | main | d533ba7 | docs: add README with project overview | Added README file with general overview of the SafeRoute project. | 2026-04-10 |
-| FiveTech-NRC11896/safedrive-website | main | 09b0e4c | assets: add images folder | Added image assets required for the landing page sections. | 2026-04-10 |
-| FiveTech-NRC11896/safedrive-website | main | 9d40a89 | style: add responsive design | Implemented responsive styles to improve usability across devices. | 2026-04-10 |
-| FiveTech-NRC11896/safedrive-website | main | 0ff89ce | feat: add How it works, CTA and footer section | Implemented informational sections and call-to-action components. | 2026-04-10 |
-| FiveTech-NRC11896/safedrive-website | main | fd61ee6 | feat: add roles and plans section components | Developed sections describing user roles and subscription plans. | 2026-04-10 |
-| FiveTech-NRC11896/safedrive-website | main | de30384 | style: add new Stats and Features sections | Improved styling and added visual sections for features and stats. | 2026-04-10 |
-| FiveTech-NRC11896/safedrive-website | main | 41f50b8 | feat: add Navbar and Hero | Implemented navigation bar and main hero section. | 2026-04-10 |
-| FiveTech-NRC11896/safedrive-website | main | 1b2ee66 | style: add new sections Navbar and Hero | Applied styles to navbar and hero sections for visual consistency. | 2026-04-10 |
+|-----------|--------|----------|----------------|---------------------|--------------------|
+| saferoute-landing-page | develop | d7f8ce0 | docs: add README content | Documentation update | 2026-04-19 |
+| saferoute-landing-page | develop | 9b9fa84 | chore: update meta tags | SEO improvements | 2026-04-19 |
+| saferoute-landing-page | develop | a66ef43 | docs: add images to README for landing page section | Documentation images added | 2026-04-19 |
+| saferoute-landing-page | develop | 1832739 | feat: add roles and features sections | Roles and features added | 2026-04-19 |
+| saferoute-landing-page | develop | 293e76c | Merge branch 'feature/responsive' into develop | Integration of responsive features | 2026-04-19 |
+| saferoute-landing-page | develop | 655723b | Merge branch 'feature/footer' into develop | Integration of footer section | 2026-04-19 |
+| saferoute-landing-page | develop | 916d89c | Merge branch 'feature/howworks' into develop | Integration of how it works section | 2026-04-19 |
+| saferoute-landing-page | develop | 61be65c | Merge branch 'feature/plans' into develop | Integration of plans feature | 2026-04-19 |
+| saferoute-landing-page | develop | f5c00dc | Merge branch 'feature/hero' into develop | Integration of hero feature | 2026-04-19 |
+| saferoute-landing-page | feature/responsive | 0393e68 | feat: added script.js file for translation and responsive | Script integration | 2026-04-19 |
+| saferoute-landing-page | feature/responsive | 96623f1 | feat: Added all the json for the translation | Translation files added | 2026-04-19 |
+| saferoute-landing-page | feature/responsive | ca60a34 | feat: Added .js file for responsive and button for changing language | Responsive behavior added | 2026-04-19 |
+| saferoute-landing-page | feature/footer | 25c96ca | feat: add footer section with links and contact info | Footer section created | 2026-04-19 |
+| saferoute-landing-page | feature/navbar | 7311e9d | feat: implement landing navigation section | Navbar implementation | 2026-04-19 |
+| saferoute-landing-page | feature/howworks | 9d7047d | feat: Added the styles to the "How It Works" section | Styling applied | 2026-04-18 |
+| saferoute-landing-page | feature/howworks | 8d7f3d6 | feat: Added How it Works section to index.html | Section structure added | 2026-04-18 |
+| saferoute-landing-page | feature/plans | d294def | feat: add pricing plans section | Pricing section added | 2026-04-18 |
+| saferoute-landing-page | feature/hero | e0c7125 | feat: add hero section with main headline and call to action | Hero section implementation | 2026-04-18 |
+| saferoute-landing-page | develop | bc93887 | chore: initialize project structure for landing page | Initial setup of project structure | 2026-04-18 |
 
 ##### 5.2.1.5. Execution Evidence for Sprint Review
 
@@ -2020,8 +2033,6 @@ A continuación, se presentan capturas de las principales vistas implementadas d
 ![Landing Page - Responsive](./assets/images/responsive.png)
 *Nota. Captura de pantalla del diseño responsivo del Landing Page de SafeRoute en dispositivos móviles, evidenciando la adaptabilidad de la interfaz. Elaboración propia.*
 
-> TODO: COLOCAR VIDEO EXPLICATIVO
-
 ##### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
 En este Sprint no se desarrollaron servicios RESTful, ya que el enfoque estuvo centrado en la implementación del Landing Page de SafeRoute.
@@ -2041,14 +2052,51 @@ A continuación, se presentan capturas del proceso y resultado del despliegue:
 
 El Landing Page desplegado se encuentra disponible en el siguiente enlace:
 
-https://fivetech-nrc11896.github.io/safedrive-website/
+https://fivetech-nrc11896.github.io/saferoute-landing-page/
 
 ##### 5.2.1.8. Team Collaboration Insights during Sprint
 
+Durante el desarrollo del Sprint 1, el equipo implementó un flujo de trabajo basado en GitFlow, el cual permitió organizar de manera eficiente el desarrollo colaborativo del Landing Page del proyecto SafeRoute.
+
+El proceso de desarrollo se estructuró de la siguiente manera:
+
+- Cada integrante trabajó de forma independiente en una rama específica de tipo **feature**, destinada a una funcionalidad concreta del sistema (por ejemplo: `feature/hero`, `feature/navbar`, `feature/plans`, `feature/howworks`, `feature/responsive`).
+- Una vez finalizado el desarrollo de cada funcionalidad, estas ramas fueron integradas en la rama **develop**, la cual actúa como rama de consolidación del proyecto.
+- Posteriormente, la rama **develop** fue utilizada como base para la integración final hacia la rama **main**, donde se mantiene la versión estable del Landing Page.
+
+Este flujo permitió:
+- Trabajar en paralelo sin conflictos entre integrantes
+- Mantener control sobre los cambios realizados
+- Garantizar la estabilidad del producto antes de su versión final
+
+A continuación, se presentan capturas que evidencian la actividad del equipo durante el Sprint:
+
+![Pulse](./assets/images/pulse.png)
+
+*Nota. Panel de analíticos del repositorio. Elaboración propia.*
+
+![Network Graph](./assets/images/network.png)
+
+*Nota. Gráfico de red que evidencia el flujo de trabajo basado en ramas feature integradas en develop y posteriormente fusionadas en main durante el Sprint. Elaboración propia.*
+
+
+![Contributors](./assets/images/contributors.png)
+
+*Nota. Analíticos de contribución por integrante del repositorio durante el Sprint 1. Elaboración propia.*
+
+![Commits](./assets/images/commits.png)
+
+*Nota. Historial de commits del repositorio evidenciando la participación de los integrantes del equipo. Elaboración propia.*
+
+![Feature Branches](./assets/images/branches.png)
+
+*Nota. Evidencia del uso de ramas feature dentro del flujo de trabajo GitFlow, mostrando el desarrollo independiente de funcionalidades. Elaboración propia.*
 
 ## Conclusiones
 
 ### Conclusiones y recomendaciones
+
+El equipo logró desarrollar el Landing Page de SafeRoute cumpliendo con los objetivos del Sprint, estructurando adecuadamente la propuesta de valor en secciones clave como Hero, Features, Roles, Planes y How It Works. A partir de los Problem Statements y assumptions, se priorizó una comunicación clara y una navegación intuitiva, alineadas a las necesidades del usuario. Asimismo, se aplicó correctamente el enfoque Lean UX mediante un desarrollo incremental y colaborativo, evidenciado en el uso de Git con ramas feature integradas en develop y posteriormente en main.
 
 ### Video About-the-Team
 
