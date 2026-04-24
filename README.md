@@ -2753,7 +2753,7 @@ Asegurar que el archivo principal se denomine index.html y se encuentre en la ra
 Acceder a la sección Settings > Pages del repositorio.
 Seleccionar la rama main (o master) y la carpeta raíz (/) como fuente.
 GitHub generará automáticamente una URL pública para acceder a la landing page.
-URL desplegada: Pendiente
+URL desplegada: [Landing Page](https://fivetech-nrc11896.github.io/saferoute-website/)
 
 ##### Despliegue de Frontend Web Application
 El frontend de la aplicación, desarrollado con Vue.js, será desplegado utilizando la plataforma Vercel, la cual permite integración continua y despliegue automatizado.
