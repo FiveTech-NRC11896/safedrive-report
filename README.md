@@ -83,7 +83,7 @@ Nuestra propuesta de valor se materializa en SafeRoute, una plataforma web de mo
 | ![foto](assets/images/FrankFT.png) | Quispe Serrano, Julio Frank | [U20241D922]  | Ingeniería de Software | Soy Julio Frank Quispe Serrano, alumno de 5to ciclo de Ingeniería de Software en la UPC. Cuento con una marcada inclinación hacia la programación y la gestión eficiente del tiempo. Mi aporte principal a este grupo de trabajo será la resolución de conflictos técnicos y operativos, aportando una visión pragmática que permita superar eventuales estancamientos en las fases de elaboración del proyecto.|
 |              ![foto](assets/images/Team/MathiasFt.jpg)               | De la Cruz De los Santos, Mathias Marcelo    | [U202424059] | Ingeniería de Software | Soy estudiante de la carrera de Ingeniería de Software y actualmente me encuentro cursando el 5to ciclo de la carrera en la Universidad Peruana de Ciencias Aplicadas. Me considero un fanático de la programación, del futbol y los videojuegos. Considero que puedo aportar al equipo y al proyecto mis conocimientos técnicos, además de considerarme una persona disciplinada, responsable y que valora el trabajo en equipo.                                                                                                                                                                                                                                        |
 |              ![foto]               | Ortega Quintana, Jose Zacarias    | [U202316852] | Ingeniería de Software | Soy Jose Ortega, estudiante de Ingenieria de Software en la Universidad Peruana de Ciencias Aplicadas. Actualmente con 21 años disfruto de los pequeños momentos de tranquilidad para aprovechra en meditar, dibujar o practicar. Deseo apoyar a mi equipo lo mejor posible para poder afrontar cualquier adversidad o contratiempo en este trabajo.
-                                                                                                                  
+
 ### 1.2. Solution Profile
 
 #### 1.2.1 Antecedentes y problemática
@@ -2269,6 +2269,19 @@ Una vez que el conductor marca el abordaje del estudiante, el padre recibe en pa
 <img src="assets/images/ChapterIV/WebApp/UserFlow/Mobile/.png" width="400px" alt="attendance-history">
 
 ## 4.5. Web Applications Prototyping
+
+Las decisiones de interacción se basaron en principios fundamentales de diseño como el contraste para resaltar elementos críticos como el Botón de Pánico y las alertas de proximidad, la repetición para garantizar consistencia visual en los paneles de conductores, administradores y padres de familia, la alineación para lograr una navegación clara y profesional, y la proximidad para mejorar la agrupación lógica de contenidos relacionados como la lista de alumnos y sus estados de abordaje. Estos principios se aplicaron de forma integral en todo el sistema, priorizando una experiencia de usuario funcional, accesible y alineada a la misión de facilitar la gestión segura del transporte escolar.
+
+Desde el punto de vista de arquitectura de información, SafeRoute utiliza un sistema de navegación jerárquica en su dashboard, combinado con organizadores secuenciales en flujos de acciones clave como el inicio de trayecto, la marcación de abordaje y el reporte de incidencias. Además, se establecieron sistemas de etiquetado claros, categorizaciones específicas por tipo de usuario, y herramientas de seguimiento y notificación en tiempo real que permiten una interacción eficiente y dirigida.
+
+En cada caso, se han implementado interacciones responsivas (hover, active), validaciones visuales en formularios, retroalimentaciones de acción, y patrones de navegación adaptados al perfil de usuario (Administrador, Conductor o Padre de Familia). Esto garantiza que tanto el acceso a la información como la ejecución de tareas sea coherente, accesible y orientada a la seguridad y tranquilidad de todos los involucrados en el servicio de transporte escolar.
+A continuación, se incluirá un screenshot extraído de un video por cada tipo de aplicación, en donde se demuestran y explican los principales flujos de interacción que cubren los prototipos desarrollados.
+
+#### Web Applications Mobile:
+
+[Mobile Prototype](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202424059_upc_edu_pe/IQCDqzq68kRMRogrt6F6iHPZAZkNB9gRKAXanMCpVvneuY0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=hMciwr)
+
+<img src="assets/images/prototype.png" width="900px" alt="Protoype">
 
 ## 4.6. Domain-Driven Software Architecture
 
