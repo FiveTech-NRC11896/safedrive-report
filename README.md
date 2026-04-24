@@ -334,9 +334,9 @@ En base al análisis competitivo y SWOT realizado, SafeRoute plantea las siguien
 | Edad | 28 años |
 | Distrito / Zona de trabajo | San Miguel y Miraflores, Lima |
 | Segmento | Conductor de Transporte Escolar |
-| Inicio en video | 00:03 |
-| Duración | 07:40 |
-| URL del video | [enlace Microsoft Stream] |
+| Inicio en video | 00:15 |
+| Duración | 07:19 |
+| URL del video | [[Youtube](https://youtu.be/V0uneeO5sFQ)][[MicrosoftStream](https://1drv.ms/v/c/f647ccc757f760c7/IQAVffXPiVroSJbblZ6_3uoTAetjl1xIO23c6V_l0aviUGg?e=KJhdzW)] |
 
 #### Screenshot
 ![SegmentoObjetivo1](./assets/images/ArturoNunez-SegmentoObjetivo1.png)
@@ -400,9 +400,9 @@ La entrevista confirma que el segmento conductor necesita reducir carga operativ
 | **Edad** | 38 años |
 | **Distrito / Zona de residencia** | Santiago de Surco, Lima |
 | **Segmento** | Padre de Familia |
-| **Inicio en video** | 00:00 |
-| **Duración** | 04:40 |
-| **URL del video** | [enlace de Microsoft Stream] |
+| **Inicio en video** | 07:42 |
+| **Duración** | 04:80 |
+| **URL del video** | [[Youtube](https://youtu.be/V0uneeO5sFQ)][[MicrosoftStream](https://1drv.ms/v/c/f647ccc757f760c7/IQAVffXPiVroSJbblZ6_3uoTAetjl1xIO23c6V_l0aviUGg?e=KJhdzW)] |
 
 #### **Screenshot**
 ![SegmentoObjetivo2](./assets/images/CarlaPelaez-SegmentoObjetivo2.png)
