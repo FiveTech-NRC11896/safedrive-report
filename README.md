@@ -326,8 +326,302 @@ En base al análisis competitivo y SWOT realizado, SafeRoute plantea las siguien
 
 
 #### 2.2.2. Registro de entrevistas
+### Entrevista 1: Arturo Núñez
+
+| Campo | Detalle |
+| :--- | :--- |
+| Nombre y Apellidos | Arturo Núñez |
+| Edad | 28 años |
+| Distrito / Zona de trabajo | San Miguel y Miraflores, Lima |
+| Segmento | Conductor de Transporte Escolar |
+| Inicio en video | 00:03 |
+| Duración | 07:40 |
+| URL del video | [enlace Microsoft Stream] |
+
+#### Screenshot
+![SegmentoObjetivo1](./assets/images/ArturoNunez-SegmentoObjetivo1.png)
+
+---
+
+## Resumen Descriptivo de la Entrevista
+
+### Características Objetivas y Entorno
+
+Arturo Núñez es un conductor de transporte escolar independiente de 28 años, con aproximadamente seis años de experiencia en el rubro. Opera principalmente en los distritos de San Miguel y Miraflores, zonas urbanas con alto flujo vehicular. Gestiona su propia unidad móvil y administra directamente la captación de clientes, organización de rutas y comunicación con padres de familia.
+
+Su rutina diaria consiste en recoger estudiantes en sus domicilios, trasladarlos al colegio y retornarlos posteriormente según el turno escolar.
+
+### Herramientas, Tecnología y Canales de Interacción
+
+Actualmente utiliza herramientas informales para operar:
+
+- WhatsApp como canal principal de comunicación con padres
+- Libreta física para horarios y direcciones
+- Google Maps para navegación y rutas alternas
+- Smartphone como dispositivo principal de trabajo
+
+El uso del teléfono móvil es constante durante la jornada. Se evidencia familiaridad con aplicaciones digitales de uso cotidiano.
+
+### Características Subjetivas y Personalidad
+
+Arturo presenta un perfil pragmático, independiente y orientado a resultados. Busca mantener el orden operativo, aunque reconoce limitaciones de su sistema actual. Muestra preocupación por la seguridad vial y estrés cuando debe responder mensajes mientras conduce.
+
+También demuestra apertura al cambio tecnológico siempre que la solución sea sencilla, rápida y útil.
+
+### Pain Points Detectados
+
+- Exceso de mensajes durante la conducción
+- Distracción al responder consultas de padres
+- Dependencia de memoria personal
+- Falta de sistema formal de asistencia
+- Cambios de ruta difíciles de comunicar
+- Estrés operativo en horas punta
+
+### Oportunidades Identificadas
+
+El entrevistado valora altamente una plataforma que permita:
+
+- Ubicación en tiempo real para padres
+- Notificaciones automáticas
+- Lista diaria de alumnos asistentes
+- Registro rápido de abordaje
+- Operación con pocos pasos
+- Uso estable con señal limitada
+
+### Validación del Arquetipo
+La entrevista confirma que el segmento conductor necesita reducir carga operativa, profesionalizar su servicio y automatizar comunicaciones sin comprometer la seguridad al volante. Esto respalda directamente el User Persona definido para SafeRoute.
+
+---
+### Entrevista 2: Carla Peláez
+
+| Campo | Detalle |
+| :--- | :--- |
+| **Nombre y Apellidos** | Carla Peláez |
+| **Edad** | 38 años |
+| **Distrito / Zona de residencia** | Santiago de Surco, Lima |
+| **Segmento** | Padre de Familia |
+| **Inicio en video** | 00:00 |
+| **Duración** | 04:40 |
+| **URL del video** | [enlace de Microsoft Stream] |
+
+#### **Screenshot**
+![SegmentoObjetivo2](./assets/images/CarlaPelaez-SegmentoObjetivo2.png)
+
+> *Captura de pantalla de la entrevista realizada al segmento Padre de Familia.*
+
+---
+
+#### **Resumen Descriptivo de la Entrevista**
+
+### **Características Objetivas y Entorno**
+
+Carla Peláez es una madre de familia de 38 años residente en el distrito de Santiago de Surco. Vive con su esposo y sus cuatro hijos, de los cuales dos utilizan actualmente servicio de transporte escolar. Representa a familias urbanas con alta responsabilidad logística diaria, donde el traslado escolar cumple un rol clave para compatibilizar horarios familiares, laborales y educativos.
+
+El transporte escolar forma parte importante de su rutina diaria, ya que permite asegurar la asistencia puntual de sus hijos al centro educativo.
+
+### **Perfil Tecnológico y Hábitos Digitales**
+
+La entrevistada demuestra una actitud positiva frente al uso de tecnología y asocia las herramientas digitales con mayor seguridad y tranquilidad. Está acostumbrada a recibir información mediante canales digitales institucionales y mensajería móvil.
+
+Actualmente utiliza:
+
+* Teléfono móvil como principal dispositivo de comunicación  
+* WhatsApp para contacto con responsables del transporte  
+* Sistema digital del colegio para validar asistencia diaria  
+
+Esto evidencia un perfil digital intermedio, con apertura a nuevas soluciones tecnológicas siempre que sean simples y confiables.
+
+### **Proceso Actual y Canales de Interacción**
+
+Para confirmar que sus hijos llegaron correctamente a destino, Carla depende de dos mecanismos externos:
+
+* Confirmación verbal de la responsable de movilidad escolar  
+* Confirmación de asistencia enviada por el colegio mediante su sistema interno  
+
+Cuando existe demora o falta de confirmación, se comunica directamente con el colegio para validar la llegada de sus hijos.
+
+Actualmente la comunicación con el conductor o responsable se realiza principalmente por:
+
+* Llamadas telefónicas  
+* WhatsApp  
+
+
+### **Pain Points (Problemas Detectados)**
+
+Durante la entrevista se identificaron preocupaciones relevantes:
+
+* Angustia cuando la movilidad se retrasa  
+* Ansiedad cuando no llega la confirmación del colegio  
+* Falta de visibilidad en tiempo real durante el trayecto  
+* Dependencia de terceros para validar información  
+* Percepción de inseguridad en el contexto actual de transporte urbano  
+* Menor confianza cuando la movilidad no pertenece directamente al colegio  
+
+Estos puntos reflejan una necesidad clara de trazabilidad, confianza y comunicación inmediata.
+
+
+### **Necesidades y Oportunidades Detectadas**
+
+Carla mostró alta aceptación hacia una plataforma digital que le permita:
+
+* Ver la ruta del vehículo en tiempo real  
+* Conocer si ocurrió algún inconveniente durante el trayecto  
+* Recibir confirmación automática de llegada  
+* Saber la ubicación permanente de sus hijos  
+* Reducir ansiedad e incertidumbre diaria  
+* Incrementar confianza en el servicio contratado  
+
+Para Carla, el atributo más importante para sentirse tranquila es:
+
+“Saber en dónde está en todo momento”.
+
+### **Características Subjetivas y Personalidad**
+
+A partir de sus respuestas, se identifica un perfil:
+
+* Protector y orientado al bienestar familiar  
+* Preventivo frente a riesgos externos  
+* Receptivo a herramientas digitales útiles  
+* Sensible a la falta de información  
+* Altamente motivado por la seguridad de sus hijos  
+
+### **Validación del Arquetipo**
+Los datos recolectados en esta entrevista validan los supuestos definidos para el segmento Padre de Familia dentro del proyecto SafeRoute. Se confirma que este segmento prioriza:
+
+* Seguridad del estudiante  
+* Monitoreo en tiempo real  
+* Alertas automáticas  
+* Comunicación confiable  
+* Reducción de ansiedad durante el traslado escolar  
+
+Asimismo, respalda los objetivos del Impact Mapping relacionados con generar tranquilidad, confianza y visibilidad operacional para las familias usuarias.
+
+---
 
 #### 2.2.3. Análisis de entrevistas
+
+## Segmento Objetivo 1: Conductores de Transporte Escolar
+
+El presente análisis corresponde a una muestra inicial de 1 entrevista válida del segmento conductor, por lo que los porcentajes reflejan únicamente los hallazgos preliminares del entrevistado y serán refinados con futuras entrevistas.
+### Características Objetivas del Segmento
+
+| Característica | Resultado | Sustento |
+|---|---|---|
+| Edad joven-adulta (25 a 35 años) | 100% | Arturo tiene 28 años |
+| Trabajo independiente | 100% | Indica operar con unidad propia y captar clientes directamente |
+| Experiencia en el rubro mayor a 5 años | 100% | Señala 6 años trabajando en transporte escolar |
+| Opera en zonas urbanas congestionadas | 100% | Trabaja en San Miguel y Miraflores |
+| Manejo de ruta diaria fija | 100% | Realiza recojo, traslado al colegio y retorno |
+
+### Hallazgo
+
+El segmento conductor evaluado corresponde a microoperadores independientes que administran su propio servicio y requieren herramientas de gestión simples, móviles y rápidas.
+
+### Uso de Tecnología y Herramientas Actuales
+
+| Herramienta / Canal | Porcentaje |
+|---|---|
+| WhatsApp como canal principal con padres | 100% |
+| Libreta física para horarios/direcciones | 100% |
+| Google Maps para navegación | 100% |
+| Uso combinado de herramientas manuales + digitales | 100% |
+
+### Principales Problemas Detectados (Pain Points)
+
+| Problema identificado | Porcentaje |
+|---|---|
+| Exceso de mensajes durante la conducción | 100% |
+| Distracción por responder padres en ruta | 100% |
+| Dependencia de memoria personal | 100% |
+| Estrés ante tráfico o cambios imprevistos | 100% |
+| Falta de visibilidad para padres genera presión | 100% |
+
+### Necesidades Funcionales Prioritarias
+
+| Necesidad mencionada | Porcentaje |
+|---|---|
+| Ubicación visible para padres sin escribir al conductor | 100% |
+| Notificaciones automáticas de abordaje/llegada | 100% |
+| Lista digital de alumnos del día | 100% |
+| Confirmación previa de asistencia | 100% |
+| App sencilla e intuitiva | 100% |
+| Funcionamiento con señal limitada | 100% |
+
+
+### Características Subjetivas del Segmento
+
+| Rasgo detectado | Porcentaje |
+|---|---|
+| Alta disposición a adoptar tecnología útil | 100% |
+| Mentalidad pragmática | 100% |
+| Valora eficiencia y orden | 100% |
+| Sensible a distracciones durante manejo | 100% |
+| Busca profesionalizar su servicio | 100% |
+
+----
+## Segmento Objetivo 2: Padres de Familia
+
+El presente análisis corresponde a una muestra inicial de 1 entrevista válida del segmento padres de familia, por lo que los porcentajes reflejan únicamente los hallazgos preliminares de la entrevistada y serán refinados con futuras entrevistas.
+
+### Características Objetivas del Segmento
+
+| Característica | Resultado | Sustento |
+|---|---|---|
+| Adulto responsable entre 35 y 45 años | 100% | Carla tiene 38 años |
+| Reside en zona urbana consolidada | 100% | Vive en Surco, Lima |
+| Hogar con hijos en etapa escolar | 100% | Indica tener cuatro hijos |
+| Uso recurrente de transporte escolar | 100% | Señala que el servicio es importante para asistir al centro de estudios |
+| Necesidad diaria de coordinación familiar | 100% | Gestiona traslado y seguimiento de varios hijos |
+
+### Hallazgo
+
+El segmento evaluado corresponde a padres de familia con alta responsabilidad logística diaria, que valoran la seguridad, la información oportuna y la tranquilidad emocional durante el traslado escolar.
+
+### Uso de Tecnología y Herramientas Actuales
+
+| Herramienta / Canal | Porcentaje |
+|---|---|
+| WhatsApp / Teléfono para comunicación con movilidad | 100% |
+| Sistema del colegio para confirmar asistencia | 100% |
+| Uso de smartphone como canal principal | 100% |
+| Dependencia de terceros para recibir información | 100% |
+
+### Principales Problemas Detectados (Pain Points)
+
+| Problema identificado | Porcentaje |
+|---|---|
+| Ansiedad cuando la movilidad demora | 100% |
+| Preocupación si no llega confirmación del colegio | 100% |
+| Falta de ubicación en tiempo real | 100% |
+| Temor a accidentes o incidentes de seguridad | 100% |
+| Desconfianza hacia servicios externos no afiliados al colegio | 100% |
+
+### Necesidades Funcionales Prioritarias
+
+| Necesidad mencionada | Porcentaje |
+|---|---|
+| Ver ubicación en tiempo real del transporte | 100% |
+| Confirmación automática de llegada | 100% |
+| Alertas ante retrasos o inconvenientes | 100% |
+| Mayor visibilidad de la ruta diaria | 100% |
+| Herramienta simple desde celular | 100% |
+| Sentir tranquilidad y control del proceso | 100% |
+
+### Características Subjetivas del Segmento
+
+| Rasgo detectado | Porcentaje |
+|---|---|
+| Alta preocupación por seguridad infantil | 100% |
+| Alta receptividad hacia soluciones digitales útiles | 100% |
+| Busca reducir ansiedad diaria | 100% |
+| Valora confianza institucional | 100% |
+| Perfil práctico orientado a familia | 100% |
+
+### Conclusión del Segmento
+
+El perfil preliminar evidencia que los padres no buscan solo tecnología, sino tranquilidad. Una solución digital será valorada si reduce incertidumbre, mejora la confianza y entrega información clara sin depender de llamadas o mensajes manuales.
+
+
 
 ### 2.3. Needfinding
 
