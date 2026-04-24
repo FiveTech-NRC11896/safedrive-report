@@ -2053,6 +2053,220 @@ Calendario detallado donde el padre puede revisar los días asistidos, las horas
 
 ### 4.4.4. Web Applications User Flow Diagrams
 
+### User Flows Desktop
+
+#### Desktop User Flow 1:
+
+Relacionado con User Goal 1:
+Como suscriptor, quiero poder acceder a mi cuenta de la aplicación.
+
+El usuario ingresa a la pantalla de inicio de sesión e introduce sus credenciales (correo y contraseña). Si los datos son correctos, el sistema valida la información y redirige al usuario a la sección principal "Inicio" junto con el menú lateral habilitado. En caso de no contar con una cuenta, el usuario puede dirigirse a la sección de registro, completar el formulario con sus datos personales y guardar el nuevo usuario para luego iniciar sesión.
+
+<img src="assets/images/ChapterIV/WebApp/UserFlow/Desktop/UserFlow1.png" width="1500px" alt="ug1">
+
+#### Desktop User Flow 2:
+
+Relacionado con User Goal 2:
+Como suscriptor, quiero poder cambiar mi contraseña para mantener mi cuenta asegurada.
+
+Desde la pantalla de inicio de sesión, el usuario selecciona la opción "Cambio de Contraseña". El sistema muestra un formulario donde el usuario ingresa su correo registrado y la nueva contraseña. Al confirmar, el sistema actualiza las credenciales y permite al usuario ingresar nuevamente con la nueva contraseña. Esto garantiza el acceso continuo incluso si se olvidó la contraseña anterior.
+
+<img src="assets/images/ChapterIV/WebApp/UserFlow/Desktop/userflow2.png" width="900px" alt="ug2">
+
+#### Desktop User Flow 3:
+
+Relacionado con User Goal 3: 
+Como administrador, quiero ingresar nuevos conductores y crear sus nuevas rutas.
+
+Tras iniciar sesión, el administrador accede al módulo de "Registro de Conductor" e ingresa los datos del personal operativo. Luego navega a la sección "Creación de Rutas", donde traza los puntos de parada, asigna tiempos estimados y vincula la ruta al conductor registrado. El sistema confirma el guardado y refleja los cambios en el panel de gestión.
+
+<img src="assets/images/ChapterIV/WebApp/UserFlow/Desktop/userflow3.png" width="900px" alt="ug3">
+
+#### Desktop User Flow 4:
+
+Relacionado con User Goal 4: 
+Como administrador, quiero organizar los roles y rutas de manera centralizada.
+
+Desde el panel principal, el administrador accede a "Asignación de Roles" para configurar los permisos de cada miembro del equipo, habilitando accesos de edición o solo lectura según corresponda. Posteriormente, puede revisar y reasignar rutas desde la vista centralizada, asegurando que cada conductor tenga su ruta correctamente vinculada.
+
+<img src="assets/images/ChapterIV/WebApp/UserFlow/Desktop/userflow4.png" width="900px" alt="ug4">
+
+#### Desktop User Flow 5:
+
+Relacionado con User Goal 5: 
+Como administrador, quiero mejorar las características de la aplicación con un nuevo plan.
+
+El administrador navega a la sección de "Contratación del Plan" y visualiza las opciones de suscripción disponibles según el tamaño de su flota. Al seleccionar un plan, es redirigido a la pasarela de pagos donde ingresa su información financiera y confirma la contratación. Una vez procesado el pago, el sistema actualiza los beneficios disponibles y el administrador puede consultar el balance de costos en "Consulta de Precios".
+
+<img src="assets/images/ChapterIV/WebApp/UserFlow/Desktop/userflow5.png" width="900px" alt="ug5">
+
+#### Desktop User Flow 6:
+
+Relacionado con User Goal 6: 
+Como conductor, quiero tener un control claro de los alumnos durante la ruta.
+
+El conductor inicia sesión y desde su panel principal selecciona la ruta asignada. Presiona "Iniciar Trayecto" para activar la transmisión GPS. El sistema carga automáticamente la lista de alumnos correspondiente a esa ruta. En cada parada, el conductor localiza al estudiante y registra su abordaje pulsando "Marcación de Abordaje". Al llegar al destino, presiona "Finalización de Ruta" para cerrar el trayecto.
+
+<img src="assets/images/ChapterIV/WebApp/UserFlow/Desktop/userflow6.png" width="900px" alt="ug6">
+
+#### Desktop User Flow 7:
+
+Relacionado con User Goal 7: 
+Como conductor, quiero brindar un servicio más profesional y confiable.
+
+El conductor accede a su "Bitácora de Viajes" para revisar el historial completo de sus trayectos anteriores, incluyendo horarios, estudiantes transportados e incidencias registradas. Esta información le permite identificar patrones, mejorar su puntualidad y contar con un registro formal de su desempeño ante el administrador.
+
+<img src="assets/images/ChapterIV/WebApp/UserFlow/Desktop/userflow7.png" width="900px" alt="ug7">
+
+#### Desktop User Flow 8:
+
+Relacionado con User Goal 8: 
+Como conductor, quiero comunicar alguna incidencia u avance de la ruta durante el viaje.
+
+Durante una ruta activa, el conductor detecta un imprevisto y accede al módulo de seguridad del Dashboard. Selecciona una categoría predefinida dentro de "Reporte de Incidencias" (retraso, desvío, obstáculo, etc.) y envía la notificación. El sistema propaga el aviso al administrador y a los padres afectados en tiempo real.
+
+<img src="assets/images/ChapterIV/WebApp/UserFlow/Desktop/userflow8.png" width="900px" alt="ug8">
+
+#### Desktop User Flow 9:
+Relacionado con User Goal 9: Como conductor, quiero una manera inmediata de informar una emergencia.
+
+Ante una situación de peligro inminente durante la ruta, el conductor mantiene presionado el "Botón de Pánico" por 2 segundos. El sistema dispara de forma automática una alerta roja hacia los servicios de emergencia, el administrador y los padres de familia de todos los alumnos a bordo. Tras la resolución del incidente, el conductor puede revisar el evento registrado en su Bitácora de Viajes.
+
+<img src="assets/images/ChapterIV/WebApp/UserFlow/Desktop/userflow9.png" width="900px" alt="ug9">
+
+#### Desktop User Flow 10:
+
+Relacionado con User Goal 10: 
+Como padre de familia, quiero estar informado de la ubicación y situación en tiempo real del vehículo.
+
+El padre inicia sesión y accede al seguimiento del bus asignado a su hijo. El sistema renderiza el mapa con la ubicación en tiempo real del vehículo. El usuario puede activar el switch de "Acceso a la Cámara" para visualizar la transmisión de video en vivo del interior de la unidad. Al acercarse al radio de 500 metros del destino, el sistema emite automáticamente una "Alerta de Proximidad".
+
+<img src="assets/images/ChapterIV/WebApp/UserFlow/Desktop/userflow10.png" width="900px" alt="ug10">
+
+#### Desktop User Flow 11:
+Relacionado con User Goal 11: Como padre de familia, quiero recibir notificaciones sin tener que preguntar.
+
+El padre recibe notificaciones automáticas del sistema en distintos momentos del trayecto: cuando el bus inicia la ruta, cuando se aproxima a su parada y ante cualquier incidencia reportada por el conductor. Estas alertas llegan sin necesidad de que el padre esté activamente consultando la aplicación, manteniéndolo informado de forma pasiva y continua.
+
+<img src="assets/images/ChapterIV/WebApp/UserFlow/Desktop/UserFlow11.png" width="1500px" alt="ug11">
+
+#### Desktop User Flow 12:
+
+Relacionado con User Goal 12: 
+Como padre de familia, quiero saber si mi hijo abordó el transporte y quedó registrado.
+
+Una vez que el conductor marca el abordaje del estudiante, el padre recibe en pantalla una "Confirmación de Llegada" con la hora exacta del registro. El sistema almacena este evento en el "Historial de Asistencia", donde el padre puede seleccionar un rango de fechas para auditar los horarios de recogida y entrega, generando un reporte visual de la puntualidad del servicio.
+
+<img src="assets/images/ChapterIV/WebApp/UserFlow/Desktop/user flow12.png" width="1500px" alt="ug12">
+
+### User Flows Mobile
+
+#### Mobile User Flow 1:
+
+Relacionado con User Goal 1: 
+Como suscriptor, quiero poder acceder a mi cuenta de la aplicación.
+
+El usuario ingresa a la pantalla de inicio de sesión e introduce sus credenciales (correo y contraseña). Si los datos son correctos, el sistema valida la información y redirige al usuario a la sección principal "Inicio" junto con el menú lateral habilitado. En caso de no contar con una cuenta, el usuario puede dirigirse a la sección de registro, completar el formulario con sus datos personales y guardar el nuevo usuario para luego iniciar sesión.
+
+<img src="assets/images/ChapterIV/WebApp/UserFlow/Mobile/.png" width="400px" alt="attendance-history">
+
+#### Mobile User Flow 2:
+
+Relacionado con User Goal 2:
+Como suscriptor, quiero poder cambiar mi contraseña para mantener mi cuenta asegurada.
+
+Desde la pantalla de inicio de sesión, el usuario selecciona la opción "Cambio de Contraseña". El sistema muestra un formulario donde el usuario ingresa su correo registrado y la nueva contraseña. Al confirmar, el sistema actualiza las credenciales y permite al usuario ingresar nuevamente con la nueva contraseña. Esto garantiza el acceso continuo incluso si se olvidó la contraseña anterior.
+
+<img src="assets/images/ChapterIV/WebApp/UserFlow/Mobile/.png" width="400px" alt="attendance-history">
+
+#### Mobile User Flow 3:
+
+Relacionado con User Goal 3: 
+Como administrador, quiero ingresar nuevos conductores y crear sus nuevas rutas.
+
+Tras iniciar sesión, el administrador accede al módulo de "Registro de Conductor" e ingresa los datos del personal operativo. Luego navega a la sección "Creación de Rutas", donde traza los puntos de parada, asigna tiempos estimados y vincula la ruta al conductor registrado. El sistema confirma el guardado y refleja los cambios en el panel de gestión.
+
+<img src="assets/images/ChapterIV/WebApp/UserFlow/Mobile/.png" width="400px" alt="attendance-history">
+
+#### Mobile User Flow 4:
+
+Relacionado con User Goal 4: 
+Como administrador, quiero organizar los roles y rutas de manera centralizada.
+
+Desde el panel principal, el administrador accede a "Asignación de Roles" para configurar los permisos de cada miembro del equipo, habilitando accesos de edición o solo lectura según corresponda. Posteriormente, puede revisar y reasignar rutas desde la vista centralizada, asegurando que cada conductor tenga su ruta correctamente vinculada.
+
+<img src="assets/images/ChapterIV/WebApp/UserFlow/Mobile/.png" width="400px" alt="attendance-history">
+
+#### Mobile User Flow 5:
+
+Relacionado con User Goal 5: 
+Como administrador, quiero mejorar las características de la aplicación con un nuevo plan.
+
+El administrador navega a la sección de "Contratación del Plan" y visualiza las opciones de suscripción disponibles según el tamaño de su flota. Al seleccionar un plan, es redirigido a la pasarela de pagos donde ingresa su información financiera y confirma la contratación. Una vez procesado el pago, el sistema actualiza los beneficios disponibles y el administrador puede consultar el balance de costos en "Consulta de Precios".
+
+<img src="assets/images/ChapterIV/WebApp/UserFlow/Mobile/.png" width="400px" alt="attendance-history">
+
+#### Mobile User Flow 6:
+
+Relacionado con User Goal 6: 
+Como conductor, quiero tener un control claro de los alumnos durante la ruta.
+
+El conductor inicia sesión y desde su panel principal selecciona la ruta asignada. Presiona "Iniciar Trayecto" para activar la transmisión GPS. El sistema carga automáticamente la lista de alumnos correspondiente a esa ruta. En cada parada, el conductor localiza al estudiante y registra su abordaje pulsando "Marcación de Abordaje". Al llegar al destino, presiona "Finalización de Ruta" para cerrar el trayecto.
+
+<img src="assets/images/ChapterIV/WebApp/UserFlow/Mobile/.png" width="400px" alt="attendance-history">
+
+#### Mobile User Flow 7:
+
+Relacionado con User Goal 7: 
+Como conductor, quiero brindar un servicio más profesional y confiable.
+
+El conductor accede a su "Bitácora de Viajes" para revisar el historial completo de sus trayectos anteriores, incluyendo horarios, estudiantes transportados e incidencias registradas. Esta información le permite identificar patrones, mejorar su puntualidad y contar con un registro formal de su desempeño ante el administrador.
+
+<img src="assets/images/ChapterIV/WebApp/UserFlow/Mobile/.png" width="400px" alt="attendance-history">
+
+#### Mobile User Flow 8:
+
+Relacionado con User Goal 8: 
+Como conductor, quiero comunicar alguna incidencia u avance de la ruta durante el viaje.
+
+Durante una ruta activa, el conductor detecta un imprevisto y accede al módulo de seguridad del Dashboard. Selecciona una categoría predefinida dentro de "Reporte de Incidencias" (retraso, desvío, obstáculo, etc.) y envía la notificación. El sistema propaga el aviso al administrador y a los padres afectados en tiempo real.
+
+<img src="assets/images/ChapterIV/WebApp/UserFlow/Mobile/.png" width="400px" alt="attendance-history">
+
+#### Mobile User Flow 9:
+
+Relacionado con User Goal 9: 
+Como conductor, quiero una manera inmediata de informar una emergencia.
+
+Ante una situación de peligro inminente durante la ruta, el conductor mantiene presionado el "Botón de Pánico" por 2 segundos. El sistema dispara de forma automática una alerta roja hacia los servicios de emergencia, el administrador y los padres de familia de todos los alumnos a bordo. Tras la resolución del incidente, el conductor puede revisar el evento registrado en su Bitácora de Viajes.
+
+<img src="assets/images/ChapterIV/WebApp/UserFlow/Mobile/.png" width="400px" alt="attendance-history">
+
+#### Mobile User Flow 10:
+
+Relacionado con User Goal 10: 
+Como padre de familia, quiero estar informado de la ubicación y situación en tiempo real del vehículo.
+
+El padre inicia sesión y accede al seguimiento del bus asignado a su hijo. El sistema renderiza el mapa con la ubicación en tiempo real del vehículo. El usuario puede activar el switch de "Acceso a la Cámara" para visualizar la transmisión de video en vivo del interior de la unidad. Al acercarse al radio de 500 metros del destino, el sistema emite automáticamente una "Alerta de Proximidad".
+
+<img src="assets/images/ChapterIV/WebApp/UserFlow/Mobile/.png" width="400px" alt="attendance-history">
+
+#### Mobile User Flow 11:
+Relacionado con User Goal 11: 
+Como padre de familia, quiero recibir notificaciones sin tener que preguntar.
+
+El padre recibe notificaciones automáticas del sistema en distintos momentos del trayecto: cuando el bus inicia la ruta, cuando se aproxima a su parada y ante cualquier incidencia reportada por el conductor. Estas alertas llegan sin necesidad de que el padre esté activamente consultando la aplicación, manteniéndolo informado de forma pasiva y continua.
+
+<img src="assets/images/ChapterIV/WebApp/UserFlow/Mobile/.png" width="400px" alt="attendance-history">
+
+#### Mobile User Flow 12:
+
+Relacionado con User Goal 12: 
+Como padre de familia, quiero saber si mi hijo abordó el transporte y quedó registrado.
+
+Una vez que el conductor marca el abordaje del estudiante, el padre recibe en pantalla una "Confirmación de Llegada" con la hora exacta del registro. El sistema almacena este evento en el "Historial de Asistencia", donde el padre puede seleccionar un rango de fechas para auditar los horarios de recogida y entrega, generando un reporte visual de la puntualidad del servicio.
+
+<img src="assets/images/ChapterIV/WebApp/UserFlow/Mobile/.png" width="400px" alt="attendance-history">
 
 ## 4.5. Web Applications Prototyping
 
