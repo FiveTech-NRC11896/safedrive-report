@@ -1563,7 +1563,7 @@ Como suscriptor, quiero poder cambiar mi contraseña para mantener mi cuenta ase
 
 Desde la pantalla de inicio de sesión, el usuario selecciona la opción "Cambio de Contraseña". El sistema muestra un formulario donde el usuario ingresa su correo registrado y la nueva contraseña. Al confirmar, el sistema actualiza las credenciales y permite al usuario ingresar nuevamente con la nueva contraseña. Esto garantiza el acceso continuo incluso si se olvidó la contraseña anterior.
 
-<img src="assets/images/ChapterIV/WebApp/UserFlow/Desktop/Userflow2.png" width="900px" alt="ug2">
+<img src="assets/images/ChapterIV/WebApp/UserFlow/Desktop/userflow2.png" width="900px" alt="ug2">
 
 #### Desktop User Flow 3:
 
@@ -1572,7 +1572,7 @@ Como administrador, quiero ingresar nuevos conductores y crear sus nuevas rutas.
 
 Tras iniciar sesión, el administrador accede al módulo de "Registro de Conductor" e ingresa los datos del personal operativo. Luego navega a la sección "Creación de Rutas", donde traza los puntos de parada, asigna tiempos estimados y vincula la ruta al conductor registrado. El sistema confirma el guardado y refleja los cambios en el panel de gestión.
 
-<img src="assets/images/ChapterIV/WebApp/UserFlow/Desktop/Userflow3.png" width="900px" alt="ug3">
+<img src="assets/images/ChapterIV/WebApp/UserFlow/Desktop/userflow3.png" width="900px" alt="ug3">
 
 #### Desktop User Flow 4:
 
@@ -1581,7 +1581,7 @@ Como administrador, quiero organizar los roles y rutas de manera centralizada.
 
 Desde el panel principal, el administrador accede a "Asignación de Roles" para configurar los permisos de cada miembro del equipo, habilitando accesos de edición o solo lectura según corresponda. Posteriormente, puede revisar y reasignar rutas desde la vista centralizada, asegurando que cada conductor tenga su ruta correctamente vinculada.
 
-<img src="assets/images/ChapterIV/WebApp/UserFlow/Desktop/Userflow4.png" width="900px" alt="ug4">
+<img src="assets/images/ChapterIV/WebApp/UserFlow/Desktop/userflow4.png" width="900px" alt="ug4">
 
 #### Desktop User Flow 5:
 
@@ -1590,7 +1590,7 @@ Como administrador, quiero mejorar las características de la aplicación con un
 
 El administrador navega a la sección de "Contratación del Plan" y visualiza las opciones de suscripción disponibles según el tamaño de su flota. Al seleccionar un plan, es redirigido a la pasarela de pagos donde ingresa su información financiera y confirma la contratación. Una vez procesado el pago, el sistema actualiza los beneficios disponibles y el administrador puede consultar el balance de costos en "Consulta de Precios".
 
-<img src="assets/images/ChapterIV/WebApp/UserFlow/Desktop/Userflow5.png" width="900px" alt="ug5">
+<img src="assets/images/ChapterIV/WebApp/UserFlow/Desktop/userflow5.png" width="900px" alt="ug5">
 
 #### Desktop User Flow 6:
 
@@ -1599,7 +1599,7 @@ Como conductor, quiero tener un control claro de los alumnos durante la ruta.
 
 El conductor inicia sesión y desde su panel principal selecciona la ruta asignada. Presiona "Iniciar Trayecto" para activar la transmisión GPS. El sistema carga automáticamente la lista de alumnos correspondiente a esa ruta. En cada parada, el conductor localiza al estudiante y registra su abordaje pulsando "Marcación de Abordaje". Al llegar al destino, presiona "Finalización de Ruta" para cerrar el trayecto.
 
-<img src="assets/images/ChapterIV/WebApp/UserFlow/Desktop/Userflow6.png" width="900px" alt="ug6">
+<img src="assets/images/ChapterIV/WebApp/UserFlow/Desktop/userflow6.png" width="900px" alt="ug6">
 
 #### Desktop User Flow 7:
 
@@ -1608,7 +1608,7 @@ Como conductor, quiero brindar un servicio más profesional y confiable.
 
 El conductor accede a su "Bitácora de Viajes" para revisar el historial completo de sus trayectos anteriores, incluyendo horarios, estudiantes transportados e incidencias registradas. Esta información le permite identificar patrones, mejorar su puntualidad y contar con un registro formal de su desempeño ante el administrador.
 
-<img src="assets/images/ChapterIV/WebApp/UserFlow/Desktop/Userflow7.png" width="900px" alt="ug7">
+<img src="assets/images/ChapterIV/WebApp/UserFlow/Desktop/userflow7.png" width="900px" alt="ug7">
 
 #### Desktop User Flow 8:
 
@@ -1617,14 +1617,14 @@ Como conductor, quiero comunicar alguna incidencia u avance de la ruta durante e
 
 Durante una ruta activa, el conductor detecta un imprevisto y accede al módulo de seguridad del Dashboard. Selecciona una categoría predefinida dentro de "Reporte de Incidencias" (retraso, desvío, obstáculo, etc.) y envía la notificación. El sistema propaga el aviso al administrador y a los padres afectados en tiempo real.
 
-<img src="assets/images/ChapterIV/WebApp/UserFlow/Desktop/Userflow8.png" width="900px" alt="ug8">
+<img src="assets/images/ChapterIV/WebApp/UserFlow/Desktop/userflow8.png" width="900px" alt="ug8">
 
 #### Desktop User Flow 9:
 Relacionado con User Goal 9: Como conductor, quiero una manera inmediata de informar una emergencia.
 
 Ante una situación de peligro inminente durante la ruta, el conductor mantiene presionado el "Botón de Pánico" por 2 segundos. El sistema dispara de forma automática una alerta roja hacia los servicios de emergencia, el administrador y los padres de familia de todos los alumnos a bordo. Tras la resolución del incidente, el conductor puede revisar el evento registrado en su Bitácora de Viajes.
 
-<img src="assets/images/ChapterIV/WebApp/UserFlow/Desktop/Userflow9.png" width="900px" alt="ug9">
+<img src="assets/images/ChapterIV/WebApp/UserFlow/Desktop/userflow9.png" width="900px" alt="ug9">
 
 #### Desktop User Flow 10:
 
@@ -1633,7 +1633,7 @@ Como padre de familia, quiero estar informado de la ubicación y situación en t
 
 El padre inicia sesión y accede al seguimiento del bus asignado a su hijo. El sistema renderiza el mapa con la ubicación en tiempo real del vehículo. El usuario puede activar el switch de "Acceso a la Cámara" para visualizar la transmisión de video en vivo del interior de la unidad. Al acercarse al radio de 500 metros del destino, el sistema emite automáticamente una "Alerta de Proximidad".
 
-<img src="assets/images/ChapterIV/WebApp/UserFlow/Desktop/Userflow10.png" width="900px" alt="ug10">
+<img src="assets/images/ChapterIV/WebApp/UserFlow/Desktop/userflow10.png" width="900px" alt="ug10">
 
 #### Desktop User Flow 11:
 Relacionado con User Goal 11: Como padre de familia, quiero recibir notificaciones sin tener que preguntar.
