@@ -3313,13 +3313,13 @@ Para el manejo del código fuente, utilizamos Github para colaborar entre miembr
 
 Organización:
 
-Repositorio de Landing Page: https://github.com/FiveTech-NRC11896/safedrive-website.git
+Repositorio de Landing Page: https://github.com/FiveTech-NRC11896/saferoute-website.git
 
-Repositorio del informe: https://github.com/FiveTech-NRC11896/safedrive-report.git
+Repositorio del informe: https://github.com/FiveTech-NRC11896/saferoute-report.git
 
-Repositorio del frontend: https://github.com/FiveTech-NRC11896/safedrive-webapp.git
+Repositorio del frontend: https://github.com/FiveTech-NRC11896/saferoute-webapp.git
 
-Repositorio del backend: https://github.com/FiveTech-NRC11896/safedrive-platform.git
+Repositorio del backend: https://github.com/FiveTech-NRC11896/saferoute-platform.git
 
 En el repositorio del informe, se implementa un esquema de trabajo basado en Gitflow. La rama main almacena la versión estable del informe correspondiente a cada entregable del trabajo, mientras que la rama develop concentra la integración de avances validados por cada integrante antes de su consolidación final. A partir de develop, cada integrante creará ramas feature de trabajo para las secciones asignadas. Las ramas feature seguirán una nomenclatura asociada al capítulo o bloque trabajado, por ejemplo: feature/chapter-1-introduction-and-lean-ux, o feature/chapter-5-software-configuration-management. Esta convención permite identificar con claridad qué parte del informe está siendo desarrollada y reduce el riesgo de conflictos entre los miembros del equipo.
 
