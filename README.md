@@ -1013,7 +1013,8 @@ Inicio de Trayecto (US8)
 
 Pantalla de activación donde el conductor confirma que está listo para empezar el recorrido. Al hacer clic en "Iniciar Viaje", se dispara el rastreo GPS para los padres.
 
-<img src="assets/images/ChapterIV/WebApp/Wireframes/Desktop/trip-start.png" width="900px" alt="start-trip">
+<img src="assets/images/ChapterIV/WebApp/Wireframes/Desktop/start-trip1.png" width="900px" alt="start-trip">
+<img src="assets/images/ChapterIV/WebApp/Wireframes/Desktop/start-trip2.png" width="900px" alt="start-trip">
 
 Marcación de Abordaje (US9)
 
@@ -1161,7 +1162,7 @@ Inicio de Trayecto (US8)
 
 Pantalla de activación donde el conductor confirma que está listo para empezar el recorrido. Al hacer clic en "Iniciar Viaje", se dispara el rastreo GPS para los padres.
 
-<img src="assets/images/ChapterIV/WebApp/Wireframes/Desktop/trip-start.png" width="900px" alt="start-trip">
+<img src="assets/images/ChapterIV/WebApp/Wireframes/Mobile/trip-start.png" width="900px" alt="start-trip">
 
 Marcación de Abordaje (US9)
 
