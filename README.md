@@ -2637,10 +2637,10 @@ Lenguaje de programación que se utilizara en el desarrollo del backend de la ap
 Servicio utilizado para el despliegue de la landing page del proyecto.
 
 ###### Vercel
-Plataforma utilizada para el despliegue del frontend desarrollado en Vue.js, permitiendo una integración continua y despliegue automatizado.
+Plataforma utilizada para el despliegue del frontend desarrollado en Angular, permitiendo una integración continua y despliegue automatizado.
 
-###### Railway
-Plataforma utilizada para el despliegue de servicios backend y APIs, facilitando la conexión entre frontend y backend en un entorno accesible en la nube.
+###### Swagger
+Plataforma utilizada para el despliegue de servicios backend y APIs, facilitando la conexión entre frontend y backend en un entorno accesible.
 
 
 #### 5.1.2. Source Code Management
