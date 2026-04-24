@@ -336,7 +336,7 @@ En base al análisis competitivo y SWOT realizado, SafeRoute plantea las siguien
 | Segmento | Conductor de Transporte Escolar |
 | Inicio en video | 00:15 |
 | Duración | 07:19 |
-| URL del video | [[Youtube](https://youtu.be/V0uneeO5sFQ)][[MicrosoftStream](https://1drv.ms/v/c/f647ccc757f760c7/IQAVffXPiVroSJbblZ6_3uoTAetjl1xIO23c6V_l0aviUGg?e=KJhdzW)] |
+| URL del video | [[https://youtu.be/V0uneeO5sFQ](https://youtu.be/V0uneeO5sFQ)][[https://1drv.ms/v/c/f647ccc757f760c7/IQAVffXPiVroSJbblZ6_3uoTAetjl1xIO23c6V_l0aviUGg?e=KJhdzW](https://1drv.ms/v/c/f647ccc757f760c7/IQAVffXPiVroSJbblZ6_3uoTAetjl1xIO23c6V_l0aviUGg?e=KJhdzW)] |
 
 #### Screenshot
 ![SegmentoObjetivo1](./assets/images/ArturoNunez-SegmentoObjetivo1.png)
@@ -402,7 +402,7 @@ La entrevista confirma que el segmento conductor necesita reducir carga operativ
 | **Segmento** | Padre de Familia |
 | **Inicio en video** | 07:42 |
 | **Duración** | 04:80 |
-| **URL del video** | [[Youtube](https://youtu.be/V0uneeO5sFQ)][[MicrosoftStream](https://1drv.ms/v/c/f647ccc757f760c7/IQAVffXPiVroSJbblZ6_3uoTAetjl1xIO23c6V_l0aviUGg?e=KJhdzW)] |
+| **URL del video** | [https://youtu.be/V0uneeO5sFQ](https://youtu.be/V0uneeO5sFQ)][[https://1drv.ms/v/c/f647ccc757f760c7/IQAVffXPiVroSJbblZ6_3uoTAetjl1xIO23c6V_l0aviUGg?e=KJhdzW](https://1drv.ms/v/c/f647ccc757f760c7/IQAVffXPiVroSJbblZ6_3uoTAetjl1xIO23c6V_l0aviUGg?e=KJhdzW)] |
 
 #### **Screenshot**
 ![SegmentoObjetivo2](./assets/images/CarlaPelaez-SegmentoObjetivo2.png)
@@ -803,7 +803,7 @@ En esta sección, se presenta el desarrollo y los resultados de la sesión de Bi
 A través de esta dinámica, se logró plasmar los eventos significativos y sus interrelaciones, construyendo una primera aproximación visual de alto nivel que explora el landscape completo del negocio.
 
 ![BigPictureEventStorming](./assets/images/EventStorming.jpg)
-* **URL:** [[https://miro.com/](https://miro.com/app/board/uXjVGhc-MhA=/)]
+* **URL:** [[https://miro.com/app/board/uXjVGhc-MhA=/](https://miro.com/app/board/uXjVGhc-MhA=/)]
 
 ### 2.5. Ubiquitous Language
 En esta sección se presenta el glosario de términos de negocio utilizados dentro del dominio de SafeRoute. 
