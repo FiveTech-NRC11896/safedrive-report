@@ -57,6 +57,12 @@ El equipo ha utilizado un flujo de trabajo en github: [https://github.com/FiveTe
 
 **ABET - EAC - Student Outcome 3:** Capacidad de comunicarse efectivamente con un rango de audiencias.
 
+
+| Criterio específico | Acciones realizadas | Conclusiones |
+| :--- | :--- | :--- |
+| **Comunica oralmente con efectividad a diferentes rangos de audiencia.** | **Quispe Serrano, Julio Frank:**<br>**AV1:** Participé en el video de exposición explicando nuestro *Startup Profile*, los antecedentes y la arquitectura inicial de los diagramas C4, de objetos y de la base de datos, empleando un vocabulario técnico adecuado.<br><br>**Ortega Quintana, José Zacarías:**<br>**AV1:** Sustenté en el video grupal los hallazgos del *Needfinding*, el *Big Picture Event Storming* y la priorización de nuestros *User Stories*.<br><br>**De La Cruz De Los Santos, Mathias Marcelo:**<br>**AV1:** Expuse de forma clara las decisiones de UI/UX, arquitectura de información y presenté los wireframes correspondientes al *Landing Page*.<br><br>**Costa Morales, Christofer William:**<br>**AV1:** Expliqué ante cámara la configuración de nuestro entorno de desarrollo (*Software Configuration Management*) y apoyé en la demostración de los prototipos iniciales de la *Web Application* estructurada en Angular.<br><br>**Revilla Quispe, Renzo Zamir:**<br>**AV1:** Detallé la organización de nuestro trabajo colaborativo, la justificación del *Sprint Planning 1* y cómo distribuimos las tareas en la sustentación grabada. | **AV1:** <br>Como equipo, logramos coordinar nuestras intervenciones individuales para consolidar un video de exposición coherente. Adaptamos nuestro lenguaje técnico al explicar la arquitectura y diseño de software, manteniendo un tono de negocio y comercial al describir el perfil de nuestra startup y la problemática a resolver. |
+| **Comunica por escrito con efectividad a diferentes rangos de audiencia** | **Quispe Serrano, Julio Frank:**<br>**AV1:** Redacté con claridad el Capítulo I (Introducción) y documenté los diagramas formales de arquitectura de software orientada a dominios y base de datos.<br><br>**Ortega Quintana, José Zacarías:**<br>**AV1:** Elaboré los documentos de análisis de requerimientos (Capítulos II y III), asegurando que el *Ubiquitous Language* y nuestro *Product Backlog* sean comprensibles para todo el equipo.<br><br>**De La Cruz De Los Santos, Mathias Marcelo:**<br>**AV1:** Documenté los *Style Guidelines* y los sistemas de organización (*Information Architecture*) para el *Landing Page*, aplicando convenciones estándar de la industria.<br><br>**Costa Morales, Christofer William:**<br>**AV1:** Detallé por escrito las normas de código (*Coding Conventions*), configuraciones de despliegue y apoyé en la documentación del diseño de la aplicación web.<br><br>**Revilla Quispe, Renzo Zamir:**<br>**AV1:** Redacté la documentación del *Sprint 1* (Planning, Backlog, Evidence) y nuestras conclusiones iniciales en el informe técnico usando sintaxis Markdown estructurada. | **AV1:** <br>Durante la elaboración de este primer entregable, unificamos el estilo de redacción de cada integrante mediante el uso conjunto de convenciones en nuestro repositorio de GitHub. Logramos redactar un informe técnico inicial que es estructurado, formal y está completamente alineado a las rúbricas y requerimientos del proyecto. |
+
 ---
 
 ## Capítulo I: Introducción
@@ -74,9 +80,9 @@ Nuestra propuesta de valor se materializa en SafeRoute, una plataforma web de mo
 | :-------------------------------------: | :-------------------------- | :-----------: | :--------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 |                 ![foto]                 | [Apellido 1], [Nombre 1]    | [U20XXXXXXXX] | Ingeniería de Software | [Descripción de conocimientos técnicos y habilidades que aporta al equipo]                                                                                                                                                                                                                                                                                                                                                                             |
 |              ![Renzo Revilla](./assets/images/renzo.png)              | Revilla Quispe, Renzo Zamir   | U201717085 | Ingeniería de Software | Soy Renzo Revilla, estudiante de Ingenieria de Software en la Universidad Peruana de Ciencias Aplicadas, con experiencia en desarrollo web y movil. Me destaco por mis habilidades en comunicacion efectiva y trabajo en equipo, lo que facilita la coordinación y el cumplimiento de objetivos dentro del grupo. Disfruto de la natacion y del aprendizaje continuo. Mi aporte al equipo se centra en el desarrollo tecnico y en la gestion del proyecto, contribuyendo a mantener un trabajo organizado y eficiente.  |
-| ![foto](./assets/images/frankFT.png) | Quispe Serrano, Julio Frank | [U20241D922]  | Ingeniería de Software | Mi nombre es Julio Frank Quispe Serrano, tengo 20 años,actualmente estoy cursando el 5to ciclo de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Soy un apasionado por la programación, el gym y explorador de música en distintos géneros. Mi aporte en este grupo será el de brindar soluciones prácticas y eficientes ante situaciones de adversidad que estanquen la fluidez de la elaboración del trabajo. |
-|              ![foto]               | [Apellido 4], [Nombre 4]    | [U20XXXXXXXX] | Ingeniería de Software | [Descripción de conocimientos técnicos y habilidades que aporta al equipo]                                                                                                                                                                                                                                                                                                                                                                             |
-|              ![foto]               | Ortega Quintana, Jose Zacarias    | [U202316852] | Ingeniería de Software | Soy Jose Ortega, estudiante de Ingenieria de Software en la Universidad Peruana de Ciencias Aplicadas. Actualmente con 21 años disfruto de los pequeños momentos de tranquilidad para aprovechra en meditar, dibujar o practicar. Deseo apoyar a mi equipo lo mejor posible para poder afrontar cualquier adversidad o contratiempo en este trabajo.                                                                                                                                                                                                                                                                                                                                                                            |
+| ![foto](assets/images/FrankFT.png) | Quispe Serrano, Julio Frank | [U20241D922]  | Ingeniería de Software | Soy Julio Frank Quispe Serrano, alumno de 5to ciclo de Ingeniería de Software en la UPC. Cuento con una marcada inclinación hacia la programación y la gestión eficiente del tiempo. Mi aporte principal a este grupo de trabajo será la resolución de conflictos técnicos y operativos, aportando una visión pragmática que permita superar eventuales estancamientos en las fases de elaboración del proyecto.|
+|              ![foto](assets/images/Team/MathiasFt.jpg)               | De la Cruz De los Santos, Mathias Marcelo    | [U202424059] | Ingeniería de Software | Soy estudiante de la carrera de Ingeniería de Software y actualmente me encuentro cursando el 5to ciclo de la carrera en la Universidad Peruana de Ciencias Aplicadas. Me considero un fanático de la programación, del futbol y los videojuegos. Considero que puedo aportar al equipo y al proyecto mis conocimientos técnicos, además de considerarme una persona disciplinada, responsable y que valora el trabajo en equipo.                                                                                                                                                                                                                                        |
+|              ![foto]               | Ortega Quintana, Jose Zacarias    | [U202316852] | Ingeniería de Software | Soy Jose Ortega, estudiante de Ingenieria de Software en la Universidad Peruana de Ciencias Aplicadas. Actualmente con 21 años disfruto de los pequeños momentos de tranquilidad para aprovechra en meditar, dibujar o practicar. Deseo apoyar a mi equipo lo mejor posible para poder afrontar cualquier adversidad o contratiempo en este trabajo.
 
 ### 1.2. Solution Profile
 
@@ -331,8 +337,302 @@ En base al análisis competitivo y SWOT realizado, SafeRoute plantea las siguien
 
 
 #### 2.2.2. Registro de entrevistas
+### Entrevista 1: Arturo Núñez
+
+| Campo | Detalle |
+| :--- | :--- |
+| Nombre y Apellidos | Arturo Núñez |
+| Edad | 28 años |
+| Distrito / Zona de trabajo | San Miguel y Miraflores, Lima |
+| Segmento | Conductor de Transporte Escolar |
+| Inicio en video | 00:15 |
+| Duración | 07:19 |
+| URL del video | [[Youtube](https://youtu.be/V0uneeO5sFQ)][[MicrosoftStream](https://1drv.ms/v/c/f647ccc757f760c7/IQAVffXPiVroSJbblZ6_3uoTAetjl1xIO23c6V_l0aviUGg?e=KJhdzW)] |
+
+#### Screenshot
+![SegmentoObjetivo1](./assets/images/ArturoNunez-SegmentoObjetivo1.png)
+
+---
+
+## Resumen Descriptivo de la Entrevista
+
+### Características Objetivas y Entorno
+
+Arturo Núñez es un conductor de transporte escolar independiente de 28 años, con aproximadamente seis años de experiencia en el rubro. Opera principalmente en los distritos de San Miguel y Miraflores, zonas urbanas con alto flujo vehicular. Gestiona su propia unidad móvil y administra directamente la captación de clientes, organización de rutas y comunicación con padres de familia.
+
+Su rutina diaria consiste en recoger estudiantes en sus domicilios, trasladarlos al colegio y retornarlos posteriormente según el turno escolar.
+
+### Herramientas, Tecnología y Canales de Interacción
+
+Actualmente utiliza herramientas informales para operar:
+
+- WhatsApp como canal principal de comunicación con padres
+- Libreta física para horarios y direcciones
+- Google Maps para navegación y rutas alternas
+- Smartphone como dispositivo principal de trabajo
+
+El uso del teléfono móvil es constante durante la jornada. Se evidencia familiaridad con aplicaciones digitales de uso cotidiano.
+
+### Características Subjetivas y Personalidad
+
+Arturo presenta un perfil pragmático, independiente y orientado a resultados. Busca mantener el orden operativo, aunque reconoce limitaciones de su sistema actual. Muestra preocupación por la seguridad vial y estrés cuando debe responder mensajes mientras conduce.
+
+También demuestra apertura al cambio tecnológico siempre que la solución sea sencilla, rápida y útil.
+
+### Pain Points Detectados
+
+- Exceso de mensajes durante la conducción
+- Distracción al responder consultas de padres
+- Dependencia de memoria personal
+- Falta de sistema formal de asistencia
+- Cambios de ruta difíciles de comunicar
+- Estrés operativo en horas punta
+
+### Oportunidades Identificadas
+
+El entrevistado valora altamente una plataforma que permita:
+
+- Ubicación en tiempo real para padres
+- Notificaciones automáticas
+- Lista diaria de alumnos asistentes
+- Registro rápido de abordaje
+- Operación con pocos pasos
+- Uso estable con señal limitada
+
+### Validación del Arquetipo
+La entrevista confirma que el segmento conductor necesita reducir carga operativa, profesionalizar su servicio y automatizar comunicaciones sin comprometer la seguridad al volante. Esto respalda directamente el User Persona definido para SafeRoute.
+
+---
+### Entrevista 2: Carla Peláez
+
+| Campo | Detalle |
+| :--- | :--- |
+| **Nombre y Apellidos** | Carla Peláez |
+| **Edad** | 38 años |
+| **Distrito / Zona de residencia** | Santiago de Surco, Lima |
+| **Segmento** | Padre de Familia |
+| **Inicio en video** | 07:42 |
+| **Duración** | 04:80 |
+| **URL del video** | [[Youtube](https://youtu.be/V0uneeO5sFQ)][[MicrosoftStream](https://1drv.ms/v/c/f647ccc757f760c7/IQAVffXPiVroSJbblZ6_3uoTAetjl1xIO23c6V_l0aviUGg?e=KJhdzW)] |
+
+#### **Screenshot**
+![SegmentoObjetivo2](./assets/images/CarlaPelaez-SegmentoObjetivo2.png)
+
+> *Captura de pantalla de la entrevista realizada al segmento Padre de Familia.*
+
+---
+
+#### **Resumen Descriptivo de la Entrevista**
+
+### **Características Objetivas y Entorno**
+
+Carla Peláez es una madre de familia de 38 años residente en el distrito de Santiago de Surco. Vive con su esposo y sus cuatro hijos, de los cuales dos utilizan actualmente servicio de transporte escolar. Representa a familias urbanas con alta responsabilidad logística diaria, donde el traslado escolar cumple un rol clave para compatibilizar horarios familiares, laborales y educativos.
+
+El transporte escolar forma parte importante de su rutina diaria, ya que permite asegurar la asistencia puntual de sus hijos al centro educativo.
+
+### **Perfil Tecnológico y Hábitos Digitales**
+
+La entrevistada demuestra una actitud positiva frente al uso de tecnología y asocia las herramientas digitales con mayor seguridad y tranquilidad. Está acostumbrada a recibir información mediante canales digitales institucionales y mensajería móvil.
+
+Actualmente utiliza:
+
+* Teléfono móvil como principal dispositivo de comunicación  
+* WhatsApp para contacto con responsables del transporte  
+* Sistema digital del colegio para validar asistencia diaria  
+
+Esto evidencia un perfil digital intermedio, con apertura a nuevas soluciones tecnológicas siempre que sean simples y confiables.
+
+### **Proceso Actual y Canales de Interacción**
+
+Para confirmar que sus hijos llegaron correctamente a destino, Carla depende de dos mecanismos externos:
+
+* Confirmación verbal de la responsable de movilidad escolar  
+* Confirmación de asistencia enviada por el colegio mediante su sistema interno  
+
+Cuando existe demora o falta de confirmación, se comunica directamente con el colegio para validar la llegada de sus hijos.
+
+Actualmente la comunicación con el conductor o responsable se realiza principalmente por:
+
+* Llamadas telefónicas  
+* WhatsApp  
+
+
+### **Pain Points (Problemas Detectados)**
+
+Durante la entrevista se identificaron preocupaciones relevantes:
+
+* Angustia cuando la movilidad se retrasa  
+* Ansiedad cuando no llega la confirmación del colegio  
+* Falta de visibilidad en tiempo real durante el trayecto  
+* Dependencia de terceros para validar información  
+* Percepción de inseguridad en el contexto actual de transporte urbano  
+* Menor confianza cuando la movilidad no pertenece directamente al colegio  
+
+Estos puntos reflejan una necesidad clara de trazabilidad, confianza y comunicación inmediata.
+
+
+### **Necesidades y Oportunidades Detectadas**
+
+Carla mostró alta aceptación hacia una plataforma digital que le permita:
+
+* Ver la ruta del vehículo en tiempo real  
+* Conocer si ocurrió algún inconveniente durante el trayecto  
+* Recibir confirmación automática de llegada  
+* Saber la ubicación permanente de sus hijos  
+* Reducir ansiedad e incertidumbre diaria  
+* Incrementar confianza en el servicio contratado  
+
+Para Carla, el atributo más importante para sentirse tranquila es:
+
+“Saber en dónde está en todo momento”.
+
+### **Características Subjetivas y Personalidad**
+
+A partir de sus respuestas, se identifica un perfil:
+
+* Protector y orientado al bienestar familiar  
+* Preventivo frente a riesgos externos  
+* Receptivo a herramientas digitales útiles  
+* Sensible a la falta de información  
+* Altamente motivado por la seguridad de sus hijos  
+
+### **Validación del Arquetipo**
+Los datos recolectados en esta entrevista validan los supuestos definidos para el segmento Padre de Familia dentro del proyecto SafeRoute. Se confirma que este segmento prioriza:
+
+* Seguridad del estudiante  
+* Monitoreo en tiempo real  
+* Alertas automáticas  
+* Comunicación confiable  
+* Reducción de ansiedad durante el traslado escolar  
+
+Asimismo, respalda los objetivos del Impact Mapping relacionados con generar tranquilidad, confianza y visibilidad operacional para las familias usuarias.
+
+---
 
 #### 2.2.3. Análisis de entrevistas
+
+## Segmento Objetivo 1: Conductores de Transporte Escolar
+
+El presente análisis corresponde a una muestra inicial de 1 entrevista válida del segmento conductor, por lo que los porcentajes reflejan únicamente los hallazgos preliminares del entrevistado y serán refinados con futuras entrevistas.
+### Características Objetivas del Segmento
+
+| Característica | Resultado | Sustento |
+|---|---|---|
+| Edad joven-adulta (25 a 35 años) | 100% | Arturo tiene 28 años |
+| Trabajo independiente | 100% | Indica operar con unidad propia y captar clientes directamente |
+| Experiencia en el rubro mayor a 5 años | 100% | Señala 6 años trabajando en transporte escolar |
+| Opera en zonas urbanas congestionadas | 100% | Trabaja en San Miguel y Miraflores |
+| Manejo de ruta diaria fija | 100% | Realiza recojo, traslado al colegio y retorno |
+
+### Hallazgo
+
+El segmento conductor evaluado corresponde a microoperadores independientes que administran su propio servicio y requieren herramientas de gestión simples, móviles y rápidas.
+
+### Uso de Tecnología y Herramientas Actuales
+
+| Herramienta / Canal | Porcentaje |
+|---|---|
+| WhatsApp como canal principal con padres | 100% |
+| Libreta física para horarios/direcciones | 100% |
+| Google Maps para navegación | 100% |
+| Uso combinado de herramientas manuales + digitales | 100% |
+
+### Principales Problemas Detectados (Pain Points)
+
+| Problema identificado | Porcentaje |
+|---|---|
+| Exceso de mensajes durante la conducción | 100% |
+| Distracción por responder padres en ruta | 100% |
+| Dependencia de memoria personal | 100% |
+| Estrés ante tráfico o cambios imprevistos | 100% |
+| Falta de visibilidad para padres genera presión | 100% |
+
+### Necesidades Funcionales Prioritarias
+
+| Necesidad mencionada | Porcentaje |
+|---|---|
+| Ubicación visible para padres sin escribir al conductor | 100% |
+| Notificaciones automáticas de abordaje/llegada | 100% |
+| Lista digital de alumnos del día | 100% |
+| Confirmación previa de asistencia | 100% |
+| App sencilla e intuitiva | 100% |
+| Funcionamiento con señal limitada | 100% |
+
+
+### Características Subjetivas del Segmento
+
+| Rasgo detectado | Porcentaje |
+|---|---|
+| Alta disposición a adoptar tecnología útil | 100% |
+| Mentalidad pragmática | 100% |
+| Valora eficiencia y orden | 100% |
+| Sensible a distracciones durante manejo | 100% |
+| Busca profesionalizar su servicio | 100% |
+
+----
+## Segmento Objetivo 2: Padres de Familia
+
+El presente análisis corresponde a una muestra inicial de 1 entrevista válida del segmento padres de familia, por lo que los porcentajes reflejan únicamente los hallazgos preliminares de la entrevistada y serán refinados con futuras entrevistas.
+
+### Características Objetivas del Segmento
+
+| Característica | Resultado | Sustento |
+|---|---|---|
+| Adulto responsable entre 35 y 45 años | 100% | Carla tiene 38 años |
+| Reside en zona urbana consolidada | 100% | Vive en Surco, Lima |
+| Hogar con hijos en etapa escolar | 100% | Indica tener cuatro hijos |
+| Uso recurrente de transporte escolar | 100% | Señala que el servicio es importante para asistir al centro de estudios |
+| Necesidad diaria de coordinación familiar | 100% | Gestiona traslado y seguimiento de varios hijos |
+
+### Hallazgo
+
+El segmento evaluado corresponde a padres de familia con alta responsabilidad logística diaria, que valoran la seguridad, la información oportuna y la tranquilidad emocional durante el traslado escolar.
+
+### Uso de Tecnología y Herramientas Actuales
+
+| Herramienta / Canal | Porcentaje |
+|---|---|
+| WhatsApp / Teléfono para comunicación con movilidad | 100% |
+| Sistema del colegio para confirmar asistencia | 100% |
+| Uso de smartphone como canal principal | 100% |
+| Dependencia de terceros para recibir información | 100% |
+
+### Principales Problemas Detectados (Pain Points)
+
+| Problema identificado | Porcentaje |
+|---|---|
+| Ansiedad cuando la movilidad demora | 100% |
+| Preocupación si no llega confirmación del colegio | 100% |
+| Falta de ubicación en tiempo real | 100% |
+| Temor a accidentes o incidentes de seguridad | 100% |
+| Desconfianza hacia servicios externos no afiliados al colegio | 100% |
+
+### Necesidades Funcionales Prioritarias
+
+| Necesidad mencionada | Porcentaje |
+|---|---|
+| Ver ubicación en tiempo real del transporte | 100% |
+| Confirmación automática de llegada | 100% |
+| Alertas ante retrasos o inconvenientes | 100% |
+| Mayor visibilidad de la ruta diaria | 100% |
+| Herramienta simple desde celular | 100% |
+| Sentir tranquilidad y control del proceso | 100% |
+
+### Características Subjetivas del Segmento
+
+| Rasgo detectado | Porcentaje |
+|---|---|
+| Alta preocupación por seguridad infantil | 100% |
+| Alta receptividad hacia soluciones digitales útiles | 100% |
+| Busca reducir ansiedad diaria | 100% |
+| Valora confianza institucional | 100% |
+| Perfil práctico orientado a familia | 100% |
+
+### Conclusión del Segmento
+
+El perfil preliminar evidencia que los padres no buscan solo tecnología, sino tranquilidad. Una solución digital será valorada si reduce incertidumbre, mejora la confianza y entrega información clara sin depender de llamadas o mensajes manuales.
+
+
 
 ### 2.3. Needfinding
 
@@ -985,7 +1285,7 @@ Cambio de Contraseña Formulario de seguridad que permite restablecer el acceso 
 
 ##### Configuración y Gestión Administrativa
 
-Panel de Inicio y Navegación (US20)
+Panel de Inicio y Navegación (US26)
 
 Dashboard central que organiza todos los módulos del sistema a través de un sidebar lateral, facilitando el salto entre la gestión de rutas, alumnos y reportes.
 
@@ -1006,14 +1306,14 @@ Vista comercial que permite al dueño de la unidad o institución seleccionar y 
 <img src="assets/images/ChapterIV/WebApp/Wireframes/Desktop/hire-plan.png" width="900px" alt="hire-plan">
 <img src="assets/images/ChapterIV/WebApp/Wireframes/Desktop/hire-plan2.png" width="900px" alt="hire-plan">
 
-Consulta de Precios y Tarifas (US22)
+Consulta de Precios y Tarifas (US28)
 
 Sección informativa donde se detallan los costos operativos y las tarifas vigentes para la gestión del transporte escolar.
 
 <img src="assets/images/ChapterIV/WebApp/Wireframes/Desktop/pricing-query.png" width="900px" alt="pricing-query">
 
 ##### Gestión de Logística y Alumnos
-Alta y Gestión de Alumnos (US4, US24)
+Alta y Gestión de Alumnos (US4, US23)
 
 Interfaz conectada a la API que permite visualizar la lista completa de estudiantes, agregar nuevos registros o actualizar la información de los existentes.
 
@@ -1043,26 +1343,26 @@ Herramienta de diseño logístico donde el administrador traza los recorridos, d
 
 ##### Operación de Viaje
 
-Inicio de Trayecto (US8)
+Inicio de Trayecto (US10)
 
 Pantalla de activación donde el conductor confirma que está listo para empezar el recorrido. Al hacer clic en "Iniciar Viaje", se dispara el rastreo GPS para los padres.
 
 <img src="assets/images/ChapterIV/WebApp/Wireframes/Desktop/start-trip1.png" width="900px" alt="start-trip">
 <img src="assets/images/ChapterIV/WebApp/Wireframes/Desktop/start-trip2.png" width="900px" alt="start-trip">
 
-Marcación de Abordaje (US9)
+Marcación de Abordaje (US11)
 
 Lista interactiva de alumnos por parada. El conductor marca con un solo toque quién ha subido al bus, actualizando el estado de asistencia en tiempo real.
 
 <img src="assets/images/ChapterIV/WebApp/Wireframes/Desktop/boarding-check.png" width="900px" alt="boarding-check">
 
-Finalización de Ruta (US12)
+Finalización de Ruta (US14)
 
 Vista de cierre donde el conductor reporta el término del trayecto, asegurando que todos los alumnos hayan descendido en sus destinos correspondientes.
 
 <img src="assets/images/ChapterIV/WebApp/Wireframes/Desktop/route-end.png" width="900px" alt="route-end">
 
-Bitácora de Viajes Histórica (US13)
+Bitácora de Viajes Histórica (US15)
 
 Resumen diario de los trayectos realizados, permitiendo al conductor revisar las horas de inicio, fin e incidencias ocurridas durante sus turnos.
 
@@ -1070,13 +1370,13 @@ Resumen diario de los trayectos realizados, permitiendo al conductor revisar las
 
 ##### Seguridad y Alertas
 
-Reporte de Incidencias en Ruta (US10)
+Reporte de Incidencias en Ruta (US12)
 
 Módulo para notificar eventos imprevistos como tráfico pesado, accidentes o fallas mecánicas, enviando una alerta automática a la central y a los padres.
 
 <img src="assets/images/ChapterIV/WebApp/Wireframes/Desktop/incident-report.png" width="900px" alt="incident-report">
 
-Botón de Pánico (US11)
+Botón de Pánico (US13)
 
 Funcionalidad de emergencia de un solo clic que envía una señal de auxilio inmediata a los administradores con la ubicación exacta del vehículo.
 
@@ -1086,31 +1386,31 @@ Funcionalidad de emergencia de un solo clic que envía una señal de auxilio inm
 
 ##### Monitoreo y Supervisión
 
-Rastreo en Tiempo Real (US14)
+Rastreo en Tiempo Real (US18)
 
 Vista de mapa interactivo que permite al padre seguir el movimiento del bus y ver el tiempo estimado para que llegue a su parada.
 
 <img src="assets/images/ChapterIV/WebApp/Wireframes/Desktop/real-time-tracking.png" width="900px" alt="real-time-tracking">
 
-Acceso a Cámara Interna (US17)
+Acceso a Cámara Interna (US21)
 
 Funcionalidad que permite visualizar el interior de la unidad mediante streaming de video, proporcionando una capa adicional de tranquilidad sobre la seguridad del niño.
 
 <img src="assets/images/ChapterIV/WebApp/Wireframes/Desktop/camera-access.png" width="900px" alt="camera-access">
 
-Alerta de Proximidad (US15)
+Alerta de Proximidad (US19)
 
 Interfaz de notificación que avisa visualmente cuando el bus entra en un radio cercano al hogar (ej. 500 metros), indicando que es momento de salir a la parada.
 
 <img src="assets/images/ChapterIV/WebApp/Wireframes/Desktop/proximity-alert.png" width="900px" alt="proximity-alert">
 
-Confirmación de Llegada (US16)
+Confirmación de Llegada (US20)
 
 Aviso automático que recibe el padre cuando la unidad llega satisfactoriamente al colegio o al punto de destino final.
 
 <img src="assets/images/ChapterIV/WebApp/Wireframes/Desktop/arrival-confirmation.png" width="900px" alt="arrival-confirmation">
 
-Historial de Asistencia (US18)
+Historial de Asistencia (US22)
 
 Calendario detallado donde el padre puede revisar los días asistidos, las horas de abordaje y cualquier incidencia registrada en viajes pasados.
 
@@ -1137,7 +1437,7 @@ Cambio de Contraseña Formulario de seguridad que permite restablecer el acceso 
 
 ##### Configuración y Gestión Administrativa
 
-Panel de Inicio y Navegación (US20)
+Panel de Inicio y Navegación (US26)
 
 Dashboard central que organiza todos los módulos del sistema a través de un sidebar lateral, facilitando el salto entre la gestión de rutas, alumnos y reportes.
 
@@ -1157,7 +1457,7 @@ Vista comercial que permite al dueño de la unidad o institución seleccionar y 
 
 <img src="assets/images/ChapterIV/WebApp/Wireframes/Mobile/hire-plan.png" width="900px" alt="hire-plan">
 
-Consulta de Precios y Tarifas (US22)
+Consulta de Precios y Tarifas (US28)
 
 Sección informativa donde se detallan los costos operativos y las tarifas vigentes para la gestión del transporte escolar.
 
@@ -1192,25 +1492,25 @@ Herramienta de diseño logístico donde el administrador traza los recorridos, d
 
 ##### Operación de Viaje
 
-Inicio de Trayecto (US8)
+Inicio de Trayecto (US10)
 
 Pantalla de activación donde el conductor confirma que está listo para empezar el recorrido. Al hacer clic en "Iniciar Viaje", se dispara el rastreo GPS para los padres.
 
 <img src="assets/images/ChapterIV/WebApp/Wireframes/Mobile/trip-start.png" width="900px" alt="start-trip">
 
-Marcación de Abordaje (US9)
+Marcación de Abordaje (US11)
 
 Lista interactiva de alumnos por parada. El conductor marca con un solo toque quién ha subido al bus, actualizando el estado de asistencia en tiempo real.
 
 <img src="assets/images/ChapterIV/WebApp/Wireframes/Mobile/boarding-check.png" width="400px" alt="boarding-check">
 
-Finalización de Ruta (US12)
+Finalización de Ruta (US14)
 
 Vista de cierre donde el conductor reporta el término del trayecto, asegurando que todos los alumnos hayan descendido en sus destinos correspondientes.
 
 <img src="assets/images/ChapterIV/WebApp/Wireframes/Mobile/route-end.png" width="400px" alt="route-end">
 
-Bitácora de Viajes Histórica (US13)
+Bitácora de Viajes Histórica (US15)
 
 Resumen diario de los trayectos realizados, permitiendo al conductor revisar las horas de inicio, fin e incidencias ocurridas durante sus turnos.
 
@@ -1218,13 +1518,13 @@ Resumen diario de los trayectos realizados, permitiendo al conductor revisar las
 
 ##### Seguridad y Alertas
 
-Reporte de Incidencias en Ruta (US10)
+Reporte de Incidencias en Ruta (US12)
 
 Módulo para notificar eventos imprevistos como tráfico pesado, accidentes o fallas mecánicas, enviando una alerta automática a la central y a los padres.
 
 <img src="assets/images/ChapterIV/WebApp/Wireframes/Mobile/incident-report.png" width="400px" alt="incident-report">
 
-Botón de Pánico (US11)
+Botón de Pánico (US13)
 
 Funcionalidad de emergencia de un solo clic que envía una señal de auxilio inmediata a los administradores con la ubicación exacta del vehículo.
 
@@ -1234,31 +1534,31 @@ Funcionalidad de emergencia de un solo clic que envía una señal de auxilio inm
 
 ##### Monitoreo y Supervisión
 
-Rastreo en Tiempo Real (US14)
+Rastreo en Tiempo Real (US18)
 
 Vista de mapa interactivo que permite al padre seguir el movimiento del bus y ver el tiempo estimado para que llegue a su parada.
 
 <img src="assets/images/ChapterIV/WebApp/Wireframes/Mobile/real-time-tracking.png" width="400px" alt="real-time-tracking">
 
-Acceso a Cámara Interna (US17)
+Acceso a Cámara Interna (US21)
 
 Funcionalidad que permite visualizar el interior de la unidad mediante streaming de video, proporcionando una capa adicional de tranquilidad sobre la seguridad del niño.
 
 <img src="assets/images/ChapterIV/WebApp/Wireframes/Mobile/camera-access.png" width="400px" alt="camera-access">
 
-Alerta de Proximidad (US15)
+Alerta de Proximidad (US19)
 
 Interfaz de notificación que avisa visualmente cuando el bus entra en un radio cercano al hogar (ej. 500 metros), indicando que es momento de salir a la parada.
 
 <img src="assets/images/ChapterIV/WebApp/Wireframes/Mobile/proximity-alert.png" width="400px" alt="proximity-alert">
 
-Confirmación de Llegada (US16)
+Confirmación de Llegada (US20)
 
 Aviso automático que recibe el padre cuando la unidad llega satisfactoriamente al colegio o al punto de destino final.
 
 <img src="assets/images/ChapterIV/WebApp/Wireframes/Mobile/arrival-confirmation.png" width="400px" alt="arrival-confirmation">
 
-Historial de Asistencia (US18)
+Historial de Asistencia (US22)
 
 Calendario detallado donde el padre puede revisar los días asistidos, las horas de abordaje y cualquier incidencia registrada en viajes pasados.
 
@@ -1311,7 +1611,7 @@ Objetivo: Configurar la infraestructura operativa y los niveles de acceso para l
 
 4. Trazar los puntos de parada y tiempos en "Creación de Rutas" (US5).
 
-5. El sistema genera el balance de costos visibles en "Consulta de Precios" (US22).
+5. El sistema genera el balance de costos visibles en "Consulta de Precios" (US28).
 
 ##### User Goal 3: Como administrador, quiero ingresar nuevos conductores y crear sus nuevas rutas.
 
@@ -1340,15 +1640,15 @@ Objetivo: Registrar el inicio de la ruta y validar la subida de los estudiantes 
 
 1. El conductor ingresa al sistema y selecciona la ruta asignada en su panel principal.
 
-2. Acciona el control "Iniciar Trayecto" (US8), habilitando la transmisión de coordenadas GPS.
+2. Acciona el control "Iniciar Trayecto" (US10), habilitando la transmisión de coordenadas GPS.
 
-3. El sistema realiza una petición GET a la API (US24) para listar a los alumnos de esa ruta específica.
+3. El sistema realiza una petición GET a la API (US43) para listar a los alumnos de esa ruta específica.
 
-4. En cada parada, el conductor localiza al estudiante en la lista y pulsa "Marcación de Abordaje" (US9).
+4. En cada parada, el conductor localiza al estudiante en la lista y pulsa "Marcación de Abordaje" (US11).
 
 5. El sistema genera un registro de tiempo (timestamp) y actualiza el estado del pasajero a "En ruta".
 
-6. Al llegar al destino institucional, el conductor pulsa "Finalización de Ruta" (US12).
+6. Al llegar al destino institucional, el conductor pulsa "Finalización de Ruta" (US14).
 
 
 ##### User Goal 6: Como Conductor, quiero tener un control claro de los alumnos durante la ruta.
@@ -1376,13 +1676,13 @@ Objetivo: Notificar imprevistos logísticos y activar protocolos de auxilio inme
 
 2. Ingresa al módulo de seguridad del Dashboard.
 
-3. Selecciona una categoría predefinida en "Reporte de Incidencias" (US10) para informar retrasos.
+3. Selecciona una categoría predefinida en "Reporte de Incidencias" (US12) para informar retrasos.
 
-4. En caso de peligro inminente, presiona el "Botón de Pánico" (US11) durante 2 segundos.
+4. En caso de peligro inminente, presiona el "Botón de Pánico" (US13) durante 2 segundos.
 
 5. El sistema dispara una alerta roja a emergencias y notificaciones a los padres y administrador.
 
-6. Tras la resolución, el conductor revisa el registro en su "Bitácora de Viajes" (US13).
+6. Tras la resolución, el conductor revisa el registro en su "Bitácora de Viajes" (US15).
 
 
 ##### User Goal 8: Como conductor, quiero comunicar alguna incidencia u avance de la ruta durante el viaje.
@@ -1407,13 +1707,13 @@ Objetivo: Supervisar la ubicación geográfica y el estado interno de la unidad 
 
 1. El padre inicia sesión y accede al seguimiento del bus asignado a su hijo.
 
-2. El sistema renderiza el mapa con la "Ubicación en Tiempo Real" (US14) del vehículo.
+2. El sistema renderiza el mapa con la "Ubicación en Tiempo Real" (US18) del vehículo.
 
-3.El usuario activa el switch de "Acceso a la Cámara" (US17) para abrir la transmisión de video.
+3.El usuario activa el switch de "Acceso a la Cámara" (US21) para abrir la transmisión de video.
 
 4. El sistema valida los permisos y muestra el video en vivo.
 
-5. Al entrar en el radio de 500m, el sistema proyecta la "Alerta de Proximidad" (US15).
+5. Al entrar en el radio de 500m, el sistema proyecta la "Alerta de Proximidad" (US19).
 
 #### User Goal 10: Cómo padre de familia, quiero estar informado de ubicación y situación en tiempo real del vehiculo.
 
@@ -1430,11 +1730,11 @@ Objetivo: Validar el cumplimiento del servicio y consultar el historial de segur
 
 ### Pasos del Task Flow:
 
-1. El padre recibe en pantalla la "Confirmación de Llegada" (US16) del bus al destino.
+1. El padre recibe en pantalla la "Confirmación de Llegada" (US20) del bus al destino.
 
 2. El sistema registra el cierre del viaje en el perfil del alumno.
 
-3. El usuario se dirige al módulo de "Historial de Asistencia" (US18).
+3. El usuario se dirige al módulo de "Historial de Asistencia" (US22).
 
 4. Selecciona el rango de fechas para auditar los horarios de recogida y entrega.
 
@@ -1470,7 +1770,7 @@ Cambio de Contraseña Formulario de seguridad que permite restablecer el acceso 
 
 ##### Configuración y Gestión Administrativa
 
-Panel de Inicio y Navegación (US20)
+Panel de Inicio y Navegación (US26)
 
 Dashboard central que organiza todos los módulos del sistema a través de un sidebar lateral, facilitando el salto entre la gestión de rutas, alumnos y reportes.
 
@@ -1491,14 +1791,14 @@ Vista comercial que permite al dueño de la unidad o institución seleccionar y 
 <img src="assets/images/ChapterIV/WebApp/Mockups/Desktop/hire-plan.png" width="900px" alt="hire-plan">
 <img src="assets/images/ChapterIV/WebApp/Mockups/Desktop/hire-plan2.png" width="900px" alt="hire-plan">
 
-Consulta de Precios y Tarifas (US22)
+Consulta de Precios y Tarifas (US28)
 
 Sección informativa donde se detallan los costos operativos y las tarifas vigentes para la gestión del transporte escolar.
 
 <img src="assets/images/ChapterIV/WebApp/Mockups/Desktop/pricing-query.png" width="900px" alt="pricing-query">
 
 ##### Gestión de Logística y Alumnos
-Alta y Gestión de Alumnos (US4, US24)
+Alta y Gestión de Alumnos (US4, US23)
 
 Interfaz conectada a la API que permite visualizar la lista completa de estudiantes, agregar nuevos registros o actualizar la información de los existentes.
 
@@ -1528,26 +1828,26 @@ Herramienta de diseño logístico donde el administrador traza los recorridos, d
 
 ##### Operación de Viaje
 
-Inicio de Trayecto (US8)
+Inicio de Trayecto (US10)
 
 Pantalla de activación donde el conductor confirma que está listo para empezar el recorrido. Al hacer clic en "Iniciar Viaje", se dispara el rastreo GPS para los padres.
 
 <img src="assets/images/ChapterIV/WebApp/Mockups/Desktop/start.png" width="900px" alt="start-trip">
 <img src="assets/images/ChapterIV/WebApp/Mockups/Desktop/start-trip.png" width="900px" alt="start-trip">
 
-Marcación de Abordaje (US9)
+Marcación de Abordaje (US11)
 
 Lista interactiva de alumnos por parada. El conductor marca con un solo toque quién ha subido al bus, actualizando el estado de asistencia en tiempo real.
 
 <img src="assets/images/ChapterIV/WebApp/Mockups/Desktop/boarding-check.png" width="900px" alt="boarding-check">
 
-Finalización de Ruta (US12)
+Finalización de Ruta (US14)
 
 Vista de cierre donde el conductor reporta el término del trayecto, asegurando que todos los alumnos hayan descendido en sus destinos correspondientes.
 
 <img src="assets/images/ChapterIV/WebApp/Mockups/Desktop/route-end.png" width="900px" alt="route-end">
 
-Bitácora de Viajes Histórica (US13)
+Bitácora de Viajes Histórica (US15)
 
 Resumen diario de los trayectos realizados, permitiendo al conductor revisar las horas de inicio, fin e incidencias ocurridas durante sus turnos.
 
@@ -1555,13 +1855,13 @@ Resumen diario de los trayectos realizados, permitiendo al conductor revisar las
 
 ##### Seguridad y Alertas
 
-Reporte de Incidencias en Ruta (US10)
+Reporte de Incidencias en Ruta (US12)
 
 Módulo para notificar eventos imprevistos como tráfico pesado, accidentes o fallas mecánicas, enviando una alerta automática a la central y a los padres.
 
 <img src="assets/images/ChapterIV/WebApp/Mockups/Desktop/incident-report.png" width="900px" alt="incident-report">
 
-Botón de Pánico (US11)
+Botón de Pánico (US13)
 
 Funcionalidad de emergencia de un solo clic que envía una señal de auxilio inmediata a los administradores con la ubicación exacta del vehículo.
 
@@ -1571,31 +1871,31 @@ Funcionalidad de emergencia de un solo clic que envía una señal de auxilio inm
 
 ##### Monitoreo y Supervisión
 
-Rastreo en Tiempo Real (US14)
+Rastreo en Tiempo Real (US18)
 
 Vista de mapa interactivo que permite al padre seguir el movimiento del bus y ver el tiempo estimado para que llegue a su parada.
 
 <img src="assets/images/ChapterIV/WebApp/Mockups/Desktop/real-time-tracking.png" width="900px" alt="real-time-tracking">
 
-Acceso a Cámara Interna (US17)
+Acceso a Cámara Interna (US21)
 
 Funcionalidad que permite visualizar el interior de la unidad mediante streaming de video, proporcionando una capa adicional de tranquilidad sobre la seguridad del niño.
 
 <img src="assets/images/ChapterIV/WebApp/Mockups/Desktop/camera-access.png" width="900px" alt="camera-access">
 
-Alerta de Proximidad (US15)
+Alerta de Proximidad (US19)
 
 Interfaz de notificación que avisa visualmente cuando el bus entra en un radio cercano al hogar (ej. 500 metros), indicando que es momento de salir a la parada.
 
 <img src="assets/images/ChapterIV/WebApp/Mockups/Desktop/proximity-alert.png" width="900px" alt="proximity-alert">
 
-Confirmación de Llegada (US16)
+Confirmación de Llegada (US20)
 
 Aviso automático que recibe el padre cuando la unidad llega satisfactoriamente al colegio o al punto de destino final.
 
 <img src="assets/images/ChapterIV/WebApp/Mockups/Desktop/arrival-confirmation.png" width="900px" alt="arrival-confirmation">
 
-Historial de Asistencia (US18)
+Historial de Asistencia (US22)
 
 Calendario detallado donde el padre puede revisar los días asistidos, las horas de abordaje y cualquier incidencia registrada en viajes pasados.
 
@@ -1624,7 +1924,7 @@ Cambio de Contraseña Formulario de seguridad que permite restablecer el acceso 
 
 ##### Configuración y Gestión Administrativa
 
-Panel de Inicio y Navegación (US20)
+Panel de Inicio y Navegación (US26)
 
 Dashboard central que organiza todos los módulos del sistema a través de un sidebar lateral, facilitando el salto entre la gestión de rutas, alumnos y reportes.
 
@@ -1651,7 +1951,7 @@ Sección informativa donde se detallan los costos operativos y las tarifas vigen
 <img src="assets/images/ChapterIV/WebApp/Mockups/Mobile/pricing-query.png" width="900px" alt="pricing-query">
 
 ##### Gestión de Logística y Alumnos
-Alta y Gestión de Alumnos (US4, US24)
+Alta y Gestión de Alumnos (US4, US23)
 
 Interfaz conectada a la API que permite visualizar la lista completa de estudiantes, agregar nuevos registros o actualizar la información de los existentes.
 
@@ -1679,25 +1979,25 @@ Herramienta de diseño logístico donde el administrador traza los recorridos, d
 
 ##### Operación de Viaje
 
-Inicio de Trayecto (US8)
+Inicio de Trayecto (US10)
 
 Pantalla de activación donde el conductor confirma que está listo para empezar el recorrido. Al hacer clic en "Iniciar Viaje", se dispara el rastreo GPS para los padres.
 
 <img src="assets/images/ChapterIV/WebApp/Mockups/Mobile/start-trip.png" width="800px" alt="start-trip">
 
-Marcación de Abordaje (US9)
+Marcación de Abordaje (US11)
 
 Lista interactiva de alumnos por parada. El conductor marca con un solo toque quién ha subido al bus, actualizando el estado de asistencia en tiempo real.
 
 <img src="assets/images/ChapterIV/WebApp/Mockups/Mobile/boarding-check.png" width="400px" alt="boarding-check">
 
-Finalización de Ruta (US12)
+Finalización de Ruta (US14)
 
 Vista de cierre donde el conductor reporta el término del trayecto, asegurando que todos los alumnos hayan descendido en sus destinos correspondientes.
 
 <img src="assets/images/ChapterIV/WebApp/Mockups/Mobile/route-end.png" width="400px" alt="route-end">
 
-Bitácora de Viajes Histórica (US13)
+Bitácora de Viajes Histórica (US15)
 
 Resumen diario de los trayectos realizados, permitiendo al conductor revisar las horas de inicio, fin e incidencias ocurridas durante sus turnos.
 
@@ -1705,13 +2005,13 @@ Resumen diario de los trayectos realizados, permitiendo al conductor revisar las
 
 ##### Seguridad y Alertas
 
-Reporte de Incidencias en Ruta (US10)
+Reporte de Incidencias en Ruta (US12)
 
 Módulo para notificar eventos imprevistos como tráfico pesado, accidentes o fallas mecánicas, enviando una alerta automática a la central y a los padres.
 
 <img src="assets/images/ChapterIV/WebApp/Mockups/Mobile/incident-report.png" width="400px" alt="incident-report">
 
-Botón de Pánico (US11)
+Botón de Pánico (US13)
 
 Funcionalidad de emergencia de un solo clic que envía una señal de auxilio inmediata a los administradores con la ubicación exacta del vehículo.
 
@@ -1721,31 +2021,31 @@ Funcionalidad de emergencia de un solo clic que envía una señal de auxilio inm
 
 ##### Monitoreo y Supervisión
 
-Rastreo en Tiempo Real (US14)
+Rastreo en Tiempo Real (US18)
 
 Vista de mapa interactivo que permite al padre seguir el movimiento del bus y ver el tiempo estimado para que llegue a su parada.
 
 <img src="assets/images/ChapterIV/WebApp/Mockups/Mobile/real-time-tracking.png" width="400px" alt="real-time-tracking">
 
-Acceso a Cámara Interna (US17)
+Acceso a Cámara Interna (US21)
 
 Funcionalidad que permite visualizar el interior de la unidad mediante streaming de video, proporcionando una capa adicional de tranquilidad sobre la seguridad del niño.
 
 <img src="assets/images/ChapterIV/WebApp/Mockups/Mobile/camera-access.png" width="400px" alt="camera-access">
 
-Alerta de Proximidad (US15)
+Alerta de Proximidad (US19)
 
 Interfaz de notificación que avisa visualmente cuando el bus entra en un radio cercano al hogar (ej. 500 metros), indicando que es momento de salir a la parada.
 
 <img src="assets/images/ChapterIV/WebApp/Mockups/Mobile/proximity-alert.png" width="400px" alt="proximity-alert">
 
-Confirmación de Llegada (US16)
+Confirmación de Llegada (US20)
 
 Aviso automático que recibe el padre cuando la unidad llega satisfactoriamente al colegio o al punto de destino final.
 
 <img src="assets/images/ChapterIV/WebApp/Mockups/Mobile/arrival-confirmation.png" width="400px" alt="arrival-confirmation">
 
-Historial de Asistencia (US18)
+Historial de Asistencia (US22)
 
 Calendario detallado donde el padre puede revisar los días asistidos, las horas de abordaje y cualquier incidencia registrada en viajes pasados.
 
@@ -1753,8 +2053,241 @@ Calendario detallado donde el padre puede revisar los días asistidos, las horas
 
 ### 4.4.4. Web Applications User Flow Diagrams
 
+### User Flows Desktop
+
+#### Desktop User Flow 1:
+
+Relacionado con User Goal 1:
+Como suscriptor, quiero poder acceder a mi cuenta de la aplicación.
+
+El usuario ingresa a la pantalla de inicio de sesión e introduce sus credenciales (correo y contraseña). Si los datos son correctos, el sistema valida la información y redirige al usuario a la sección principal "Inicio" junto con el menú lateral habilitado. En caso de no contar con una cuenta, el usuario puede dirigirse a la sección de registro, completar el formulario con sus datos personales y guardar el nuevo usuario para luego iniciar sesión.
+
+<img src="assets/images/ChapterIV/WebApp/UserFlow/Desktop/UserFlow1.png" width="1500px" alt="ug1">
+
+#### Desktop User Flow 2:
+
+Relacionado con User Goal 2:
+Como suscriptor, quiero poder cambiar mi contraseña para mantener mi cuenta asegurada.
+
+Desde la pantalla de inicio de sesión, el usuario selecciona la opción "Cambio de Contraseña". El sistema muestra un formulario donde el usuario ingresa su correo registrado y la nueva contraseña. Al confirmar, el sistema actualiza las credenciales y permite al usuario ingresar nuevamente con la nueva contraseña. Esto garantiza el acceso continuo incluso si se olvidó la contraseña anterior.
+
+<img src="assets/images/ChapterIV/WebApp/UserFlow/Desktop/userflow2.png" width="900px" alt="ug2">
+
+#### Desktop User Flow 3:
+
+Relacionado con User Goal 3: 
+Como administrador, quiero ingresar nuevos conductores y crear sus nuevas rutas.
+
+Tras iniciar sesión, el administrador accede al módulo de "Registro de Conductor" e ingresa los datos del personal operativo. Luego navega a la sección "Creación de Rutas", donde traza los puntos de parada, asigna tiempos estimados y vincula la ruta al conductor registrado. El sistema confirma el guardado y refleja los cambios en el panel de gestión.
+
+<img src="assets/images/ChapterIV/WebApp/UserFlow/Desktop/userflow3.png" width="900px" alt="ug3">
+
+#### Desktop User Flow 4:
+
+Relacionado con User Goal 4: 
+Como administrador, quiero organizar los roles y rutas de manera centralizada.
+
+Desde el panel principal, el administrador accede a "Asignación de Roles" para configurar los permisos de cada miembro del equipo, habilitando accesos de edición o solo lectura según corresponda. Posteriormente, puede revisar y reasignar rutas desde la vista centralizada, asegurando que cada conductor tenga su ruta correctamente vinculada.
+
+<img src="assets/images/ChapterIV/WebApp/UserFlow/Desktop/userflow4.png" width="900px" alt="ug4">
+
+#### Desktop User Flow 5:
+
+Relacionado con User Goal 5: 
+Como administrador, quiero mejorar las características de la aplicación con un nuevo plan.
+
+El administrador navega a la sección de "Contratación del Plan" y visualiza las opciones de suscripción disponibles según el tamaño de su flota. Al seleccionar un plan, es redirigido a la pasarela de pagos donde ingresa su información financiera y confirma la contratación. Una vez procesado el pago, el sistema actualiza los beneficios disponibles y el administrador puede consultar el balance de costos en "Consulta de Precios".
+
+<img src="assets/images/ChapterIV/WebApp/UserFlow/Desktop/userflow5.png" width="900px" alt="ug5">
+
+#### Desktop User Flow 6:
+
+Relacionado con User Goal 6: 
+Como conductor, quiero tener un control claro de los alumnos durante la ruta.
+
+El conductor inicia sesión y desde su panel principal selecciona la ruta asignada. Presiona "Iniciar Trayecto" para activar la transmisión GPS. El sistema carga automáticamente la lista de alumnos correspondiente a esa ruta. En cada parada, el conductor localiza al estudiante y registra su abordaje pulsando "Marcación de Abordaje". Al llegar al destino, presiona "Finalización de Ruta" para cerrar el trayecto.
+
+<img src="assets/images/ChapterIV/WebApp/UserFlow/Desktop/userflow6.png" width="900px" alt="ug6">
+
+#### Desktop User Flow 7:
+
+Relacionado con User Goal 7: 
+Como conductor, quiero brindar un servicio más profesional y confiable.
+
+El conductor accede a su "Bitácora de Viajes" para revisar el historial completo de sus trayectos anteriores, incluyendo horarios, estudiantes transportados e incidencias registradas. Esta información le permite identificar patrones, mejorar su puntualidad y contar con un registro formal de su desempeño ante el administrador.
+
+<img src="assets/images/ChapterIV/WebApp/UserFlow/Desktop/userflow7.png" width="900px" alt="ug7">
+
+#### Desktop User Flow 8:
+
+Relacionado con User Goal 8: 
+Como conductor, quiero comunicar alguna incidencia u avance de la ruta durante el viaje.
+
+Durante una ruta activa, el conductor detecta un imprevisto y accede al módulo de seguridad del Dashboard. Selecciona una categoría predefinida dentro de "Reporte de Incidencias" (retraso, desvío, obstáculo, etc.) y envía la notificación. El sistema propaga el aviso al administrador y a los padres afectados en tiempo real.
+
+<img src="assets/images/ChapterIV/WebApp/UserFlow/Desktop/userflow8.png" width="900px" alt="ug8">
+
+#### Desktop User Flow 9:
+Relacionado con User Goal 9: Como conductor, quiero una manera inmediata de informar una emergencia.
+
+Ante una situación de peligro inminente durante la ruta, el conductor mantiene presionado el "Botón de Pánico" por 2 segundos. El sistema dispara de forma automática una alerta roja hacia los servicios de emergencia, el administrador y los padres de familia de todos los alumnos a bordo. Tras la resolución del incidente, el conductor puede revisar el evento registrado en su Bitácora de Viajes.
+
+<img src="assets/images/ChapterIV/WebApp/UserFlow/Desktop/userflow9.png" width="900px" alt="ug9">
+
+#### Desktop User Flow 10:
+
+Relacionado con User Goal 10: 
+Como padre de familia, quiero estar informado de la ubicación y situación en tiempo real del vehículo.
+
+El padre inicia sesión y accede al seguimiento del bus asignado a su hijo. El sistema renderiza el mapa con la ubicación en tiempo real del vehículo. El usuario puede activar el switch de "Acceso a la Cámara" para visualizar la transmisión de video en vivo del interior de la unidad. Al acercarse al radio de 500 metros del destino, el sistema emite automáticamente una "Alerta de Proximidad".
+
+<img src="assets/images/ChapterIV/WebApp/UserFlow/Desktop/userflow10.png" width="900px" alt="ug10">
+
+#### Desktop User Flow 11:
+Relacionado con User Goal 11: Como padre de familia, quiero recibir notificaciones sin tener que preguntar.
+
+El padre recibe notificaciones automáticas del sistema en distintos momentos del trayecto: cuando el bus inicia la ruta, cuando se aproxima a su parada y ante cualquier incidencia reportada por el conductor. Estas alertas llegan sin necesidad de que el padre esté activamente consultando la aplicación, manteniéndolo informado de forma pasiva y continua.
+
+<img src="assets/images/ChapterIV/WebApp/UserFlow/Desktop/UserFlow11.png" width="1500px" alt="ug11">
+
+#### Desktop User Flow 12:
+
+Relacionado con User Goal 12: 
+Como padre de familia, quiero saber si mi hijo abordó el transporte y quedó registrado.
+
+Una vez que el conductor marca el abordaje del estudiante, el padre recibe en pantalla una "Confirmación de Llegada" con la hora exacta del registro. El sistema almacena este evento en el "Historial de Asistencia", donde el padre puede seleccionar un rango de fechas para auditar los horarios de recogida y entrega, generando un reporte visual de la puntualidad del servicio.
+
+<img src="assets/images/ChapterIV/WebApp/UserFlow/Desktop/user flow12.png" width="1500px" alt="ug12">
+
+### User Flows Mobile
+
+#### Mobile User Flow 1:
+
+Relacionado con User Goal 1: 
+Como suscriptor, quiero poder acceder a mi cuenta de la aplicación.
+
+El usuario ingresa a la pantalla de inicio de sesión e introduce sus credenciales (correo y contraseña). Si los datos son correctos, el sistema valida la información y redirige al usuario a la sección principal "Inicio" junto con el menú lateral habilitado. En caso de no contar con una cuenta, el usuario puede dirigirse a la sección de registro, completar el formulario con sus datos personales y guardar el nuevo usuario para luego iniciar sesión.
+
+<img src="assets/images/ChapterIV/WebApp/UserFlow/Mobile/UserGoal 1_MockUp.png" width="400px" alt="attendance-history">
+
+#### Mobile User Flow 2:
+
+Relacionado con User Goal 2:
+Como suscriptor, quiero poder cambiar mi contraseña para mantener mi cuenta asegurada.
+
+Desde la pantalla de inicio de sesión, el usuario selecciona la opción "Cambio de Contraseña". El sistema muestra un formulario donde el usuario ingresa su correo registrado y la nueva contraseña. Al confirmar, el sistema actualiza las credenciales y permite al usuario ingresar nuevamente con la nueva contraseña. Esto garantiza el acceso continuo incluso si se olvidó la contraseña anterior.
+
+<img src="assets/images/ChapterIV/WebApp/UserFlow/Mobile/UserGoal 2_MockUp.png" width="400px" alt="attendance-history">
+
+#### Mobile User Flow 3:
+
+Relacionado con User Goal 3: 
+Como administrador, quiero ingresar nuevos conductores y crear sus nuevas rutas.
+
+Tras iniciar sesión, el administrador accede al módulo de "Registro de Conductor" e ingresa los datos del personal operativo. Luego navega a la sección "Creación de Rutas", donde traza los puntos de parada, asigna tiempos estimados y vincula la ruta al conductor registrado. El sistema confirma el guardado y refleja los cambios en el panel de gestión.
+
+<img src="assets/images/ChapterIV/WebApp/UserFlow/Mobile/UserGoal 3_MockUp.png" width="400px" alt="attendance-history">
+
+#### Mobile User Flow 4:
+
+Relacionado con User Goal 4: 
+Como administrador, quiero organizar los roles y rutas de manera centralizada.
+
+Desde el panel principal, el administrador accede a "Asignación de Roles" para configurar los permisos de cada miembro del equipo, habilitando accesos de edición o solo lectura según corresponda. Posteriormente, puede revisar y reasignar rutas desde la vista centralizada, asegurando que cada conductor tenga su ruta correctamente vinculada.
+
+<img src="assets/images/ChapterIV/WebApp/UserFlow/Mobile/UserGoal 4_MockUp.png" width="400px" alt="attendance-history">
+
+#### Mobile User Flow 5:
+
+Relacionado con User Goal 5: 
+Como administrador, quiero mejorar las características de la aplicación con un nuevo plan.
+
+El administrador navega a la sección de "Contratación del Plan" y visualiza las opciones de suscripción disponibles según el tamaño de su flota. Al seleccionar un plan, es redirigido a la pasarela de pagos donde ingresa su información financiera y confirma la contratación. Una vez procesado el pago, el sistema actualiza los beneficios disponibles y el administrador puede consultar el balance de costos en "Consulta de Precios".
+
+<img src="assets/images/ChapterIV/WebApp/UserFlow/Mobile/UserGoal 5_MockUp.png" width="400px" alt="attendance-history">
+
+#### Mobile User Flow 6:
+
+Relacionado con User Goal 6: 
+Como conductor, quiero tener un control claro de los alumnos durante la ruta.
+
+El conductor inicia sesión y desde su panel principal selecciona la ruta asignada. Presiona "Iniciar Trayecto" para activar la transmisión GPS. El sistema carga automáticamente la lista de alumnos correspondiente a esa ruta. En cada parada, el conductor localiza al estudiante y registra su abordaje pulsando "Marcación de Abordaje". Al llegar al destino, presiona "Finalización de Ruta" para cerrar el trayecto.
+
+<img src="assets/images/ChapterIV/WebApp/UserFlow/Mobile/UserGoal 6_MockUp.png" width="400px" alt="attendance-history">
+
+#### Mobile User Flow 7:
+
+Relacionado con User Goal 7: 
+Como conductor, quiero brindar un servicio más profesional y confiable.
+
+El conductor accede a su "Bitácora de Viajes" para revisar el historial completo de sus trayectos anteriores, incluyendo horarios, estudiantes transportados e incidencias registradas. Esta información le permite identificar patrones, mejorar su puntualidad y contar con un registro formal de su desempeño ante el administrador.
+
+<img src="assets/images/ChapterIV/WebApp/UserFlow/Mobile/UserGoal 7_MockUp.png" width="400px" alt="attendance-history">
+
+#### Mobile User Flow 8:
+
+Relacionado con User Goal 8: 
+Como conductor, quiero comunicar alguna incidencia u avance de la ruta durante el viaje.
+
+Durante una ruta activa, el conductor detecta un imprevisto y accede al módulo de seguridad del Dashboard. Selecciona una categoría predefinida dentro de "Reporte de Incidencias" (retraso, desvío, obstáculo, etc.) y envía la notificación. El sistema propaga el aviso al administrador y a los padres afectados en tiempo real.
+
+<img src="assets/images/ChapterIV/WebApp/UserFlow/Mobile/UserGoal 8_MockUp.png" width="400px" alt="attendance-history">
+
+#### Mobile User Flow 9:
+
+Relacionado con User Goal 9: 
+Como conductor, quiero una manera inmediata de informar una emergencia.
+
+Ante una situación de peligro inminente durante la ruta, el conductor mantiene presionado el "Botón de Pánico" por 2 segundos. El sistema dispara de forma automática una alerta roja hacia los servicios de emergencia, el administrador y los padres de familia de todos los alumnos a bordo. Tras la resolución del incidente, el conductor puede revisar el evento registrado en su Bitácora de Viajes.
+
+<img src="assets/images/ChapterIV/WebApp/UserFlow/Mobile/UserGoal 9_MockUp.png" width="400px" alt="attendance-history">
+
+#### Mobile User Flow 10:
+
+Relacionado con User Goal 10: 
+Como padre de familia, quiero estar informado de la ubicación y situación en tiempo real del vehículo.
+
+El padre inicia sesión y accede al seguimiento del bus asignado a su hijo. El sistema renderiza el mapa con la ubicación en tiempo real del vehículo. El usuario puede activar el switch de "Acceso a la Cámara" para visualizar la transmisión de video en vivo del interior de la unidad. Al acercarse al radio de 500 metros del destino, el sistema emite automáticamente una "Alerta de Proximidad".
+
+<img src="assets/images/ChapterIV/WebApp/UserFlow/Mobile/UserGoal 10_MockUp.png" width="400px" alt="attendance-history">
+
+#### Mobile User Flow 11:
+Relacionado con User Goal 11: 
+Como padre de familia, quiero recibir notificaciones sin tener que preguntar.
+
+El padre recibe notificaciones automáticas del sistema en distintos momentos del trayecto: cuando el bus inicia la ruta, cuando se aproxima a su parada y ante cualquier incidencia reportada por el conductor. Estas alertas llegan sin necesidad de que el padre esté activamente consultando la aplicación, manteniéndolo informado de forma pasiva y continua.
+
+<img src="assets/images/ChapterIV/WebApp/UserFlow/Mobile/UserGoal 11_MockUp.png" width="400px" alt="attendance-history">
+
+#### Mobile User Flow 12:
+
+Relacionado con User Goal 12: 
+Como padre de familia, quiero saber si mi hijo abordó el transporte y quedó registrado.
+
+Una vez que el conductor marca el abordaje del estudiante, el padre recibe en pantalla una "Confirmación de Llegada" con la hora exacta del registro. El sistema almacena este evento en el "Historial de Asistencia", donde el padre puede seleccionar un rango de fechas para auditar los horarios de recogida y entrega, generando un reporte visual de la puntualidad del servicio.
+
+<img src="assets/images/ChapterIV/WebApp/UserFlow/Mobile/UserGoal 12_MockUp.png" width="400px" alt="attendance-history">
 
 ## 4.5. Web Applications Prototyping
+
+Las decisiones de interacción se basaron en principios fundamentales de diseño como el contraste para resaltar elementos críticos como el Botón de Pánico y las alertas de proximidad, la repetición para garantizar consistencia visual en los paneles de conductores, administradores y padres de familia, la alineación para lograr una navegación clara y profesional, y la proximidad para mejorar la agrupación lógica de contenidos relacionados como la lista de alumnos y sus estados de abordaje. Estos principios se aplicaron de forma integral en todo el sistema, priorizando una experiencia de usuario funcional, accesible y alineada a la misión de facilitar la gestión segura del transporte escolar.
+
+Desde el punto de vista de arquitectura de información, SafeRoute utiliza un sistema de navegación jerárquica en su dashboard, combinado con organizadores secuenciales en flujos de acciones clave como el inicio de trayecto, la marcación de abordaje y el reporte de incidencias. Además, se establecieron sistemas de etiquetado claros, categorizaciones específicas por tipo de usuario, y herramientas de seguimiento y notificación en tiempo real que permiten una interacción eficiente y dirigida.
+
+En cada caso, se han implementado interacciones responsivas (hover, active), validaciones visuales en formularios, retroalimentaciones de acción, y patrones de navegación adaptados al perfil de usuario (Administrador, Conductor o Padre de Familia). Esto garantiza que tanto el acceso a la información como la ejecución de tareas sea coherente, accesible y orientada a la seguridad y tranquilidad de todos los involucrados en el servicio de transporte escolar.
+A continuación, se incluirá un screenshot extraído de un video por cada tipo de aplicación(Desktop y Mobile), en donde se demuestran y explican los principales flujos de interacción que cubren los prototipos desarrollados.
+
+#### Web Applications Mobile:
+
+[Mobile Prototype](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202424059_upc_edu_pe/IQCDqzq68kRMRogrt6F6iHPZAZkNB9gRKAXanMCpVvneuY0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=hMciwr)
+
+<img src="assets/images/prototype.png" width="900px" alt="Protoype">
+
+#### Web Applications Desktop:
+
+[Desktop Prototype](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202424059_upc_edu_pe/IQDD8jX45qD1TLdrlv1viH8AAe4MI-VfTCxWpwzvXAHEW78?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=AMYnCI)
+
+<img src="assets/images/prototype2.png" width="900px" alt="Protoype">
 
 ## 4.6. Domain-Driven Software Architecture
 
@@ -1990,6 +2523,34 @@ Este diagrama ofrece la visión macro del backend. Demuestra cómo el monolito d
 
 ![WebServices](/assets/images/ChapterIV/C4/ComponentDiagram_SPA-dark.png)
 La SPA está desarrollada con Angular, Angular Material y TypeScript, organizada en módulos por bounded context. Cada módulo sigue una estructura interna de cuatro capas: Model (DTOs del dominio), Assembler (transforma respuestas del API), API Service (consume el backend vía HttpClient), y Store (estado reactivo con Angular Signals). La navegación entre módulos es gestionada por la Navigation Bar del módulo Shared, mientras que el HTTP Service centraliza todas las llamadas REST y el Map Service gestiona la integración con Leaflet.
+
+- Identity & Access Management:
+  Desglosa el módulo de identidad del frontend en sus 4 capas internas. Ilustra cómo la Identity View gestiona los formularios de login y registro, el Signal Store administra el estado de sesión y rol del usuario activo, y el IAM Service despacha las peticiones de autenticación hacia el Web Service adjuntando y almacenando el token JWT.
+  ![WebServices](/assets/images/ChapterIV/C4/ComponentDiagram_IAM-dark%20(1).png)
+
+- Subscription & Plan Management:
+  Muestra la arquitectura interna de 4 capas del módulo encargado de la monetización en el cliente. Detalla el flujo desde la Subscriptions View que presenta los planes disponibles, el Signal Store que mantiene el estado del plan activo y sus cuotas, hasta el Subscription Service que se comunica con el Web Service para gestionar el ciclo de vida del pago
+  ![WebServices](/assets/images/ChapterIV/C4/ComponentDiagram_Subscription-dark%20(1).png)
+
+- Stakeholder & Asset Management:
+  Representa las 4 capas del módulo que administra la información core del negocio en el frontend. Gestiona las vistas de creación y vinculación de perfiles para conductores, padres, estudiantes y vehículos, con un Signal Store que centraliza el estado de los grupos y asignaciones por organización.
+  ![WebServices](/assets/images/ChapterIV/C4/ComponentDiagram_Stakeholder-dark%20(1).png)
+
+- Route Planning & Execution:
+  Detalla las 4 capas del módulo encargado de la logística previa al viaje en el cliente. Maneja la configuración visual de rutas y paraderos con coordenadas GPS, la asignación de vehículos y conductores, y la definición de horarios, con el Route Signal Store sincronizando el estado de configuración hacia el Web Service.
+  ![WebServices](/assets/images/ChapterIV/C4/ComponentDiagram_Route-dark%20(1).png)
+
+- Notifications & Communication:
+  Describe el módulo dedicado a la comunicación hacia el usuario en sus 4 capas. La Notifications View presenta alertas, confirmaciones de abordaje y anuncios en tiempo real, mientras el Signal Store administra el conteo de no leídos y el Notification Service consulta periódicamente el Web Service para mantener el estado actualizado.
+  ![WebServices](/assets/images/ChapterIV/C4/ComponentDiagram_Notification-dark%20(1).png)
+
+- Trip Execution & Monitoring:
+  Ilustra el núcleo operativo del frontend en sus 4 capas. Muestra cómo la Trip View procesa la ejecución del viaje en tiempo real, el Signal Store mantiene el estado de abordajes e incidentes activos, y el Trip Service registra cada evento hacia el Web Service, que a su vez dispara las notificaciones correspondientes.
+  ![WebServices](/assets/images/ChapterIV/C4/ComponentDiagram_Trip-dark%20(1).png)
+
+- Shared Kernel:
+  Detalla las 4 capas transversales del frontend que fundamentan todos los bounded context modules. Expone el Navigation Bar en la capa de presentación, el HTTP Service centralizado con interceptores JWT en la capa de aplicación, los DTOs e interfaces base en dominio, y el Map Service que integra Leaflet y OpenRouteService en la capa de infraestructura.
+  ![WebServices](/assets/images/ChapterIV/C4/ComponentDiagram_Shared-dark.png)
 
 
 #### 4.7.1. Class Diagrams
@@ -2812,17 +3373,17 @@ URL desplegada: Pendiente
 
 | User Story ID | User Story Title | Task ID | Task Title | Description | Estimation (Hours) | Assigned To | Status |
 |---------------|------------------|---------|------------|-------------|--------------------|-------------|--------|
-| US19 | Visualización de Hero | T01 | Implementar Hero Section | Desarrollo de la sección principal con propuesta de valor y mensaje inicial del producto | 3 | Julio | Done |
-| US22 | Consulta de Precios | T05 | Implementar Plans Section | Creación de sección de planes de suscripción con características comparativas | 3 | Julio | Done |
-| US20 | Navegación de Funciones | T02 | Implementar Navbar | Creación de barra de navegación con enlaces a secciones del Landing Page | 2 | José | Done |
-| US19 | Visualización de Hero | T07 | Implementar CTA y Footer | Desarrollo de llamadas a la acción y pie de página del sitio | 2 | José | Done |
-| US20 | Navegación de Funciones | T03 | Implementar Features Section | Desarrollo de sección de funcionalidades principales del sistema | 3 | Mathias | Done |
-| US21 | Detalle de Roles | T04 | Implementar Roles Section | Desarrollo de sección que describe los tipos de usuarios (Admin, Conductor, Padre) | 3 | Mathias | Done |
-| US23 | ¿Cómo funciona? | T06 | Implementar How it Works Section | Desarrollo del flujo explicativo del funcionamiento del sistema | 2 | Christofer | Done |
-| US23 | ¿Cómo funciona? | T06 | Implementar How it Works Section (Styles) | Aplicación de estilos visuales a la sección "How it Works" | 2 | Christofer | Done |
-| US20 | Navegación de Funciones | T08 | Implementar Responsive Design | Adaptación del Landing Page para diferentes dispositivos | 3 | Christofer | Done |
-| US20 | Navegación de Funciones | T08 | Implementar Responsive Design (i18n) | Implementación de archivos de traducción para múltiples idiomas | 2 | Christofer | Done |
-| US20 | Navegación de Funciones | T08 | Implementar Responsive Design (Script) | Desarrollo de script para comportamiento responsive y cambio de idioma | 2 | Christofer | Done |
+| US25 | Visualización de Hero | T01 | Implementar Hero Section | Desarrollo de la sección principal con propuesta de valor y mensaje inicial del producto | 3 | Julio | Done |
+| US28 | Consulta de Precios | T05 | Implementar Plans Section | Creación de sección de planes de suscripción con características comparativas | 3 | Julio | Done |
+| US26 | Navegación de Funciones | T02 | Implementar Navbar | Creación de barra de navegación con enlaces a secciones del Landing Page | 2 | José | Done |
+| US25 | Visualización de Hero | T07 | Implementar CTA y Footer | Desarrollo de llamadas a la acción y pie de página del sitio | 2 | José | Done |
+| US26 | Navegación de Funciones | T03 | Implementar Features Section | Desarrollo de sección de funcionalidades principales del sistema | 3 | Mathias | Done |
+| US27 | Detalle de Roles | T04 | Implementar Roles Section | Desarrollo de sección que describe los tipos de usuarios (Admin, Conductor, Padre) | 3 | Mathias | Done |
+| US29 | ¿Cómo funciona? | T06 | Implementar How it Works Section | Desarrollo del flujo explicativo del funcionamiento del sistema | 2 | Christofer | Done |
+| US29 | ¿Cómo funciona? | T06 | Implementar How it Works Section (Styles) | Aplicación de estilos visuales a la sección "How it Works" | 2 | Christofer | Done |
+| US26 | Navegación de Funciones | T08 | Implementar Responsive Design | Adaptación del Landing Page para diferentes dispositivos | 3 | Christofer | Done |
+| US26 | Navegación de Funciones | T08 | Implementar Responsive Design (i18n) | Implementación de archivos de traducción para múltiples idiomas | 2 | Christofer | Done |
+| US26 | Navegación de Funciones | T08 | Implementar Responsive Design (Script) | Desarrollo de script para comportamiento responsive y cambio de idioma | 2 | Christofer | Done |
 
 ##### 5.2.1.4. Development Evidence for Sprint Review
 
