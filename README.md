@@ -509,6 +509,109 @@ Asimismo, respalda los objetivos del Impact Mapping relacionados con generar tra
 
 ---
 
+### Entrevista 3: Marío Villarreyes
+
+| Campo | Detalle |
+| :--- | :--- |
+| **Nombre y Apellidos** | Marío Villarreyes |
+| **Edad** | 49 años |
+| **Distrito / Zona de residencia** | Pueblo Libre, Lima |
+| **Segmento** | Padre de Familia |
+| **Inicio en video** | 00:09 |
+| **Duración** | 07:33 |
+| **URL del video** | [[Youtube](https://youtu.be/NhtjkSpnv3k?si=tg0VZ5xNxyN6yhRy)][[MicrosoftStream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315968_upc_edu_pe/IQCFcKSMHqnMRpxySd5Z7SzwAebsgh4yqTjlfgDpPLZLbx0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=1n8JEB)] |
+
+#### **Screenshot**
+![SegmentoObjetivo2](assets/images/MarioVillarreyes-SegmentoObjetivo2.png)
+
+
+#### **Resumen Descriptivo de la Entrevista**
+
+### **Características Objetivas y Entorno**
+
+Marío Villarreyes es una madre de familia de 49 años residente en el distrito de Pueblo Libre. Vive con su esposa y sus dos hijos, los dos utilizan transporte escolar para regresar a su casa. Representa a las familias urbanas con alta responsabilidad logística diaria, donde el traslado escolar cumple un rol clave para mantener una mejor organización de horarios familiares, laborales y educativos.
+
+El transporte escolar forma parte importante de su rutina diaria, ya que permite asegurar la asistencia puntual de sus hijos al centro educativo. Sin que se vea perjudicado en su trabajo.
+
+### **Perfil Tecnológico y Hábitos Digitales**
+
+La entrevistada demuestra una actitud positiva y proactiva frente al uso de tecnología y asocia las herramientas digitales con mayor seguridad,tranquilidad y confianza. Está acostumbrada a recibir información mediante canales digitales, institucionales y mensajería móvil.
+
+Actualmente utiliza:
+
+* Teléfono móvil como principal dispositivo de comunicación  
+* Laptop como dispositivo laboral principal y tambien de comunicación secundario
+* WhatsApp para contacto con responsables del transporte   
+
+Esto evidencia un perfil digital Avanzado, con apertura a nuevas soluciones tecnológicas siempre que sean comprensibles, confiables y rapidas.
+
+### **Proceso Actual y Canales de Interacción**
+
+Para confirmar que sus hijos llegaron correctamente a destino, Marío depende de dos mecanismos externos:
+
+* Confirmación verbal o escrita de la responsable de la movilidad escolar  
+* Confirmación de salida enviada por el colegio mediante su sistema interna  
+
+Cuando existe demora o falta de confirmación, se comunica directamente con el colegio para validar la llegada de sus hijos.
+
+Actualmente la comunicación con el conductor o responsable se realiza principalmente por:
+
+* Llamadas telefónicas  
+* WhatsApp  
+
+
+### **Pain Points (Problemas Detectados)**
+
+Durante la entrevista se identificaron preocupaciones relevantes:
+
+* Ansiedad cuando no llega la confirmación del colegio  
+* Falta de visibilidad en tiempo real durante el trayecto  
+* Dependencia de terceros para validar información del conductor y vehiculo 
+* Percepción de inseguridad en el contexto actual de transporte urbano e inseguridad en la pista 
+* Menor confianza cuando la movilidad no pertenece directamente al colegio  
+
+Estos puntos reflejan una necesidad clara de monitoreao, confianza y comunicación inmediata.
+
+
+### **Necesidades y Oportunidades Detectadas**
+
+Marío mostró alta aceptación hacia una plataforma digital que le permita:
+
+* Ver la ruta del vehículo en tiempo real  
+* Conocer si ocurrió algún inconveniente durante el trayecto  
+* Saber la información del vehiculo
+* Verificar las credenciales del conductor
+* Saber la ubicación permanente de sus hijos  
+* Reducir ansiedad e incertidumbre diaria  
+* Incrementar confianza en el servicio contratado  
+
+Para Marío, el atributo más importante para sentirse tranquila es:
+
+“Qué el transporte tenga todas las seguridades”.
+
+### **Características Subjetivas y Personalidad**
+
+A partir de sus respuestas, se identifica un perfil:
+
+* Protector y orientado al bienestar familiar  
+* Preventivo frente a riesgos externos  
+* Apoyo a las herramientas digitales   
+* Sensible y temeroso ante la falta de información  
+* Altamente motivado por la seguridad de sus hijos
+
+### **Validación del Arquetipo**
+Los datos recolectados en esta entrevista validan los supuestos definidos para el segmento Padre de Familia dentro del proyecto SafeRoute. Se confirma que este segmento prioriza:
+
+* Seguridad del estudiante  
+* Monitoreo en tiempo real  
+* Alertas automáticas 
+* Comunicación confiable  
+* Reducción de ansiedad durante el traslado escolar  
+
+Asimismo, respalda los objetivos del Impact Mapping relacionados con generar tranquilidad, confianza y visibilidad operacional para las familias usuarias.
+
+---
+
 #### 2.2.3. Análisis de entrevistas
 
 ## Segmento Objetivo 1: Conductores de Transporte Escolar
