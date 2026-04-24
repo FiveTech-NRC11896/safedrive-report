@@ -1991,6 +1991,34 @@ Este diagrama ofrece la visión macro del backend. Demuestra cómo el monolito d
 ![WebServices](/assets/images/ChapterIV/C4/ComponentDiagram_SPA-dark.png)
 La SPA está desarrollada con Angular, Angular Material y TypeScript, organizada en módulos por bounded context. Cada módulo sigue una estructura interna de cuatro capas: Model (DTOs del dominio), Assembler (transforma respuestas del API), API Service (consume el backend vía HttpClient), y Store (estado reactivo con Angular Signals). La navegación entre módulos es gestionada por la Navigation Bar del módulo Shared, mientras que el HTTP Service centraliza todas las llamadas REST y el Map Service gestiona la integración con Leaflet.
 
+- Identity & Access Management:
+  Desglosa el módulo de identidad del frontend en sus 4 capas internas. Ilustra cómo la Identity View gestiona los formularios de login y registro, el Signal Store administra el estado de sesión y rol del usuario activo, y el IAM Service despacha las peticiones de autenticación hacia el Web Service adjuntando y almacenando el token JWT.
+  ![WebServices](/assets/images/ChapterIV/C4/ComponentDiagram_IAM-dark%20(1).png)
+
+- Subscription & Plan Management:
+  Muestra la arquitectura interna de 4 capas del módulo encargado de la monetización en el cliente. Detalla el flujo desde la Subscriptions View que presenta los planes disponibles, el Signal Store que mantiene el estado del plan activo y sus cuotas, hasta el Subscription Service que se comunica con el Web Service para gestionar el ciclo de vida del pago
+  ![WebServices](/assets/images/ChapterIV/C4/ComponentDiagram_Subscription-dark%20(1).png)
+
+- Stakeholder & Asset Management:
+  Representa las 4 capas del módulo que administra la información core del negocio en el frontend. Gestiona las vistas de creación y vinculación de perfiles para conductores, padres, estudiantes y vehículos, con un Signal Store que centraliza el estado de los grupos y asignaciones por organización.
+  ![WebServices](/assets/images/ChapterIV/C4/ComponentDiagram_Stakeholder-dark%20(1).png)
+
+- Route Planning & Execution:
+  Detalla las 4 capas del módulo encargado de la logística previa al viaje en el cliente. Maneja la configuración visual de rutas y paraderos con coordenadas GPS, la asignación de vehículos y conductores, y la definición de horarios, con el Route Signal Store sincronizando el estado de configuración hacia el Web Service.
+  ![WebServices](/assets/images/ChapterIV/C4/ComponentDiagram_Route-dark%20(1).png)
+
+- Notifications & Communication:
+  Describe el módulo dedicado a la comunicación hacia el usuario en sus 4 capas. La Notifications View presenta alertas, confirmaciones de abordaje y anuncios en tiempo real, mientras el Signal Store administra el conteo de no leídos y el Notification Service consulta periódicamente el Web Service para mantener el estado actualizado.
+  ![WebServices](/assets/images/ChapterIV/C4/ComponentDiagram_Notification-dark%20(1).png)
+
+- Trip Execution & Monitoring:
+  Ilustra el núcleo operativo del frontend en sus 4 capas. Muestra cómo la Trip View procesa la ejecución del viaje en tiempo real, el Signal Store mantiene el estado de abordajes e incidentes activos, y el Trip Service registra cada evento hacia el Web Service, que a su vez dispara las notificaciones correspondientes.
+  ![WebServices](/assets/images/ChapterIV/C4/ComponentDiagram_Trip-dark%20(1).png)
+
+- Shared Kernel:
+  Detalla las 4 capas transversales del frontend que fundamentan todos los bounded context modules. Expone el Navigation Bar en la capa de presentación, el HTTP Service centralizado con interceptores JWT en la capa de aplicación, los DTOs e interfaces base en dominio, y el Map Service que integra Leaflet y OpenRouteService en la capa de infraestructura.
+  ![WebServices](/assets/images/ChapterIV/C4/ComponentDiagram_Shared-dark.png)
+
 
 #### 4.7.1. Class Diagrams
 
