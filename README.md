@@ -1266,9 +1266,186 @@ Calendario detallado donde el padre puede revisar los días asistidos, las horas
 
 ### 4.4.2. Web Applications Wireflow Diagrams
 
+#### Task Flow 1: Administrar cuenta
+
+Objetivo del usuario: Gestionar la información de su cuenta y suscripción para mantener el acceso y los beneficios de la plataforma.
+
+#### Pasos del Task Flow:
+
+1. Crear una nueva cuenta en la sección de "Registrar usuario"
+
+2. Guardar los campos registrados para el nuevo usuario
+
+3. Ingresar a la aplicación con la cuenta creada en la sección "Ingresar con usuario"
+
+4. Cambiar a la sección de "Cambio de Contraseña", en caso no se pueda acceder
+
+5. Registrar la nueva contraseña
+
+6. Ingresar a la aplicación con su cuenta y contraseña
+
+7. Se muestra la sección de "Inicio" y el menú lateral
+
+##### User Goal 1: Como suscriptor, quiero poder acceder a mi cuenta de la aplicación
+
+![UserGoal1](<assets/images/ChapterIV/WebApp/UserGoals/User Goal 1.png>)
+
+##### User Goal 2: Como suscriptor, quiero poder cambiar mi contraseña para mantener mi cuenta asegurada.
+
+![UserGoal2_1](<assets/images/ChapterIV/WebApp/UserGoals/User Goal 2_1.png>)
+
+![UserGoal2_2](<assets/images/ChapterIV/WebApp/UserGoals/User Goal 2_2.png>)
 
 
-### 4.4.2. Web Applications Mock-ups
+#### Task Flow 2: Setup Logístico y Financiero del Servicio
+
+Objetivo: Configurar la infraestructura operativa y los niveles de acceso para la gestión de la unidad.
+
+#### Pasos del Task Flow:
+
+1. Seleccionar y confirmar la "Contratación del Plan" (US1) según su flota.
+
+2. Acceder a la "Asignación de Roles" (US6) para dar permisos de edición del equipo.
+
+3. Registrar los datos del personal operativo en "Registro de Conductor" (US2).
+
+4. Trazar los puntos de parada y tiempos en "Creación de Rutas" (US5).
+
+5. El sistema genera el balance de costos visibles en "Consulta de Precios" (US22).
+
+##### User Goal 3: Como administrador, quiero ingresar nuevos conductores y crear sus nuevas rutas.
+
+![UserGoal3_1](<assets/images/ChapterIV/WebApp/UserGoals/User Goal 3_1.png>)
+![UserGoal3_2](<assets/images/ChapterIV/WebApp/UserGoals/User Goal 3_2.png>)
+
+##### User Goal 4: Como administrador, quiero organizar los roles y rutas de manera centralizada.
+
+![UserGoal4](<assets/images/ChapterIV/WebApp/UserGoals/User Goal 4.png>)
+
+##### User Goal 5: Como administrador, quiero mejorar las características de la aplicación con un nuevo plan.
+
+![UserGoal5](<assets/images/ChapterIV/WebApp/UserGoals/User Goal 5.png>)
+
+
+
+
+
+#### A. Segmento: Conductores
+
+#### Task Flow 3: Gestión de Abordaje y Control de Alumnos
+
+Objetivo: Registrar el inicio de la ruta y validar la subida de los estudiantes a la unidad mediante sincronización en la nube.
+
+#### Pasos del Task Flow:
+
+1. El conductor ingresa al sistema y selecciona la ruta asignada en su panel principal.
+
+2. Acciona el control "Iniciar Trayecto" (US8), habilitando la transmisión de coordenadas GPS.
+
+3. El sistema realiza una petición GET a la API (US24) para listar a los alumnos de esa ruta específica.
+
+4. En cada parada, el conductor localiza al estudiante en la lista y pulsa "Marcación de Abordaje" (US9).
+
+5. El sistema genera un registro de tiempo (timestamp) y actualiza el estado del pasajero a "En ruta".
+
+6. Al llegar al destino institucional, el conductor pulsa "Finalización de Ruta" (US12).
+
+
+##### User Goal 6: Como Conductor, quiero tener un control claro de los alumnos durante la ruta.
+
+![UserGoal6_1](<assets/images/ChapterIV/WebApp/UserGoals/User Goal 6_1.png>)
+
+![UserGoal6_2](<assets/images/ChapterIV/WebApp/UserGoals/User Goal 6_2.png>)
+
+##### User Goal 7: Cómo conductor, quiero brindar un servicio más profesional y confiable.
+
+![UserGoal7_1](<assets/images/ChapterIV/WebApp/UserGoals/User Goal 7_1.png>)
+
+![UserGoal7_2](<assets/images/ChapterIV/WebApp/UserGoals/User Goal 7_2.png>)
+
+
+
+
+### Task Flow 4: Seguridad Crítica e Incidencias en Ruta
+
+Objetivo: Notificar imprevistos logísticos y activar protocolos de auxilio inmediato ante situaciones de riesgo.
+
+### Pasos del Task Flow:
+
+1. Durante la navegación activa, el conductor identifica un obstáculo o emergencia.
+
+2. Ingresa al módulo de seguridad del Dashboard.
+
+3. Selecciona una categoría predefinida en "Reporte de Incidencias" (US10) para informar retrasos.
+
+4. En caso de peligro inminente, presiona el "Botón de Pánico" (US11) durante 2 segundos.
+
+5. El sistema dispara una alerta roja a emergencias y notificaciones a los padres y administrador.
+
+6. Tras la resolución, el conductor revisa el registro en su "Bitácora de Viajes" (US13).
+
+
+##### User Goal 8: Como conductor, quiero comunicar alguna incidencia u avance de la ruta durante el viaje.
+
+![UserGoal8](<assets/images/ChapterIV/WebApp/UserGoals/User Goal 8.png>)
+
+##### User Goal 9: Como conductor, quiero una manera inmediata de informar una emergencia.
+
+![UserGoal9](<assets/images/ChapterIV/WebApp/UserGoals/User Goal 9.png>)
+
+
+
+
+### B. Segmento: Padres de Familia
+
+
+### Task Flow 5: Monitoreo Parental y Supervisión Visual
+
+Objetivo: Supervisar la ubicación geográfica y el estado interno de la unidad escolar durante el trayecto.
+
+### Pasos del Task Flow:
+
+1. El padre inicia sesión y accede al seguimiento del bus asignado a su hijo.
+
+2. El sistema renderiza el mapa con la "Ubicación en Tiempo Real" (US14) del vehículo.
+
+3.El usuario activa el switch de "Acceso a la Cámara" (US17) para abrir la transmisión de video.
+
+4. El sistema valida los permisos y muestra el video en vivo.
+
+5. Al entrar en el radio de 500m, el sistema proyecta la "Alerta de Proximidad" (US15).
+
+#### User Goal 10: Cómo padre de familia, quiero estar informado de ubicación y situación en tiempo real del vehiculo.
+
+![UserGoal10](<assets/images/ChapterIV/WebApp/UserGoals/User Goal 10.png>)
+
+#### User Goal 11: Cómo padre de familia, quiero recibir notificaciones sin tener que preguntar.
+
+![UserGoa11](<assets/images/ChapterIV/WebApp/UserGoals/User Goal 11.png>)
+
+
+### Task Flow 6: Auditoría de Asistencia y Verificación de Entrega
+
+Objetivo: Validar el cumplimiento del servicio y consultar el historial de seguridad del estudiante.
+
+### Pasos del Task Flow:
+
+1. El padre recibe en pantalla la "Confirmación de Llegada" (US16) del bus al destino.
+
+2. El sistema registra el cierre del viaje en el perfil del alumno.
+
+3. El usuario se dirige al módulo de "Historial de Asistencia" (US18).
+
+4. Selecciona el rango de fechas para auditar los horarios de recogida y entrega.
+
+5. El sistema genera un reporte visual de la puntualidad del servicio.
+
+#### User Goal 12: Cómo padre de familia, quiero saber si mi hijo abordó el transporte y quedo registrado.
+
+![UserGoal12](<assets/images/ChapterIV/WebApp/UserGoals/User Goal 12.png>)
+
+
+### 4.4.3. Web Applications Mock-ups
 
 #### Versión Desktop Mockups - Acceso y Configuración (Universal)
 
@@ -1574,7 +1751,7 @@ Calendario detallado donde el padre puede revisar los días asistidos, las horas
 
 <img src="assets/images/ChapterIV/WebApp/Mockups/Mobile/attendance-history.png" width="400px" alt="attendance-history">
 
-### 4.4.3. Web Applications User Flow Diagrams
+### 4.4.4. Web Applications User Flow Diagrams
 
 
 ## 4.5. Web Applications Prototyping
@@ -2491,13 +2668,13 @@ Asimismo, si se requiere corregir errores críticos sobre una versión estable, 
 
 En relación con los mensajes de cada commit, el equipo aplicará Conventional Commits para mantener un historial más legible, consistente y profesional. Esta convención facilitará la revisión de avances y permitirá identificar rápidamente el propósito de cada uno de los cambios. Algunos prefijos que se utilizarán son:
 
-feat: incorporación de una nueva funcionalidad
-fix: corrección de errores
-docs: cambios en documentación
-style: cambios de formato o estilo sin alterar lógica
-refactor: reorganización interna sin agregar funcionalidad nueva
-test: incorporación o ajuste de pruebas
-chore: tareas de mantenimiento o configuración
+1. feat: incorporación de una nueva funcionalidad
+2. fix: corrección de errores
+3. docs: cambios en documentación
+4. style: cambios de formato o estilo sin alterar lógica
+5. refactor: reorganización interna sin agregar funcionalidad nueva
+6. test: incorporación o ajuste de pruebas
+7. chore: tareas de mantenimiento o configuración
 
 Para el repositorio del informe se emplearán mensajes como docs(report): add project cover page o docs: add startup profile and lean ux process for chapter 1. Para los repositorios de software se utilizarán mensajes como feat: add school route registration, feat: implement student assignment to route o fix: correct login validation. Esta práctica contribuye a que la evidencia de commits sea coherente con el trabajo realizado por cada miembro.
 
