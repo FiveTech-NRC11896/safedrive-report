@@ -1237,7 +1237,6 @@ Calendario detallado donde el padre puede revisar los días asistidos, las horas
 ### 4.4.2. Web Applications Wireflow Diagrams
 
 
-
 ### 4.4.2. Web Applications Mock-ups
 
 #### Versión Desktop Mockups - Acceso y Configuración (Universal)
