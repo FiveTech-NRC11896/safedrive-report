@@ -2756,21 +2756,21 @@ GitHub generará automáticamente una URL pública para acceder a la landing pag
 URL desplegada: [Landing Page](https://fivetech-nrc11896.github.io/saferoute-website/)
 
 ##### Despliegue de Frontend Web Application
-El frontend de la aplicación, desarrollado con Vue.js, será desplegado utilizando la plataforma Vercel, la cual permite integración continua y despliegue automatizado.
+El frontend de la aplicación, desarrollado con Angular.ts, será desplegado utilizando la plataforma Vercel, la cual permite integración continua y despliegue automatizado.
 
 Pasos de despliegue
 Crear o seleccionar el repositorio del frontend en GitHub.
 Vincular el repositorio con la plataforma Vercel.
-Configurar el entorno de despliegue (framework Vue.js).
+Configurar el entorno de despliegue (framework Angular.ts).
 Ejecutar el despliegue automático desde Vercel.
 Obtener la URL pública generada para el acceso a la aplicación.
 URL desplegada: Pendiente
 
 ##### Despliegue de Backend Services
-El backend del sistema, desarrollado en C#, será desplegado utilizando Railway, una plataforma que permite exponer servicios y APIs en la nube.
+El backend del sistema, desarrollado en C#, será desplegado utilizando Swagger, una plataforma que permite exponer servicios y APIs en la nube.
 Pasos de despliegue:
 Crear el repositorio del backend en GitHub.
-Vincular el repositorio con Railway.
+Vincular el repositorio con Swagger.
 Configurar las variables de entorno necesarias para la ejecución del backend.
 Configurar el servicio para exponer endpoints API.
 Desplegar el servicio y obtener la URL pública del backend.
