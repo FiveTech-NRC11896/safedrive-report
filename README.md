@@ -1285,7 +1285,7 @@ Cambio de Contraseña Formulario de seguridad que permite restablecer el acceso 
 
 ##### Configuración y Gestión Administrativa
 
-Panel de Inicio y Navegación (US20)
+Panel de Inicio y Navegación (US26)
 
 Dashboard central que organiza todos los módulos del sistema a través de un sidebar lateral, facilitando el salto entre la gestión de rutas, alumnos y reportes.
 
@@ -1306,14 +1306,14 @@ Vista comercial que permite al dueño de la unidad o institución seleccionar y 
 <img src="assets/images/ChapterIV/WebApp/Wireframes/Desktop/hire-plan.png" width="900px" alt="hire-plan">
 <img src="assets/images/ChapterIV/WebApp/Wireframes/Desktop/hire-plan2.png" width="900px" alt="hire-plan">
 
-Consulta de Precios y Tarifas (US22)
+Consulta de Precios y Tarifas (US28)
 
 Sección informativa donde se detallan los costos operativos y las tarifas vigentes para la gestión del transporte escolar.
 
 <img src="assets/images/ChapterIV/WebApp/Wireframes/Desktop/pricing-query.png" width="900px" alt="pricing-query">
 
 ##### Gestión de Logística y Alumnos
-Alta y Gestión de Alumnos (US4, US24)
+Alta y Gestión de Alumnos (US4, US23)
 
 Interfaz conectada a la API que permite visualizar la lista completa de estudiantes, agregar nuevos registros o actualizar la información de los existentes.
 
@@ -1343,26 +1343,26 @@ Herramienta de diseño logístico donde el administrador traza los recorridos, d
 
 ##### Operación de Viaje
 
-Inicio de Trayecto (US8)
+Inicio de Trayecto (US10)
 
 Pantalla de activación donde el conductor confirma que está listo para empezar el recorrido. Al hacer clic en "Iniciar Viaje", se dispara el rastreo GPS para los padres.
 
 <img src="assets/images/ChapterIV/WebApp/Wireframes/Desktop/start-trip1.png" width="900px" alt="start-trip">
 <img src="assets/images/ChapterIV/WebApp/Wireframes/Desktop/start-trip2.png" width="900px" alt="start-trip">
 
-Marcación de Abordaje (US9)
+Marcación de Abordaje (US11)
 
 Lista interactiva de alumnos por parada. El conductor marca con un solo toque quién ha subido al bus, actualizando el estado de asistencia en tiempo real.
 
 <img src="assets/images/ChapterIV/WebApp/Wireframes/Desktop/boarding-check.png" width="900px" alt="boarding-check">
 
-Finalización de Ruta (US12)
+Finalización de Ruta (US14)
 
 Vista de cierre donde el conductor reporta el término del trayecto, asegurando que todos los alumnos hayan descendido en sus destinos correspondientes.
 
 <img src="assets/images/ChapterIV/WebApp/Wireframes/Desktop/route-end.png" width="900px" alt="route-end">
 
-Bitácora de Viajes Histórica (US13)
+Bitácora de Viajes Histórica (US15)
 
 Resumen diario de los trayectos realizados, permitiendo al conductor revisar las horas de inicio, fin e incidencias ocurridas durante sus turnos.
 
@@ -1370,13 +1370,13 @@ Resumen diario de los trayectos realizados, permitiendo al conductor revisar las
 
 ##### Seguridad y Alertas
 
-Reporte de Incidencias en Ruta (US10)
+Reporte de Incidencias en Ruta (US12)
 
 Módulo para notificar eventos imprevistos como tráfico pesado, accidentes o fallas mecánicas, enviando una alerta automática a la central y a los padres.
 
 <img src="assets/images/ChapterIV/WebApp/Wireframes/Desktop/incident-report.png" width="900px" alt="incident-report">
 
-Botón de Pánico (US11)
+Botón de Pánico (US13)
 
 Funcionalidad de emergencia de un solo clic que envía una señal de auxilio inmediata a los administradores con la ubicación exacta del vehículo.
 
@@ -1386,31 +1386,31 @@ Funcionalidad de emergencia de un solo clic que envía una señal de auxilio inm
 
 ##### Monitoreo y Supervisión
 
-Rastreo en Tiempo Real (US14)
+Rastreo en Tiempo Real (US18)
 
 Vista de mapa interactivo que permite al padre seguir el movimiento del bus y ver el tiempo estimado para que llegue a su parada.
 
 <img src="assets/images/ChapterIV/WebApp/Wireframes/Desktop/real-time-tracking.png" width="900px" alt="real-time-tracking">
 
-Acceso a Cámara Interna (US17)
+Acceso a Cámara Interna (US21)
 
 Funcionalidad que permite visualizar el interior de la unidad mediante streaming de video, proporcionando una capa adicional de tranquilidad sobre la seguridad del niño.
 
 <img src="assets/images/ChapterIV/WebApp/Wireframes/Desktop/camera-access.png" width="900px" alt="camera-access">
 
-Alerta de Proximidad (US15)
+Alerta de Proximidad (US19)
 
 Interfaz de notificación que avisa visualmente cuando el bus entra en un radio cercano al hogar (ej. 500 metros), indicando que es momento de salir a la parada.
 
 <img src="assets/images/ChapterIV/WebApp/Wireframes/Desktop/proximity-alert.png" width="900px" alt="proximity-alert">
 
-Confirmación de Llegada (US16)
+Confirmación de Llegada (US20)
 
 Aviso automático que recibe el padre cuando la unidad llega satisfactoriamente al colegio o al punto de destino final.
 
 <img src="assets/images/ChapterIV/WebApp/Wireframes/Desktop/arrival-confirmation.png" width="900px" alt="arrival-confirmation">
 
-Historial de Asistencia (US18)
+Historial de Asistencia (US22)
 
 Calendario detallado donde el padre puede revisar los días asistidos, las horas de abordaje y cualquier incidencia registrada en viajes pasados.
 
@@ -1437,7 +1437,7 @@ Cambio de Contraseña Formulario de seguridad que permite restablecer el acceso 
 
 ##### Configuración y Gestión Administrativa
 
-Panel de Inicio y Navegación (US20)
+Panel de Inicio y Navegación (US26)
 
 Dashboard central que organiza todos los módulos del sistema a través de un sidebar lateral, facilitando el salto entre la gestión de rutas, alumnos y reportes.
 
@@ -1457,7 +1457,7 @@ Vista comercial que permite al dueño de la unidad o institución seleccionar y 
 
 <img src="assets/images/ChapterIV/WebApp/Wireframes/Mobile/hire-plan.png" width="900px" alt="hire-plan">
 
-Consulta de Precios y Tarifas (US22)
+Consulta de Precios y Tarifas (US28)
 
 Sección informativa donde se detallan los costos operativos y las tarifas vigentes para la gestión del transporte escolar.
 
@@ -1492,25 +1492,25 @@ Herramienta de diseño logístico donde el administrador traza los recorridos, d
 
 ##### Operación de Viaje
 
-Inicio de Trayecto (US8)
+Inicio de Trayecto (US10)
 
 Pantalla de activación donde el conductor confirma que está listo para empezar el recorrido. Al hacer clic en "Iniciar Viaje", se dispara el rastreo GPS para los padres.
 
 <img src="assets/images/ChapterIV/WebApp/Wireframes/Mobile/trip-start.png" width="900px" alt="start-trip">
 
-Marcación de Abordaje (US9)
+Marcación de Abordaje (US11)
 
 Lista interactiva de alumnos por parada. El conductor marca con un solo toque quién ha subido al bus, actualizando el estado de asistencia en tiempo real.
 
 <img src="assets/images/ChapterIV/WebApp/Wireframes/Mobile/boarding-check.png" width="400px" alt="boarding-check">
 
-Finalización de Ruta (US12)
+Finalización de Ruta (US14)
 
 Vista de cierre donde el conductor reporta el término del trayecto, asegurando que todos los alumnos hayan descendido en sus destinos correspondientes.
 
 <img src="assets/images/ChapterIV/WebApp/Wireframes/Mobile/route-end.png" width="400px" alt="route-end">
 
-Bitácora de Viajes Histórica (US13)
+Bitácora de Viajes Histórica (US15)
 
 Resumen diario de los trayectos realizados, permitiendo al conductor revisar las horas de inicio, fin e incidencias ocurridas durante sus turnos.
 
@@ -1518,13 +1518,13 @@ Resumen diario de los trayectos realizados, permitiendo al conductor revisar las
 
 ##### Seguridad y Alertas
 
-Reporte de Incidencias en Ruta (US10)
+Reporte de Incidencias en Ruta (US12)
 
 Módulo para notificar eventos imprevistos como tráfico pesado, accidentes o fallas mecánicas, enviando una alerta automática a la central y a los padres.
 
 <img src="assets/images/ChapterIV/WebApp/Wireframes/Mobile/incident-report.png" width="400px" alt="incident-report">
 
-Botón de Pánico (US11)
+Botón de Pánico (US13)
 
 Funcionalidad de emergencia de un solo clic que envía una señal de auxilio inmediata a los administradores con la ubicación exacta del vehículo.
 
@@ -1534,31 +1534,31 @@ Funcionalidad de emergencia de un solo clic que envía una señal de auxilio inm
 
 ##### Monitoreo y Supervisión
 
-Rastreo en Tiempo Real (US14)
+Rastreo en Tiempo Real (US18)
 
 Vista de mapa interactivo que permite al padre seguir el movimiento del bus y ver el tiempo estimado para que llegue a su parada.
 
 <img src="assets/images/ChapterIV/WebApp/Wireframes/Mobile/real-time-tracking.png" width="400px" alt="real-time-tracking">
 
-Acceso a Cámara Interna (US17)
+Acceso a Cámara Interna (US21)
 
 Funcionalidad que permite visualizar el interior de la unidad mediante streaming de video, proporcionando una capa adicional de tranquilidad sobre la seguridad del niño.
 
 <img src="assets/images/ChapterIV/WebApp/Wireframes/Mobile/camera-access.png" width="400px" alt="camera-access">
 
-Alerta de Proximidad (US15)
+Alerta de Proximidad (US19)
 
 Interfaz de notificación que avisa visualmente cuando el bus entra en un radio cercano al hogar (ej. 500 metros), indicando que es momento de salir a la parada.
 
 <img src="assets/images/ChapterIV/WebApp/Wireframes/Mobile/proximity-alert.png" width="400px" alt="proximity-alert">
 
-Confirmación de Llegada (US16)
+Confirmación de Llegada (US20)
 
 Aviso automático que recibe el padre cuando la unidad llega satisfactoriamente al colegio o al punto de destino final.
 
 <img src="assets/images/ChapterIV/WebApp/Wireframes/Mobile/arrival-confirmation.png" width="400px" alt="arrival-confirmation">
 
-Historial de Asistencia (US18)
+Historial de Asistencia (US22)
 
 Calendario detallado donde el padre puede revisar los días asistidos, las horas de abordaje y cualquier incidencia registrada en viajes pasados.
 
@@ -1611,7 +1611,7 @@ Objetivo: Configurar la infraestructura operativa y los niveles de acceso para l
 
 4. Trazar los puntos de parada y tiempos en "Creación de Rutas" (US5).
 
-5. El sistema genera el balance de costos visibles en "Consulta de Precios" (US22).
+5. El sistema genera el balance de costos visibles en "Consulta de Precios" (US28).
 
 ##### User Goal 3: Como administrador, quiero ingresar nuevos conductores y crear sus nuevas rutas.
 
@@ -1640,15 +1640,15 @@ Objetivo: Registrar el inicio de la ruta y validar la subida de los estudiantes 
 
 1. El conductor ingresa al sistema y selecciona la ruta asignada en su panel principal.
 
-2. Acciona el control "Iniciar Trayecto" (US8), habilitando la transmisión de coordenadas GPS.
+2. Acciona el control "Iniciar Trayecto" (US10), habilitando la transmisión de coordenadas GPS.
 
-3. El sistema realiza una petición GET a la API (US24) para listar a los alumnos de esa ruta específica.
+3. El sistema realiza una petición GET a la API (US43) para listar a los alumnos de esa ruta específica.
 
-4. En cada parada, el conductor localiza al estudiante en la lista y pulsa "Marcación de Abordaje" (US9).
+4. En cada parada, el conductor localiza al estudiante en la lista y pulsa "Marcación de Abordaje" (US11).
 
 5. El sistema genera un registro de tiempo (timestamp) y actualiza el estado del pasajero a "En ruta".
 
-6. Al llegar al destino institucional, el conductor pulsa "Finalización de Ruta" (US12).
+6. Al llegar al destino institucional, el conductor pulsa "Finalización de Ruta" (US14).
 
 
 ##### User Goal 6: Como Conductor, quiero tener un control claro de los alumnos durante la ruta.
@@ -1676,13 +1676,13 @@ Objetivo: Notificar imprevistos logísticos y activar protocolos de auxilio inme
 
 2. Ingresa al módulo de seguridad del Dashboard.
 
-3. Selecciona una categoría predefinida en "Reporte de Incidencias" (US10) para informar retrasos.
+3. Selecciona una categoría predefinida en "Reporte de Incidencias" (US12) para informar retrasos.
 
-4. En caso de peligro inminente, presiona el "Botón de Pánico" (US11) durante 2 segundos.
+4. En caso de peligro inminente, presiona el "Botón de Pánico" (US13) durante 2 segundos.
 
 5. El sistema dispara una alerta roja a emergencias y notificaciones a los padres y administrador.
 
-6. Tras la resolución, el conductor revisa el registro en su "Bitácora de Viajes" (US13).
+6. Tras la resolución, el conductor revisa el registro en su "Bitácora de Viajes" (US15).
 
 
 ##### User Goal 8: Como conductor, quiero comunicar alguna incidencia u avance de la ruta durante el viaje.
@@ -1707,13 +1707,13 @@ Objetivo: Supervisar la ubicación geográfica y el estado interno de la unidad 
 
 1. El padre inicia sesión y accede al seguimiento del bus asignado a su hijo.
 
-2. El sistema renderiza el mapa con la "Ubicación en Tiempo Real" (US14) del vehículo.
+2. El sistema renderiza el mapa con la "Ubicación en Tiempo Real" (US18) del vehículo.
 
-3.El usuario activa el switch de "Acceso a la Cámara" (US17) para abrir la transmisión de video.
+3.El usuario activa el switch de "Acceso a la Cámara" (US21) para abrir la transmisión de video.
 
 4. El sistema valida los permisos y muestra el video en vivo.
 
-5. Al entrar en el radio de 500m, el sistema proyecta la "Alerta de Proximidad" (US15).
+5. Al entrar en el radio de 500m, el sistema proyecta la "Alerta de Proximidad" (US19).
 
 #### User Goal 10: Cómo padre de familia, quiero estar informado de ubicación y situación en tiempo real del vehiculo.
 
@@ -1730,11 +1730,11 @@ Objetivo: Validar el cumplimiento del servicio y consultar el historial de segur
 
 ### Pasos del Task Flow:
 
-1. El padre recibe en pantalla la "Confirmación de Llegada" (US16) del bus al destino.
+1. El padre recibe en pantalla la "Confirmación de Llegada" (US20) del bus al destino.
 
 2. El sistema registra el cierre del viaje en el perfil del alumno.
 
-3. El usuario se dirige al módulo de "Historial de Asistencia" (US18).
+3. El usuario se dirige al módulo de "Historial de Asistencia" (US22).
 
 4. Selecciona el rango de fechas para auditar los horarios de recogida y entrega.
 
@@ -1770,7 +1770,7 @@ Cambio de Contraseña Formulario de seguridad que permite restablecer el acceso 
 
 ##### Configuración y Gestión Administrativa
 
-Panel de Inicio y Navegación (US20)
+Panel de Inicio y Navegación (US26)
 
 Dashboard central que organiza todos los módulos del sistema a través de un sidebar lateral, facilitando el salto entre la gestión de rutas, alumnos y reportes.
 
@@ -1791,14 +1791,14 @@ Vista comercial que permite al dueño de la unidad o institución seleccionar y 
 <img src="assets/images/ChapterIV/WebApp/Mockups/Desktop/hire-plan.png" width="900px" alt="hire-plan">
 <img src="assets/images/ChapterIV/WebApp/Mockups/Desktop/hire-plan2.png" width="900px" alt="hire-plan">
 
-Consulta de Precios y Tarifas (US22)
+Consulta de Precios y Tarifas (US28)
 
 Sección informativa donde se detallan los costos operativos y las tarifas vigentes para la gestión del transporte escolar.
 
 <img src="assets/images/ChapterIV/WebApp/Mockups/Desktop/pricing-query.png" width="900px" alt="pricing-query">
 
 ##### Gestión de Logística y Alumnos
-Alta y Gestión de Alumnos (US4, US24)
+Alta y Gestión de Alumnos (US4, US23)
 
 Interfaz conectada a la API que permite visualizar la lista completa de estudiantes, agregar nuevos registros o actualizar la información de los existentes.
 
@@ -1828,26 +1828,26 @@ Herramienta de diseño logístico donde el administrador traza los recorridos, d
 
 ##### Operación de Viaje
 
-Inicio de Trayecto (US8)
+Inicio de Trayecto (US10)
 
 Pantalla de activación donde el conductor confirma que está listo para empezar el recorrido. Al hacer clic en "Iniciar Viaje", se dispara el rastreo GPS para los padres.
 
 <img src="assets/images/ChapterIV/WebApp/Mockups/Desktop/start.png" width="900px" alt="start-trip">
 <img src="assets/images/ChapterIV/WebApp/Mockups/Desktop/start-trip.png" width="900px" alt="start-trip">
 
-Marcación de Abordaje (US9)
+Marcación de Abordaje (US11)
 
 Lista interactiva de alumnos por parada. El conductor marca con un solo toque quién ha subido al bus, actualizando el estado de asistencia en tiempo real.
 
 <img src="assets/images/ChapterIV/WebApp/Mockups/Desktop/boarding-check.png" width="900px" alt="boarding-check">
 
-Finalización de Ruta (US12)
+Finalización de Ruta (US14)
 
 Vista de cierre donde el conductor reporta el término del trayecto, asegurando que todos los alumnos hayan descendido en sus destinos correspondientes.
 
 <img src="assets/images/ChapterIV/WebApp/Mockups/Desktop/route-end.png" width="900px" alt="route-end">
 
-Bitácora de Viajes Histórica (US13)
+Bitácora de Viajes Histórica (US15)
 
 Resumen diario de los trayectos realizados, permitiendo al conductor revisar las horas de inicio, fin e incidencias ocurridas durante sus turnos.
 
@@ -1855,13 +1855,13 @@ Resumen diario de los trayectos realizados, permitiendo al conductor revisar las
 
 ##### Seguridad y Alertas
 
-Reporte de Incidencias en Ruta (US10)
+Reporte de Incidencias en Ruta (US12)
 
 Módulo para notificar eventos imprevistos como tráfico pesado, accidentes o fallas mecánicas, enviando una alerta automática a la central y a los padres.
 
 <img src="assets/images/ChapterIV/WebApp/Mockups/Desktop/incident-report.png" width="900px" alt="incident-report">
 
-Botón de Pánico (US11)
+Botón de Pánico (US13)
 
 Funcionalidad de emergencia de un solo clic que envía una señal de auxilio inmediata a los administradores con la ubicación exacta del vehículo.
 
@@ -1871,31 +1871,31 @@ Funcionalidad de emergencia de un solo clic que envía una señal de auxilio inm
 
 ##### Monitoreo y Supervisión
 
-Rastreo en Tiempo Real (US14)
+Rastreo en Tiempo Real (US18)
 
 Vista de mapa interactivo que permite al padre seguir el movimiento del bus y ver el tiempo estimado para que llegue a su parada.
 
 <img src="assets/images/ChapterIV/WebApp/Mockups/Desktop/real-time-tracking.png" width="900px" alt="real-time-tracking">
 
-Acceso a Cámara Interna (US17)
+Acceso a Cámara Interna (US21)
 
 Funcionalidad que permite visualizar el interior de la unidad mediante streaming de video, proporcionando una capa adicional de tranquilidad sobre la seguridad del niño.
 
 <img src="assets/images/ChapterIV/WebApp/Mockups/Desktop/camera-access.png" width="900px" alt="camera-access">
 
-Alerta de Proximidad (US15)
+Alerta de Proximidad (US19)
 
 Interfaz de notificación que avisa visualmente cuando el bus entra en un radio cercano al hogar (ej. 500 metros), indicando que es momento de salir a la parada.
 
 <img src="assets/images/ChapterIV/WebApp/Mockups/Desktop/proximity-alert.png" width="900px" alt="proximity-alert">
 
-Confirmación de Llegada (US16)
+Confirmación de Llegada (US20)
 
 Aviso automático que recibe el padre cuando la unidad llega satisfactoriamente al colegio o al punto de destino final.
 
 <img src="assets/images/ChapterIV/WebApp/Mockups/Desktop/arrival-confirmation.png" width="900px" alt="arrival-confirmation">
 
-Historial de Asistencia (US18)
+Historial de Asistencia (US22)
 
 Calendario detallado donde el padre puede revisar los días asistidos, las horas de abordaje y cualquier incidencia registrada en viajes pasados.
 
@@ -1924,7 +1924,7 @@ Cambio de Contraseña Formulario de seguridad que permite restablecer el acceso 
 
 ##### Configuración y Gestión Administrativa
 
-Panel de Inicio y Navegación (US20)
+Panel de Inicio y Navegación (US26)
 
 Dashboard central que organiza todos los módulos del sistema a través de un sidebar lateral, facilitando el salto entre la gestión de rutas, alumnos y reportes.
 
@@ -1951,7 +1951,7 @@ Sección informativa donde se detallan los costos operativos y las tarifas vigen
 <img src="assets/images/ChapterIV/WebApp/Mockups/Mobile/pricing-query.png" width="900px" alt="pricing-query">
 
 ##### Gestión de Logística y Alumnos
-Alta y Gestión de Alumnos (US4, US24)
+Alta y Gestión de Alumnos (US4, US23)
 
 Interfaz conectada a la API que permite visualizar la lista completa de estudiantes, agregar nuevos registros o actualizar la información de los existentes.
 
@@ -1979,25 +1979,25 @@ Herramienta de diseño logístico donde el administrador traza los recorridos, d
 
 ##### Operación de Viaje
 
-Inicio de Trayecto (US8)
+Inicio de Trayecto (US10)
 
 Pantalla de activación donde el conductor confirma que está listo para empezar el recorrido. Al hacer clic en "Iniciar Viaje", se dispara el rastreo GPS para los padres.
 
 <img src="assets/images/ChapterIV/WebApp/Mockups/Mobile/start-trip.png" width="800px" alt="start-trip">
 
-Marcación de Abordaje (US9)
+Marcación de Abordaje (US11)
 
 Lista interactiva de alumnos por parada. El conductor marca con un solo toque quién ha subido al bus, actualizando el estado de asistencia en tiempo real.
 
 <img src="assets/images/ChapterIV/WebApp/Mockups/Mobile/boarding-check.png" width="400px" alt="boarding-check">
 
-Finalización de Ruta (US12)
+Finalización de Ruta (US14)
 
 Vista de cierre donde el conductor reporta el término del trayecto, asegurando que todos los alumnos hayan descendido en sus destinos correspondientes.
 
 <img src="assets/images/ChapterIV/WebApp/Mockups/Mobile/route-end.png" width="400px" alt="route-end">
 
-Bitácora de Viajes Histórica (US13)
+Bitácora de Viajes Histórica (US15)
 
 Resumen diario de los trayectos realizados, permitiendo al conductor revisar las horas de inicio, fin e incidencias ocurridas durante sus turnos.
 
@@ -2005,13 +2005,13 @@ Resumen diario de los trayectos realizados, permitiendo al conductor revisar las
 
 ##### Seguridad y Alertas
 
-Reporte de Incidencias en Ruta (US10)
+Reporte de Incidencias en Ruta (US12)
 
 Módulo para notificar eventos imprevistos como tráfico pesado, accidentes o fallas mecánicas, enviando una alerta automática a la central y a los padres.
 
 <img src="assets/images/ChapterIV/WebApp/Mockups/Mobile/incident-report.png" width="400px" alt="incident-report">
 
-Botón de Pánico (US11)
+Botón de Pánico (US13)
 
 Funcionalidad de emergencia de un solo clic que envía una señal de auxilio inmediata a los administradores con la ubicación exacta del vehículo.
 
@@ -2021,31 +2021,31 @@ Funcionalidad de emergencia de un solo clic que envía una señal de auxilio inm
 
 ##### Monitoreo y Supervisión
 
-Rastreo en Tiempo Real (US14)
+Rastreo en Tiempo Real (US18)
 
 Vista de mapa interactivo que permite al padre seguir el movimiento del bus y ver el tiempo estimado para que llegue a su parada.
 
 <img src="assets/images/ChapterIV/WebApp/Mockups/Mobile/real-time-tracking.png" width="400px" alt="real-time-tracking">
 
-Acceso a Cámara Interna (US17)
+Acceso a Cámara Interna (US21)
 
 Funcionalidad que permite visualizar el interior de la unidad mediante streaming de video, proporcionando una capa adicional de tranquilidad sobre la seguridad del niño.
 
 <img src="assets/images/ChapterIV/WebApp/Mockups/Mobile/camera-access.png" width="400px" alt="camera-access">
 
-Alerta de Proximidad (US15)
+Alerta de Proximidad (US19)
 
 Interfaz de notificación que avisa visualmente cuando el bus entra en un radio cercano al hogar (ej. 500 metros), indicando que es momento de salir a la parada.
 
 <img src="assets/images/ChapterIV/WebApp/Mockups/Mobile/proximity-alert.png" width="400px" alt="proximity-alert">
 
-Confirmación de Llegada (US16)
+Confirmación de Llegada (US20)
 
 Aviso automático que recibe el padre cuando la unidad llega satisfactoriamente al colegio o al punto de destino final.
 
 <img src="assets/images/ChapterIV/WebApp/Mockups/Mobile/arrival-confirmation.png" width="400px" alt="arrival-confirmation">
 
-Historial de Asistencia (US18)
+Historial de Asistencia (US22)
 
 Calendario detallado donde el padre puede revisar los días asistidos, las horas de abordaje y cualquier incidencia registrada en viajes pasados.
 
@@ -3354,17 +3354,17 @@ URL desplegada: Pendiente
 
 | User Story ID | User Story Title | Task ID | Task Title | Description | Estimation (Hours) | Assigned To | Status |
 |---------------|------------------|---------|------------|-------------|--------------------|-------------|--------|
-| US19 | Visualización de Hero | T01 | Implementar Hero Section | Desarrollo de la sección principal con propuesta de valor y mensaje inicial del producto | 3 | Julio | Done |
-| US22 | Consulta de Precios | T05 | Implementar Plans Section | Creación de sección de planes de suscripción con características comparativas | 3 | Julio | Done |
-| US20 | Navegación de Funciones | T02 | Implementar Navbar | Creación de barra de navegación con enlaces a secciones del Landing Page | 2 | José | Done |
-| US19 | Visualización de Hero | T07 | Implementar CTA y Footer | Desarrollo de llamadas a la acción y pie de página del sitio | 2 | José | Done |
-| US20 | Navegación de Funciones | T03 | Implementar Features Section | Desarrollo de sección de funcionalidades principales del sistema | 3 | Mathias | Done |
-| US21 | Detalle de Roles | T04 | Implementar Roles Section | Desarrollo de sección que describe los tipos de usuarios (Admin, Conductor, Padre) | 3 | Mathias | Done |
-| US23 | ¿Cómo funciona? | T06 | Implementar How it Works Section | Desarrollo del flujo explicativo del funcionamiento del sistema | 2 | Christofer | Done |
-| US23 | ¿Cómo funciona? | T06 | Implementar How it Works Section (Styles) | Aplicación de estilos visuales a la sección "How it Works" | 2 | Christofer | Done |
-| US20 | Navegación de Funciones | T08 | Implementar Responsive Design | Adaptación del Landing Page para diferentes dispositivos | 3 | Christofer | Done |
-| US20 | Navegación de Funciones | T08 | Implementar Responsive Design (i18n) | Implementación de archivos de traducción para múltiples idiomas | 2 | Christofer | Done |
-| US20 | Navegación de Funciones | T08 | Implementar Responsive Design (Script) | Desarrollo de script para comportamiento responsive y cambio de idioma | 2 | Christofer | Done |
+| US25 | Visualización de Hero | T01 | Implementar Hero Section | Desarrollo de la sección principal con propuesta de valor y mensaje inicial del producto | 3 | Julio | Done |
+| US28 | Consulta de Precios | T05 | Implementar Plans Section | Creación de sección de planes de suscripción con características comparativas | 3 | Julio | Done |
+| US26 | Navegación de Funciones | T02 | Implementar Navbar | Creación de barra de navegación con enlaces a secciones del Landing Page | 2 | José | Done |
+| US25 | Visualización de Hero | T07 | Implementar CTA y Footer | Desarrollo de llamadas a la acción y pie de página del sitio | 2 | José | Done |
+| US26 | Navegación de Funciones | T03 | Implementar Features Section | Desarrollo de sección de funcionalidades principales del sistema | 3 | Mathias | Done |
+| US27 | Detalle de Roles | T04 | Implementar Roles Section | Desarrollo de sección que describe los tipos de usuarios (Admin, Conductor, Padre) | 3 | Mathias | Done |
+| US29 | ¿Cómo funciona? | T06 | Implementar How it Works Section | Desarrollo del flujo explicativo del funcionamiento del sistema | 2 | Christofer | Done |
+| US29 | ¿Cómo funciona? | T06 | Implementar How it Works Section (Styles) | Aplicación de estilos visuales a la sección "How it Works" | 2 | Christofer | Done |
+| US26 | Navegación de Funciones | T08 | Implementar Responsive Design | Adaptación del Landing Page para diferentes dispositivos | 3 | Christofer | Done |
+| US26 | Navegación de Funciones | T08 | Implementar Responsive Design (i18n) | Implementación de archivos de traducción para múltiples idiomas | 2 | Christofer | Done |
+| US26 | Navegación de Funciones | T08 | Implementar Responsive Design (Script) | Desarrollo de script para comportamiento responsive y cambio de idioma | 2 | Christofer | Done |
 
 ##### 5.2.1.4. Development Evidence for Sprint Review
 
