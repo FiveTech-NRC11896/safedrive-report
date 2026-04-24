@@ -1551,8 +1551,7 @@ Calendario detallado donde el padre puede revisar los días asistidos, las horas
 #### Desktop User Flow 1:
 
 Relacionado con User Goal 1:
-sadad
- Como suscriptor, quiero poder acceder a mi cuenta de la aplicación.
+Como suscriptor, quiero poder acceder a mi cuenta de la aplicación.
 
 El usuario ingresa a la pantalla de inicio de sesión e introduce sus credenciales (correo y contraseña). Si los datos son correctos, el sistema valida la información y redirige al usuario a la sección principal "Inicio" junto con el menú lateral habilitado. En caso de no contar con una cuenta, el usuario puede dirigirse a la sección de registro, completar el formulario con sus datos personales y guardar el nuevo usuario para luego iniciar sesión.
 
