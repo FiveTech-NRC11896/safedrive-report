@@ -1,4 +1,4 @@
-
+![Logo UPC](assets/images/Upc/Banner-UPC.png)
 **Nombre de la Universidad:** Universidad Peruana de Ciencias Aplicadas  
 **Facultad:** Ingeniería  
 **Carrera:** Ingeniería de Software / Sistemas de Información  
